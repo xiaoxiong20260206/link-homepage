@@ -2548,22 +2548,10 @@ function showProjectTooltip(event, id) {
         'character-panel': ['ui-ux-pro-max', 'frontend-design', 'zelda-style', 'github-deploy-publisher']
     };
     
-    // 使用全局 skillNameMap（from ability-trees.js），Tooltip 场景用更完整的名称
-    const tooltipNameOverrides = {
-        'industry-research': '行业调研',
-        'github-deploy-publisher': 'GitHub部署',
-        'qingshuang-research-style': '清爽报告风格',
-        'research': '通用调研',
-        'frontend-design': '前端设计',
-        'stock-analysis': '股票分析',
-        'mcp-builder': 'MCP开发',
-        'feishu-assistant': '飞书助手',
-        'personal-assistant': '个人助理',
-        'ui-ux-pro-max': 'UI/UX专家',
-        'zelda-style': '塞尔达风格',
-    };
+    // 使用全局 skillNameMap（from ability-trees.js 动态构建，基于 character-data.json）
+    // 所有名称统一从 SKILL_NAME_MAP 获取，不再维护本地 tooltipNameOverrides
     const baseMap = window.SKILL_NAME_MAP || {};
-    const getSkillDisplayName = (s) => tooltipNameOverrides[s] || baseMap[s] || s;
+    const getSkillDisplayName = (s) => baseMap[s] || s;
     
     const usedSkills = (projectSkillsMap[data.id] || [])
         .map(s => getSkillDisplayName(s))

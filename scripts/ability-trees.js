@@ -246,19 +246,17 @@ function renderSkillTechTree(container, skills) {
         var proactiveNodeHtml = proactiveSkill ? createDemoNode(proactiveSkill, '主动自驱', '让引擎自己动', 'proactive') : '';
         var coreNodeHtml = createDemoNode(coreSkill, '闭关修炼', '每日流水线', 'core');
         
-        // 双轮驱动节点
-        var reviewNodeHtml = reviewSkill ? createDemoNode(reviewSkill, '经验总结', '复盘并举一反三', 'tool') : '';
-        var cultivateNodeHtml = cultivateSkill ? createDemoNode(cultivateSkill, '内功修炼', '深度修炼', 'tool') : '';
+        // 双轮驱动节点（直接读 displayName/displayRole，无硬编码映射）
+        var reviewNodeHtml = reviewSkill ? createDemoNode(reviewSkill, reviewSkill.displayName || getName(reviewSkill), reviewSkill.displayRole || '复盘', 'tool') : '';
+        var cultivateNodeHtml = cultivateSkill ? createDemoNode(cultivateSkill, cultivateSkill.displayName || getName(cultivateSkill), cultivateSkill.displayRole || '深度修炼', 'tool') : '';
         
-        // 系统优化工具节点
+        // 系统优化工具节点（直接读 displayRole，无硬编码 toolDisplayNames/toolRoleNames）
         var toolNodesHtml = '';
-        var toolDisplayNames = { 'memory-hygiene': '记忆优化', 'skill-management': '技能优化', 'knowledge-curator': '知识优化' };
-        var toolRoleNames = { 'memory-hygiene': '记忆树', 'skill-management': '技能树', 'knowledge-curator': '知识树' };
-        var toolNodeIds = { 'memory-hygiene': 'node-memory' }; // 记忆优化需要ID以便L形连接器定位
+        var toolNodeIds = { 'link-memory-hygiene': 'node-memory' }; // 记忆优化需要ID以便L形连接器定位
         for (var ti = 0; ti < toolSkills.length; ti++) {
             var ts = toolSkills[ti];
-            var tsName = toolDisplayNames[ts.name] || getName(ts);
-            var tsRole = toolRoleNames[ts.name] || '基座工具';
+            var tsName = ts.displayName || getName(ts);
+            var tsRole = ts.displayRole || '基座工具';
             var tsId = toolNodeIds[ts.name] || null;
             if (ti > 0) {
                 toolNodesHtml += '<div class="tools-connector"><div class="connector-h"></div><div class="arrow-right"></div></div>';
@@ -268,7 +266,7 @@ function renderSkillTechTree(container, skills) {
         // 林克首页节点
         if (homepageSkill) {
             toolNodesHtml += '<div class="tools-connector"><div class="connector-h"></div><div class="arrow-right"></div></div>';
-            toolNodesHtml += createDemoNode(homepageSkill, '林克首页', '对外门面', 'homepage');
+            toolNodesHtml += createDemoNode(homepageSkill, homepageSkill.displayName || '林克首页', homepageSkill.displayRole || '对外门面', 'homepage');
         }
         
         // 技能生命周期节点
@@ -343,17 +341,12 @@ function renderSkillTechTree(container, skills) {
         // 跳过已在自进化引擎"主动自驱"位置的技能
         var skipInCognitive = ['link-proactive-agent'];
         // 思维方法技能的显示名称和角色映射
-        var cognitiveNameMap = {
-            'product-thinking': { name: '产品思维', role: '用户视角' },
-            'essence-insight': { name: '本质洞察', role: '透视规律' },
-            'knowledge-acquisition-meta': { name: '知识习得', role: '新领域' },
-            'critical-thinking-logical-reasoning': { name: '批判思维', role: '逻辑推理' }
-        };
+        // 思维方法：直接读 displayName/displayRole，无硬编码 cognitiveNameMap
         for (var ci = 0; ci < cognitiveCat.skills.length; ci++) {
             var s = cognitiveCat.skills[ci];
             if (skipInCognitive.indexOf(s.name) >= 0) continue;
             var cid = storeSkill(s);
-            var cmap = cognitiveNameMap[s.name] || { name: getName(s), role: '思维工具' };
+            var cmap = { name: s.displayName || getName(s), role: s.displayRole || '思维工具' };
             var clevel = s.level || 1;
             var cexp = s.exp || (clevel * 20);
             var cdash = 50 * (1 - cexp / 100);
@@ -371,16 +364,11 @@ function renderSkillTechTree(container, skills) {
     if (systemCat && systemCat.skills) {
         var sysNodes = '';
         // 做事方法技能的显示名称和角色映射
-        var systemNameMap = {
-            'meta-execution': { name: '元执行', role: '一次做对' },
-            'knowledge-base': { name: '知识库', role: '检索入口' },
-            'night-task-runner': { name: '夜间任务', role: '长任务' },
-            'debug-pro': { name: '调试专家', role: '问题定位' }
-        };
+        // 做事方法：直接读 displayName/displayRole，无硬编码 systemNameMap
         for (var si = 0; si < systemCat.skills.length; si++) {
             var ss = systemCat.skills[si];
             var ssid = storeSkill(ss);
-            var ssmap = systemNameMap[ss.name] || { name: getName(ss), role: '执行工具' };
+            var ssmap = { name: ss.displayName || getName(ss), role: ss.displayRole || '执行工具' };
             var sslevel = ss.level || 1;
             var ssexp = ss.exp || (sslevel * 20);
             var ssdash = 50 * (1 - ssexp / 100);
