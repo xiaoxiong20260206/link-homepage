@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T23:16:43.457839",
+  "generatedAt": "2026-03-19T23:19:41.197162",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -4677,6 +4677,12 @@
           "color": "#4ade80"
         },
         {
+          "from": "sl-ai-column-writer",
+          "to": "ai-image-generator",
+          "label": "封面图",
+          "color": "#fb923c"
+        },
+        {
           "from": "web-dev-workflow",
           "to": "html-screenshot",
           "label": "截图",
@@ -4687,6 +4693,18 @@
           "to": "ai-image-generator",
           "label": "AI生图",
           "color": "#fb923c"
+        },
+        {
+          "from": "artistic-ppt",
+          "to": "ai-image-generator",
+          "label": "AI生图",
+          "color": "#fb923c"
+        },
+        {
+          "from": "artistic-ppt",
+          "to": "pptx",
+          "label": "生成PPT",
+          "color": "#8b5cf6"
         },
         {
           "from": "link-neigong-cultivation",
