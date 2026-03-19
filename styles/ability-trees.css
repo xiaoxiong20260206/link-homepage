@@ -1064,7 +1064,7 @@
     gap: 4px;
 }
 
-/* 执行层三段分层 */
+/* 执行层四段分层（林克定制 → 快手定制 → 个人定制 → 通用） */
 .exec-sublayer {
     display: flex;
     flex-direction: column;
@@ -1083,16 +1083,25 @@
     letter-spacing: 0.06em;
     padding: 1px 0 2px 1px;
 }
-.exec-sublayer-sl .exec-sublayer-label {
-    color: rgba(74, 222, 128, 0.55);
-    border-left: 1px solid rgba(74, 222, 128, 0.3);
+/* 林克定制 - 紫色调 */
+.exec-sublayer-link .exec-sublayer-label {
+    color: rgba(167, 139, 250, 0.55);
+    border-left: 1px solid rgba(167, 139, 250, 0.3);
     padding-left: 4px;
 }
+/* 快手定制 - 橙色调 */
 .exec-sublayer-ks .exec-sublayer-label {
     color: rgba(251, 146, 60, 0.55);
     border-left: 1px solid rgba(251, 146, 60, 0.3);
     padding-left: 4px;
 }
+/* 个人定制 - 绿色调 */
+.exec-sublayer-sl .exec-sublayer-label {
+    color: rgba(74, 222, 128, 0.55);
+    border-left: 1px solid rgba(74, 222, 128, 0.3);
+    padding-left: 4px;
+}
+/* 共同 - 灰色调 */
 .exec-sublayer-generic .exec-sublayer-label {
     color: rgba(200, 220, 240, 0.3);
     border-left: 1px solid rgba(200, 220, 240, 0.12);

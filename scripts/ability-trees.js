@@ -39,16 +39,21 @@ function renderSkillTechTree(container, skills) {
     }
     
     var _idx = 0;
-    function classifySource(src) {
-        if (!src) return { label: '未知', badge: '❓' };
-        if (src === '林克核心能力' || src === 'AI核心能力') return { label: '自定义', badge: '✏️' };
-        if (src === '平台预装技能' || src === '用户自定义') return { label: '平台技能', badge: '📦' };
-        if (src.indexOf('技能库') > -1) return { label: '平台技能', badge: '📦' };
-        return { label: src, badge: '📍' };
+    // 根据 tag 字段返回四类标签：林克定制/快手定制/个人定制/通用
+    function classifyByTag(tag, ksInternal, cfProject) {
+        // 优先使用 tag 字段
+        if (tag === 'Link') return { label: '林克定制', badge: '🔗' };
+        if (tag === 'KS') return { label: '快手定制', badge: '🚀' };
+        if (tag === 'SL') return { label: '个人定制', badge: '👤' };
+        // 兼容旧标志
+        if (ksInternal) return { label: '快手定制', badge: '🚀' };
+        if (cfProject) return { label: '林克定制', badge: '🔗' };
+        // 无标签为通用
+        return { label: '通用', badge: '📦' };
     }
     function storeSkill(skill) {
         var id = 'skill-' + (_idx++);
-        var src = classifySource(skill.source);
+        var src = classifyByTag(skill.tag, skill.ksInternal, skill.cfProject);
         window.AppState.dataMap[id] = {
             name: getName(skill), icon: '\u26A1', level: skill.level || 1,
             description: skill.description || '', source: skill.source || '技能库',
@@ -60,7 +65,8 @@ function renderSkillTechTree(container, skills) {
             skillSize: skill.skillSize || 0,
             skillSizeLabel: skill.skillSizeLabel || '',
             ksInternal: skill.ksInternal || false,
-            cfProject: skill.cfProject || false
+            cfProject: skill.cfProject || false,
+            tag: skill.tag || ''
         };
         return id;
     }
@@ -425,27 +431,33 @@ function renderSkillTechTree(container, skills) {
             var eName = eEntries[ei][0];
             var eInfo = eEntries[ei][1];
             var eClean = eName.replace(/^[\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{FE0F}\u{200D}]+\s*/gu, '').trim();
-            // 按 tag 分三层：SL（个人定制）→ KS（快手定制）→ 通用（无标记）
+            // 按 tag 分四层：Link（林克定制）→ KS（快手定制）→ SL（个人定制）→ 共同（无标记）
             var eSkills = eInfo.skills || [];
-            var slSkills = [], ksSkills = [], genericSkills = [];
+            var linkSkills = [], ksSkills = [], slSkills = [], genericSkills = [];
             for (var es = 0; es < eSkills.length; es++) {
                 var sk = eSkills[es];
                 var skTag = sk.tag || (sk.ksInternal ? 'KS' : (sk.cfProject ? 'Link' : ''));
-                if (skTag === 'SL') slSkills.push(sk);
+                if (skTag === 'Link') linkSkills.push(sk);
                 else if (skTag === 'KS') ksSkills.push(sk);
+                else if (skTag === 'SL') slSkills.push(sk);
                 else genericSkills.push(sk);
             }
-            // 构建分层 chips
+            // 构建分层 chips（顺序：林克定制 → 快手定制 → 个人定制 → 共同）
             var eChips = '';
-            if (slSkills.length > 0) {
-                var slChips = '';
-                for (var si = 0; si < slSkills.length; si++) slChips += createSkillChip(slSkills[si]);
-                eChips += '<div class="exec-sublayer exec-sublayer-sl"><span class="exec-sublayer-label">个人定制</span><div class="exec-sublayer-chips">' + slChips + '</div></div>';
+            if (linkSkills.length > 0) {
+                var linkChips = '';
+                for (var li = 0; li < linkSkills.length; li++) linkChips += createSkillChip(linkSkills[li]);
+                eChips += '<div class="exec-sublayer exec-sublayer-link"><span class="exec-sublayer-label">林克定制</span><div class="exec-sublayer-chips">' + linkChips + '</div></div>';
             }
             if (ksSkills.length > 0) {
                 var ksChips = '';
                 for (var ki = 0; ki < ksSkills.length; ki++) ksChips += createSkillChip(ksSkills[ki]);
                 eChips += '<div class="exec-sublayer exec-sublayer-ks"><span class="exec-sublayer-label">快手定制</span><div class="exec-sublayer-chips">' + ksChips + '</div></div>';
+            }
+            if (slSkills.length > 0) {
+                var slChips = '';
+                for (var si = 0; si < slSkills.length; si++) slChips += createSkillChip(slSkills[si]);
+                eChips += '<div class="exec-sublayer exec-sublayer-sl"><span class="exec-sublayer-label">个人定制</span><div class="exec-sublayer-chips">' + slChips + '</div></div>';
             }
             if (genericSkills.length > 0) {
                 var gChips = '';
@@ -474,6 +486,9 @@ function renderSkillTechTree(container, skills) {
         }
         if (typeof drawLifecycleLoop === 'function') {
             drawLifecycleLoop();
+        }
+        if (typeof drawSkillCallConnectors === 'function') {
+            drawSkillCallConnectors();
         }
     }, 100);
 }
