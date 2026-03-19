@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T22:48:12.924431",
+  "generatedAt": "2026-03-19T22:57:04.719363",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -15,14 +15,14 @@
       "icon": "👑",
       "description": "炉火纯青，宗师风范"
     },
-    "totalExp": 398750,
-    "expProgress": 42.9,
+    "totalExp": 399200,
+    "expProgress": 44.1,
     "currentThreshold": 382801,
     "nextThreshold": 420009,
     "stats": {
       "understanding": 91.3,
       "execution": 84.0,
-      "skillDepth": 87.9,
+      "skillDepth": 88.2,
       "thinkingDepth": 43.8,
       "knowledgeBreadth": 80.8
     },
@@ -34,15 +34,15 @@
         "mdv": 0.6,
         "ctr": 3.3
       },
-      "activeSkills": 73,
-      "highLevelSkills": 73,
-      "skillTotalValue": 2364.7,
+      "activeSkills": 69,
+      "highLevelSkills": 69,
+      "skillTotalValue": 2361.1,
       "cultivationExp": 0,
-      "baseExp": 398750,
+      "baseExp": 399200,
       "expBreakdown": {
         "understanding": 91299,
         "execution": 84000,
-        "skill": 131850,
+        "skill": 132300,
         "thinking": 35039,
         "knowledge": 56559,
         "cultivation": 0
@@ -50,7 +50,7 @@
     }
   },
   "skills": {
-    "total": 113,
+    "total": 108,
     "categories": {
       "🔄 自进化引擎": {
         "role": "engine",
@@ -406,8 +406,8 @@
             "frequency": "1.0次/周",
             "successRate": 93,
             "sourceType": "自定义",
-            "skillSize": 28376,
-            "skillSizeLabel": "28K字 · 大型",
+            "skillSize": 30031,
+            "skillSizeLabel": "30K字 · 大型",
             "ksInternal": false,
             "cfProject": false,
             "tag": "Link"
@@ -430,29 +430,10 @@
             "ksInternal": false,
             "cfProject": false,
             "tag": "Link"
-          },
-          {
-            "name": "critical-thinking-logical-reasoning",
-            "displayName": "批判性思维",
-            "displayRole": "逻辑推理",
-            "source": "林克核心能力",
-            "level": 3,
-            "exp": 62,
-            "description": "批判性思维与逻辑推理。分析文章、博客、报告等书面内容的逻辑性和论证质量",
-            "lastUpdated": "2026-03-12",
-            "callCount": 1,
-            "frequency": "1次/月",
-            "successRate": 90,
-            "sourceType": "自定义",
-            "skillSize": 3567,
-            "skillSizeLabel": "3K字 · 小型",
-            "ksInternal": false,
-            "cfProject": false,
-            "tag": ""
           }
         ],
-        "count": 4,
-        "avgLevel": 3.2
+        "count": 3,
+        "avgLevel": 3.3
       },
       "⚙️ 做事方法": {
         "role": "system",
@@ -474,8 +455,8 @@
             "frequency": "3.4次/周",
             "successRate": 95,
             "sourceType": "自定义",
-            "skillSize": 43582,
-            "skillSizeLabel": "43K字 · 大型",
+            "skillSize": 44970,
+            "skillSizeLabel": "44K字 · 大型",
             "ksInternal": false,
             "cfProject": false,
             "tag": "Link"
@@ -674,7 +655,7 @@
             "exp": 68,
             "description": "股票与加密货币分析。使用Yahoo Finance数据进行投资组合管理和分析",
             "lastUpdated": "2026-03-17",
-            "callCount": 3,
+            "callCount": 4,
             "frequency": "1次/月",
             "successRate": 90,
             "sourceType": "自定义",
@@ -837,7 +818,7 @@
             "exp": 67,
             "description": "小红书内容工具。搜索笔记、获取详情、发布图文/视频、热点话题跟踪与分析",
             "lastUpdated": "2026-03-14",
-            "callCount": 3,
+            "callCount": 4,
             "frequency": "1次/月",
             "successRate": 90,
             "sourceType": "自定义",
@@ -1943,25 +1924,6 @@
         "description": "构建AI系统：Agent架构、MCP服务、Context管理",
         "skills": [
           {
-            "name": "agent-native-architecture",
-            "displayName": "Agent架构",
-            "displayRole": "原生设计",
-            "source": "林克核心能力",
-            "level": 1,
-            "exp": 10,
-            "description": "Agent原生架构。构建Agent作为一等公民的应用，实现自主智能系统",
-            "lastUpdated": "2026-03-12",
-            "callCount": 0,
-            "frequency": "0",
-            "successRate": 90,
-            "sourceType": "自定义",
-            "skillSize": 207758,
-            "skillSizeLabel": "207K字 · 巨型",
-            "ksInternal": false,
-            "cfProject": false,
-            "tag": ""
-          },
-          {
             "name": "mcp-builder",
             "displayName": "MCP开发",
             "displayRole": "MCP服务",
@@ -1976,25 +1938,6 @@
             "sourceType": "自定义",
             "skillSize": 120454,
             "skillSizeLabel": "120K字 · 巨型",
-            "ksInternal": false,
-            "cfProject": false,
-            "tag": ""
-          },
-          {
-            "name": "agent-capability-discovery",
-            "displayName": "能力发现",
-            "displayRole": "能力地图",
-            "source": "林克核心能力",
-            "level": 3,
-            "exp": 62,
-            "description": "能力发现。扫描所有技能目录生成全局能力地图，帮助主Agent决策调用哪个子Agent",
-            "lastUpdated": "2026-03-12",
-            "callCount": 1,
-            "frequency": "1次/月",
-            "successRate": 90,
-            "sourceType": "自定义",
-            "skillSize": 3561,
-            "skillSizeLabel": "3K字 · 小型",
             "ksInternal": false,
             "cfProject": false,
             "tag": ""
@@ -2055,47 +1998,9 @@
             "ksInternal": true,
             "cfProject": false,
             "tag": "KS"
-          },
-          {
-            "name": "using-superpowers",
-            "displayName": "技能超能力",
-            "displayRole": "技能发现",
-            "source": "平台预装技能",
-            "level": 3,
-            "exp": 62,
-            "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
-            "lastUpdated": "2026-03-19",
-            "callCount": 2,
-            "frequency": "1次/月",
-            "successRate": 90,
-            "sourceType": "平台预装",
-            "skillSize": 7653,
-            "skillSizeLabel": "7K字 · 中型",
-            "ksInternal": false,
-            "cfProject": false,
-            "tag": ""
-          },
-          {
-            "name": "planning-with-files",
-            "displayName": "文件规划",
-            "displayRole": "任务规划",
-            "source": "平台预装技能",
-            "level": 3,
-            "exp": 66,
-            "description": "Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked to plan out, break down, or organize a mu",
-            "lastUpdated": "2026-03-19",
-            "callCount": 1,
-            "frequency": "1次/月",
-            "successRate": 90,
-            "sourceType": "平台预装",
-            "skillSize": 43524,
-            "skillSizeLabel": "43K字 · 大型",
-            "ksInternal": false,
-            "cfProject": false,
-            "tag": ""
           }
         ],
-        "count": 8,
+        "count": 4,
         "avgLevel": 2.5
       },
       "🔧 软件工程": {
@@ -2746,8 +2651,8 @@
                 "frequency": "1.0次/周",
                 "successRate": 93,
                 "sourceType": "自定义",
-                "skillSize": 28376,
-                "skillSizeLabel": "28K字 · 大型",
+                "skillSize": 30031,
+                "skillSizeLabel": "30K字 · 大型",
                 "ksInternal": false,
                 "cfProject": false,
                 "tag": "Link"
@@ -2770,29 +2675,10 @@
                 "ksInternal": false,
                 "cfProject": false,
                 "tag": "Link"
-              },
-              {
-                "name": "critical-thinking-logical-reasoning",
-                "displayName": "批判性思维",
-                "displayRole": "逻辑推理",
-                "source": "林克核心能力",
-                "level": 3,
-                "exp": 62,
-                "description": "批判性思维与逻辑推理。分析文章、博客、报告等书面内容的逻辑性和论证质量",
-                "lastUpdated": "2026-03-12",
-                "callCount": 1,
-                "frequency": "1次/月",
-                "successRate": 90,
-                "sourceType": "自定义",
-                "skillSize": 3567,
-                "skillSizeLabel": "3K字 · 小型",
-                "ksInternal": false,
-                "cfProject": false,
-                "tag": ""
               }
             ],
-            "count": 4,
-            "avgLevel": 3.2
+            "count": 3,
+            "avgLevel": 3.3
           },
           "⚙️ 做事方法": {
             "role": "system",
@@ -2813,8 +2699,8 @@
                 "frequency": "3.4次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
-                "skillSize": 43582,
-                "skillSizeLabel": "43K字 · 大型",
+                "skillSize": 44970,
+                "skillSizeLabel": "44K字 · 大型",
                 "ksInternal": false,
                 "cfProject": false,
                 "tag": "Link"
@@ -2900,7 +2786,7 @@
             "avgLevel": 3.4
           }
         },
-        "count": 25,
+        "count": 24,
         "avgLevel": 3.6
       },
       "domain_pack": {
@@ -3020,7 +2906,7 @@
                 "exp": 68,
                 "description": "股票与加密货币分析。使用Yahoo Finance数据进行投资组合管理和分析",
                 "lastUpdated": "2026-03-17",
-                "callCount": 3,
+                "callCount": 4,
                 "frequency": "1次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
@@ -3192,7 +3078,7 @@
                 "exp": 67,
                 "description": "小红书内容工具。搜索笔记、获取详情、发布图文/视频、热点话题跟踪与分析",
                 "lastUpdated": "2026-03-14",
-                "callCount": 3,
+                "callCount": 4,
                 "frequency": "1次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
@@ -4290,25 +4176,6 @@
             "description": "构建AI系统：Agent架构、MCP服务、Context管理",
             "skills": [
               {
-                "name": "agent-native-architecture",
-                "displayName": "Agent架构",
-                "displayRole": "原生设计",
-                "source": "林克核心能力",
-                "level": 1,
-                "exp": 10,
-                "description": "Agent原生架构。构建Agent作为一等公民的应用，实现自主智能系统",
-                "lastUpdated": "2026-03-12",
-                "callCount": 0,
-                "frequency": "0",
-                "successRate": 90,
-                "sourceType": "自定义",
-                "skillSize": 207758,
-                "skillSizeLabel": "207K字 · 巨型",
-                "ksInternal": false,
-                "cfProject": false,
-                "tag": ""
-              },
-              {
                 "name": "mcp-builder",
                 "displayName": "MCP开发",
                 "displayRole": "MCP服务",
@@ -4323,25 +4190,6 @@
                 "sourceType": "自定义",
                 "skillSize": 120454,
                 "skillSizeLabel": "120K字 · 巨型",
-                "ksInternal": false,
-                "cfProject": false,
-                "tag": ""
-              },
-              {
-                "name": "agent-capability-discovery",
-                "displayName": "能力发现",
-                "displayRole": "能力地图",
-                "source": "林克核心能力",
-                "level": 3,
-                "exp": 62,
-                "description": "能力发现。扫描所有技能目录生成全局能力地图，帮助主Agent决策调用哪个子Agent",
-                "lastUpdated": "2026-03-12",
-                "callCount": 1,
-                "frequency": "1次/月",
-                "successRate": 90,
-                "sourceType": "自定义",
-                "skillSize": 3561,
-                "skillSizeLabel": "3K字 · 小型",
                 "ksInternal": false,
                 "cfProject": false,
                 "tag": ""
@@ -4402,47 +4250,9 @@
                 "ksInternal": true,
                 "cfProject": false,
                 "tag": "KS"
-              },
-              {
-                "name": "using-superpowers",
-                "displayName": "技能超能力",
-                "displayRole": "技能发现",
-                "source": "平台预装技能",
-                "level": 3,
-                "exp": 62,
-                "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
-                "lastUpdated": "2026-03-19",
-                "callCount": 2,
-                "frequency": "1次/月",
-                "successRate": 90,
-                "sourceType": "平台预装",
-                "skillSize": 7653,
-                "skillSizeLabel": "7K字 · 中型",
-                "ksInternal": false,
-                "cfProject": false,
-                "tag": ""
-              },
-              {
-                "name": "planning-with-files",
-                "displayName": "文件规划",
-                "displayRole": "任务规划",
-                "source": "平台预装技能",
-                "level": 3,
-                "exp": 66,
-                "description": "Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked to plan out, break down, or organize a mu",
-                "lastUpdated": "2026-03-19",
-                "callCount": 1,
-                "frequency": "1次/月",
-                "successRate": 90,
-                "sourceType": "平台预装",
-                "skillSize": 43524,
-                "skillSizeLabel": "43K字 · 大型",
-                "ksInternal": false,
-                "cfProject": false,
-                "tag": ""
               }
             ],
-            "count": 8,
+            "count": 4,
             "avgLevel": 2.5
           },
           "🔧 软件工程": {
@@ -4732,7 +4542,7 @@
             "avgLevel": 4.0
           }
         },
-        "count": 83,
+        "count": 79,
         "avgLevel": 2.3
       }
     },
@@ -11010,7 +10820,7 @@
     ],
     "skills": [
       79,
-      113
+      108
     ],
     "knowledge": [
       297,
@@ -11065,7 +10875,7 @@
       "category": "growth",
       "unlocked": true,
       "progress": 100,
-      "progressText": "4星+技能 73/10",
+      "progressText": "4星+技能 69/10",
       "date": "2026-03-19"
     },
     {
