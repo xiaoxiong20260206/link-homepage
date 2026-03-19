@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T13:45:28.748874",
+  "generatedAt": "2026-03-19T13:54:09.683998",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -72,7 +72,7 @@
             "frequency": "1次/月",
             "successRate": 90,
             "sourceType": "自定义",
-            "skillSize": 28164,
+            "skillSize": 28904,
             "skillSizeLabel": "28K字 · 大型",
             "ksInternal": false,
             "cfProject": true
@@ -90,8 +90,8 @@
             "frequency": "1次/月",
             "successRate": 90,
             "sourceType": "自定义",
-            "skillSize": 199353,
-            "skillSizeLabel": "199K字 · 巨型",
+            "skillSize": 204515,
+            "skillSizeLabel": "204K字 · 巨型",
             "ksInternal": false,
             "cfProject": false
           },
@@ -465,8 +465,8 @@
             "frequency": "1次/月",
             "successRate": 90,
             "sourceType": "自定义",
-            "skillSize": 41212,
-            "skillSizeLabel": "41K字 · 大型",
+            "skillSize": 42444,
+            "skillSizeLabel": "42K字 · 大型",
             "ksInternal": false,
             "cfProject": false
           },
@@ -1507,7 +1507,7 @@
         "skills": [
           {
             "name": "github",
-            "displayName": "GitHub",
+            "displayName": "GitHub部署",
             "displayRole": "代码托管",
             "source": "AI核心能力",
             "level": 3,
@@ -1774,8 +1774,8 @@
             "frequency": "1次/月",
             "successRate": 90,
             "sourceType": "自定义",
-            "skillSize": 45538,
-            "skillSizeLabel": "45K字 · 大型",
+            "skillSize": 46035,
+            "skillSizeLabel": "46K字 · 大型",
             "ksInternal": false,
             "cfProject": false
           },
@@ -2372,7 +2372,7 @@
                 "frequency": "1次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
-                "skillSize": 28164,
+                "skillSize": 28904,
                 "skillSizeLabel": "28K字 · 大型",
                 "ksInternal": false,
                 "cfProject": true
@@ -2390,8 +2390,8 @@
                 "frequency": "1次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
-                "skillSize": 199353,
-                "skillSizeLabel": "199K字 · 巨型",
+                "skillSize": 204515,
+                "skillSizeLabel": "204K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": false
               },
@@ -2734,8 +2734,8 @@
                 "frequency": "1次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
-                "skillSize": 41212,
-                "skillSizeLabel": "41K字 · 大型",
+                "skillSize": 42444,
+                "skillSizeLabel": "42K字 · 大型",
                 "ksInternal": false,
                 "cfProject": false
               },
@@ -3815,7 +3815,7 @@
             "skills": [
               {
                 "name": "github",
-                "displayName": "GitHub",
+                "displayName": "GitHub部署",
                 "displayRole": "代码托管",
                 "source": "AI核心能力",
                 "level": 3,
@@ -4080,8 +4080,8 @@
                 "frequency": "1次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
-                "skillSize": 45538,
-                "skillSizeLabel": "45K字 · 大型",
+                "skillSize": 46035,
+                "skillSizeLabel": "46K字 · 大型",
                 "ksInternal": false,
                 "cfProject": false
               },
