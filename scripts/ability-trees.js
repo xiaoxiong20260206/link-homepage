@@ -15,8 +15,8 @@ function renderSkillTechTree(container, skills) {
     var categories = skills.categories;
     var relationships = skills.relationships || {};
     
-    // 从 JSON 数据填充技能调用关系（单一数据源）
-    SKILL_CALL_DATA = relationships.skill_calls || [];
+    // 从 JSON 数据填充技能调用关系（单一数据源）— 必须用 window 赋值到全局变量
+    window.SKILL_CALL_DATA = relationships.skill_calls || [];
     
     // 技能名称全部从数据读取（v4.0 — 消除 skillNameMap 硬编码）
     // displayName: 统一中文名（所有展示场景使用同一名称）, name: 英文标识符
@@ -995,10 +995,10 @@ function drawLifecycleLoop() {
 // 数据来源：character-data.json → skills.relationships.skill_calls
 // 单一数据源在 scripts/constants.py 的 SKILL_CALL_RELATIONSHIPS
 // 旧的硬编码 DOMAIN_SKILL_CALLS 已废弃，保留空数组做兼容兜底
-var DOMAIN_SKILL_CALLS = [];
+window.DOMAIN_SKILL_CALLS = [];
 
-// 从已加载的全局数据中读取 skill_calls（在 initCharacterData() 中填充）
-var SKILL_CALL_DATA = [];
+// 从已加载的全局数据中读取 skill_calls（在 renderSkillTechTree() 中填充）
+window.SKILL_CALL_DATA = [];
 
 function drawSkillCallConnectors() {
     // 获取领域层和执行层容器
@@ -1067,7 +1067,7 @@ function drawSkillCallConnectors() {
     
     // 绘制每条调用关系连线（数据来源：SKILL_CALL_DATA，从 JSON skill_calls 读取）
     var drawnPairs = {};
-    var callsData = SKILL_CALL_DATA.length > 0 ? SKILL_CALL_DATA : DOMAIN_SKILL_CALLS;
+    var callsData = window.SKILL_CALL_DATA.length > 0 ? window.SKILL_CALL_DATA : window.DOMAIN_SKILL_CALLS;
     callsData.forEach(function(call) {
         var fromEl = skillArch.querySelector('[data-skill-name="' + call.from + '"]');
         var toEl = skillArch.querySelector('[data-skill-name="' + call.to + '"]');

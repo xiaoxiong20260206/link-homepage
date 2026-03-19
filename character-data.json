@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T18:13:23.375676",
+  "generatedAt": "2026-03-19T18:26:42.379747",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -15,14 +15,14 @@
       "icon": "👑",
       "description": "炉火纯青，宗师风范"
     },
-    "totalExp": 382700,
-    "expProgress": 99.7,
+    "totalExp": 382550,
+    "expProgress": 99.2,
     "currentThreshold": 349649,
     "nextThreshold": 382801,
     "stats": {
       "understanding": 91.3,
       "execution": 84.0,
-      "skillDepth": 77.2,
+      "skillDepth": 77.1,
       "thinkingDepth": 43.8,
       "knowledgeBreadth": 80.8
     },
@@ -34,15 +34,15 @@
         "mdv": 0.6,
         "ctr": 3.3
       },
-      "activeSkills": 55,
-      "highLevelSkills": 55,
-      "skillTotalValue": 461.6,
+      "activeSkills": 56,
+      "highLevelSkills": 56,
+      "skillTotalValue": 467.9,
       "cultivationExp": 0,
-      "baseExp": 382700,
+      "baseExp": 382550,
       "expBreakdown": {
         "understanding": 91299,
         "execution": 84000,
-        "skill": 115800,
+        "skill": 115649,
         "thinking": 35039,
         "knowledge": 56559,
         "cultivation": 0
@@ -1541,6 +1541,25 @@
             "tag": "SL"
           },
           {
+            "name": "link-ks-kim-send-message",
+            "displayName": "KIM推送",
+            "displayRole": "KIM机器人",
+            "source": "林克核心能力",
+            "level": 3,
+            "exp": 64,
+            "description": "This skill should be used when the user mentions \"林克发消息\", \"林克推送\", \"KIM消息\", \"林克机器人\", \"MixCard\", \"群消息推送\", \"林克卡片\", \"AI日报推送\", \"AI周报推送\", or needs to send messages through KIM using Link (林克) AI Assistant.",
+            "lastUpdated": "2026-03-19",
+            "callCount": 7,
+            "frequency": "7次/历史",
+            "successRate": 90,
+            "sourceType": "自定义",
+            "skillSize": 45574,
+            "skillSizeLabel": "45K字 · 大型",
+            "ksInternal": false,
+            "cfProject": false,
+            "tag": "Link"
+          },
+          {
             "name": "github",
             "displayName": "GitHub部署",
             "displayRole": "代码托管",
@@ -1653,29 +1672,10 @@
             "ksInternal": false,
             "cfProject": false,
             "tag": ""
-          },
-          {
-            "name": "link-ks-kim-send-message",
-            "displayName": "KIM推送",
-            "displayRole": "KIM机器人",
-            "source": "林克核心能力",
-            "level": 1,
-            "exp": 10,
-            "description": "This skill should be used when the user mentions \"林克发消息\", \"林克推送\", \"KIM消息\", \"林克机器人\", \"MixCard\", \"群消息推送\", \"林克卡片\", \"AI日报推送\", \"AI周报推送\", or needs to send messages through KIM using Link (林克) AI Assistant.",
-            "lastUpdated": "2026-03-19",
-            "callCount": 0,
-            "frequency": "0",
-            "successRate": 90,
-            "sourceType": "自定义",
-            "skillSize": 45574,
-            "skillSizeLabel": "45K字 · 大型",
-            "ksInternal": false,
-            "cfProject": false,
-            "tag": "Link"
           }
         ],
         "count": 8,
-        "avgLevel": 2.1
+        "avgLevel": 2.4
       },
       "📁 文件处理": {
         "role": "files",
@@ -3890,6 +3890,25 @@
                 "tag": "SL"
               },
               {
+                "name": "link-ks-kim-send-message",
+                "displayName": "KIM推送",
+                "displayRole": "KIM机器人",
+                "source": "林克核心能力",
+                "level": 3,
+                "exp": 64,
+                "description": "This skill should be used when the user mentions \"林克发消息\", \"林克推送\", \"KIM消息\", \"林克机器人\", \"MixCard\", \"群消息推送\", \"林克卡片\", \"AI日报推送\", \"AI周报推送\", or needs to send messages through KIM using Link (林克) AI Assistant.",
+                "lastUpdated": "2026-03-19",
+                "callCount": 7,
+                "frequency": "7次/历史",
+                "successRate": 90,
+                "sourceType": "自定义",
+                "skillSize": 45574,
+                "skillSizeLabel": "45K字 · 大型",
+                "ksInternal": false,
+                "cfProject": false,
+                "tag": "Link"
+              },
+              {
                 "name": "github",
                 "displayName": "GitHub部署",
                 "displayRole": "代码托管",
@@ -4002,29 +4021,10 @@
                 "ksInternal": false,
                 "cfProject": false,
                 "tag": ""
-              },
-              {
-                "name": "link-ks-kim-send-message",
-                "displayName": "KIM推送",
-                "displayRole": "KIM机器人",
-                "source": "林克核心能力",
-                "level": 1,
-                "exp": 10,
-                "description": "This skill should be used when the user mentions \"林克发消息\", \"林克推送\", \"KIM消息\", \"林克机器人\", \"MixCard\", \"群消息推送\", \"林克卡片\", \"AI日报推送\", \"AI周报推送\", or needs to send messages through KIM using Link (林克) AI Assistant.",
-                "lastUpdated": "2026-03-19",
-                "callCount": 0,
-                "frequency": "0",
-                "successRate": 90,
-                "sourceType": "自定义",
-                "skillSize": 45574,
-                "skillSizeLabel": "45K字 · 大型",
-                "ksInternal": false,
-                "cfProject": false,
-                "tag": "Link"
               }
             ],
             "count": 8,
-            "avgLevel": 2.1
+            "avgLevel": 2.4
           },
           "📁 文件处理": {
             "role": "files",
@@ -7617,25 +7617,6 @@
         "source": "项目记忆"
       },
       {
-        "title": "用户技能命名偏好：前缀规范",
-        "category": "user_info",
-        "categoryLabel": "用户身份",
-        "layer": "🧠 元认知层",
-        "icon": "👤",
-        "color": "#38bdf8",
-        "description": "用户技能命名偏好：前缀规范 用户对技能/模块命名的个人偏好： 前缀分类偏好 | 前缀 | 含义 | 适用场景 | |------|-----...",
-        "keywords": [
-          "命名偏好",
-          "前缀",
-          "CF",
-          "KS",
-          "用户偏好"
-        ],
-        "importance": 4,
-        "updatedAt": "2026-03-11",
-        "source": "用户显式记录"
-      },
-      {
         "title": "禁止使用龙虾emoji",
         "category": "constraint_or_forbidden_rule",
         "categoryLabel": "用户约束",
@@ -7977,6 +7958,25 @@
         "source": "项目记忆"
       },
       {
+        "title": "用户技能命名偏好：前缀规范",
+        "category": "user_info",
+        "categoryLabel": "用户身份",
+        "layer": "🧠 元认知层",
+        "icon": "👤",
+        "color": "#38bdf8",
+        "description": "用户技能命名偏好：前缀规范 用户对技能/模块命名的个人偏好： 前缀分类偏好 | 前缀 | 含义 | 适用场景 | |------|-----...",
+        "keywords": [
+          "命名偏好",
+          "前缀",
+          "CF",
+          "KS",
+          "用户偏好"
+        ],
+        "importance": 3,
+        "updatedAt": "2026-03-11",
+        "source": "用户显式记录"
+      },
+      {
         "title": "重构/优化任务的强制约束规则",
         "category": "task_flow_experience",
         "categoryLabel": "通用踩坑",
@@ -8207,7 +8207,7 @@
                   "KS",
                   "用户偏好"
                 ],
-                "importance": 4,
+                "importance": 3,
                 "updatedAt": "2026-03-11",
                 "source": "用户显式记录"
               },
@@ -10947,7 +10947,7 @@
       "category": "growth",
       "unlocked": true,
       "progress": 100,
-      "progressText": "4星+技能 55/10",
+      "progressText": "4星+技能 56/10",
       "date": "2026-03-19"
     },
     {
