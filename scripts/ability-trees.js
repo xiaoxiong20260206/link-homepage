@@ -288,11 +288,11 @@ function renderSkillTechTree(container, skills) {
             toolNodesHtml += createDemoNode(homepageSkill, homepageSkill.displayName || '林克首页', homepageSkill.displayRole || '对外门面', 'homepage');
         }
         
-        // 技能生命周期节点（v13.2: 标题移到U形闭环左下角，布局更紧凑）
+        // 技能生命周期节点（v13.1: 标题移到左边，布局更紧凑）
         var lifecycleHtml = '';
         if (techniqueSkills.length > 0) {
-            // 新布局：标题放在U形闭环左下角（红框位置）
-            lifecycleHtml = '<div class="lifecycle-section lifecycle-section--compact"><div class="lifecycle-flow">';
+            // 新布局：标题在左侧，循环圈在右侧
+            lifecycleHtml = '<div class="lifecycle-section lifecycle-section--compact"><div class="lifecycle-left"><span class="lifecycle-title-vertical">技能生命周期</span></div><div class="lifecycle-right"><div class="lifecycle-flow">';
             var skillNames = ['技能发现', '技能创建', '技能评估', '技能修炼'];
             var skillRoles = ['搜索市场技能', '从零编写技能', '评测质量分数', '持续精进优化'];
             for (var ti2 = 0; ti2 < techniqueSkills.length; ti2++) {
@@ -310,11 +310,10 @@ function renderSkillTechTree(container, skills) {
                     lifecycleHtml += '<div class="lifecycle-connector"><div class="connector-h" style="--line-from: rgba(167, 139, 250, 0.4); --line-to: rgba(56, 189, 248, 0.4);"></div><div class="arrow-right" style="--arrow-color: rgba(56, 189, 248, 0.5);"></div><div class="energy-particles"><div class="energy-particle" style="--particle-color: #a78bfa; --particle-duration: 2s; animation-delay: ' + particleDelay + 's;"></div></div></div>';
                 }
             }
-            // U形闭环底部标签区
-            lifecycleHtml += '</div>';
-            // 标题放在左下角，社区学习放在底部中央
-            lifecycleHtml += '<div class="lifecycle-bottom"><span class="lifecycle-title-corner">技能生命周期</span><span class="lifecycle-feedback-label connector-label" style="--label-color: rgba(167, 139, 250, 0.85); --label-border: rgba(167, 139, 250, 0.4);">社区学习</span></div>';
-            lifecycleHtml += '</div>';
+            // 添加U形闭环底部的"社区学习"标签（样式与"触发"标签一致）
+            lifecycleHtml += '<span class="lifecycle-feedback-label connector-label" style="--label-color: rgba(167, 139, 250, 0.85); --label-border: rgba(167, 139, 250, 0.4);">社区学习</span>';
+            // 技能生命周期闭环结束
+            lifecycleHtml += '</div></div></div>';
         }
         
         // 组装完整的引擎HTML（完全遵循Demo结构）
@@ -815,12 +814,10 @@ function drawElbowConnectors() {
     arrow1.setAttribute('opacity', '0.8');
     svg.appendChild(arrow1);
     
-    // 标签 "驱动"（居中压在垂直连线上，与"触发"样式一致）
+    // 标签 "驱动"（使用 foreignObject 包裹 HTML 标签，与"触发"样式一致）
     var foreignObj = document.createElementNS('http://www.w3.org/2000/svg', 'foreignObject');
-    // 计算垂直线段的中点位置，标签居中对齐
-    var labelCenterY = (p1.sy + (p1.ey - 8)) / 2;
-    foreignObj.setAttribute('x', p1.gx - 18);  // 标签宽度36/2=18，居中
-    foreignObj.setAttribute('y', labelCenterY - 12);  // 标签高度24/2=12，居中
+    foreignObj.setAttribute('x', p1.gx - 40);
+    foreignObj.setAttribute('y', (p1.sy + p1.ey - 8) / 2 - 12);
     foreignObj.setAttribute('width', '36');
     foreignObj.setAttribute('height', '24');
     var labelDiv = document.createElement('span');
