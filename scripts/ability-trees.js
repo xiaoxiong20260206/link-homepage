@@ -1140,19 +1140,7 @@ function drawSkillCallConnectors() {
         pathEl.setAttribute('marker-end', 'url(#arrow-' + call.color.replace('#', '') + ')');
         svg.appendChild(pathEl);
         
-        // 添加标签（可选，只在足够长的线上显示）
-        var lineLength = Math.sqrt(Math.pow(endX - startX, 2) + Math.pow(endY - startY, 2));
-        if (lineLength > 80 && call.label) {
-            var labelEl = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-            labelEl.setAttribute('x', midX);
-            labelEl.setAttribute('y', midY - 4);
-            labelEl.setAttribute('text-anchor', 'middle');
-            labelEl.setAttribute('fill', call.color);
-            labelEl.setAttribute('font-size', '10');
-            labelEl.setAttribute('opacity', '0.7');
-            labelEl.textContent = call.label;
-            svg.appendChild(labelEl);
-        }
+        // v13.4: 移除连线中间的标签，保持界面简洁
     });
     
     // 添加到技能架构容器（需要设置 position: relative）
