@@ -2016,35 +2016,33 @@
     position: relative;
     overflow: visible !important;
 }
-/* v13.1: 紧凑布局 - 标题在左，循环圈在右 */
+/* v13.2: 紧凑布局 - 标题在左下角 */
 .lifecycle-section--compact {
-    display: flex;
-    align-items: flex-start;
-    margin-top: 8px;
-    padding-top: 8px;
-    padding-bottom: 32px;
-    gap: 12px;
+    margin-top: 4px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    border-top: 1px dashed rgba(200, 220, 240, 0.1);
 }
-.lifecycle-left {
+.lifecycle-bottom {
     display: flex;
     align-items: center;
-    padding-top: 20px;
+    margin-top: 4px;
+    position: relative;
 }
-.lifecycle-title-vertical {
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
+.lifecycle-title-corner {
     font-size: 11px;
     color: rgba(200, 220, 240, 0.5);
     font-family: var(--font-mono);
-    letter-spacing: 2px;
-    padding: 8px 4px;
+    padding: 4px 8px;
     border: 1px solid rgba(200, 220, 240, 0.15);
     border-radius: 4px;
     background: rgba(200, 220, 240, 0.03);
+    margin-right: auto;
 }
-.lifecycle-right {
-    flex: 1;
-    position: relative;
+.lifecycle-bottom .lifecycle-feedback-label {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .lifecycle-header {
     display: flex;
