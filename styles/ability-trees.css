@@ -1666,7 +1666,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50px;
+    height: 30px;  /* v13.7: 缩短导航调度连接线 */
     position: relative;
 }
 .nav-connector-section .connector-v { height: 100%; }
@@ -1713,7 +1713,7 @@
     flex-direction: column;
     align-items: center;
     gap: 0;
-    margin-top: 16px;
+    margin-top: 8px;  /* v13.7: 技能组整体上移 */
 }
 .dual-drive-row {
     display: flex;
