@@ -117,7 +117,8 @@
     overflow: visible;
     position: relative;
     z-index: 101;
-    min-height: 600px;  /* v13.6: 进一步增加底色高度 */
+    min-height: auto;  /* v13.9: 自适应高度，上下留白一致 */
+    padding-bottom: 20px;  /* 确保底部留白与顶部一致 */
 }
 /* Demo风格头部 */
 .engine-header {
