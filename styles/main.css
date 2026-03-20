@@ -168,32 +168,52 @@ body {
 
 /* ==================== 减少动画偏好 ====================
  * 尊重用户的辅助设置，当用户启用减少动画时禁用高开销动画
+ * v2.0: 更全面的动画控制 + 性能优化
  */
 @media (prefers-reduced-motion: reduce) {
+    /* 粒子动画完全禁用 */
     .leaf-particle,
-    .sheikah-spark {
-        animation: none;
-        opacity: 0.3;
+    .sheikah-spark,
+    .particles {
+        display: none !important;
     }
     
+    /* 扫描线禁用 */
     .scanlines {
         display: none;
     }
     
+    /* 云层动画禁用 */
     .cloud-layer {
         animation: none;
     }
     
+    /* 头像相关动画禁用 */
     .avatar-glow,
     .avatar-ring,
     .sheikah-eye-svg {
         animation: none;
     }
     
+    /* 滚动显示效果直接显示 */
     .reveal {
         opacity: 1;
         transform: none;
         transition: none;
+    }
+    
+    /* 经验条动画禁用 */
+    .exp-bar-fill::after {
+        animation: none;
+    }
+    
+    /* 所有hover过渡简化 */
+    .stat-item:hover,
+    .nav-tab:hover,
+    .overview-card:hover,
+    .cap-card:hover,
+    .report-card:hover {
+        transform: none;
     }
     
     /* 减少所有过渡效果 */
@@ -206,6 +226,27 @@ body {
     }
 }
 
+/* ==================== 性能优化：视口外元素暂停动画 ==================== */
+.leaf-particle:not(.in-viewport),
+.sheikah-spark:not(.in-viewport) {
+    animation-play-state: paused;
+}
+
+/* GPU加速层优化：仅对必要元素使用 */
+.sidebar,
+.top-nav,
+.avatar-frame {
+    will-change: auto; /* 默认不提升，需要时由JS控制 */
+}
+
+/* 滚动时禁用复杂效果 */
+.is-scrolling .backdrop-filter,
+.is-scrolling .sidebar,
+.is-scrolling .top-nav {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+}
+
 /* ==================== 布局容器 ==================== */
 .app-container {
     display: flex;
@@ -214,12 +255,14 @@ body {
     z-index: 2;
 }
 
-/* ==================== 侧边栏 - 毛玻璃升级 v4.0 ==================== */
+/* ==================== 侧边栏 - 性能优化版 v5.0 ====================
+ * 使用单层背景替代多层毛玻璃，减少GPU开销
+ */
 .sidebar {
     width: 300px;
-    background: var(--glass-bg);
-    backdrop-filter: var(--glass-blur-heavy);
-    -webkit-backdrop-filter: var(--glass-blur-heavy);
+    background: rgba(24, 28, 33, 0.95); /* 提高透明度代替毛玻璃 */
+    backdrop-filter: blur(12px); /* 降低blur半径，从32px降到12px */
+    -webkit-backdrop-filter: blur(12px);
     border-right: 1px solid rgba(0, 212, 255, 0.15);
     padding: 16px 18px;
     position: fixed;
@@ -232,9 +275,9 @@ body {
     flex-direction: column;
     gap: 12px;
     box-shadow: 
-        4px 0 32px rgba(0, 0, 0, 0.3),
-        inset -1px 0 0 rgba(0, 212, 255, 0.06),
-        inset 0 0 60px rgba(0, 212, 255, 0.04);
+        4px 0 24px rgba(0, 0, 0, 0.25),
+        inset -1px 0 0 rgba(0, 212, 255, 0.06);
+    contain: layout style; /* CSS containment 优化 */
 }
 
 .sidebar::-webkit-scrollbar {
@@ -537,13 +580,13 @@ body {
     overflow-x: hidden;
 }
 
-/* ==================== 顶部导航 - 毛玻璃升级 v4.0 ==================== */
+/* ==================== 顶部导航 - 性能优化版 v5.0 ==================== */
 .top-nav {
     position: sticky;
     top: 0;
-    background: var(--glass-bg);
-    backdrop-filter: var(--glass-blur);
-    -webkit-backdrop-filter: var(--glass-blur);
+    background: rgba(24, 28, 33, 0.92); /* 提高不透明度 */
+    backdrop-filter: blur(10px); /* 降低 blur 半径 */
+    -webkit-backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(0, 212, 255, 0.08);
     padding: 0 24px;
     display: flex;
@@ -551,7 +594,8 @@ body {
     z-index: 99;
     height: 56px;
     align-items: center;
-    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    contain: layout style; /* CSS containment 优化 */
 }
 
 .nav-tab {
@@ -733,16 +777,15 @@ body {
     margin-top: 5px;
 }
 
-/* ==================== 亮点面板 - 毛玻璃风格 v4.0 ==================== */
+/* ==================== 亮点面板 - 性能优化版 v5.0 ==================== */
 .highlights-panel, .daily-detail-panel, .trend-chart-panel {
-    background: var(--glass-bg);
-    backdrop-filter: var(--glass-blur);
-    -webkit-backdrop-filter: var(--glass-blur);
+    background: rgba(24, 28, 33, 0.88); /* 半透明背景代替毛玻璃 */
     border: 1px solid rgba(0, 212, 255, 0.12);
     border-radius: var(--radius-lg);
     margin-bottom: 20px;
     overflow: hidden;
-    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12), var(--shadow-glow-blue);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    contain: content; /* CSS containment 优化 */
 }
 
 .panel-header {

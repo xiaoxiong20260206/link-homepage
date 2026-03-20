@@ -1165,18 +1165,38 @@ window.drawSkillCallConnectors = drawSkillCallConnectors;
 
 // 首页加载完成后绘制所有动态连线
 window.addEventListener('load', function() {
-    setTimeout(function() {
-        drawElbowConnectors();
-        drawLifecycleLoop();
-        drawSkillCallConnectors();
-    }, 600);
+    // 使用 requestIdleCallback 在空闲时绘制，避免阻塞首屏
+    if ('requestIdleCallback' in window) {
+        requestIdleCallback(function() {
+            drawElbowConnectors();
+            drawLifecycleLoop();
+            drawSkillCallConnectors();
+        }, { timeout: 1000 });
+    } else {
+        setTimeout(function() {
+            drawElbowConnectors();
+            drawLifecycleLoop();
+            drawSkillCallConnectors();
+        }, 600);
+    }
 });
+
+// 防抖的 resize 处理器 - 性能优化版
+let resizeRAF = null;
 window.addEventListener('resize', function() {
+    // 取消之前的重绘请求
+    if (resizeRAF) {
+        cancelAnimationFrame(resizeRAF);
+    }
+    
     clearTimeout(window.svgResizeTimer);
     window.svgResizeTimer = setTimeout(function() {
-        drawElbowConnectors();
-        drawLifecycleLoop();
-        drawSkillCallConnectors();
-    }, 150);
-});
+        // 使用 requestAnimationFrame 确保在渲染帧时执行
+        resizeRAF = requestAnimationFrame(function() {
+            drawElbowConnectors();
+            drawLifecycleLoop();
+            drawSkillCallConnectors();
+        });
+    }, 200); // 增加延迟到200ms
+}, { passive: true });
 window.drawLifecycleLoop = drawLifecycleLoop;

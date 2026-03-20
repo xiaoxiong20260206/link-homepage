@@ -94,6 +94,46 @@ function initDOM() {
     document.querySelectorAll('.content-section').forEach(section => {
         DOM.sections[section.id.replace('section-', '')] = section;
     });
+    
+    // 性能优化：滚动时禁用复杂效果
+    initScrollOptimization();
+}
+
+// ==================== 滚动性能优化 ====================
+function initScrollOptimization() {
+    let scrollTimer = null;
+    const body = document.body;
+    
+    // 滚动开始时添加标记类，禁用backdrop-filter等高开销效果
+    window.addEventListener('scroll', function() {
+        if (!body.classList.contains('is-scrolling')) {
+            body.classList.add('is-scrolling');
+        }
+        
+        // 停止滚动150ms后移除标记
+        clearTimeout(scrollTimer);
+        scrollTimer = setTimeout(function() {
+            body.classList.remove('is-scrolling');
+        }, 150);
+    }, { passive: true }); // 使用passive提升滚动性能
+    
+    // 使用 Intersection Observer 暂停视口外的动画
+    if ('IntersectionObserver' in window) {
+        const animationObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-viewport');
+                } else {
+                    entry.target.classList.remove('in-viewport');
+                }
+            });
+        }, { rootMargin: '50px' });
+        
+        // 观察所有粒子元素
+        document.querySelectorAll('.leaf-particle, .sheikah-spark').forEach(el => {
+            animationObserver.observe(el);
+        });
+    }
 }
 
 function initNavigation() {

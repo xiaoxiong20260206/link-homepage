@@ -100,6 +100,10 @@
     --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.3), 0 4px 12px rgba(0, 0, 0, 0.15);
     --shadow-glow-blue: 0 4px 24px rgba(0, 212, 255, 0.2), 0 0 8px rgba(0, 212, 255, 0.1);
     --shadow-glow-gold: 0 4px 24px rgba(212, 168, 42, 0.2), 0 0 8px rgba(212, 168, 42, 0.1);
+    
+    /* 能力树专用颜色（从 ability-trees.css 统一到此处） */
+    --cognitive-yellow: #fbbf24;
+    --system-teal: #5ec4d4;
 }
 
 /* ==================== 基础重置 ==================== */
