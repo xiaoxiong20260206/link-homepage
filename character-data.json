@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T13:26:05.169422",
+  "generatedAt": "2026-03-21T13:51:39.216405",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -148,7 +148,7 @@
             "frequency": "1.5次/周",
             "successRate": 95,
             "sourceType": "自定义",
-            "skillSize": 80716,
+            "skillSize": 80887,
             "skillSizeLabel": "80K字 · 巨型",
             "ksInternal": false,
             "cfProject": false,
@@ -531,7 +531,7 @@
             "frequency": "1次/月",
             "successRate": 90,
             "sourceType": "自定义",
-            "skillSize": 47291,
+            "skillSize": 47925,
             "skillSizeLabel": "47K字 · 大型",
             "ksInternal": false,
             "cfProject": false,
@@ -2413,7 +2413,7 @@
                 "frequency": "1.5次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
-                "skillSize": 80716,
+                "skillSize": 80887,
                 "skillSizeLabel": "80K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": false,
@@ -2794,7 +2794,7 @@
                 "frequency": "1次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
-                "skillSize": 47291,
+                "skillSize": 47925,
                 "skillSizeLabel": "47K字 · 大型",
                 "ksInternal": false,
                 "cfProject": false,
@@ -4829,6 +4829,12 @@
           "to": "link-neigong-cultivation",
           "label": "修炼",
           "color": "#a78bfa"
+        },
+        {
+          "from": "internet-content-research",
+          "to": "xiaohongshu",
+          "label": "调用",
+          "color": "#f472b6"
         }
       ]
     }
@@ -5526,6 +5532,25 @@
         ],
         "importance": 5,
         "updatedAt": "2026-03-19",
+        "source": "项目记忆"
+      },
+      {
+        "title": "multi-session自动化的命令批准闸门（v13.2.1 修复）",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "通用踩坑",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "⚠️",
+        "color": "#ef4444",
+        "description": "问题 v13.2 架构将所有步骤拆分到独立 Agent 会话执行，但独立会话的 execute_command 会触发用户批准确认（waitingF...",
+        "keywords": [
+          "multi-session",
+          "自动化",
+          "命令批准",
+          "waitingForUserInput",
+          "askType"
+        ],
+        "importance": 5,
+        "updatedAt": "2026-03-21",
         "source": "项目记忆"
       },
       {
@@ -8154,7 +8179,7 @@
         "source": "项目记忆"
       }
     ],
-    "total": 146,
+    "total": 147,
     "byCategory": {
       "development_code_specification": {
         "count": 11,
@@ -8192,7 +8217,7 @@
         "description": "保密规则、禁止事项、必须遵守的约束"
       },
       "common_pitfalls_experience": {
-        "count": 80,
+        "count": 81,
         "label": "内容创作",
         "icon": "✍️",
         "color": "#f59e0b",
@@ -10982,6 +11007,25 @@
                 "source": "项目记忆"
               },
               {
+                "title": "multi-session自动化的命令批准闸门（v13.2.1 修复）",
+                "category": "common_pitfalls_experience",
+                "categoryLabel": "通用踩坑",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "⚠️",
+                "color": "#ef4444",
+                "description": "问题 v13.2 架构将所有步骤拆分到独立 Agent 会话执行，但独立会话的 execute_command 会触发用户批准确认（waitingF...",
+                "keywords": [
+                  "multi-session",
+                  "自动化",
+                  "命令批准",
+                  "waitingForUserInput",
+                  "askType"
+                ],
+                "importance": 5,
+                "updatedAt": "2026-03-21",
+                "source": "项目记忆"
+              },
+              {
                 "title": "AI日报KIM卡片能力更新模块（capability_update字段）",
                 "category": "development_practice_specification",
                 "categoryLabel": "通用踩坑",
@@ -11077,7 +11121,7 @@
                 "source": "项目记忆"
               }
             ],
-            "count": 25
+            "count": 26
           },
           "项目知识": {
             "icon": "📋",
@@ -11126,7 +11170,7 @@
             "count": 2
           }
         },
-        "count": 111
+        "count": 112
       }
     }
   },
@@ -11153,7 +11197,7 @@
       144,
       152,
       159,
-      162
+      163
     ]
   },
   "achievements": [
