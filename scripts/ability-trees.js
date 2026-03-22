@@ -825,8 +825,8 @@ function drawElbowConnectors() {
     
     // 标签 "驱动"（使用 foreignObject 包裹 HTML 标签，与"触发"样式一致）
     var foreignObj = document.createElementNS('http://www.w3.org/2000/svg', 'foreignObject');
-    // 标签放在左侧竖线旁边（gutter左边）
-    foreignObj.setAttribute('x', p1.gx - 18);
+    // 标签放在左侧竖线右边（gutter+2px），避免负坐标跑出容器
+    foreignObj.setAttribute('x', p1.gx + 2);
     // 标签在竖线段中间
     foreignObj.setAttribute('y', (p1.sy + p1.ey) / 2 - 12);
     foreignObj.setAttribute('width', '36');
