@@ -797,14 +797,12 @@ function drawElbowConnectors() {
     var gx1 = Math.min(bw - 16, b.right + 20);
     
     // ---- 连接器: 闭关修炼 → 经验总结（驱动）----
-    // sy: 偏向经验总结一侧（2/3处），让水平段在视觉上更居中
-    var sy1 = b.bottom + (j.top - b.bottom) * 0.65;
-    // 箭头从经验总结左侧进入（水平箭头），ey=j.cy（节点中心高度）
-    var p1 = { sx: b.right, sy: sy1, gx: gx1, ex: j.left, ey: j.cy };
+    // 路径：从闭关修炼右出 → 右侧gutter → 向下到经验总结中心高度 → 向左穿越整个宽度 → 箭头从左侧射入经验总结
+    var p1 = { sx: b.right, sy: b.cy, gx: gx1, ex: j.left, ey: j.cy };
     
     var path1 = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-    // 路径：右出 → 右侧gutter → 向下到经验总结中心高度 → 水平到经验总结左侧
-    path1.setAttribute('d', 'M ' + p1.sx + ' ' + p1.sy + ' L ' + p1.gx + ' ' + p1.sy + ' L ' + p1.gx + ' ' + p1.ey + ' L ' + (p1.ex + 8) + ' ' + p1.ey);
+    // 右出 → gutter竖线右边 → 向下到经验总结中心 → 向左穿越整个宽度到左边缘 → 向右到经验总结左侧
+    path1.setAttribute('d', 'M ' + p1.sx + ' ' + p1.sy + ' L ' + p1.gx + ' ' + p1.sy + ' L ' + p1.gx + ' ' + p1.ey + ' L 8 ' + p1.ey + ' L ' + (p1.ex + 10) + ' ' + p1.ey);
     path1.setAttribute('fill', 'none');
     path1.setAttribute('stroke', '#fb923c');
     path1.setAttribute('stroke-width', '1.5');
@@ -816,7 +814,7 @@ function drawElbowConnectors() {
     
     // 箭头（从左侧水平进入经验总结，朝右 ►，顶点在右侧）
     var arrow1 = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
-    arrow1.setAttribute('points', (p1.ex + 9) + ',' + p1.ey + ' ' + p1.ex + ',' + (p1.ey - 5) + ' ' + p1.ex + ',' + (p1.ey + 5));
+    arrow1.setAttribute('points', (p1.ex + 10) + ',' + p1.ey + ' ' + p1.ex + ',' + (p1.ey - 5) + ' ' + p1.ex + ',' + (p1.ey + 5));
     arrow1.setAttribute('fill', '#fb923c');
     arrow1.setAttribute('opacity', '0.55');
     svg.appendChild(arrow1);
