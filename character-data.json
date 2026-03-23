@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T05:03:27.137999",
+  "generatedAt": "2026-03-24T06:29:38.953506",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -15,12 +15,12 @@
       "icon": "👑",
       "description": "炉火纯青，宗师风范"
     },
-    "totalExp": 354580,
-    "expProgress": 14.9,
+    "totalExp": 354480,
+    "expProgress": 14.6,
     "currentThreshold": 349649,
     "nextThreshold": 382801,
     "stats": {
-      "understanding": 85.7,
+      "understanding": 85.6,
       "execution": 52.5,
       "skillDepth": 88.2,
       "thinkingDepth": 40.0,
@@ -38,9 +38,9 @@
       "highLevelSkills": 108,
       "skillTotalValue": 3498.9,
       "cultivationExp": 0,
-      "baseExp": 354580,
+      "baseExp": 354480,
       "expBreakdown": {
-        "understanding": 85700,
+        "understanding": 85600,
         "execution": 52500,
         "skill": 132300,
         "thinking": 32000,
@@ -1561,8 +1561,8 @@
             "frequency": "1次/月",
             "successRate": 90,
             "sourceType": "自定义",
-            "skillSize": 46426,
-            "skillSizeLabel": "46K字 · 大型",
+            "skillSize": 45376,
+            "skillSizeLabel": "45K字 · 大型",
             "ksInternal": false,
             "cfProject": false,
             "tag": "SL"
@@ -3854,8 +3854,8 @@
                 "frequency": "1次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
-                "skillSize": 46426,
-                "skillSizeLabel": "46K字 · 大型",
+                "skillSize": 45376,
+                "skillSizeLabel": "45K字 · 大型",
                 "ksInternal": false,
                 "cfProject": false,
                 "tag": "SL"
@@ -6445,25 +6445,6 @@
         "source": "项目记忆"
       },
       {
-        "title": "AI洞察项目版本同步规则：内外部版本必须同步更新",
-        "category": "development_practice_specification",
-        "categoryLabel": "通用踩坑",
-        "layer": "🛠️ 实践记忆层",
-        "icon": "⚠️",
-        "color": "#ef4444",
-        "description": "规则：AI洞察项目（AI-Insight）每次修改/优化后，必须同时更新内部版和公开版两个仓库。 执行流程： 1. 修改源文件（如 `01...",
-        "keywords": [
-          "AI洞察",
-          "版本同步",
-          "内部版",
-          "公开版",
-          "ai-insight"
-        ],
-        "importance": 4,
-        "updatedAt": "2026-03-15",
-        "source": "项目记忆"
-      },
-      {
         "title": "AI生图水印重复陷阱：服务端自动水印 + 提示词水印 = 双水印",
         "category": "common_pitfalls_experience",
         "categoryLabel": "脚本自动化",
@@ -7658,6 +7639,25 @@
         ],
         "importance": 3,
         "updatedAt": "2026-03-11",
+        "source": "项目记忆"
+      },
+      {
+        "title": "AI洞察项目版本同步规则：内外部版本必须同步更新",
+        "category": "development_practice_specification",
+        "categoryLabel": "通用踩坑",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "⚠️",
+        "color": "#ef4444",
+        "description": "规则：AI洞察项目（AI-Insight）每次修改/优化后，必须同时更新内部版和公开版两个仓库。 执行流程： 1. 修改源文件（如 `01...",
+        "keywords": [
+          "AI洞察",
+          "版本同步",
+          "内部版",
+          "公开版",
+          "ai-insight"
+        ],
+        "importance": 3,
+        "updatedAt": "2026-03-15",
         "source": "项目记忆"
       },
       {
@@ -11004,7 +11004,7 @@
                   "公开版",
                   "ai-insight"
                 ],
-                "importance": 4,
+                "importance": 3,
                 "updatedAt": "2026-03-15",
                 "source": "项目记忆"
               },
