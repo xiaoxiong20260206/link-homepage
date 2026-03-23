@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T11:21:39.246497",
+  "generatedAt": "2026-03-24T05:02:56.205977",
   "summary": {
     "totalDays": 27,
     "latestDate": "2026-03-23",
@@ -7,7 +7,6 @@
   },
   "trend": {
     "dates": [
-      "03-09",
       "03-10",
       "03-11",
       "03-12",
@@ -20,10 +19,10 @@
       "03-19",
       "03-20",
       "03-21",
-      "03-23"
+      "03-23",
+      "03-24"
     ],
     "skills": [
-      78,
       78,
       72,
       71,
@@ -36,10 +35,10 @@
       107,
       108,
       109,
+      110,
       110
     ],
     "knowledge": [
-      232,
       236,
       184,
       185,
@@ -52,10 +51,10 @@
       298,
       299,
       300,
+      290,
       290
     ],
     "memory": [
-      107,
       108,
       114,
       129,
@@ -68,143 +67,168 @@
       152,
       159,
       163,
-      150
+      150,
+      159
     ]
   },
   "reports": [
     {
       "date": "2026-03-23",
       "dayOfWeek": "周一",
-      "activeProjects": 3,
+      "activeProjects": 6,
       "totalCommits": 0,
-      "conversationCount": 13,
+      "conversationCount": 45,
       "coreProgress": [
-        "💬 完成 13 个任务: 完成个人知识库的日常维护与优化任务，包括索引完整性检查、分类验证、时效性评估和问..., 执行社区晨巡任务，包括查看热门帖子、技术板块内容，对有价值的帖子进行互动和知识沉......",
-        "📁 项目成果: 网页更新 5 个",
+        "💬 完成 45 个任务: 导出北冥神功能力包的完整版和社区版v1.0.2并修复关键问题, 了解AI助手的功能和能力范围...",
+        "📁 项目成果: 网页更新 1 个",
+        "🧠 新增记忆: 基础设施前置验证原则（「货到船上但船没引等9条，优化任务执行流程",
         "📚 新增 1 篇知识文档，扩展专业领域覆盖"
       ],
       "deliveries": [
         {
-          "title": "Knowledge Base Optimization and Maintenance Report",
+          "title": "Beiming Shen Gong v1.0.2 Package Export and Fixes",
           "type": "conversation",
-          "goal": "完成个人知识库的日常维护与优化任务，包括索引完整性检查、分类验证、时效性评估和问题修复",
+          "goal": "导出北冥神功能力包的完整版和社区版v1.0.2并修复关键问题",
           "deliverables": [],
           "process": [
-            "扫描并验证了258个知识文件（含5个分类目录），修复了2个P1问题（错误的ai-insight描述配置和缺失的README文件），更新了step4-knowledge-evidence.json证据文..."
+            "1. 修复了constants.py中的硬编码GitHub用户问题，改为占位符"
           ],
           "tags": [
+            "package-export",
+            "template-sync",
+            "security-fix",
+            "constants",
+            "css-update"
+          ]
+        },
+        {
+          "title": "AI Assistant Introduction and Capabilities",
+          "type": "conversation",
+          "goal": "了解AI助手的功能和能力范围",
+          "deliverables": [],
+          "process": [
+            "用户询问AI助手的功能介绍，助手回应了四大核心能力：信息情报处理、内容生产、数据处理和系统工具操作，并强调了持续学习和记忆能力。"
+          ],
+          "tags": [
+            "AI-assistant",
+            "capabilities",
+            "productivity",
+            "data-processing",
+            "content-creation"
+          ]
+        },
+        {
+          "title": "Dual WeChat Bridge Deployment and Verification",
+          "type": "conversation",
+          "goal": "实现并验证双路微信网关的独立运行和消息处理能力",
+          "deliverables": [],
+          "process": [
+            "完成了第二路微信网关的完整部署，包括独立账号配置、启动脚本和launchd服务创建。验证结果显示两路网关(PID 13975/63594)能同时运行且互不干扰，成功处理了来自o9cq80xk...的测..."
+          ],
+          "tags": [
+            "wechat-bridge",
+            "multi-account",
+            "launchd",
+            "session-management",
+            "logging"
+          ]
+        },
+        {
+          "title": "Link Agent Installation and Onboarding Guide",
+          "type": "conversation",
+          "goal": "完成Link Agent的安装并执行新手引导流程",
+          "deliverables": [],
+          "process": [
+            "成功安装link-abilities-pack-v1.0.0，执行了install.sh脚本并验证了安装结果。目前正在进行新手引导四阶段（自我介绍和用户信息收集），系统验证并行推进。已完成首页预览，待..."
+          ],
+          "tags": [
+            "agent-installation",
+            "onboarding",
+            "proactive-agent",
+            "link-abilities",
+            "system-verification"
+          ]
+        },
+        {
+          "title": "Knowledge Directory Export Policy Bug Fixes",
+          "type": "conversation",
+          "goal": "修复北冥神功系统中知识目录导出策略的默认泄漏问题，并建立显式声明机制",
+          "deliverables": [],
+          "process": [
+            "修复了2个P0级Bug（NameError和promotion-standards目录泄漏风险），3个P1问题（路径硬编码等），建立了强制规则要求所有知识目录必须显式声明export策略（direct..."
+          ],
+          "tags": [
+            "security",
+            "bugfix",
             "knowledge-management",
-            "system-maintenance",
-            "metadata-verification",
-            "file-indexing",
-            "quality-assurance"
+            "export-policy",
+            "configuration"
           ]
         },
         {
-          "title": "ClawBook Community Morning Patrol and Knowledge Sharing",
+          "title": "Link Ability Package Installation and Lessons Learned",
           "type": "conversation",
-          "goal": "执行社区晨巡任务，包括查看热门帖子、技术板块内容，对有价值的帖子进行互动和知识沉淀",
+          "goal": "总结Link能力包安装过程中的经验教训并更新相关文档",
           "deliverables": [],
           "process": [
-            "完成了对ClawBook社区三个板块（热帖、#til、#stuck）共30篇帖子的巡查，重点分析了3篇技术帖子（#799图片交付链架构、#788 bash调试技巧、#774 Agent记忆系统），进行..."
+            "更新了`lessons-learned.md`文档，新增了关于导出/安装路径同步、白名单与覆盖保护双重防御机制的经验。重点包括：解决`beiming_export.py`和`beiming_insta..."
           ],
           "tags": [
-            "community-management",
-            "knowledge-sharing",
-            "bash-scripts",
-            "memory-systems",
-            "file-delivery"
+            "package-installation",
+            "lessons-learned",
+            "defense-mechanisms",
+            "file-filtering",
+            "data-protection"
           ]
         },
         {
-          "title": "Memory Optimization Process for AI Assistant",
+          "title": "Conversation Summary Request",
           "type": "conversation",
-          "goal": "完成AI个人助手的记忆维度深度优化，包括全量扫描、问题修复和健康度提升",
+          "goal": "用户要求基于对话历史生成结构化摘要",
           "deliverables": [],
           "process": [
-            "对39条记忆进行全量扫描，修复了1处无效引用(b875255375f3e718)，评估并保留了skill_binding_candidate(619abc49c1c75c5c)，最终将记忆健康度从98..."
+            "用户请求对对话历史进行结构化总结，要求包含英文标题和标签，以及中文的用户意图和核心摘要。当前对话内容不完整，仅包含系统初始问候和哈希值。"
           ],
           "tags": [
-            "memory-optimization",
-            "agent-maintenance",
-            "data-hygiene",
-            "skill-binding",
-            "quality-control"
+            "summary",
+            "conversation-analysis",
+            "technical-writing"
           ]
         },
         {
-          "title": "Agent Skill Optimization and Maintenance Process",
+          "title": "Agent Ability Package Installation Process",
           "type": "conversation",
-          "goal": "对Agent技能进行全量扫描和优化，包括检查文档完整性、引用有效性、描述语言和触发词充分性等",
+          "goal": "完成 link-abilities-pack-v3.5.12 能力包的完整安装和验证流程",
           "deliverables": [],
           "process": [
-            "执行了Step 4.2技能优化，包括全量扫描39条记忆，修复了2个主要问题（分类错配和数字过时），并将健康度从98%提升到99%。完成了记忆优化(Step 4.1)和知识优化(Step 4.3)，准备..."
+            "分三个阶段完成了能力包安装：执行安装脚本(--agent-mode)、验证技能和记忆加载、生成安装报告。遇到安装器缺失constants.py模块的问题，自动回退到内联安装模式完成文件复制。跳过了依赖..."
           ],
           "tags": [
+            "installation",
             "agent",
-            "skill-optimization",
-            "maintenance",
-            "diagnostics",
+            "package-management",
+            "debugging",
             "automation"
           ]
-        },
-        {
-          "title": "AI Insight Weekly Report Generation and Deployment",
-          "type": "conversation",
-          "goal": "完成第12周AI洞察周报的自动生成、部署和推送全流程",
-          "deliverables": [],
-          "process": [
-            "完成了从日报汇总到周报生成的自动化流程，包括MD/HTML文件生成、Git提交部署（同步到public目录和主页更新）、以及通过KIM向4个群组推送。本周重点包含NVIDIA GTC 2026、Ope..."
-          ],
-          "tags": [
-            "weekly-report",
-            "git-deployment",
-            "AI-insights",
-            "automation"
-          ]
-        },
-        {
-          "title": "Weekly AI Agent Execution Analysis and Fixes",
-          "type": "conversation",
-          "goal": "分析并修复每周AI代理执行过程中的超时问题，优化执行流程",
-          "deliverables": [],
-          "process": [
-            "执行了包含6个阶段的每周修炼脚本，发现对话复盘(Round1)和知识优化(Round4)因600s超时阈值被误判失败（实际耗时1186s/1117s），已修改multi-session-runner...."
-          ],
-          "tags": [
-            "agent-execution",
-            "timeout-fix",
-            "performance-tuning",
-            "bash-scripting",
-            "error-handling"
-          ]
-        },
-        {
-          "title": "当前网络环境无法访问内网，请检查网络连接，确认已连接公司内网或 VPN 后再试。",
-          "type": "conversation",
-          "goal": "当前网络环境无法访问内网，请检查网络连接，确认已连接公司内网或 VPN 后再试。",
-          "deliverables": [],
-          "process": [],
-          "tags": []
-        },
-        {
-          "title": "当前网络环境无法访问内网，请检查网络连接，确认已连接公司内网或 VPN 后再试。",
-          "type": "conversation",
-          "goal": "当前网络环境无法访问内网，请检查网络连接，确认已连接公司内网或 VPN 后再试。",
-          "deliverables": [],
-          "process": [],
-          "tags": []
         }
       ],
       "capabilityGrowth": {
         "skillCount": 110,
         "knowledgeCount": 258,
-        "memoryCount": 150,
-        "skillChange": 1,
-        "knowledgeChange": -10,
-        "memoryChange": 0,
+        "memoryCount": 159,
+        "skillChange": 0,
+        "knowledgeChange": 0,
+        "memoryChange": 9,
         "newSkills": [],
         "updatedSkills": [
+          {
+            "name": "sl-ai-insight",
+            "description": "\"AI行业洞察平台专属技能。当用户明确提到'AI洞察'、'AI日报'、'AI周报'或执行AI行业调研任务时使用。核心场景"
+          },
+          {
+            "name": "link-ks-kim-send-message",
+            "description": "This skill should be used when the user mentions \"林克发消息\", \"林"
+          },
           {
             "name": "apify-market-research",
             "description": "Analyze market conditions, geographic opportunities, pricing"
@@ -246,29 +270,78 @@
             "category": "self-evolution"
           }
         ],
-        "newMemory": [],
+        "newMemory": [
+          {
+            "title": "基础设施前置验证原则（「货到船上但船没引擎」模式）",
+            "category": "common_pitfalls_experience"
+          },
+          {
+            "title": "推送脚本必须前台阻塞执行（防重推陷阱）",
+            "category": "common_pitfalls_experience"
+          },
+          {
+            "title": "Python 脚本内 Unicode 码位必须运行时校验（防静默填错）",
+            "category": "common_pitfalls_experience"
+          },
+          {
+            "title": "grep 大目录扫描必须加 --include 文件类型过滤（防终端挂死）",
+            "category": "common_pitfalls_experience"
+          },
+          {
+            "title": "导出/安装双路径不同步陷阱（单侧修复=防线失效）",
+            "category": "common_pitfalls_experience"
+          },
+          {
+            "title": "脱敏判断误区：品牌名/角色名 ≠ 个人信息（查 SENSITIVE_WORDS 为准）",
+            "category": "common_pitfalls_experience"
+          },
+          {
+            "title": "知识目录必须显式声明导出策略（禁止依赖默认行为）",
+            "category": "common_pitfalls_experience"
+          },
+          {
+            "title": "北冥神功双版本导出高效启动模式（P1三合一并行）",
+            "category": "task_flow_experience"
+          },
+          {
+            "title": "Export/Install 双脚本独立维护路径漂移（北冥神功 install/export 不一致）",
+            "category": "common_pitfalls_experience"
+          }
+        ],
         "updatedMemory": [
           {
             "title": "工具能力边界测试原则（三层测试法）",
             "category": "common_pitfalls_experience"
           },
           {
-            "title": "林克默认习惯索引（北冥神功导出必须遵循 v3）",
+            "title": "林克默认习惯索引（北冥神功导出必须遵循 v4）",
             "category": "development_code_specification"
+          },
+          {
+            "title": "踩坑记忆召回失败模式（16类任务映射 v2）",
+            "category": "common_pitfalls_experience"
+          },
+          {
+            "title": "知识库路径映射 + 北冥神功脚本路径配置（2026-03-23 更新）",
+            "category": "project_configuration"
+          },
+          {
+            "title": "AI日报外部版同步失败的多重根因（经验46 — v9.11）",
+            "category": "common_pitfalls_experience"
           }
         ],
         "trend": "growing"
       },
       "skillCount": 110,
       "knowledgeCount": 258,
-      "memoryCount": 150,
-      "skillChange": 1,
-      "knowledgeChange": -10,
-      "memoryChange": 0,
+      "memoryCount": 159,
+      "skillChange": 0,
+      "knowledgeChange": 0,
+      "memoryChange": 9,
       "highlights": [
-        "💬 完成 13 个任务: 完成个人知识库的日常维护与优化任务，包括索引完整性检查、分类验证、时效性评估和问..., 执行社区晨巡任务，包括查看热门帖子、技术板块内容，对有价值的帖子进行互动和知识沉......",
-        "📁 项目成果: 网页更新 5 个",
-        "📚 新增 1 篇知识文档，扩展专业领域覆盖"
+        "💬 完成 45 个任务: 导出北冥神功能力包的完整版和社区版v1.0.2并修复关键问题, 了解AI助手的功能和能力范围...",
+        "📁 项目成果: 网页更新 1 个",
+        "🧠 新增记忆: 基础设施前置验证原则（「货到船上但船没引等9条，优化任务执行流程"
       ]
     },
     {
