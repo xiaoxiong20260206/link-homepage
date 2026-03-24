@@ -746,7 +746,7 @@
     margin-right: 3px;
     flex-shrink: 0;
 }
-/* 沈浪项目标记 */
+/* 个人定制标记 */
 .skill-chip-sl {
     font-family: var(--font-mono);
     font-size: 8px;
@@ -758,7 +758,7 @@
     margin-right: 3px;
     flex-shrink: 0;
 }
-/* 林克专属标记 */
+/* AI助手专属标记 */
 .skill-chip-link {
     font-family: var(--font-mono);
     font-size: 8px;

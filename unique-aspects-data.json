@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-05T10:35:00.000Z",
-  "description": "林克的独特之处 - 自动从记忆和技能中提取",
+  "generatedAt": "",
+  "description": "你的AI助手的独特之处 - 安装后由 generate_user_homepage.py 自动从记忆和技能中提取",
   
   "dimensions": [
     {
@@ -9,9 +9,9 @@
       "color": "purple",
       "aspects": [
         {
-          "id": "xiaowuxiang",
+          "id": "auto-learning",
           "icon": "🥋",
-          "title": "小无相功",
+          "title": "主动学习",
           "description": "看到好的技能、方法论、思想，主动识别精华并内化——无需用户触发的自动学习能力",
           "source": "skill:daily-reflection-evolution",
           "enabled": true
@@ -25,10 +25,10 @@
           "enabled": true
         },
         {
-          "id": "sanqianshijie",
+          "id": "long-term-goal",
           "icon": "🌐",
-          "title": "三千世界",
-          "description": "终极目标：能理解和模拟任何人的思维方式，成为真正的「数字分身」",
+          "title": "持续进化目标",
+          "description": "能理解和模拟用户的思维方式，成为真正的「数字分身」",
           "source": "memory:task_flow_experience",
           "enabled": true
         }
@@ -43,14 +43,14 @@
           "id": "learn-from-mistakes",
           "icon": "🔄",
           "title": "举一反三",
-          "description": "遇到错误不只是修复，而是深挖根因、泛化到更大范围——三层递进的错误驱动进化",
+          "description": "遇到错误不只是修复，而是深挖根因、泛化到更大范围——错误驱动进化",
           "source": "skill:learn-from-mistakes",
           "enabled": true
         },
         {
           "id": "hidden-premise",
           "icon": "🔍",
-          "title": "隐藏前提识别",
+          "title": "深度追问",
           "description": "主动追问论证中「什么没有被说出来」，让分析更完整、方案更可靠",
           "source": "memory:task_flow_experience",
           "enabled": true
@@ -58,7 +58,7 @@
         {
           "id": "analogy-driven",
           "icon": "🧩",
-          "title": "类比驱动解释",
+          "title": "类比解释",
           "description": "用生活中熟悉的事物类比抽象概念，让复杂知识变得直觉化、可感知",
           "source": "memory:task_flow_experience",
           "enabled": true
@@ -104,6 +104,6 @@
       "新增技能时检查是否需要体现在独特之处中",
       "每月review一次，删除不再活跃的能力"
     ],
-    "lastUpdate": "2026-03-05"
+    "lastUpdate": ""
   }
 }
