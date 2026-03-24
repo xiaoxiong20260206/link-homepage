@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T19:34:11.005367",
+  "generatedAt": "2026-03-24T19:46:39.775208",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -148,8 +148,8 @@
             "frequency": "1.5次/周",
             "successRate": 95,
             "sourceType": "自定义",
-            "skillSize": 81949,
-            "skillSizeLabel": "81K字 · 巨型",
+            "skillSize": 83745,
+            "skillSizeLabel": "83K字 · 巨型",
             "ksInternal": false,
             "cfProject": false,
             "tag": "Link"
@@ -2460,8 +2460,8 @@
                 "frequency": "1.5次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
-                "skillSize": 81949,
-                "skillSizeLabel": "81K字 · 巨型",
+                "skillSize": 83745,
+                "skillSizeLabel": "83K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": false,
                 "tag": "Link"
@@ -5304,6 +5304,25 @@
         "source": "项目记忆"
       },
       {
+        "title": "Todo状态收尾规则 — 产出内容后必须立即更新Todo状态（v2：含会话切换场景）",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "前端开发",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "🎨",
+        "color": "#f472b6",
+        "description": "【问题模式】Todo 漏标记有两种触发场景，均会导致系统误判任务未完成（触发 needs_deep_dive 误报信号）。 【场景A】交付物已输出但 To...",
+        "keywords": [
+          "Todo状态",
+          "收尾规则",
+          "漏标记",
+          "交付物完成",
+          "in_progress"
+        ],
+        "importance": 5,
+        "updatedAt": "2026-03-24",
+        "source": "用户显式记录"
+      },
+      {
         "title": "execute_command heredoc 陷阱（v3：含 git commit message 多行场景）",
         "category": "common_pitfalls_experience",
         "categoryLabel": "前端开发",
@@ -5339,6 +5358,25 @@
         ],
         "importance": 5,
         "updatedAt": "2026-03-23",
+        "source": "用户显式记录"
+      },
+      {
+        "title": "kill 后台 git 进程必须清理 .git/index.lock 僵尸锁",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "发布部署",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "🚀",
+        "color": "#4ade80",
+        "description": "问题（2026-03-24 踩坑） 强制 kill 了包含 git 操作的后台进程（multi-session-runner.sh），遗留了...",
+        "keywords": [
+          "git",
+          "index.lock",
+          "僵尸锁",
+          "kill",
+          "后台进程"
+        ],
+        "importance": 5,
+        "updatedAt": "2026-03-24",
         "source": "用户显式记录"
       },
       {
@@ -5507,6 +5545,25 @@
           "CI/CD",
           "workflow",
           "发布部署"
+        ],
+        "importance": 5,
+        "updatedAt": "2026-03-24",
+        "source": "用户显式记录"
+      },
+      {
+        "title": "外部系统中断时必须输出断点快照（ServerCustomError处理规范）",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "消息通信",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "💬",
+        "color": "#06b6d4",
+        "description": "【问题模式】外部系统繁忙/不可用（ServerCustomError）导致任务中断，但中断前没有留下断点记录，导致后续需要从头重做。 【典型案例】2026...",
+        "keywords": [
+          "ServerCustomError",
+          "外部系统中断",
+          "断点快照",
+          "任务恢复",
+          "生图失败"
         ],
         "importance": 5,
         "updatedAt": "2026-03-24",
@@ -6326,44 +6383,6 @@
         ],
         "importance": 4,
         "updatedAt": "2026-03-12",
-        "source": "用户显式记录"
-      },
-      {
-        "title": "Todo状态收尾规则 — 产出内容后必须立即更新Todo状态",
-        "category": "common_pitfalls_experience",
-        "categoryLabel": "通用踩坑",
-        "layer": "🛠️ 实践记忆层",
-        "icon": "⚠️",
-        "color": "#ef4444",
-        "description": "【问题模式】交付物完成后漏标记 Todo 状态，导致系统判定任务未完成，触发误报 needs_deep_dive 信号。 【典型案例】2026-03-24...",
-        "keywords": [
-          "Todo状态",
-          "收尾规则",
-          "漏标记",
-          "交付物完成",
-          "in_progress"
-        ],
-        "importance": 4,
-        "updatedAt": "2026-03-24",
-        "source": "用户显式记录"
-      },
-      {
-        "title": "Todo状态收尾规则 — 产出内容后必须立即更新Todo状态",
-        "category": "common_pitfalls_experience",
-        "categoryLabel": "通用踩坑",
-        "layer": "🛠️ 实践记忆层",
-        "icon": "⚠️",
-        "color": "#ef4444",
-        "description": "【问题模式】交付物完成后漏标记 Todo 状态，导致系统判定任务未完成，触发误报 needs_deep_dive 信号。 【典型案例】2026-03-24...",
-        "keywords": [
-          "Todo状态",
-          "收尾规则",
-          "漏标记",
-          "交付物完成",
-          "in_progress"
-        ],
-        "importance": 4,
-        "updatedAt": "2026-03-24",
         "source": "用户显式记录"
       },
       {
@@ -7537,7 +7556,7 @@
         "source": "项目记忆"
       }
     ],
-    "total": 112,
+    "total": 113,
     "byCategory": {
       "development_code_specification": {
         "count": 10,
@@ -7575,7 +7594,7 @@
         "description": "保密规则、禁止事项、必须遵守的约束"
       },
       "common_pitfalls_experience": {
-        "count": 64,
+        "count": 65,
         "label": "文档处理",
         "icon": "📄",
         "color": "#38bdf8",
@@ -8182,6 +8201,25 @@
             "color": "#f472b6",
             "description": "SVG/CSS/页面开发踩坑",
             "items": [
+              {
+                "title": "Todo状态收尾规则 — 产出内容后必须立即更新Todo状态（v2：含会话切换场景）",
+                "category": "common_pitfalls_experience",
+                "categoryLabel": "前端开发",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "🎨",
+                "color": "#f472b6",
+                "description": "【问题模式】Todo 漏标记有两种触发场景，均会导致系统误判任务未完成（触发 needs_deep_dive 误报信号）。 【场景A】交付物已输出但 To...",
+                "keywords": [
+                  "Todo状态",
+                  "收尾规则",
+                  "漏标记",
+                  "交付物完成",
+                  "in_progress"
+                ],
+                "importance": 5,
+                "updatedAt": "2026-03-24",
+                "source": "用户显式记录"
+              },
               {
                 "title": "系统性全局替换流程",
                 "category": "development_practice_specification",
@@ -8810,7 +8848,7 @@
                 "source": "项目记忆"
               }
             ],
-            "count": 33
+            "count": 34
           },
           "发布部署": {
             "icon": "🚀",
@@ -8888,6 +8926,25 @@
                   "实际URL",
                   "GitHub Pages",
                   "浏览器缓存"
+                ],
+                "importance": 5,
+                "updatedAt": "2026-03-24",
+                "source": "用户显式记录"
+              },
+              {
+                "title": "kill 后台 git 进程必须清理 .git/index.lock 僵尸锁",
+                "category": "common_pitfalls_experience",
+                "categoryLabel": "发布部署",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "🚀",
+                "color": "#4ade80",
+                "description": "问题（2026-03-24 踩坑） 强制 kill 了包含 git 操作的后台进程（multi-session-runner.sh），遗留了...",
+                "keywords": [
+                  "git",
+                  "index.lock",
+                  "僵尸锁",
+                  "kill",
+                  "后台进程"
                 ],
                 "importance": 5,
                 "updatedAt": "2026-03-24",
@@ -9027,7 +9084,7 @@
                 "source": "项目记忆"
               }
             ],
-            "count": 11
+            "count": 12
           },
           "文档处理": {
             "icon": "📄",
@@ -9119,6 +9176,25 @@
             "description": "KIM/飞书踩坑",
             "items": [
               {
+                "title": "外部系统中断时必须输出断点快照（ServerCustomError处理规范）",
+                "category": "common_pitfalls_experience",
+                "categoryLabel": "消息通信",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "💬",
+                "color": "#06b6d4",
+                "description": "【问题模式】外部系统繁忙/不可用（ServerCustomError）导致任务中断，但中断前没有留下断点记录，导致后续需要从头重做。 【典型案例】2026...",
+                "keywords": [
+                  "ServerCustomError",
+                  "外部系统中断",
+                  "断点快照",
+                  "任务恢复",
+                  "生图失败"
+                ],
+                "importance": 5,
+                "updatedAt": "2026-03-24",
+                "source": "用户显式记录"
+              },
+              {
                 "title": "代码文件中文字符编码安全规则 + kimMd标记冲突",
                 "category": "common_pitfalls_experience",
                 "categoryLabel": "消息通信",
@@ -9138,7 +9214,7 @@
                 "source": "项目记忆"
               }
             ],
-            "count": 1
+            "count": 2
           },
           "脚本自动化": {
             "icon": "⚡",
@@ -9513,44 +9589,6 @@
                 "source": "用户显式记录"
               },
               {
-                "title": "Todo状态收尾规则 — 产出内容后必须立即更新Todo状态",
-                "category": "common_pitfalls_experience",
-                "categoryLabel": "通用踩坑",
-                "layer": "🛠️ 实践记忆层",
-                "icon": "⚠️",
-                "color": "#ef4444",
-                "description": "【问题模式】交付物完成后漏标记 Todo 状态，导致系统判定任务未完成，触发误报 needs_deep_dive 信号。 【典型案例】2026-03-24...",
-                "keywords": [
-                  "Todo状态",
-                  "收尾规则",
-                  "漏标记",
-                  "交付物完成",
-                  "in_progress"
-                ],
-                "importance": 4,
-                "updatedAt": "2026-03-24",
-                "source": "用户显式记录"
-              },
-              {
-                "title": "Todo状态收尾规则 — 产出内容后必须立即更新Todo状态",
-                "category": "common_pitfalls_experience",
-                "categoryLabel": "通用踩坑",
-                "layer": "🛠️ 实践记忆层",
-                "icon": "⚠️",
-                "color": "#ef4444",
-                "description": "【问题模式】交付物完成后漏标记 Todo 状态，导致系统判定任务未完成，触发误报 needs_deep_dive 信号。 【典型案例】2026-03-24...",
-                "keywords": [
-                  "Todo状态",
-                  "收尾规则",
-                  "漏标记",
-                  "交付物完成",
-                  "in_progress"
-                ],
-                "importance": 4,
-                "updatedAt": "2026-03-24",
-                "source": "用户显式记录"
-              },
-              {
                 "title": "外部API权限必须前置验证",
                 "category": "development_practice_specification",
                 "categoryLabel": "通用踩坑",
@@ -9796,7 +9834,7 @@
                 "source": "项目记忆"
               }
             ],
-            "count": 23
+            "count": 21
           },
           "项目知识": {
             "icon": "📋",
@@ -9845,7 +9883,7 @@
             "count": 2
           }
         },
-        "count": 85
+        "count": 86
       }
     }
   },
@@ -9880,7 +9918,7 @@
       159,
       163,
       150,
-      123
+      124
     ]
   },
   "achievements": [
