@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T05:44:27.066544",
+  "generatedAt": "2026-04-14T07:05:07.109705",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -132,12 +132,12 @@
         "desc": "知道的越来越多"
       }
     ],
-    "totalExp": 338190,
-    "expProgress": 60.8,
+    "totalExp": 337990,
+    "expProgress": 60.1,
     "currentThreshold": 320393,
     "nextThreshold": 349649,
     "stats": {
-      "understanding": 83.9,
+      "understanding": 83.7,
       "execution": 52.5,
       "skillDepth": 85.7,
       "thinkingDepth": 38.0,
@@ -155,9 +155,9 @@
       "highLevelSkills": 134,
       "skillTotalValue": 2700.0,
       "cultivationExp": 0,
-      "baseExp": 338190,
+      "baseExp": 337990,
       "expBreakdown": {
-        "understanding": 83900,
+        "understanding": 83700,
         "execution": 52500,
         "skill": 128550,
         "thinking": 30400,
@@ -6575,25 +6575,6 @@
         "source": "项目记忆"
       },
       {
-        "title": "OutputTooLong 触发后必须立即切换分文件策略（禁止继续整体输出）",
-        "category": "common_pitfalls_experience",
-        "categoryLabel": "前端开发",
-        "layer": "🛠️ 实践记忆层",
-        "icon": "🎨",
-        "color": "#f472b6",
-        "description": "问题描述（2026-04-05 AI技能蒸馏文章生成踩坑） 用户要求生成大型HTML调研报告（含幽默文章+7张AI配图）。 首次生成成功，用户要求\"...",
-        "keywords": [
-          "OutputTooLong",
-          "分步输出",
-          "大型HTML",
-          "分文件",
-          "截断"
-        ],
-        "importance": 5,
-        "updatedAt": "2026-04-05",
-        "source": "用户显式记录"
-      },
-      {
         "title": "Python多脚本体系的\"静默分裂\"陷阱（经验#68 — 前后端SSoT+路径统一+幽灵引用三合一）",
         "category": "common_pitfalls_experience",
         "categoryLabel": "前端开发",
@@ -6686,6 +6667,25 @@
         ],
         "importance": 5,
         "updatedAt": "2026-04-07",
+        "source": "项目记忆"
+      },
+      {
+        "title": "execute_command 引号/换行导致 dquote 卡死：立即切换写临时脚本再执行",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "脚本自动化",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "⚡",
+        "color": "#64748b",
+        "description": "execute_command 引号/换行陷阱：出现 cmdand/dquote 立即切换为“写临时脚本文件再执行” 现象 在 `execu...",
+        "keywords": [
+          "execute_command",
+          "zsh",
+          "dquote",
+          "heredoc",
+          "quote"
+        ],
+        "importance": 5,
+        "updatedAt": "2026-04-13",
         "source": "项目记忆"
       },
       {
@@ -6841,25 +6841,6 @@
         "source": "用户显式记录"
       },
       {
-        "title": "多Tab前端页面迭代必须全量验证所有Tab（防回归）",
-        "category": "common_pitfalls_experience",
-        "categoryLabel": "前端开发",
-        "layer": "🛠️ 实践记忆层",
-        "icon": "🎨",
-        "color": "#f472b6",
-        "description": "多Tab/多模块前端页面：迭代时必须全量验证所有Tab（防回归） 踩坑场景（AI生产力Landing Page，2026-04-05） 用户...",
-        "keywords": [
-          "多Tab",
-          "前端验证",
-          "回归测试",
-          "Tab页面",
-          "端到端验证"
-        ],
-        "importance": 5,
-        "updatedAt": "2026-04-05",
-        "source": "项目记忆"
-      },
-      {
         "title": "多源配置体系的\"洋葱剥皮\"修复陷阱（经验#66 — 2026-04-06 技能诊断修复全记录）",
         "category": "common_pitfalls_experience",
         "categoryLabel": "脚本自动化",
@@ -6877,25 +6858,6 @@
         "importance": 5,
         "updatedAt": "2026-04-06",
         "source": "项目记忆"
-      },
-      {
-        "title": "封闭生态接入的通用桥接模式（MCP wrapper 方法论）",
-        "category": "development_practice_specification",
-        "categoryLabel": "做事方法",
-        "layer": "🧠 元认知层",
-        "icon": "⚙️",
-        "color": "#5ec4d4",
-        "description": "封闭生态接入的通用桥接模式 核心规律 封闭平台的内容不可直接抓取，但都有\"合法索引入口\"。通用接入模式： ``` 封闭平台 → 找到\"搜索引...",
-        "keywords": [
-          "封闭生态",
-          "桥接模式",
-          "MCP",
-          "索引入口",
-          "wrapper"
-        ],
-        "importance": 5,
-        "updatedAt": "2026-04-05",
-        "source": "用户显式记录"
       },
       {
         "title": "工具调用前的参数完整性自检规范（v2 — 2026-04-07 execute_command漏command参数）",
@@ -6990,44 +6952,6 @@
         ],
         "importance": 5,
         "updatedAt": "2026-04-06",
-        "source": "项目记忆"
-      },
-      {
-        "title": "视觉迭代类任务必须前置确认对齐基准（防无效迭代循环）v3 — 含连续失败暂停分析规则",
-        "category": "common_pitfalls_experience",
-        "categoryLabel": "前端开发",
-        "layer": "🛠️ 实践记忆层",
-        "icon": "🎨",
-        "color": "#f472b6",
-        "description": "视觉迭代类任务：必须前置确认对齐基准（防无效迭代循环） 踩坑场景A（图表对齐，2026-03-27） 用户要求生成信息结构图，需求含糊（「能...",
-        "keywords": [
-          "视觉迭代",
-          "图表对齐",
-          "前置确认",
-          "无效迭代",
-          "信息结构图"
-        ],
-        "importance": 5,
-        "updatedAt": "2026-04-05",
-        "source": "项目记忆"
-      },
-      {
-        "title": "踩坑记忆召回失败模式（16类任务映射 v3 — 2026-04-06 KIM重发强化）",
-        "category": "common_pitfalls_experience",
-        "categoryLabel": "发布部署",
-        "layer": "🛠️ 实践记忆层",
-        "icon": "🚀",
-        "color": "#4ade80",
-        "description": "踩坑记忆召回失败模式（16类任务映射） 问题 踩坑记忆存在但执行时未被召回，导致同类问题重复发生。 三层解决方案 1. 被动召回...",
-        "keywords": [
-          "记忆召回",
-          "踩坑复现",
-          "任务映射",
-          "硬编码",
-          "command_status_check"
-        ],
-        "importance": 5,
-        "updatedAt": "2026-04-05",
         "source": "项目记忆"
       },
       {
@@ -7620,6 +7544,25 @@
         "source": "用户显式记录"
       },
       {
+        "title": "OutputTooLong 触发后必须立即切换分文件策略（禁止继续整体输出）",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "前端开发",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "🎨",
+        "color": "#f472b6",
+        "description": "问题描述（2026-04-05 AI技能蒸馏文章生成踩坑） 用户要求生成大型HTML调研报告（含幽默文章+7张AI配图）。 首次生成成功，用户要求\"...",
+        "keywords": [
+          "OutputTooLong",
+          "分步输出",
+          "大型HTML",
+          "分文件",
+          "截断"
+        ],
+        "importance": 4,
+        "updatedAt": "2026-04-05",
+        "source": "用户显式记录"
+      },
+      {
         "title": "Step3 transcript 关键词扫描假阳性规则",
         "category": "common_pitfalls_experience",
         "categoryLabel": "通用踩坑",
@@ -7905,25 +7848,6 @@
         "source": "用户显式记录"
       },
       {
-        "title": "信息查询任务不应自动拆分为批量执行任务",
-        "category": "common_pitfalls_experience",
-        "categoryLabel": "通用踩坑",
-        "layer": "🛠️ 实践记忆层",
-        "icon": "⚠️",
-        "color": "#ef4444",
-        "description": "信息查询任务不应自动拆分为批量执行任务 问题场景 当用户询问\"有什么/列举/分类/包含哪些\"类问题时，Agent可能误判为需要逐一执行的批量...",
-        "keywords": [
-          "任务分类",
-          "信息查询",
-          "批量执行",
-          "任务规划",
-          "误判"
-        ],
-        "importance": 4,
-        "updatedAt": "2026-04-05",
-        "source": "项目记忆"
-      },
-      {
         "title": "先验后传播：平台能力判断必须深度验证后才能写入Skill系统",
         "category": "task_flow_experience",
         "categoryLabel": "通用踩坑",
@@ -8057,6 +7981,25 @@
         "source": "用户显式记录"
       },
       {
+        "title": "多Tab前端页面迭代必须全量验证所有Tab（防回归）",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "前端开发",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "🎨",
+        "color": "#f472b6",
+        "description": "多Tab/多模块前端页面：迭代时必须全量验证所有Tab（防回归） 踩坑场景（AI生产力Landing Page，2026-04-05） 用户...",
+        "keywords": [
+          "多Tab",
+          "前端验证",
+          "回归测试",
+          "Tab页面",
+          "端到端验证"
+        ],
+        "importance": 4,
+        "updatedAt": "2026-04-05",
+        "source": "项目记忆"
+      },
+      {
         "title": "多步骤长任务每Step完成后必须立即落盘检查点（防会话截断丢步骤）",
         "category": "common_pitfalls_experience",
         "categoryLabel": "通用踩坑",
@@ -8131,6 +8074,25 @@
         "importance": 4,
         "updatedAt": "2026-03-15",
         "source": "项目记忆"
+      },
+      {
+        "title": "封闭生态接入的通用桥接模式（MCP wrapper 方法论）",
+        "category": "development_practice_specification",
+        "categoryLabel": "做事方法",
+        "layer": "🧠 元认知层",
+        "icon": "⚙️",
+        "color": "#5ec4d4",
+        "description": "封闭生态接入的通用桥接模式 核心规律 封闭平台的内容不可直接抓取，但都有\"合法索引入口\"。通用接入模式： ``` 封闭平台 → 找到\"搜索引...",
+        "keywords": [
+          "封闭生态",
+          "桥接模式",
+          "MCP",
+          "索引入口",
+          "wrapper"
+        ],
+        "importance": 4,
+        "updatedAt": "2026-04-05",
+        "source": "用户显式记录"
       },
       {
         "title": "成功模式提炼：高效执行的关键条件（v2 — 含全量扫描容量匹配规则）",
@@ -8285,25 +8247,6 @@
         "source": "项目记忆"
       },
       {
-        "title": "添棋主动性承诺（精简版 v2 — SSP已废弃）",
-        "category": "task_flow_experience",
-        "categoryLabel": "做事方法",
-        "layer": "🧠 元认知层",
-        "icon": "⚙️",
-        "color": "#5ec4d4",
-        "description": "添棋主动性实践承诺（2026-03-14约定，2026-04-06精简） 四项主动性行为（核心不变） 1. 做完多走一步（交付后主动）*...",
-        "keywords": [
-          "主动性",
-          "proactive",
-          "自驱",
-          "watchdog",
-          "agenda"
-        ],
-        "importance": 4,
-        "updatedAt": "2026-04-05",
-        "source": "用户显式记录"
-      },
-      {
         "title": "添棋飞书对话基本技能：本体与对话渠道分离",
         "category": "task_flow_experience",
         "categoryLabel": "做事方法",
@@ -8456,6 +8399,25 @@
         "source": "项目记忆"
       },
       {
+        "title": "视觉迭代类任务必须前置确认对齐基准（防无效迭代循环）v3 — 含连续失败暂停分析规则",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "前端开发",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "🎨",
+        "color": "#f472b6",
+        "description": "视觉迭代类任务：必须前置确认对齐基准（防无效迭代循环） 踩坑场景A（图表对齐，2026-03-27） 用户要求生成信息结构图，需求含糊（「能...",
+        "keywords": [
+          "视觉迭代",
+          "图表对齐",
+          "前置确认",
+          "无效迭代",
+          "信息结构图"
+        ],
+        "importance": 4,
+        "updatedAt": "2026-04-05",
+        "source": "项目记忆"
+      },
+      {
         "title": "诊断推断循环收敛规则（≤3次更迭原则）v2.0 — 含外部系统随机试探强制切换规则",
         "category": "task_flow_experience",
         "categoryLabel": "做事方法",
@@ -8510,6 +8472,25 @@
         ],
         "importance": 4,
         "updatedAt": "2026-03-07",
+        "source": "项目记忆"
+      },
+      {
+        "title": "踩坑记忆召回失败模式（16类任务映射 v3 — 2026-04-06 KIM重发强化）",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "发布部署",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "🚀",
+        "color": "#4ade80",
+        "description": "踩坑记忆召回失败模式（16类任务映射） 问题 踩坑记忆存在但执行时未被召回，导致同类问题重复发生。 三层解决方案 1. 被动召回...",
+        "keywords": [
+          "记忆召回",
+          "踩坑复现",
+          "任务映射",
+          "硬编码",
+          "command_status_check"
+        ],
+        "importance": 4,
+        "updatedAt": "2026-04-05",
         "source": "项目记忆"
       },
       {
@@ -8855,6 +8836,25 @@
         "source": "项目记忆"
       },
       {
+        "title": "信息查询任务不应自动拆分为批量执行任务",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "通用踩坑",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "⚠️",
+        "color": "#ef4444",
+        "description": "信息查询任务不应自动拆分为批量执行任务 问题场景 当用户询问\"有什么/列举/分类/包含哪些\"类问题时，Agent可能误判为需要逐一执行的批量...",
+        "keywords": [
+          "任务分类",
+          "信息查询",
+          "批量执行",
+          "任务规划",
+          "误判"
+        ],
+        "importance": 3,
+        "updatedAt": "2026-04-05",
+        "source": "项目记忆"
+      },
+      {
         "title": "创作类任务的前置确认原则",
         "category": "user_communication",
         "categoryLabel": "用户偏好",
@@ -9045,6 +9045,25 @@
         "source": "用户显式记录"
       },
       {
+        "title": "添棋主动性承诺（精简版 v2 — SSP已废弃）",
+        "category": "task_flow_experience",
+        "categoryLabel": "做事方法",
+        "layer": "🧠 元认知层",
+        "icon": "⚙️",
+        "color": "#5ec4d4",
+        "description": "添棋主动性实践承诺（2026-03-14约定，2026-04-06精简） 四项主动性行为（核心不变） 1. 做完多走一步（交付后主动）*...",
+        "keywords": [
+          "主动性",
+          "proactive",
+          "自驱",
+          "watchdog",
+          "agenda"
+        ],
+        "importance": 3,
+        "updatedAt": "2026-04-05",
+        "source": "用户显式记录"
+      },
+      {
         "title": "禁止使用龙虾emoji",
         "category": "constraint_or_forbidden_rule",
         "categoryLabel": "用户约束",
@@ -9211,7 +9230,7 @@
         "source": "用户显式记录"
       }
     ],
-    "total": 136,
+    "total": 137,
     "byCategory": {
       "development_code_specification": {
         "count": 10,
@@ -9256,7 +9275,7 @@
         "description": "执行框架：怎么做，保障做事质量"
       },
       "common_pitfalls_experience": {
-        "count": 77,
+        "count": 78,
         "label": "脚本自动化",
         "icon": "⚡",
         "color": "#64748b",
@@ -9773,7 +9792,7 @@
                   "索引入口",
                   "wrapper"
                 ],
-                "importance": 5,
+                "importance": 4,
                 "updatedAt": "2026-04-05",
                 "source": "用户显式记录"
               },
@@ -9792,7 +9811,7 @@
                   "watchdog",
                   "agenda"
                 ],
-                "importance": 4,
+                "importance": 3,
                 "updatedAt": "2026-04-05",
                 "source": "用户显式记录"
               },
@@ -9980,7 +9999,7 @@
                   "分文件",
                   "截断"
                 ],
-                "importance": 5,
+                "importance": 4,
                 "updatedAt": "2026-04-05",
                 "source": "用户显式记录"
               },
@@ -10094,7 +10113,7 @@
                   "无效迭代",
                   "信息结构图"
                 ],
-                "importance": 5,
+                "importance": 4,
                 "updatedAt": "2026-04-05",
                 "source": "项目记忆"
               },
@@ -10151,7 +10170,7 @@
                   "Tab页面",
                   "端到端验证"
                 ],
-                "importance": 5,
+                "importance": 4,
                 "updatedAt": "2026-04-05",
                 "source": "项目记忆"
               },
@@ -10843,7 +10862,7 @@
                   "硬编码",
                   "command_status_check"
                 ],
-                "importance": 5,
+                "importance": 4,
                 "updatedAt": "2026-04-05",
                 "source": "项目记忆"
               },
@@ -11270,6 +11289,25 @@
                 "source": "项目记忆"
               },
               {
+                "title": "execute_command 引号/换行导致 dquote 卡死：立即切换写临时脚本再执行",
+                "category": "common_pitfalls_experience",
+                "categoryLabel": "脚本自动化",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "⚡",
+                "color": "#64748b",
+                "description": "execute_command 引号/换行陷阱：出现 cmdand/dquote 立即切换为“写临时脚本文件再执行” 现象 在 `execu...",
+                "keywords": [
+                  "execute_command",
+                  "zsh",
+                  "dquote",
+                  "heredoc",
+                  "quote"
+                ],
+                "importance": 5,
+                "updatedAt": "2026-04-13",
+                "source": "项目记忆"
+              },
+              {
                 "title": "链接时效性陷阱v2：含领域知识过期+修正流程偷懒双重问题",
                 "category": "common_pitfalls_experience",
                 "categoryLabel": "脚本自动化",
@@ -11384,7 +11422,7 @@
                 "source": "项目记忆"
               }
             ],
-            "count": 12
+            "count": 13
           },
           "通用踩坑": {
             "icon": "⚠️",
@@ -11671,7 +11709,7 @@
                   "任务规划",
                   "误判"
                 ],
-                "importance": 4,
+                "importance": 3,
                 "updatedAt": "2026-04-05",
                 "source": "项目记忆"
               },
@@ -11972,7 +12010,7 @@
             "count": 4
           }
         },
-        "count": 105
+        "count": 106
       }
     }
   },
@@ -12091,7 +12129,7 @@
       141,
       146,
       146,
-      146
+      147
     ]
   },
   "achievements": [
