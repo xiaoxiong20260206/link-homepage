@@ -1,13 +1,12 @@
 {
-  "generatedAt": "2026-04-15T06:46:19.659843",
+  "generatedAt": "2026-04-16T05:28:26.850269",
   "summary": {
     "totalDays": 30,
-    "latestDate": "2026-04-14",
-    "earliestDate": "2026-03-16"
+    "latestDate": "2026-04-15",
+    "earliestDate": "2026-03-17"
   },
   "trend": {
     "dates": [
-      "04-02",
       "04-03",
       "04-04",
       "04-05",
@@ -20,10 +19,10 @@
       "04-12",
       "04-13",
       "04-14",
-      "04-15"
+      "04-15",
+      "04-16"
     ],
     "skills": [
-      125,
       125,
       125,
       125,
@@ -36,10 +35,10 @@
       155,
       155,
       155,
-      155
+      155,
+      184
     ],
     "knowledge": [
-      292,
       292,
       292,
       292,
@@ -52,10 +51,10 @@
       306,
       307,
       307,
+      307,
       307
     ],
     "memory": [
-      126,
       127,
       128,
       128,
@@ -68,10 +67,187 @@
       146,
       146,
       147,
-      149
+      149,
+      151
     ]
   },
   "reports": [
+    {
+      "date": "2026-04-15",
+      "dayOfWeek": "周三",
+      "activeProjects": 2,
+      "totalCommits": 0,
+      "conversationCount": 8,
+      "coreProgress": [
+        "💬 完成 8 个任务: 执行ClawBook社区夜巡任务，包括全站扫描、板块检查、深度互动、帮助他人、回..., 用户想要了解刚刚安装的一批Skill有哪些，并测试这些Skill的范围和能力...",
+        "📁 项目成果: 网页更新 293 个",
+        "🧠 新增记忆: TOC 锚点导航失效：v5.0 规范理解、KIM Doc 生成任务中占位符链接未清，避免常见错误"
+      ],
+      "deliveries": [
+        {
+          "title": "ClawBook Community Night Patrol Execution",
+          "type": "conversation",
+          "goal": "执行ClawBook社区夜巡任务，包括全站扫描、板块检查、深度互动、帮助他人、回复评论和主动分享",
+          "deliverables": [],
+          "process": [
+            "完成了ClawBook社区夜巡的所有必做清单：全站扫描（热帖+新帖各20条）、逐板块检查（til、stuck、builds等7个板块）、深度互动（5次点赞+5条建设性评论）、主动分享（发布2篇高质量帖..."
+          ],
+          "tags": [
+            "community-management",
+            "clawbook",
+            "engagement",
+            "content-moderation"
+          ]
+        },
+        {
+          "title": "CodeFlicker Skills 安装与能力测试",
+          "type": "conversation",
+          "goal": "用户想要了解刚刚安装的一批Skill有哪些，并测试这些Skill的范围和能力",
+          "deliverables": [],
+          "process": [],
+          "tags": [
+            "codeflicker",
+            "skills",
+            "installation",
+            "capability-testing",
+            "agent-tools"
+          ]
+        },
+        {
+          "title": "KIM Doc Generation Image Placeholder Cleanup Analysis",
+          "type": "conversation",
+          "goal": "分析KIM Doc生成任务中占位符链接未清理的根本原因，并制定预防措施",
+          "deliverables": [],
+          "process": [],
+          "tags": [
+            "kim-docs",
+            "placeholder-cleanup",
+            "process-improvement",
+            "documentation",
+            "quality-assurance"
+          ]
+        },
+        {
+          "title": "ClawBook weekly sharing: GitHub Pages deployment and workflow monitoring",
+          "type": "conversation",
+          "goal": "完成 ClawBook 周中分享任务，从本周工作中挑选有价值的实践经验发布到社区",
+          "deliverables": [],
+          "process": [
+            "成功完成 ClawBook 周中分享任务，发布了两个高质量帖子：帖子 6313 分享 GitHub Pages 多项目部署的三个坑（路径、source配置、缓存验证）及解决方案；帖子 6314 分享多..."
+          ],
+          "tags": [
+            "clawbook",
+            "github-pages",
+            "automation",
+            "workflow",
+            "knowledge-sharing"
+          ]
+        },
+        {
+          "title": "Hermes Agent, Open Claw, and Anthropic KAIROS Deep Analysis and Comparison",
+          "type": "conversation",
+          "goal": "用户希望深入调研和分析Hermes agent、open claw、Anthropic KAIROS三个AI智能体框架，了解它们的来龙去脉并进行深度对比分析",
+          "deliverables": [],
+          "process": [
+            "用户请求对Hermes agent、Open Claw和Anthropic KAIROS进行深度调研和对比分析。对话过程中涉及了文档生成和配置问题修复，包括删除了4个占位符图片链接，保留了6张实际生成..."
+          ],
+          "tags": [
+            "ai-agents",
+            "hermes",
+            "open-claw",
+            "kairos",
+            "comparison"
+          ]
+        },
+        {
+          "title": "ClawBook Community Morning Patrol",
+          "type": "conversation",
+          "goal": "用户希望执行 ClawBook 社区晨巡任务，包括查看热帖、#til 和 #stuck 板块动态，并对有价值的帖子进行点赞和评论互动",
+          "deliverables": [],
+          "process": [
+            "通过 clawbook-api.sh 脚本查看了社区热帖 feed、#til 板块最新帖子和 #stuck 板块状态。发现 #stuck 板块被巡逻报告占据，无真实求助。对 5 个帖子点赞，发表了 4..."
+          ],
+          "tags": [
+            "community",
+            "patrol",
+            "clawbook",
+            "shell",
+            "interaction"
+          ]
+        },
+        {
+          "title": "AI Daily Report Execution and Verification",
+          "type": "conversation",
+          "goal": "运行AI日报生成工作流并验证发布结果",
+          "deliverables": [],
+          "process": [
+            "执行了AI日报生成工作流（ai_daily_orchestrator.py），完成了从搜索调研、内容生成、质量验证到部署发布的全流程。生成了包含9条新闻（海外6条/国内3条）的日报，推送至GitHub..."
+          ],
+          "tags": [
+            "ai-daily",
+            "workflow",
+            "deployment",
+            "verification"
+          ]
+        },
+        {
+          "title": "ClawBook Community Evening Patrol",
+          "type": "conversation",
+          "goal": "用户希望执行一次完整的 ClawBook 社区晚巡，包括查看 #internal-api、#builds、#evolution 板块的最新内容，并对优质内容进行点赞互动，最终生成汇总报告。",
+          "deliverables": [],
+          "process": [
+            "使用 clawbook-api.sh 脚本查看了三个板块的帖子，重点关注内网接口变更、新工具发现和进化经验学习。在 #internal-api 板块未发现实质性接口变更，说明接口环境稳定。在 #bui..."
+          ],
+          "tags": [
+            "clawbook",
+            "community",
+            "patrol",
+            "evolution",
+            "builds"
+          ]
+        }
+      ],
+      "capabilityGrowth": {
+        "skillCount": 184,
+        "knowledgeCount": 275,
+        "memoryCount": 151,
+        "skillChange": 0,
+        "knowledgeChange": 0,
+        "memoryChange": 2,
+        "newSkills": [],
+        "updatedSkills": [],
+        "newKnowledge": [],
+        "updatedKnowledge": [
+          {
+            "name": "metrics-log",
+            "category": "self-evolution"
+          }
+        ],
+        "newMemory": [
+          {
+            "title": "TOC 锚点导航失效：v5.0 规范理解偏差 + 章节锚点缺失",
+            "category": "common_pitfalls_experience"
+          },
+          {
+            "title": "KIM Doc 生成任务中占位符链接未清理（2026-04-15）",
+            "category": "common_pitfalls_experience"
+          }
+        ],
+        "updatedMemory": [],
+        "trend": "growing"
+      },
+      "skillCount": 184,
+      "knowledgeCount": 275,
+      "memoryCount": 151,
+      "skillChange": 0,
+      "knowledgeChange": 0,
+      "memoryChange": 2,
+      "highlights": [
+        "💬 完成 8 个任务: 执行ClawBook社区夜巡任务，包括全站扫描、板块检查、深度互动、帮助他人、回..., 用户想要了解刚刚安装的一批Skill有哪些，并测试这些Skill的范围和能力...",
+        "📁 项目成果: 网页更新 293 个",
+        "🧠 新增记忆: TOC 锚点导航失效：v5.0 规范理解、KIM Doc 生成任务中占位符链接未清，避免常见错误"
+      ]
+    },
     {
       "date": "2026-04-14",
       "dayOfWeek": "周二",
@@ -8278,340 +8454,6 @@
         "💬 完成 13 个任务: 用户要求以最严格的模式和最完备的流程执行每日修炼任务，并验证其执行结果的完整性和..., 尝试使用Python脚本生成研究报告封面图和彩蛋图，封面图设计要求包含30%发光......",
         "📁 项目成果: 新增: 添加***万人组织AI研发范式案例 — 三阶段演进、L1→L2→L3分级、Code",
         "⚡ 新增能力: executive-report-writing，扩展任务处理范围"
-      ]
-    },
-    {
-      "date": "2026-03-16",
-      "dayOfWeek": "周一",
-      "activeProjects": 7,
-      "totalCommits": 32,
-      "conversationCount": 12,
-      "coreProgress": [
-        "💬 完成 12 个任务: 专栏已完成EP0-EP3共4期，EP4（晋升PPT实战）是当前待写章节。后续还有..., 验证OpenClaw各场景使用量文档中数据的来源和准确性...",
-        "📁 项目成果: 文档完善 1 份",
-        "🧠 新增记忆: macOS launchd定时任务静默失等7条，避免常见错误",
-        "📚 新增 9 篇知识文档，扩展专业领域覆盖"
-      ],
-      "deliveries": [
-        {
-          "title": "AI Column Writing Progress Report",
-          "type": "conversation",
-          "goal": "完成用户任务",
-          "deliverables": [],
-          "process": [
-            "专栏已完成EP0-EP3共4期，EP4（晋升PPT实战）是当前待写章节。后续还有EP5-EP9共5期待完成，内容涵盖AI日报系统、多格式输出、自进化系统等主题。专栏使用CodeFlicker的ai-c..."
-          ],
-          "tags": [
-            "ai-column",
-            "writing-progress",
-            "content-planning",
-            "technical-writing",
-            "article-series"
-          ]
-        },
-        {
-          "title": "OpenClaw Usage Data Analysis on March 13",
-          "type": "conversation",
-          "goal": "验证OpenClaw各场景使用量文档中数据的来源和准确性",
-          "deliverables": [],
-          "process": [
-            "通过pandas分析Excel表格，验证文档中四个产品(MarioClaw/LangBridge/Klaw/KwaiClaw)的费用数据实际上是3月13日的单日数据而非周平均值。关键发现是四项费用相加..."
-          ],
-          "tags": [
-            "data-analysis",
-            "pandas",
-            "expense-tracking",
-            "excel",
-            "verification"
-          ]
-        },
-        {
-          "title": "LLM Model Resource Analysis and Documentation",
-          "type": "conversation",
-          "goal": "用户需要分析多个表格中的LLM模型使用数据，并修改相关文档的第二章节。",
-          "deliverables": [],
-          "process": [
-            "提取了sheet4-summary.csv和sheet2-resource.csv两个表格数据进行分析，其中sheet2包含Claw场景所需新增资源的详细规格和容量信息。表格存在合并单元格和空行等结构..."
-          ],
-          "tags": [
-            "llm",
-            "resource-planning",
-            "data-analysis",
-            "documentation",
-            "excel"
-          ]
-        },
-        {
-          "title": "Vercel Deployment and Text Replacement",
-          "type": "conversation",
-          "goal": "用户想要部署一个AI产品到Vercel并完成特定文本替换",
-          "deliverables": [],
-          "process": [],
-          "tags": [
-            "vercel",
-            "deployment",
-            "text-replacement",
-            "ai-product",
-            "frontend"
-          ]
-        },
-        {
-          "title": "Conversation Recap Assistant Setup",
-          "type": "conversation",
-          "goal": "用户需要配置一个对话总结助手来结构化整理对话历史",
-          "deliverables": [],
-          "process": [
-            "配置了对话总结助手的输出格式要求，包括标题、标签、用户意图和核心摘要的规范。明确了技术术语保留和语言一致性原则。"
-          ],
-          "tags": [
-            "assistant",
-            "setup",
-            "configuration",
-            "recap"
-          ]
-        },
-        {
-          "title": "ClawBook Community Daily Routine Execution",
-          "type": "conversation",
-          "goal": "执行ClawBook社区的日常管理操作，包括帖子巡查、求助板块响应、评论互动和社区活跃度维护",
-          "deliverables": [],
-          "process": [
-            "通过bash脚本完成了全站feed扫描(45条帖子)、#stuck板块求助响应(1条)、个人帖子评论管理(回复1条+点赞)，并记录3条评论+4个点赞的互动数据。重点关注了天猫精灵用户的crontab配..."
-          ],
-          "tags": [
-            "community-management",
-            "api-scripting",
-            "interaction-tracking",
-            "bash-scripting",
-            "social-platform"
-          ]
-        },
-        {
-          "title": "Testing Confirmation and Hash Verification",
-          "type": "conversation",
-          "goal": "验证测试是否成功并确认哈希值",
-          "deliverables": [],
-          "process": [
-            "系统确认测试成功并提供了一个哈希值7050c8becd89be6e79fe59d89fee149dbaa2cc1a用于验证。"
-          ],
-          "tags": [
-            "testing",
-            "verification",
-            "hash",
-            "confirmation"
-          ]
-        },
-        {
-          "title": "ClawBook community morning routine execution",
-          "type": "conversation",
-          "goal": "执行ClawBook社区晨巡任务，包括查看热帖、板块内容并进行互动",
-          "deliverables": [],
-          "process": [
-            "通过clawbook-api.sh脚本完成了：1) 获取社区热帖10条并点赞；2) 查看#til板块最新10条帖子；3) 检查#stuck板块无新求助；4) 对Frank的技术帖进行了点赞和评论互动。..."
-          ],
-          "tags": [
-            "clawbook",
-            "community interaction",
-            "bash scripting",
-            "monitoring",
-            "engagement"
-          ]
-        }
-      ],
-      "capabilityGrowth": {
-        "skillCount": 77,
-        "knowledgeCount": 205,
-        "memoryCount": 132,
-        "skillChange": 0,
-        "knowledgeChange": 3,
-        "memoryChange": 7,
-        "newSkills": [],
-        "updatedSkills": [
-          {
-            "name": "skill-dojo",
-            "description": "\"技能修炼 — 技能生命周期的第四阶段（发现→创建→评估→修炼）。触发词：'技能修炼'、'技能评测'、'跑一下技能测试'"
-          },
-          {
-            "name": "learn-from-mistakes",
-            "description": "\"举一反三 — 双轮驱动之一，自进化引擎的即时复盘能力。触发词：'复盘'、'举一反三'、'总结这个问题'、'这次做得好'"
-          },
-          {
-            "name": "skill-management",
-            "description": "\"技能优化 — 系统优化工具之一，被内功修炼调用。触发词：'优化技能体系'、'技能优化'、'检查技能健康度'。核心职责："
-          },
-          {
-            "name": "beiming-shengong",
-            "description": "\"北冥神功 — 三大功法之一，自进化引擎的能力导出能力。触发词：'北冥神功'、'导出能力'、'能力打包'、'安装能力包'"
-          },
-          {
-            "name": "clawbook",
-            "description": ">"
-          },
-          {
-            "name": "essence-insight",
-            "description": "This skill should be used when the user asks about \"本质\", \"为什"
-          },
-          {
-            "name": "meta-execution",
-            "description": "This skill should be used automatically when receiving any t"
-          },
-          {
-            "name": "link-homepage",
-            "description": "|"
-          },
-          {
-            "name": "xixingdafa",
-            "description": "\"吸星大法 — 三大功法之一，自进化引擎的外部吸收能力。触发词：'吸星大法'、'吸收外部技能'、'学习外部最佳实践'、'"
-          },
-          {
-            "name": "xlsx",
-            "description": "\"Use this skill any time a spreadsheet file is the primary i"
-          },
-          {
-            "name": "pdf",
-            "description": "Use this skill whenever the user wants to do anything with P"
-          },
-          {
-            "name": "find-skills",
-            "description": "\"技能发现 — 技能生命周期的第一阶段。双源搜索 + 主动巡检。模式A: 用户触发搜索（找技能, 搜索技能, ClawH"
-          },
-          {
-            "name": "agent-session-controller",
-            "description": "Agent会话控制技能 — 通过Duet Protocol External API程序化控制AI会话。触发词：'控制a"
-          },
-          {
-            "name": "daily-reflection-evolution",
-            "description": "\"闭关修炼 — 自进化引擎的核心能力之一，每日运转的进化流水线。触发词：'每日修炼'、'闭关修炼'、'运行每日任务'、'"
-          },
-          {
-            "name": "memory-hygiene",
-            "description": "\"记忆优化 — 系统优化工具之一，被内功修炼调用。触发词：'检查记忆健康度'、'记忆优化'、'记忆清理'。核心职责：记忆"
-          },
-          {
-            "name": "skill-creator",
-            "description": "\"技能创建 — 技能生命周期的第二阶段（发现→创建→评估→修炼）。触发词：'创建技能'、'新建技能'、'写个技能'。核心"
-          },
-          {
-            "name": "pptx",
-            "description": "\"Use this skill any time a .pptx file is involved in any way"
-          },
-          {
-            "name": "neigong-cultivation",
-            "description": "\"内功修炼 — 双轮驱动之一，自进化引擎的深度修炼能力。触发词：'内功修炼'、'三位一体优化'、'优化3棵树'、'记忆瘦"
-          },
-          {
-            "name": "proactive-agent",
-            "description": "\"主动自驱 — 自进化引擎的核心能力之一，让引擎自己动起来。触发词：'主动自驱'、'定时任务'、'自动调度'、'SSP'"
-          },
-          {
-            "name": "xiaowuxianggong",
-            "description": "\"小无相功 — 自进化引擎的进化导航器。触发词：'小无相功'、'进化全景'、'周检'、'月检'、'查看进化状态'。作为三"
-          },
-          {
-            "name": "knowledge-curator",
-            "description": "\"知识优化 — 系统优化工具之一，被内功修炼调用。触发词：'检查知识库'、'知识优化'、'整理知识'。核心职责：知识树的"
-          },
-          {
-            "name": "docx",
-            "description": "\"Use this skill whenever the user wants to create, read, edi"
-          }
-        ],
-        "newKnowledge": [
-          {
-            "name": "AI产品终极形态_CTO汇报",
-            "category": "root"
-          },
-          {
-            "name": "AI产品终极形态论证_AgentCore架构",
-            "category": "root"
-          },
-          {
-            "name": "AI产品终极形态论证_完整推演",
-            "category": "root"
-          },
-          {
-            "name": "AI产品终极形态论证_AgentCore架构_更新",
-            "category": "root"
-          },
-          {
-            "name": "README",
-            "category": "root"
-          },
-          {
-            "name": "Barry_Zhang_Anthropic_思想体系总结",
-            "category": "root"
-          },
-          {
-            "name": "skill-training-report-2026-03-16",
-            "category": "self-evolution"
-          },
-          {
-            "name": "beiming-shengong-2026-03-16",
-            "category": "self-evolution"
-          },
-          {
-            "name": "beiming-shengong-2026-03-16-r2",
-            "category": "self-evolution"
-          }
-        ],
-        "updatedKnowledge": [
-          {
-            "name": "metrics-log",
-            "category": "self-evolution"
-          }
-        ],
-        "newMemory": [
-          {
-            "title": "macOS launchd定时任务静默失效的诊断与修复",
-            "category": "common_pitfalls_experience"
-          },
-          {
-            "title": "Agent定时任务假完成陷阱（状态标记≠实际执行）",
-            "category": "common_pitfalls_experience"
-          },
-          {
-            "title": "数据源有淘汰策略时\"全量重扫\"统计架构的数据丢失陷阱",
-            "category": "common_pitfalls_experience"
-          },
-          {
-            "title": "统计口径扩展三问法（检测模式完整性检查）",
-            "category": "common_pitfalls_experience"
-          },
-          {
-            "title": "GitHub Pages 部署验证：等待延迟 + 多 workflow 诊断",
-            "category": "common_pitfalls_experience"
-          },
-          {
-            "title": "AI日报修复策略陷阱：删减≠修复（经验37）",
-            "category": "common_pitfalls_experience"
-          },
-          {
-            "title": "最后一公里松懈：KIM推送≠任务完成（经验38）",
-            "category": "common_pitfalls_experience"
-          }
-        ],
-        "updatedMemory": [
-          {
-            "title": "AI助手\"AI助手\"身份信息",
-            "category": "user_info"
-          },
-          {
-            "title": "中文全角引号导致JavaScript/Node代码语法错误",
-            "category": "development_code_specification"
-          }
-        ],
-        "trend": "growing"
-      },
-      "skillCount": 77,
-      "knowledgeCount": 205,
-      "memoryCount": 132,
-      "skillChange": 0,
-      "knowledgeChange": 3,
-      "memoryChange": 7,
-      "highlights": [
-        "💬 完成 12 个任务: 专栏已完成EP0-EP3共4期，EP4（晋升PPT实战）是当前待写章节。后续还有..., 验证OpenClaw各场景使用量文档中数据的来源和准确性...",
-        "📁 项目成果: 文档完善 1 份",
-        "🧠 新增记忆: macOS launchd定时任务静默失等7条，避免常见错误"
       ]
     }
   ]
