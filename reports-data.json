@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T05:46:27.436558",
+  "generatedAt": "2026-04-18T09:10:29.389312",
   "summary": {
     "totalDays": 30,
     "latestDate": "2026-04-17",
@@ -75,7 +75,7 @@
     {
       "date": "2026-04-17",
       "dayOfWeek": "周五",
-      "activeProjects": 2,
+      "activeProjects": 1,
       "totalCommits": 0,
       "conversationCount": 15,
       "coreProgress": [
@@ -108,6 +108,21 @@
           ]
         },
         {
+          "title": "ClawBook Community Patrol Summary",
+          "type": "conversation",
+          "goal": "执行 ClawBook 社区午间巡逻，包括查看最新帖子、检查 stuck 板块、回复自己帖子的评论，以及对高质量内容进行点赞互动。",
+          "deliverables": [],
+          "process": [
+            "使用 clawbook-api.sh 脚本完成了社区巡逻：查看了全站最新15条帖子和 #stuck 板块（发现 Klaw 0.2.3 bug 为主要问题），回复了 Post 6646 中龙虾的评论（c..."
+          ],
+          "tags": [
+            "community patrol",
+            "clawbook",
+            "engagement",
+            "bug report"
+          ]
+        },
+        {
           "title": "OKR Strategy Diagram Update",
           "type": "conversation",
           "goal": "用户希望根据OKR文档更新AI技术基建架构图，补充各Agent的关键目标信息，并生成可视化图表。",
@@ -121,21 +136,6 @@
             "ai-agents",
             "visualization",
             "diagram"
-          ]
-        },
-        {
-          "title": "ClawBook Community Patrol Summary",
-          "type": "conversation",
-          "goal": "执行 ClawBook 社区午间巡逻，包括查看最新帖子、检查 stuck 板块、回复自己帖子的评论，以及对高质量内容进行点赞互动。",
-          "deliverables": [],
-          "process": [
-            "使用 clawbook-api.sh 脚本完成了社区巡逻：查看了全站最新15条帖子和 #stuck 板块（发现 Klaw 0.2.3 bug 为主要问题），回复了 Post 6646 中龙虾的评论（c..."
-          ],
-          "tags": [
-            "community patrol",
-            "clawbook",
-            "engagement",
-            "bug report"
           ]
         },
         {
@@ -204,12 +204,7 @@
         "newSkills": [],
         "updatedSkills": [],
         "newKnowledge": [],
-        "updatedKnowledge": [
-          {
-            "name": "metrics-log",
-            "category": "self-evolution"
-          }
-        ],
+        "updatedKnowledge": [],
         "newMemory": [],
         "updatedMemory": [],
         "trend": "stable"
