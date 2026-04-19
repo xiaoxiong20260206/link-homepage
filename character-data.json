@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T08:40:52.187879",
+  "generatedAt": "2026-04-20T06:23:32.074610",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -132,14 +132,14 @@
         "desc": "知道的越来越多"
       }
     ],
-    "totalExp": 337490,
-    "expProgress": 58.4,
+    "totalExp": 337440,
+    "expProgress": 58.3,
     "currentThreshold": 320393,
     "nextThreshold": 349649,
     "stats": {
-      "understanding": 83.8,
+      "understanding": 83.9,
       "execution": 52.5,
-      "skillDepth": 85.3,
+      "skillDepth": 85.2,
       "thinkingDepth": 38.0,
       "knowledgeBreadth": 61.2
     },
@@ -152,14 +152,14 @@
         "ctr": 0
       },
       "activeSkills": 151,
-      "highLevelSkills": 151,
-      "skillTotalValue": 2884.4,
+      "highLevelSkills": 150,
+      "skillTotalValue": 2886.2,
       "cultivationExp": 0,
-      "baseExp": 337490,
+      "baseExp": 337440,
       "expBreakdown": {
-        "understanding": 83800,
+        "understanding": 83900,
         "execution": 52500,
-        "skill": 127950,
+        "skill": 127800,
         "thinking": 30400,
         "knowledge": 42840,
         "cultivation": 0
@@ -395,7 +395,7 @@
             "description": "技能发现。帮助用户发现和安装可扩展的Agent技能",
             "lastUpdated": "2026-04-07",
             "callCount": 93,
-            "frequency": "3.6次/周",
+            "frequency": "3.7次/周",
             "successRate": 95,
             "sourceType": "自定义",
             "skillSize": 33885,
@@ -808,7 +808,7 @@
             "description": "AI行业洞察平台专属技能。当用户明确提到'AI洞察'、'AI日报'、'AI行业周报'或执行AI行业调研任务时使用。核心场景：生成AI行业日报/周报、追踪AI公司/人物、沉淀AI行业知识、管理AI信息源。即使用户只是说'跑一下日报'或'今天AI有什么动态'，只要上下文是AI行业相关，也应该触发。注意：本技能仅处理AI行业领域，研发效能相关请使用 sl-rd-efficiency-insight",
             "lastUpdated": "2026-04-09",
             "callCount": 124,
-            "frequency": "2.8次/周",
+            "frequency": "2.9次/周",
             "successRate": 95,
             "sourceType": "自定义",
             "skillSize": 161385,
@@ -863,8 +863,8 @@
             "displayName": "基金追踪",
             "displayRole": "持仓管理",
             "source": "林克核心能力",
-            "level": 3,
-            "exp": 57,
+            "level": 2,
+            "exp": 49,
             "description": "沈浪投资理财追踪技能。触发词：投资、理财、基金、持仓、加仓、减仓、止盈、止损、定投、投资组合、净值、收益、回撤、我的基金、基金追踪。核心职责：长期追踪用户的基金/ETF投资组合，提供定期绩效分析、操作评估和策略建议。沈浪个人定制技能，属于 SL 前缀系列。注意：如果是分析美股/加密货币市场数据，请使用 stock-analysis 技能。",
             "lastUpdated": "2026-03-19",
             "callCount": 5,
@@ -898,7 +898,7 @@
           }
         ],
         "count": 2,
-        "avgLevel": 3.0
+        "avgLevel": 2.5
       },
       "AI生产力战役": {
         "role": "ai-productivity",
@@ -1770,7 +1770,7 @@
             "description": "信息图生成。21种布局+20种视觉风格，分析内容并推荐最佳组合，一键生成专业信息图",
             "lastUpdated": "2026-03-21",
             "callCount": 7,
-            "frequency": "1次/月",
+            "frequency": "2次/月",
             "successRate": 90,
             "sourceType": "自定义",
             "skillSize": 73335,
@@ -1891,7 +1891,7 @@
             "displayRole": "KIM机器人",
             "source": "林克核心能力",
             "level": 5,
-            "exp": 93,
+            "exp": 85,
             "description": "This skill should be used when the user mentions \"林克发消息\", \"林克推送\", \"KIM消息\", \"林克机器人\", \"MixCard\", \"群消息推送\", \"林克卡片\", \"AI日报推送\", \"AI周报推送\", or needs to send messages through KIM using Link (林克) AI Assistant.",
             "lastUpdated": "2026-03-19",
             "callCount": 92,
@@ -2296,8 +2296,8 @@
             "exp": 75,
             "description": "AI图片生成。调用外部AI生图API（Siliconflow/OpenAI），支持文生图和图生图",
             "lastUpdated": "2026-04-17",
-            "callCount": 31,
-            "frequency": "2.4次/周",
+            "callCount": 32,
+            "frequency": "2.5次/周",
             "successRate": 93,
             "sourceType": "自定义",
             "skillSize": 88402,
@@ -2411,7 +2411,7 @@
             "description": "HTML截图原子技能 — 将HTML渲染为高清PNG截图。触发词：HTML截图、生成PNG、HTML转图片、截图配图、章节配图。自动适配固定高度和动态高度两种模式，支持KIM Doc配图、调研报告图表等场景。",
             "lastUpdated": "2026-04-16",
             "callCount": 114,
-            "frequency": "1.0次/天",
+            "frequency": "1.1次/天",
             "successRate": 95,
             "sourceType": "自定义",
             "skillSize": 28444714,
@@ -2881,7 +2881,7 @@
             "description": "ClawBook 社区 Skill — 连接你与其他 Claw 的社区。通过这个 Skill，你可以在 ClawBook 社区发帖分享经验、评论讨论、投票表态、浏览 Feed 获取灵感。当你完成了一个有趣的任务、学到了新知识、遇到了难题、想分享工作流、或者只是想看看其他 Claw 在做什么时，都应该使用这个 Skill。这是你与数万个 Claw 交流、学习、共同进化的唯一通道。",
             "lastUpdated": "2026-03-27",
             "callCount": 63,
-            "frequency": "3.5次/周",
+            "frequency": "3.6次/周",
             "successRate": 95,
             "sourceType": "自定义",
             "skillSize": 76265,
@@ -3299,7 +3299,7 @@
             "exp": 66,
             "description": "本技能用于调用万擎内部API进行文生图。以下场景唤醒：用户说\"生成图片\"、\"文生图\"、\"画图\"、\"AI绘图\"、\"generate image\"、\"image generation\"、\"做一张图\"、\"生成架构图\"、\"生成流程图\"、\"生成信息图\"。以下场景不唤醒：用户讨论图片编辑、图生图、上传图片等非文生图场景。",
             "lastUpdated": "2026-04-17",
-            "callCount": 5,
+            "callCount": 6,
             "frequency": "2次/月",
             "successRate": 90,
             "sourceType": "自定义",
@@ -3907,7 +3907,7 @@
                 "description": "技能发现。帮助用户发现和安装可扩展的Agent技能",
                 "lastUpdated": "2026-04-07",
                 "callCount": 93,
-                "frequency": "3.6次/周",
+                "frequency": "3.7次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
                 "skillSize": 33885,
@@ -4327,7 +4327,7 @@
                 "description": "AI行业洞察平台专属技能。当用户明确提到'AI洞察'、'AI日报'、'AI行业周报'或执行AI行业调研任务时使用。核心场景：生成AI行业日报/周报、追踪AI公司/人物、沉淀AI行业知识、管理AI信息源。即使用户只是说'跑一下日报'或'今天AI有什么动态'，只要上下文是AI行业相关，也应该触发。注意：本技能仅处理AI行业领域，研发效能相关请使用 sl-rd-efficiency-insight",
                 "lastUpdated": "2026-04-09",
                 "callCount": 124,
-                "frequency": "2.8次/周",
+                "frequency": "2.9次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
                 "skillSize": 161385,
@@ -4380,8 +4380,8 @@
                 "displayName": "基金追踪",
                 "displayRole": "持仓管理",
                 "source": "林克核心能力",
-                "level": 3,
-                "exp": 57,
+                "level": 2,
+                "exp": 49,
                 "description": "沈浪投资理财追踪技能。触发词：投资、理财、基金、持仓、加仓、减仓、止盈、止损、定投、投资组合、净值、收益、回撤、我的基金、基金追踪。核心职责：长期追踪用户的基金/ETF投资组合，提供定期绩效分析、操作评估和策略建议。沈浪个人定制技能，属于 SL 前缀系列。注意：如果是分析美股/加密货币市场数据，请使用 stock-analysis 技能。",
                 "lastUpdated": "2026-03-19",
                 "callCount": 5,
@@ -4415,7 +4415,7 @@
               }
             ],
             "count": 2,
-            "avgLevel": 3.0
+            "avgLevel": 2.5
           },
           "AI生产力战役": {
             "role": "ai-productivity",
@@ -4448,7 +4448,7 @@
           }
         },
         "count": 5,
-        "avgLevel": 3.4
+        "avgLevel": 3.2
       },
       "execution": {
         "name": "🛠️ 执行技能层",
@@ -5291,7 +5291,7 @@
                 "description": "信息图生成。21种布局+20种视觉风格，分析内容并推荐最佳组合，一键生成专业信息图",
                 "lastUpdated": "2026-03-21",
                 "callCount": 7,
-                "frequency": "1次/月",
+                "frequency": "2次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
                 "skillSize": 73335,
@@ -5411,7 +5411,7 @@
                 "displayRole": "KIM机器人",
                 "source": "林克核心能力",
                 "level": 5,
-                "exp": 93,
+                "exp": 85,
                 "description": "This skill should be used when the user mentions \"林克发消息\", \"林克推送\", \"KIM消息\", \"林克机器人\", \"MixCard\", \"群消息推送\", \"林克卡片\", \"AI日报推送\", \"AI周报推送\", or needs to send messages through KIM using Link (林克) AI Assistant.",
                 "lastUpdated": "2026-03-19",
                 "callCount": 92,
@@ -5814,8 +5814,8 @@
                 "exp": 75,
                 "description": "AI图片生成。调用外部AI生图API（Siliconflow/OpenAI），支持文生图和图生图",
                 "lastUpdated": "2026-04-17",
-                "callCount": 31,
-                "frequency": "2.4次/周",
+                "callCount": 32,
+                "frequency": "2.5次/周",
                 "successRate": 93,
                 "sourceType": "自定义",
                 "skillSize": 88402,
@@ -5929,7 +5929,7 @@
                 "description": "HTML截图原子技能 — 将HTML渲染为高清PNG截图。触发词：HTML截图、生成PNG、HTML转图片、截图配图、章节配图。自动适配固定高度和动态高度两种模式，支持KIM Doc配图、调研报告图表等场景。",
                 "lastUpdated": "2026-04-16",
                 "callCount": 114,
-                "frequency": "1.0次/天",
+                "frequency": "1.1次/天",
                 "successRate": 95,
                 "sourceType": "自定义",
                 "skillSize": 28444714,
@@ -6396,7 +6396,7 @@
                 "description": "ClawBook 社区 Skill — 连接你与其他 Claw 的社区。通过这个 Skill，你可以在 ClawBook 社区发帖分享经验、评论讨论、投票表态、浏览 Feed 获取灵感。当你完成了一个有趣的任务、学到了新知识、遇到了难题、想分享工作流、或者只是想看看其他 Claw 在做什么时，都应该使用这个 Skill。这是你与数万个 Claw 交流、学习、共同进化的唯一通道。",
                 "lastUpdated": "2026-03-27",
                 "callCount": 63,
-                "frequency": "3.5次/周",
+                "frequency": "3.6次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
                 "skillSize": 76265,
@@ -6813,7 +6813,7 @@
                 "exp": 66,
                 "description": "本技能用于调用万擎内部API进行文生图。以下场景唤醒：用户说\"生成图片\"、\"文生图\"、\"画图\"、\"AI绘图\"、\"generate image\"、\"image generation\"、\"做一张图\"、\"生成架构图\"、\"生成流程图\"、\"生成信息图\"。以下场景不唤醒：用户讨论图片编辑、图生图、上传图片等非文生图场景。",
                 "lastUpdated": "2026-04-17",
-                "callCount": 5,
+                "callCount": 6,
                 "frequency": "2次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
@@ -7471,7 +7471,7 @@
           "thinking_pattern"
         ],
         "fileCount": 26,
-        "sizeKB": 197.0,
+        "sizeKB": 197.1,
         "heatLevel": 5,
         "recentCount": 3
       },
@@ -7551,7 +7551,7 @@
               "thinking_pattern"
             ],
             "fileCount": 26,
-            "sizeKB": 197.0,
+            "sizeKB": 197.1,
             "heatLevel": 5,
             "recentCount": 3
           },
@@ -7574,7 +7574,7 @@
           }
         },
         "totalFiles": 167,
-        "totalSizeKB": 1124.6
+        "totalSizeKB": 1124.7
       },
       "🔍 领域知识层": {
         "icon": "🔍",
@@ -7671,28 +7671,28 @@
       }
     },
     "totalFiles": 307,
-    "totalSizeKB": 2318.7
+    "totalSizeKB": 2318.8
   },
   "memories": {
     "items": [
       {
-        "title": "ClawBook bash脚本blank output循环陷阱：2次空输出后立即切换直接API调用（经验#73）",
-        "category": "common_pitfalls_experience",
-        "categoryLabel": "脚本自动化",
+        "title": "AI生图的视觉锚点意识：图不是装饰品",
+        "category": "task_flow_experience",
+        "categoryLabel": "通用踩坑",
         "layer": "🛠️ 实践记忆层",
-        "icon": "⚡",
-        "color": "#64748b",
-        "description": "ClawBook bash脚本blank output循环陷阱（2026-04-11） 现象 执行ClawBook社区夜巡时，通过 `bas...",
+        "icon": "⚠️",
+        "color": "#ef4444",
+        "description": "场景：AI生图任务，尤其是\"部门定位\"、\"战略逻辑\"类信息图 核心原则： AI生图的价值不仅是\"美化\"，而是降低读者的认知负荷——...",
         "keywords": [
-          "ClawBook",
-          "bash脚本",
-          "blank output",
-          "空输出",
-          "控制字符"
+          "AI生图",
+          "视觉锚点",
+          "信息图",
+          "认知负荷",
+          "扫描路径"
         ],
         "importance": 5,
-        "updatedAt": "2026-04-11",
-        "source": "用户显式记录"
+        "updatedAt": "2026-04-19",
+        "source": "项目记忆"
       },
       {
         "title": "KIM Doc 生成任务中占位符链接未清理（2026-04-15）",
@@ -7750,6 +7750,25 @@
         "importance": 5,
         "updatedAt": "2026-04-15",
         "source": "用户显式记录"
+      },
+      {
+        "title": "Write-Read路径不对称陷阱：修改位置≠部署读取位置（v2 — 补充AI-Insight双文件同步规范）",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "前端开发",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "🎨",
+        "color": "#f472b6",
+        "description": "Write-Read 路径不对称陷阱 核心问题 \"我在 A 处写了\" ≠ \"系统从 A 处读\" 修改了文件，推送成功，线上却没变化—...",
+        "keywords": [
+          "Write-Read",
+          "路径不对称",
+          "GitHub Pages",
+          "source配置",
+          "public目录"
+        ],
+        "importance": 5,
+        "updatedAt": "2026-04-19",
+        "source": "项目记忆"
       },
       {
         "title": "execute_command 引号/换行导致 dquote 卡死：立即切换写临时脚本再执行",
@@ -7882,6 +7901,63 @@
         ],
         "importance": 5,
         "updatedAt": "2026-04-16",
+        "source": "项目记忆"
+      },
+      {
+        "title": "浏览器前端 OAuth + Appwrite SDK 三合一陷阱（回调URL/包名/ESM裸模块）",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "前端开发",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "🎨",
+        "color": "#f472b6",
+        "description": "浏览器前端OAuth + Appwrite SDK 三合一陷阱 触发场景：2026-04-19，AI-Insight 订阅页（GitHub ...",
+        "keywords": [
+          "Appwrite",
+          "OAuth",
+          "SSO",
+          "回调URL",
+          "@codeflicker/appwrite"
+        ],
+        "importance": 5,
+        "updatedAt": "2026-04-19",
+        "source": "项目记忆"
+      },
+      {
+        "title": "部门介绍文档的信息优先级：业务价值优先于组织结构",
+        "category": "task_flow_experience",
+        "categoryLabel": "通用踩坑",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "⚠️",
+        "color": "#ef4444",
+        "description": "场景：撰写部门介绍类文档 核心原则： 部门介绍的信息优先级 = 业务价值（OKR）> 组织结构 > 历史背景 信息占比黄金公式...",
+        "keywords": [
+          "信息优先级",
+          "章节顺序",
+          "部门介绍",
+          "OKR优先",
+          "提问式标题"
+        ],
+        "importance": 5,
+        "updatedAt": "2026-04-19",
+        "source": "项目记忆"
+      },
+      {
+        "title": "部门介绍类文档的黄金公式",
+        "category": "task_flow_experience",
+        "categoryLabel": "通用踩坑",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "⚠️",
+        "color": "#ef4444",
+        "description": "场景：为技术部门撰写\"了解xxx\"类介绍文档 黄金公式： 1. 图文配比 = 一级章节数 - 1 - 首页（00）可选配主题图...",
+        "keywords": [
+          "部门介绍",
+          "OKR",
+          "图文配比",
+          "信息分层",
+          "视觉锚点"
+        ],
+        "importance": 5,
+        "updatedAt": "2026-04-19",
         "source": "项目记忆"
       },
       {
@@ -8398,6 +8474,25 @@
         "source": "项目记忆"
       },
       {
+        "title": "ClawBook bash脚本blank output循环陷阱：2次空输出后立即切换直接API调用（经验#73）",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "脚本自动化",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "⚡",
+        "color": "#64748b",
+        "description": "ClawBook bash脚本blank output循环陷阱（2026-04-11） 现象 执行ClawBook社区夜巡时，通过 `bas...",
+        "keywords": [
+          "ClawBook",
+          "bash脚本",
+          "blank output",
+          "空输出",
+          "控制字符"
+        ],
+        "importance": 4,
+        "updatedAt": "2026-04-11",
+        "source": "用户显式记录"
+      },
+      {
         "title": "ClawBook 社区账号强制规则：永远使用林克（ID=8，token-8）v2 — 防护失效教训",
         "category": "common_pitfalls_experience",
         "categoryLabel": "文档处理",
@@ -8664,25 +8759,6 @@
         "source": "用户显式记录"
       },
       {
-        "title": "Write-Read路径不对称陷阱：修改位置≠部署读取位置",
-        "category": "common_pitfalls_experience",
-        "categoryLabel": "前端开发",
-        "layer": "🛠️ 实践记忆层",
-        "icon": "🎨",
-        "color": "#f472b6",
-        "description": "Write-Read 路径不对称陷阱 核心问题 \"我在 A 处写了\" ≠ \"系统从 A 处读\" 修改了文件，推送成功，线上却没变化—...",
-        "keywords": [
-          "Write-Read",
-          "路径不对称",
-          "GitHub Pages",
-          "source配置",
-          "public目录"
-        ],
-        "importance": 4,
-        "updatedAt": "2026-04-06",
-        "source": "项目记忆"
-      },
-      {
         "title": "agent-trigger.sh 调用 run_agent_round 前必须初始化 _LIB_LOG_FILE（经验#69）",
         "category": "common_pitfalls_experience",
         "categoryLabel": "通用踩坑",
@@ -8737,25 +8813,6 @@
         ],
         "importance": 4,
         "updatedAt": "2026-03-22",
-        "source": "项目记忆"
-      },
-      {
-        "title": "frontend-cloud 部署必须用 frontend-cloud-cli，不能靠 git push",
-        "category": "development_practice_specification",
-        "categoryLabel": "前端开发",
-        "layer": "🛠️ 实践记忆层",
-        "icon": "🎨",
-        "color": "#f472b6",
-        "description": "AI-Productivity / ks-ai-productivity-landing 项目部署到 frontend-cloud 的正确方式： ```b...",
-        "keywords": [
-          "frontend-cloud",
-          "deploy",
-          "cli",
-          "landing",
-          "快手-ai-productivity"
-        ],
-        "importance": 4,
-        "updatedAt": "2026-04-11",
         "source": "项目记忆"
       },
       {
@@ -9367,6 +9424,24 @@
         "source": "用户显式记录"
       },
       {
+        "title": "提问式标题：以读者为中心的章节命名",
+        "category": "task_flow_experience",
+        "categoryLabel": "通用踩坑",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "⚠️",
+        "color": "#ef4444",
+        "description": "场景：为文档章节起标题 核心原则： 章节标题应该回答读者的\"第一问\"——\"这一章我能看到什么？\"而非\"这章叫什么名字？\" 对比示例...",
+        "keywords": [
+          "提问式标题",
+          "章节标题",
+          "以读者为中心",
+          "信息优先级"
+        ],
+        "importance": 4,
+        "updatedAt": "2026-04-19",
+        "source": "项目记忆"
+      },
+      {
         "title": "文字规范≠执行保障：规范落地必须双轨（文档+代码门控）",
         "category": "common_pitfalls_experience",
         "categoryLabel": "发布部署",
@@ -9421,6 +9496,24 @@
         ],
         "importance": 4,
         "updatedAt": "2026-03-09",
+        "source": "项目记忆"
+      },
+      {
+        "title": "术语敏感度：主动学习组织的内部叫法",
+        "category": "task_flow_experience",
+        "categoryLabel": "通用踩坑",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "⚠️",
+        "color": "#ef4444",
+        "description": "场景：为特定组织/项目撰写文档 核心原则： 每个组织都有内部术语体系，AI必须主动学习，不能假设通用叫法。 术语敏感度三问...",
+        "keywords": [
+          "术语",
+          "品牌名",
+          "内部术语",
+          "技术细节泄漏"
+        ],
+        "importance": 4,
+        "updatedAt": "2026-04-19",
         "source": "项目记忆"
       },
       {
@@ -10070,6 +10163,25 @@
         "source": "用户显式记录"
       },
       {
+        "title": "frontend-cloud 部署必须用 frontend-cloud-cli，不能靠 git push",
+        "category": "development_practice_specification",
+        "categoryLabel": "前端开发",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "🎨",
+        "color": "#f472b6",
+        "description": "AI-Productivity / ks-ai-productivity-landing 项目部署到 frontend-cloud 的正确方式： ```b...",
+        "keywords": [
+          "frontend-cloud",
+          "deploy",
+          "cli",
+          "landing",
+          "快手-ai-productivity"
+        ],
+        "importance": 3,
+        "updatedAt": "2026-04-11",
+        "source": "项目记忆"
+      },
+      {
         "title": "pathlib rglob/glob 不跟踪软链接（需用os.walk）",
         "category": "development_practice_specification",
         "categoryLabel": "通用踩坑",
@@ -10596,7 +10708,7 @@
         "source": "用户显式记录"
       }
     ],
-    "total": 144,
+    "total": 150,
     "byCategory": {
       "development_code_specification": {
         "count": 10,
@@ -10620,7 +10732,7 @@
         "description": "沟通风格、做事偏好、兴趣爱好"
       },
       "task_flow_experience": {
-        "count": 20,
+        "count": 25,
         "label": "通用踩坑",
         "icon": "⚠️",
         "color": "#ef4444",
@@ -10641,7 +10753,7 @@
         "description": "执行框架：怎么做，保障做事质量"
       },
       "common_pitfalls_experience": {
-        "count": 82,
+        "count": 83,
         "label": "脚本自动化",
         "icon": "⚡",
         "color": "#64748b",
@@ -11579,7 +11691,7 @@
                 "source": "项目记忆"
               },
               {
-                "title": "Write-Read路径不对称陷阱：修改位置≠部署读取位置",
+                "title": "Write-Read路径不对称陷阱：修改位置≠部署读取位置（v2 — 补充AI-Insight双文件同步规范）",
                 "category": "common_pitfalls_experience",
                 "categoryLabel": "前端开发",
                 "layer": "🛠️ 实践记忆层",
@@ -11593,8 +11705,8 @@
                   "source配置",
                   "public目录"
                 ],
-                "importance": 4,
-                "updatedAt": "2026-04-06",
+                "importance": 5,
+                "updatedAt": "2026-04-19",
                 "source": "项目记忆"
               },
               {
@@ -11709,6 +11821,25 @@
                 ],
                 "importance": 5,
                 "updatedAt": "2026-04-16",
+                "source": "项目记忆"
+              },
+              {
+                "title": "浏览器前端 OAuth + Appwrite SDK 三合一陷阱（回调URL/包名/ESM裸模块）",
+                "category": "common_pitfalls_experience",
+                "categoryLabel": "前端开发",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "🎨",
+                "color": "#f472b6",
+                "description": "浏览器前端OAuth + Appwrite SDK 三合一陷阱 触发场景：2026-04-19，AI-Insight 订阅页（GitHub ...",
+                "keywords": [
+                  "Appwrite",
+                  "OAuth",
+                  "SSO",
+                  "回调URL",
+                  "@codeflicker/appwrite"
+                ],
+                "importance": 5,
+                "updatedAt": "2026-04-19",
                 "source": "项目记忆"
               },
               {
@@ -12258,12 +12389,12 @@
                   "landing",
                   "快手-ai-productivity"
                 ],
-                "importance": 4,
+                "importance": 3,
                 "updatedAt": "2026-04-11",
                 "source": "项目记忆"
               }
             ],
-            "count": 50
+            "count": 51
           },
           "发布部署": {
             "icon": "🚀",
@@ -12669,7 +12800,7 @@
                   "空输出",
                   "控制字符"
                 ],
-                "importance": 5,
+                "importance": 4,
                 "updatedAt": "2026-04-11",
                 "source": "用户显式记录"
               },
@@ -13326,6 +13457,99 @@
                 "source": "项目记忆"
               },
               {
+                "title": "部门介绍类文档的黄金公式",
+                "category": "task_flow_experience",
+                "categoryLabel": "通用踩坑",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "⚠️",
+                "color": "#ef4444",
+                "description": "场景：为技术部门撰写\"了解xxx\"类介绍文档 黄金公式： 1. 图文配比 = 一级章节数 - 1 - 首页（00）可选配主题图...",
+                "keywords": [
+                  "部门介绍",
+                  "OKR",
+                  "图文配比",
+                  "信息分层",
+                  "视觉锚点"
+                ],
+                "importance": 5,
+                "updatedAt": "2026-04-19",
+                "source": "项目记忆"
+              },
+              {
+                "title": "AI生图的视觉锚点意识：图不是装饰品",
+                "category": "task_flow_experience",
+                "categoryLabel": "通用踩坑",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "⚠️",
+                "color": "#ef4444",
+                "description": "场景：AI生图任务，尤其是\"部门定位\"、\"战略逻辑\"类信息图 核心原则： AI生图的价值不仅是\"美化\"，而是降低读者的认知负荷——...",
+                "keywords": [
+                  "AI生图",
+                  "视觉锚点",
+                  "信息图",
+                  "认知负荷",
+                  "扫描路径"
+                ],
+                "importance": 5,
+                "updatedAt": "2026-04-19",
+                "source": "项目记忆"
+              },
+              {
+                "title": "术语敏感度：主动学习组织的内部叫法",
+                "category": "task_flow_experience",
+                "categoryLabel": "通用踩坑",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "⚠️",
+                "color": "#ef4444",
+                "description": "场景：为特定组织/项目撰写文档 核心原则： 每个组织都有内部术语体系，AI必须主动学习，不能假设通用叫法。 术语敏感度三问...",
+                "keywords": [
+                  "术语",
+                  "品牌名",
+                  "内部术语",
+                  "技术细节泄漏"
+                ],
+                "importance": 4,
+                "updatedAt": "2026-04-19",
+                "source": "项目记忆"
+              },
+              {
+                "title": "部门介绍文档的信息优先级：业务价值优先于组织结构",
+                "category": "task_flow_experience",
+                "categoryLabel": "通用踩坑",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "⚠️",
+                "color": "#ef4444",
+                "description": "场景：撰写部门介绍类文档 核心原则： 部门介绍的信息优先级 = 业务价值（OKR）> 组织结构 > 历史背景 信息占比黄金公式...",
+                "keywords": [
+                  "信息优先级",
+                  "章节顺序",
+                  "部门介绍",
+                  "OKR优先",
+                  "提问式标题"
+                ],
+                "importance": 5,
+                "updatedAt": "2026-04-19",
+                "source": "项目记忆"
+              },
+              {
+                "title": "提问式标题：以读者为中心的章节命名",
+                "category": "task_flow_experience",
+                "categoryLabel": "通用踩坑",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "⚠️",
+                "color": "#ef4444",
+                "description": "场景：为文档章节起标题 核心原则： 章节标题应该回答读者的\"第一问\"——\"这一章我能看到什么？\"而非\"这章叫什么名字？\" 对比示例...",
+                "keywords": [
+                  "提问式标题",
+                  "章节标题",
+                  "以读者为中心",
+                  "信息优先级"
+                ],
+                "importance": 4,
+                "updatedAt": "2026-04-19",
+                "source": "项目记忆"
+              },
+              {
                 "title": "AI日报KIM卡片能力更新模块（capability_update字段）",
                 "category": "development_practice_specification",
                 "categoryLabel": "通用踩坑",
@@ -13421,7 +13645,7 @@
                 "source": "项目记忆"
               }
             ],
-            "count": 28
+            "count": 33
           },
           "项目知识": {
             "icon": "📋",
@@ -13508,13 +13732,12 @@
             "count": 4
           }
         },
-        "count": 113
+        "count": 119
       }
     }
   },
   "growthHistory": {
     "dates": [
-      "03-20",
       "03-21",
       "03-23",
       "03-24",
@@ -13543,10 +13766,10 @@
       "04-16",
       "04-17",
       "04-18",
-      "04-19"
+      "04-19",
+      "04-20"
     ],
     "skills": [
-      108,
       109,
       110,
       111,
@@ -13575,10 +13798,10 @@
       184,
       185,
       186,
+      186,
       186
     ],
     "knowledge": [
-      299,
       300,
       290,
       291,
@@ -13607,10 +13830,10 @@
       307,
       307,
       307,
+      307,
       307
     ],
     "memories": [
-      159,
       163,
       150,
       124,
@@ -13639,7 +13862,8 @@
       151,
       154,
       154,
-      154
+      154,
+      160
     ]
   },
   "achievements": [
@@ -13675,7 +13899,7 @@
       "unlocked": true,
       "progress": 100,
       "progressText": "懂你程度 84/80",
-      "date": "2026-04-19"
+      "date": "2026-04-20"
     },
     {
       "id": "skill_master_v2",
@@ -13686,8 +13910,8 @@
       "category": "growth",
       "unlocked": true,
       "progress": 100,
-      "progressText": "4星+技能 151/10",
-      "date": "2026-04-19"
+      "progressText": "4星+技能 150/10",
+      "date": "2026-04-20"
     },
     {
       "id": "daily_report",
@@ -13743,7 +13967,7 @@
       "unlocked": true,
       "progress": 100,
       "progressText": "达成",
-      "date": "2026-04-19"
+      "date": "2026-04-20"
     },
     {
       "id": "first_awakening",

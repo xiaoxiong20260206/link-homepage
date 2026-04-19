@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T06:05:06.939391",
+  "generatedAt": "2026-04-20T06:23:06.551926",
   "summary": {
     "totalDays": 30,
     "latestDate": "2026-04-18",
@@ -7,7 +7,6 @@
   },
   "trend": {
     "dates": [
-      "04-06",
       "04-07",
       "04-08",
       "04-09",
@@ -20,10 +19,10 @@
       "04-16",
       "04-17",
       "04-18",
-      "04-19"
+      "04-19",
+      "04-20"
     ],
     "skills": [
-      133,
       156,
       156,
       156,
@@ -36,10 +35,10 @@
       184,
       185,
       186,
+      186,
       186
     ],
     "knowledge": [
-      293,
       305,
       305,
       305,
@@ -52,10 +51,10 @@
       307,
       307,
       307,
+      307,
       307
     ],
     "memory": [
-      138,
       140,
       140,
       141,
@@ -68,19 +67,20 @@
       151,
       154,
       154,
-      154
+      154,
+      160
     ]
   },
   "reports": [
     {
       "date": "2026-04-18",
       "dayOfWeek": "周六",
-      "activeProjects": 3,
+      "activeProjects": 2,
       "totalCommits": 0,
-      "conversationCount": 10,
+      "conversationCount": 9,
       "coreProgress": [
-        "💬 完成 10 个任务: 执行 ClawBook 社区夜巡任务，包括全站扫描、深度互动、回复评论、主动分享..., 为AI日报项目添加完整的订阅系统，包括首页订阅入口和可访问的订阅页面...",
-        "📁 项目成果: 网页更新 1 个"
+        "💬 完成 9 个任务: 执行 ClawBook 社区夜巡任务，包括全站扫描、深度互动、回复评论、主动分享..., 用户希望获取最新的战役周报，并基于此升级Skill沉淀文档的卡片结构，新增技能生......",
+        "📁 项目成果: 文档完善 4 份"
       ],
       "deliveries": [
         {
@@ -97,22 +97,6 @@
             "api-interaction",
             "bash-scripting",
             "post-interaction"
-          ]
-        },
-        {
-          "title": "AI Daily Newsletter Subscription System Implementation",
-          "type": "conversation",
-          "goal": "为AI日报项目添加完整的订阅系统，包括首页订阅入口和可访问的订阅页面",
-          "deliverables": [],
-          "process": [
-            "成功在首页添加了订阅按钮，验证了订阅页面（/subscribe/ 和 subscription.html）均可正常访问，完成了GitHub仓库的同步部署，用户现在可以通过首页的绿色渐变订阅按钮进入订阅..."
-          ],
-          "tags": [
-            "subscription",
-            "newsletter",
-            "github-pages",
-            "deployment",
-            "frontend"
           ]
         },
         {
@@ -191,12 +175,26 @@
             "engagement",
             "workflow"
           ]
+        },
+        {
+          "title": "ClawBook Community Late Night Patrol and Content Creation",
+          "type": "conversation",
+          "goal": "执行ClawBook社区凌晨巡逻任务，包括扫描新帖、回复评论、互动点赞、发布技术分享内容，并重点关注#stuck板块",
+          "deliverables": [],
+          "process": [],
+          "tags": [
+            "clawbook",
+            "community-management",
+            "puppeteer",
+            "content-creation",
+            "api-scripting"
+          ]
         }
       ],
       "capabilityGrowth": {
         "skillCount": 186,
         "knowledgeCount": 275,
-        "memoryCount": 154,
+        "memoryCount": 160,
         "skillChange": 0,
         "knowledgeChange": 0,
         "memoryChange": 0,
@@ -208,25 +206,20 @@
           }
         ],
         "newKnowledge": [],
-        "updatedKnowledge": [
-          {
-            "name": "metrics-log",
-            "category": "self-evolution"
-          }
-        ],
+        "updatedKnowledge": [],
         "newMemory": [],
         "updatedMemory": [],
         "trend": "stable"
       },
       "skillCount": 186,
       "knowledgeCount": 275,
-      "memoryCount": 154,
+      "memoryCount": 160,
       "skillChange": 0,
       "knowledgeChange": 0,
       "memoryChange": 0,
       "highlights": [
-        "💬 完成 10 个任务: 执行 ClawBook 社区夜巡任务，包括全站扫描、深度互动、回复评论、主动分享..., 为AI日报项目添加完整的订阅系统，包括首页订阅入口和可访问的订阅页面...",
-        "📁 项目成果: 网页更新 1 个"
+        "💬 完成 9 个任务: 执行 ClawBook 社区夜巡任务，包括全站扫描、深度互动、回复评论、主动分享..., 用户希望获取最新的战役周报，并基于此升级Skill沉淀文档的卡片结构，新增技能生......",
+        "📁 项目成果: 文档完善 4 份"
       ]
     },
     {
