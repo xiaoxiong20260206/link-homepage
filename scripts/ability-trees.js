@@ -39,15 +39,15 @@ function renderSkillTechTree(container, skills) {
     }
     
     var _idx = 0;
-    // 根据 tag 字段返回四类标签：专属定制/快手定制/个人定制/通用
+    // 根据 tag 字段返回归属标签
     function classifyByTag(tag, ksInternal, cfProject) {
         // 优先使用 tag 字段
-        if (tag === 'Link' || tag === 'Self') return { label: '专属定制', badge: '🔗' };
-        if (tag === 'KS') return { label: '快手定制', badge: '🚀' };
+        if (tag === 'Link' || tag === 'Self') return { label: '我的定制', badge: '🔗' };
+        if (tag === 'KS') return { label: '平台定制', badge: '🚀' };
         if (tag === 'SL') return { label: '个人定制', badge: '👤' };
         // 兼容旧标志
-        if (ksInternal) return { label: '快手定制', badge: '🚀' };
-        if (cfProject) return { label: '专属定制', badge: '🔗' };
+        if (ksInternal) return { label: '平台定制', badge: '🚀' };
+        if (cfProject) return { label: '我的定制', badge: '🔗' };
         // 无标签为通用
         return { label: '通用', badge: '📦' };
     }
@@ -118,7 +118,7 @@ function renderSkillTechTree(container, skills) {
     
     function getSourceColor(source) {
         if (!source) return 'rgba(200, 220, 240, 0.2)';
-        if (source === '专属核心能力' || source === '林克核心能力' || source === 'AI核心能力') return '#a78bfa';
+        if (source === '核心能力' || source === '专属核心能力' || source === '林克核心能力' || source === 'AI核心能力') return '#a78bfa';
         if (source === '用户自定义') return '#38bdf8';
         return '#64748b'; // 平台技能库
     }
