@@ -138,11 +138,11 @@ function renderSkillTechTree(container, skills) {
         } else if (skill.tag === 'SL') {
             ownerTag = '<span class="skill-chip-sl">SL</span>';
         } else if (skill.tag === 'Link' || skill.tag === 'Self') {
-            ownerTag = '<span class="skill-chip-link">专属</span>';
+            ownerTag = '<span class="skill-chip-link">定制</span>';
         } else if (skill.ksInternal) {
             ownerTag = '<span class="skill-chip-ks">KS</span>';
         } else if (skill.cfProject) {
-            ownerTag = '<span class="skill-chip-link">专属</span>';
+            ownerTag = '<span class="skill-chip-link">定制</span>';
         }
         var sizeTag = skill.skillSizeLabel ? '<span class="skill-chip-size">' + Math.round(skill.skillSize / 1000) + 'K</span>' : '';
         var freqTag = skill.frequency ? '<span class="skill-chip-freq">' + skill.frequency + '</span>' : '';

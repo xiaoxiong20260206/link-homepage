@@ -1,4 +1,4 @@
-/* ==================== 林克统一单页面 - 旷野之息风格 v3.0 ==================== */
+/* ==================== 统一单页面 - 旷野之息风格 v3.0 ==================== */
 /* 
  * 此文件继承 zelda-theme.css 的变量定义
  * 核心风格：希卡蓝科技 + 水彩天空 + 自然美学
@@ -2551,13 +2551,13 @@ body {
     letter-spacing: 0.3px;
     white-space: nowrap;
 }
-/* 林克定制 - 紫色调 */
+/* 定制技能 - 紫色调 */
 .tip-source-badge[data-type="link"] {
     background: rgba(167, 139, 250, 0.25);
     color: #c4b5fd;
     border: 1px solid rgba(167, 139, 250, 0.4);
 }
-/* 快手定制 - 橙色调 */
+/* 平台定制 - 橙色调 */
 .tip-source-badge[data-type="ks"] {
     background: rgba(251, 146, 60, 0.25);
     color: #fdba74;

@@ -538,11 +538,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    /* ---- 内容基地按钮 ---- */
-    .content-hub-btn {
-        font-size: 10px;
-        padding: 5px 10px;
-    }
+    
 
     /* ---- 性能优化 ---- */
     .topographic-layer { display: none; }

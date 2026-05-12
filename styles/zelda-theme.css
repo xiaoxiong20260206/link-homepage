@@ -1104,13 +1104,13 @@ body {
     letter-spacing: 0.3px;
     white-space: nowrap;
 }
-/* 林克定制 - 紫色调 */
+/* 定制技能 - 紫色调 */
 .tip-source-badge[data-type="link"] {
     background: rgba(167, 139, 250, 0.25);
     color: #c4b5fd;
     border: 1px solid rgba(167, 139, 250, 0.4);
 }
-/* 快手定制 - 橙色调 */
+/* 平台定制 - 橙色调 */
 .tip-source-badge[data-type="ks"] {
     background: rgba(251, 146, 60, 0.25);
     color: #fdba74;

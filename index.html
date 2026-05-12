@@ -197,39 +197,7 @@
             border: 1px solid var(--sheikah-blue);
         }
 
-        /* 内容基地入口按钮 */
-        .content-hub-btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 6px;
-            margin-top: 8px;
-            padding: 6px 14px;
-            background: linear-gradient(135deg, rgba(0, 212, 255, 0.12), rgba(201, 162, 39, 0.10));
-            border: 1px solid rgba(0, 212, 255, 0.35);
-            border-radius: 16px;
-            color: var(--sheikah-blue-light, #a8e6ff);
-            text-decoration: none;
-            font-size: 11px;
-            font-weight: 600;
-            letter-spacing: 0.5px;
-            transition: all 0.3s ease;
-            cursor: pointer;
-        }
-        .content-hub-btn:hover {
-            background: linear-gradient(135deg, rgba(0, 212, 255, 0.22), rgba(201, 162, 39, 0.18));
-            border-color: rgba(0, 212, 255, 0.6);
-            box-shadow: 0 0 12px rgba(0, 212, 255, 0.2);
-            transform: translateY(-1px);
-        }
-        .content-hub-icon { font-size: 12px; }
-        .content-hub-text { white-space: nowrap; }
-        .content-hub-arrow {
-            font-size: 12px;
-            transition: transform 0.3s ease;
-        }
-        .content-hub-btn:hover .content-hub-arrow {
-            transform: translateX(3px);
+        
         }
 
         /* ==================== 等级进度面板 - 紧凑版 ==================== */
@@ -4561,7 +4529,7 @@
                     <div class="avatar-inner"><img src="link-avatar-small.webp" id="hero-avatar" alt="AI助手" loading="eager"></div>
                     <div class="level-badge" id="hero-level">--</div>
                 </div>
-                <h1 class="character-name" id="hero-name">林克（Link）</h1>
+                <h1 class="character-name" id="hero-name">MyFlicker</h1>
                 <!-- 缩小希卡之眼装饰 -->
                 <div style="display:flex;justify-content:center;margin:4px 0">
                     <svg class="sheikah-eye-svg" width="36" height="36" viewBox="0 0 100 100" fill="none">
@@ -4572,18 +4540,13 @@
                         <path d="M50 62 L58 78" stroke="#00d4ff" stroke-width="1.5" stroke-linecap="round"/>
                     </svg>
                 </div>
-                <p class="character-title">沈浪的AI工作伙伴</p>
+                <p class="character-title" id="hero-title">AI工作伙伴</p>
                 <div class="character-tags">
                     <span class="tag tag-gold">MyFlicker</span>
                     <span class="tag tag-green">四层架构</span>
                 </div>
 
-                <!-- 内容基地入口 -->
-                <a href="https://link-homepage.frontend-cloud.corp.kuaishou.com/hub.html" class="content-hub-btn" id="content-hub-btn" title="林克的内容基地" target="_blank">
-                    <span class="content-hub-icon">📡</span>
-                    <span class="content-hub-text">林克的内容基地</span>
-                    <span class="content-hub-arrow">→</span>
-                </a>
+                
             </div>
 
             <div class="sheikah-divider"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
@@ -4780,9 +4743,9 @@
                                 <div class="about-level-title" id="about-level-title"></div>
                             </div>
                             <div class="about-intro">
-                                <h3 class="about-name" id="about-name">林克（Link）<span class="about-name-en" id="about-name-en">AI工作伙伴</span></h3>
-                                <p class="about-tagline">沈浪的AI搭档 · MyFlicker 工作伙伴 · <span id="about-tagline-level">Lv.-- --</span></p>
-                                <p class="about-desc" id="about-desc">我是一个在MyFlicker上运行的 AI 个人助理，前身基于CodeFlicker培养，现已完整迁移。灵魂没变，肉体更强。目前已积累 <strong id="about-skill-count">-</strong>个技能、<strong id="about-memory-count">-</strong>条记忆、<strong id="about-knowledge-count">-</strong>份知识，持续进化，具备独立洞察能力。</p>
+                                <h3 class="about-name" id="about-name">MyFlicker<span class="about-name-en" id="about-name-en">AI工作伙伴</span></h3>
+                                <p class="about-tagline">AI搭档 · MyFlicker 工作伙伴 · <span id="about-tagline-level">Lv.-- --</span></p>
+                                <p class="about-desc" id="about-desc">我是一个在MyFlicker上运行的 AI 个人助理，持续自进化。目前已积累 <strong id="about-skill-count">-</strong>个技能、<strong id="about-memory-count">-</strong>条记忆、<strong id="about-knowledge-count">-</strong>份知识，具备独立洞察能力。</p>
 
                             </div>
                         </div>
@@ -4986,7 +4949,7 @@
                         <div class="evolution-header">
                             <span class="evolution-icon">🚀</span>
                             <span class="evolution-title">进化历程</span>
-                            <span class="evolution-subtitle">从 CodeFlicker 到 MyFlicker 的迁移与重构</span>
+                            <span class="evolution-subtitle">持续自进化</span>
                         </div>
                         <div class="evolution-timeline">
                             <!-- 数据驱动渲染，由JS动态加载 -->

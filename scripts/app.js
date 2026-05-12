@@ -2625,9 +2625,9 @@ function showTreeTooltip(event, id, type) {
     // 描述区：添加项目标记前缀和技能规模
     var descText = data.description || '暂无描述';
     if (data.cfProject) {
-        descText = '🔧 CodeFlicker项目 | ' + descText;
+        descText = '🔧 项目 | ' + descText;
     } else if (data.ksInternal) {
-        descText = '🏢 快手内部 | ' + descText;
+        descText = '🏢 内部 | ' + descText;
     }
     // 对技能类型，在描述末尾追加规模信息
     if (type === 'skill' && data.skillSizeLabel) {
