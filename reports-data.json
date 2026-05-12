@@ -509,8 +509,8 @@
         },
         {
           "icon": "📦",
-          "typeLabel": "林克首页实现",
-          "title": "林克首页实现",
+          "typeLabel": "首页实现",
+          "title": "首页实现",
           "type": "work",
           "result": "首页全面重构+技能体系v3.1同步+成就墙14项重写",
           "tags": [],
@@ -576,7 +576,7 @@
         "日志三层架构"
       ],
       "wordCount": 800,
-      "summary": "4项工作 | 技能体系诊断 / 技能瘦身重构 / 林克首页实现"
+      "summary": "4项工作 | 技能体系诊断 / 技能瘦身重构 / 首页实现"
     },
     {
       "date": "2026-05-06",
@@ -743,8 +743,8 @@
         },
         {
           "icon": "📦",
-          "typeLabel": "CodeFlicker天使用户体验报告",
-          "title": "CodeFlicker天使用户体验报告",
+          "typeLabel": "{{OWNER_PRODUCT}}天使用户体验报告",
+          "title": "{{OWNER_PRODUCT}}天使用户体验报告",
           "type": "work",
           "result": "综合8位外部用户原文，输出面向产品团队的体检报告",
           "tags": [],

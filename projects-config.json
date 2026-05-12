@@ -14,7 +14,7 @@
       "status": "deployed",
       "completedAt": "2026-03-04",
       "url": "https://xiaoxiong20260206.github.io/ai-insight/",
-      "path": "/Users/shenlang/Documents/Codeflicker/AI-Insight",
+      "path": "{{OWNER_WORKSPACE}}/AI-Insight",
       "quality_level": "featured"
     },
     {
@@ -28,7 +28,7 @@
       "status": "deployed",
       "completedAt": "2026-03-09",
       "url": "https://xiaoxiong20260206.github.io/ai-insight/02-deep-research/topics/ai-coding-assistant-research/",
-      "path": "/Users/shenlang/Documents/Codeflicker/AI-Insight/02-deep-research/topics/ai-coding-assistant-research",
+      "path": "{{OWNER_WORKSPACE}}/AI-Insight/02-deep-research/topics/ai-coding-assistant-research",
       "quality_level": "excellent"
     },
     {
@@ -42,7 +42,7 @@
       "status": "deployed",
       "completedAt": "2026-03-07",
       "url": "https://xiaoxiong20260206.github.io/ai-insight/02-deep-research/topics/ai-studio/",
-      "path": "/Users/shenlang/Documents/Codeflicker/AI-Insight/02-deep-research/topics/ai-studio",
+      "path": "{{OWNER_WORKSPACE}}/AI-Insight/02-deep-research/topics/ai-studio",
       "quality_level": "excellent"
     },
     {
@@ -56,7 +56,7 @@
       "status": "deployed",
       "completedAt": "2026-03-07",
       "url": "https://xiaoxiong20260206.github.io/ai-insight/02-deep-research/topics/ai-financial/",
-      "path": "/Users/shenlang/Documents/Codeflicker/AI-Insight/02-deep-research/topics/ai-financial",
+      "path": "{{OWNER_WORKSPACE}}/AI-Insight/02-deep-research/topics/ai-financial",
       "quality_level": "normal"
     },
     {
@@ -70,7 +70,7 @@
       "status": "deployed",
       "completedAt": "2026-03-07",
       "url": "https://xiaoxiong20260206.github.io/ai-insight/02-deep-research/topics/ai-tools-analysis/",
-      "path": "/Users/shenlang/Documents/Codeflicker/AI-Insight/02-deep-research/topics/ai-tools-analysis",
+      "path": "{{OWNER_WORKSPACE}}/AI-Insight/02-deep-research/topics/ai-tools-analysis",
       "quality_level": "normal"
     },
     {
@@ -84,7 +84,7 @@
       "status": "deployed",
       "completedAt": "2026-03-07",
       "url": "https://xiaoxiong20260206.github.io/ai-insight/02-deep-research/topics/ai-essence-insight/",
-      "path": "/Users/shenlang/Documents/Codeflicker/AI-Insight/02-deep-research/topics/ai-essence-insight",
+      "path": "{{OWNER_WORKSPACE}}/AI-Insight/02-deep-research/topics/ai-essence-insight",
       "quality_level": "excellent"
     },
     {
@@ -98,7 +98,7 @@
       "status": "deployed",
       "completedAt": "2026-03-07",
       "url": "https://xiaoxiong20260206.github.io/ai-insight/02-deep-research/topics/ai-agent-guide/",
-      "path": "/Users/shenlang/Documents/Codeflicker/AI-Insight/02-deep-research/topics/ai-agent-guide",
+      "path": "{{OWNER_WORKSPACE}}/AI-Insight/02-deep-research/topics/ai-agent-guide",
       "quality_level": "normal"
     },
     {
@@ -112,7 +112,7 @@
       "status": "deployed",
       "completedAt": "2026-03-07",
       "url": "https://xiaoxiong20260206.github.io/ai-insight/02-deep-research/people/naval-ai-2026/",
-      "path": "/Users/shenlang/Documents/Codeflicker/AI-Insight/02-deep-research/people/naval-ai-2026",
+      "path": "{{OWNER_WORKSPACE}}/AI-Insight/02-deep-research/people/naval-ai-2026",
       "quality_level": "normal"
     },
     {
@@ -126,7 +126,7 @@
       "status": "deployed",
       "completedAt": "2026-03-10",
       "url": "https://xiaoxiong20260206.github.io/ai-insight/02-deep-research/topics/pine-ai-native-team.html",
-      "path": "/Users/shenlang/Documents/Codeflicker/AI-Insight/02-deep-research/topics/pine-ai-native-team.html",
+      "path": "{{OWNER_WORKSPACE}}/AI-Insight/02-deep-research/topics/pine-ai-native-team.html",
       "quality_level": "normal"
     },
     {
@@ -140,7 +140,7 @@
       "status": "deployed",
       "completedAt": "2026-03-08",
       "url": "https://xiaoxiong20260206.github.io/ai-insight/02-deep-research/topics/ai-product-transformation-2026.html",
-      "path": "/Users/shenlang/Documents/Codeflicker/AI-Insight/02-deep-research/topics/ai-product-transformation-2026.html",
+      "path": "{{OWNER_WORKSPACE}}/AI-Insight/02-deep-research/topics/ai-product-transformation-2026.html",
       "quality_level": "normal"
     },
     {
@@ -154,7 +154,7 @@
       "status": "deployed",
       "completedAt": "2026-03-10",
       "url": "https://xiaoxiong20260206.github.io/ai-insight/02-deep-research/topics/openclaw-deep-research-2026.html",
-      "path": "/Users/shenlang/Documents/Codeflicker/AI-Insight/02-deep-research/topics/openclaw-deep-research-2026.html",
+      "path": "{{OWNER_WORKSPACE}}/AI-Insight/02-deep-research/topics/openclaw-deep-research-2026.html",
       "quality_level": "normal"
     },
     {
@@ -168,7 +168,7 @@
       "status": "deployed",
       "completedAt": "2026-03-04",
       "url": "https://xiaoxiong20260206.github.io/ai-insight/02-deep-research/trends/ai-leaders-2026.html",
-      "path": "/Users/shenlang/Documents/Codeflicker/AI-Insight/02-deep-research/trends/ai-leaders-2026.html",
+      "path": "{{OWNER_WORKSPACE}}/AI-Insight/02-deep-research/trends/ai-leaders-2026.html",
       "quality_level": "featured"
     },
     {
@@ -182,7 +182,7 @@
       "status": "deployed",
       "completedAt": "2026-03-05",
       "url": "https://xiaoxiong20260206.github.io/ai-insight/02-deep-research/trends/barry-zhang-anthropic.html",
-      "path": "/Users/shenlang/Documents/Codeflicker/AI-Insight/02-deep-research/trends/barry-zhang-anthropic.html",
+      "path": "{{OWNER_WORKSPACE}}/AI-Insight/02-deep-research/trends/barry-zhang-anthropic.html",
       "quality_level": "normal"
     },
     {

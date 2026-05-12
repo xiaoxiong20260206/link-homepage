@@ -39,14 +39,14 @@
   "projects": [
     {
       "id": "link-homepage",
-      "name": "林克进化首页",
+      "name": "首页",
       "icon": "🏠",
       "category": "homepage",
       "status": "deployed",
       "completedAt": "2026-05-10",
       "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
       "subtitle": "四维等级体系可视化仪表盘",
-      "goal": "展示林克的四维能力、技能拓扑、成长趋势、日报历史",
+      "goal": "展示四维能力、技能拓扑、成长趋势、日报历史",
       "deliverables": [
         "首页HTML/CSS/JS",
         "skill-metrics.py v3.0",
@@ -428,7 +428,7 @@
       "quality": {
         "level": "standard"
       },
-      "subtitle": "沈浪飞书助手——飞书机器人与CodeFlicker的本地链路",
+      "subtitle": "飞书助手——飞书机器人与{{OWNER_PRODUCT}}的本地链路",
       "url": "",
       "usedSkills": [
         "sl-feishu-assistant"
@@ -460,7 +460,7 @@
       "quality": {
         "level": "standard"
       },
-      "subtitle": "微信→CodeFlicker AI消息网关技能（沈浪专属）",
+      "subtitle": "微信→{{OWNER_PRODUCT}} AI消息网关技能",
       "url": "",
       "usedSkills": [
         "sl-weixin-bridge"
@@ -572,7 +572,7 @@
       "quality": {
         "level": "standard"
       },
-      "subtitle": "沈浪投资理财追踪技能",
+      "subtitle": "投资理财追踪技能",
       "url": "",
       "usedSkills": [
         "sl-investment-tracker"
@@ -652,7 +652,7 @@
       "quality": {
         "level": "standard"
       },
-      "subtitle": "CodeFlicker「养了个AI」专栏写作技能",
+      "subtitle": "{{OWNER_PRODUCT}}「养了个AI」专栏写作技能",
       "url": "",
       "usedSkills": [
         "sl-ai-column-writer"
@@ -684,7 +684,7 @@
       "quality": {
         "level": "standard"
       },
-      "subtitle": "KIM→CodeFlicker AI消息网关技能（沈浪专属）",
+      "subtitle": "KIM→{{OWNER_PRODUCT}} AI消息网关技能",
       "url": "",
       "usedSkills": [
         "sl-kim-bridge"

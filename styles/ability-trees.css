@@ -757,7 +757,7 @@
     margin-left: 2px;
     flex-shrink: 0;
 }
-/* 快手内部标记 */
+/* 平台内部标记 */
 .skill-chip-ks {
     font-family: var(--font-mono);
     font-size: 8px;

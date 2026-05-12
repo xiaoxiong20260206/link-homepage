@@ -297,8 +297,8 @@
     {
       "id": "commit-908b70d",
       "date": "2026-03-02",
-      "title": "优化林克头像：添加渐变、动画效果，调整样式使头像填满圆框",
-      "description": "优化林克头像：添加渐变、动画效果，调整样式使头像填满圆框",
+      "title": "优化{{OWNER_CHARACTER_NAME}}头像：添加渐变、动画效果，调整样式使头像填满圆框",
+      "description": "优化{{OWNER_CHARACTER_NAME}}头像：添加渐变、动画效果，调整样式使头像填满圆框",
       "type": "feature",
       "source": "git",
       "repo": "link-homepage",
@@ -309,8 +309,8 @@
     {
       "id": "commit-7e0f1a5",
       "date": "2026-03-02",
-      "title": "添加林克风格favicon，修改标题为了解添棋",
-      "description": "添加林克风格favicon，修改标题为了解添棋",
+      "title": "添加{{OWNER_CHARACTER_NAME}}风格favicon，修改标题为了解添棋",
+      "description": "添加{{OWNER_CHARACTER_NAME}}风格favicon，修改标题为了解添棋",
       "type": "feature",
       "source": "git",
       "repo": "link-homepage",
@@ -379,8 +379,8 @@
     {
       "id": "commit-82d84a7",
       "date": "2026-03-02",
-      "title": "优化头像：去掉内圈蓝线，放大头像，优化林克形象",
-      "description": "优化头像：去掉内圈蓝线，放大头像，优化林克形象",
+      "title": "优化头像：去掉内圈蓝线，放大头像，优化{{OWNER_CHARACTER_NAME}}形象",
+      "description": "优化头像：去掉内圈蓝线，放大头像，优化{{OWNER_CHARACTER_NAME}}形象",
       "type": "fix",
       "source": "git",
       "repo": "link-homepage",
@@ -521,8 +521,8 @@
     {
       "id": "project-feishu-bot",
       "date": "2026-02-27",
-      "title": "🚀 飞书机器人「林克」 上线",
-      "description": "完成飞书Webhook接收、消息解析、自动触发CodeFlicker处理的完整流程",
+      "title": "🚀 飞书机器人「{{OWNER_CHARACTER_NAME}}」 上线",
+      "description": "完成飞书Webhook接收、消息解析、自动触发{{OWNER_PRODUCT}}处理的完整流程",
       "type": "epic",
       "source": "project",
       "icon": "🚀",
