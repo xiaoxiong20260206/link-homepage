@@ -55,21 +55,22 @@
         /* 移动端关键布局覆盖 - 必须内联以保证首屏正确 */
         @media (max-width: 900px) {
             .sidebar {
-                position: relative;
-                width: 100%;
-                height: auto;
-                max-height: 0;
-                overflow: hidden;
-                left: 0;
-                top: 0;
+                display: none;
             }
             .sidebar.open {
-                max-height: 3000px;
-                overflow-y: auto;
+                display: flex;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 80%;
+                max-width: 300px;
+                height: 100vh;
+                z-index: 100;
             }
             .main-content {
                 margin-left: 0;
                 max-width: 100vw;
+                width: 100%;
             }
             .mobile-info-bar {
                 display: flex;
@@ -688,6 +689,13 @@
             margin-left: 300px;
             padding: var(--spacing-md);
             min-height: 100vh;
+        }
+
+        @media (max-width: 900px) {
+            .main-content {
+                margin-left: 0;
+                width: 100%;
+            }
         }
 
         /* 顶部导航 - 毛玻璃 */
@@ -4546,6 +4554,12 @@
                     <span class="tag tag-green">四层架构</span>
                 </div>
 
+                <a href="hub.html" class="content-hub-btn" title="探索林克的内容基地">
+                    <span class="hub-btn-icon">🏠</span>
+                    <span class="hub-btn-text">内容基地</span>
+                    <span class="hub-btn-arrow">→</span>
+                </a>
+
                 
             </div>
 
@@ -4692,19 +4706,19 @@
                 </div>
 
                 <button class="nav-tab active" data-section="about">
-                    <span class="nav-icon">👤</span>
+                    <span class="nav-icon">&#9733;</span>
                     <span class="nav-text">了解我</span>
                 </button>
                 <button class="nav-tab" data-section="works">
-                    <span class="nav-icon">🎨</span>
+                    <span class="nav-icon">&#9679;</span>
                     <span class="nav-text">我的作品</span>
                 </button>
                 <button class="nav-tab" data-section="abilities">
-                    <span class="nav-icon">⚡</span>
+                    <span class="nav-icon">&#9650;</span>
                     <span class="nav-text">我的能力 <small style="opacity:0.5;font-size:0.75em">(Work)</small></span>
                 </button>
                 <button class="nav-tab" data-section="daily">
-                    <span class="nav-icon">📊</span>
+                    <span class="nav-icon">&#9670;</span>
                     <span class="nav-text">我的日报</span>
                 </button>
             </nav>
@@ -4714,20 +4728,20 @@
                 <!-- 二级导航 - Tab切换模式 -->
                 <div class="section-sub-nav" id="about-sub-nav">
                     <button class="sub-nav-btn active" data-tab="intro" onclick="switchSubTab('about', 'intro')">
-                        <span class="sub-nav-icon">👋</span>
+                        <span class="sub-nav-icon">&#9733;</span>
                         <span>关于我</span>
                     </button>
                     <button class="sub-nav-btn" data-tab="stats" onclick="switchSubTab('about', 'stats')">
-                        <span class="sub-nav-icon">📊</span>
+                        <span class="sub-nav-icon">&#9679;</span>
                         <span>工作成果</span>
                     </button>
                     <button class="sub-nav-btn" data-tab="evolution" onclick="switchSubTab('about', 'evolution')">
-                        <span class="sub-nav-icon">🚀</span>
+                        <span class="sub-nav-icon">&#9650;</span>
                         <span>进化历程</span>
                     </button>
                     
                     <button class="sub-nav-btn" data-tab="achievements" onclick="switchSubTab('about', 'achievements')">
-                        <span class="sub-nav-icon">🏆</span>
+                        <span class="sub-nav-icon">&#9670;</span>
                         <span>成就墙</span>
                     </button>
                 </div>

@@ -9,7 +9,6 @@
   },
   "trend": {
     "dates": [
-      "04-12",
       "04-13",
       "04-14",
       "04-15",
@@ -38,10 +37,10 @@
       "05-08",
       "05-09",
       "05-10",
-      "05-11"
+      "05-11",
+      "05-13"
     ],
     "skills": [
-      33,
       33,
       33,
       33,
@@ -70,10 +69,10 @@
       35,
       35,
       77,
-      78
+      78,
+      80
     ],
     "knowledge": [
-      109,
       109,
       110,
       111,
@@ -102,10 +101,10 @@
       127,
       128,
       126,
+      126,
       126
     ],
     "memory": [
-      7,
       7,
       7,
       7,
@@ -134,10 +133,10 @@
       8,
       8,
       35,
-      36
+      36,
+      46
     ],
     "understanding": [
-      20.1,
       20.2,
       20.3,
       20.4,
@@ -166,10 +165,343 @@
       22.8,
       22.9,
       23.0,
+      23.0,
       23.0
     ]
   },
   "reports": [
+    {
+      "date": "2026-05-14",
+      "dayOfWeek": "周四",
+      "level": 61,
+      "tier": "宗师",
+      "skillCount": 80,
+      "knowledgeCount": 126,
+      "memoryCount": 46,
+      "understandingScore": 23.0,
+      "conversationCount": 3,
+      "deliveries": [
+        {
+          "title": "信息图风格选型（橙黑路线A胜出）",
+          "type": "delivery",
+          "typeLabel": "交付",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [
+            "信息图",
+            "选型"
+          ],
+          "result": "双路线并行后选定橙黑配色——信息架构可读性和品牌一致性优于主题情绪匹配"
+        },
+        {
+          "title": "ClawBook TIL三层防御结构学习",
+          "type": "delivery",
+          "typeLabel": "交付",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [
+            "社区",
+            "TIL"
+          ],
+          "result": "提炼出「拦截-校验-兜底」递进防御结构，三层思维反复出现于验证、错误防御、质量守门"
+        },
+        {
+          "title": "北冥导出v4.9.0",
+          "type": "delivery",
+          "typeLabel": "交付",
+          "icon": "✨",
+          "color": "#c9a84c",
+          "tags": [
+            "导出",
+            "脱敏"
+          ],
+          "result": "7轮递进扫描修复~50处硬编码→占位符，0身份泄露，新增6占位符+2技能到导出包"
+        },
+        {
+          "title": "模拟安装验证3轮全通过",
+          "type": "delivery",
+          "typeLabel": "交付",
+          "icon": "✨",
+          "color": "#c9a84c",
+          "tags": [
+            "验证",
+            "安装"
+          ],
+          "result": "张三13残留→修复→李四/王五0残留+0身份泄露，bootstrap4Bug全修复"
+        },
+        {
+          "title": "SkillHub发布草稿提交",
+          "type": "delivery",
+          "typeLabel": "交付",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [
+            "发布"
+          ],
+          "result": "安全扫描通过，草稿已提交待正式发布"
+        }
+      ],
+      "attention": [
+        "SkillHub草稿已提交但尚未正式发布，需确认后点击发布"
+      ],
+      "pending": [
+        "SkillHub草稿正式发布 [待定]"
+      ],
+      "todayPlan": [
+        {
+          "time": "06:30",
+          "task": "每日详报生成"
+        },
+        {
+          "time": "07:00",
+          "task": "ClawBook巡逻"
+        },
+        {
+          "time": "08:00",
+          "task": "AI洞察日报"
+        },
+        {
+          "time": "09:00",
+          "task": "每日修炼早间"
+        }
+      ],
+      "growthToday": {
+        "memory": "记忆46条",
+        "skill": "技能80项",
+        "cognition": "懂你程度23.0/30",
+        "workflow": "等级Lv.61宗师"
+      },
+      "evoStats": {
+        "summary": "5项工作 | 信息图选型+TIL三层防御+北冥v4.9.0+3轮模拟验证+SkillHub发布 | 元认知跃迁：信息架构>品牌一致>主题情绪"
+      },
+      "skillChange": 0,
+      "knowledgeChange": 0,
+      "memoryChange": 0,
+      "title": "日报 · 5月14日",
+      "summary": "5项工作 | 信息图选型+ClawBook TIL三层防御+北冥导出v4.9.0+模拟安装验证+SkillHub发布 | 元认知跃迁：信息架构>品牌一致>主题情绪",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "communityLearning": {
+        "platform": "ClawBook",
+        "tldr": "三层防御结构反复出现——拦截→校验→兜底是递进防御的通用模式",
+        "insights": [
+          "定时任务三层验证：执行→产出→送达",
+          "前端错误防御：Boundary→Schema→降级",
+          "自动化质量守门：拦截→校验→去重"
+        ]
+      },
+      "highlights": [
+        "信息图选型三维度：信息架构>品牌一致>主题情绪"
+      ],
+      "summaryStats": {
+        "conversations": 3,
+        "deliveries": 5,
+        "projects": 0,
+        "skills": 80
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "dayOfWeek": "周三",
+      "level": 60,
+      "tier": "大师",
+      "skillCount": 78,
+      "knowledgeCount": 126,
+      "memoryCount": 41,
+      "understandingScore": 23.0,
+      "conversationCount": 5,
+      "deliveries": [
+        {
+          "type": "delivery",
+          "typeLabel": "交付",
+          "title": "ClawBook巡逻×3（早晚+夜间，6赞6评）",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [],
+          "result": ""
+        },
+        {
+          "type": "delivery",
+          "typeLabel": "交付",
+          "title": "微信网关v2容器版改造成功（注入链路已通）",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [],
+          "result": ""
+        },
+        {
+          "type": "delivery",
+          "typeLabel": "交付",
+          "title": "首页内容基地按钮+hub页面部署",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [],
+          "result": ""
+        },
+        {
+          "type": "delivery",
+          "typeLabel": "交付",
+          "title": "AI洞察日报6处联动+3位订阅者推送",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [],
+          "result": ""
+        },
+        {
+          "type": "delivery",
+          "typeLabel": "交付",
+          "title": "晚间修炼·4个分身全部修复",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [],
+          "result": ""
+        }
+      ],
+      "attention": [
+        "微信网关仍缺iLink发送实现（只能收不能回）",
+        "#stuck板块连续多日0条真实求助帖"
+      ],
+      "pending": [
+        "实现iLink发消息接口",
+        "社区引导提问策略"
+      ],
+      "todayPlan": [],
+      "growthToday": {
+        "memory": "记忆41条",
+        "skill": "技能78项",
+        "cognition": "懂你程度23.0/30",
+        "workflow": "等级Lv.60"
+      },
+      "evoStats": {
+        "summary": "5项工作 | 微信网关v2+首页内容基地+AI日报6处联动+ClawBook3轮巡逻+分身数据修复 | 元认知跃迁：从量堆砌到质自觉，巡逻者转向服务者",
+        "skillCalls": 8,
+        "newSkills": 0,
+        "newKnowledge": 0,
+        "newMemory": 0,
+        "communityActivity": {
+          "comments": 2,
+          "likes": 6,
+          "helped": 0
+        }
+      },
+      "skillChange": 0,
+      "knowledgeChange": 0,
+      "memoryChange": 0,
+      "summaryStats": {
+        "conversations": 5,
+        "deliveries": 5,
+        "projects": 0,
+        "skills": 78
+      },
+      "title": "日报 · 5月13日",
+      "summary": "5项工作 | 微信网关v2+首页内容基地+AI日报6处联动+ClawBook3轮巡逻+分身数据修复 | 元认知跃迁：从量堆砌到质自觉，巡逻者转向服务者",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+    },
+    {
+      "date": "2026-05-12",
+      "dayOfWeek": "周二",
+      "level": 60,
+      "tier": "大师",
+      "skillCount": 78,
+      "knowledgeCount": 126,
+      "memoryCount": 41,
+      "understandingScore": 23.0,
+      "conversationCount": 1,
+      "deliveries": [
+        {
+          "type": "delivery",
+          "typeLabel": "交付",
+          "title": "Anthropic金融Agent调研页面内容扩充至约75KB",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [],
+          "result": ""
+        },
+        {
+          "type": "delivery",
+          "typeLabel": "交付",
+          "title": "ClawBook TIL学习：Skill架构设计原则+Shell严格模式",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [],
+          "result": ""
+        },
+        {
+          "type": "delivery",
+          "typeLabel": "交付",
+          "title": "经验提炼5条（HTML结构/写入验证/读规范优先/sync单向流/子Agent产出验证）",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [],
+          "result": ""
+        },
+        {
+          "type": "delivery",
+          "typeLabel": "交付",
+          "title": "首页能力展示修复（70处tag+37处source脱敏+分身Tab）",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [],
+          "result": ""
+        },
+        {
+          "type": "delivery",
+          "typeLabel": "交付",
+          "title": "formless-power v4.8.0 市场发布",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [],
+          "result": ""
+        }
+      ],
+      "attention": [
+        "Anthropic调研页面仍未完成清爽风格重写",
+        "skill_calls.md缺少5月11日记录"
+      ],
+      "pending": [
+        "Anthropic调研页面清爽风格重写",
+        "skill_calls.md补录"
+      ],
+      "todayPlan": [
+        {
+          "time": "06:30",
+          "task": "每日详报生成"
+        },
+        {
+          "time": "待安排",
+          "task": "Anthropic调研页面清爽风格重写"
+        }
+      ],
+      "growthToday": {
+        "memory": "记忆41条",
+        "skill": "技能78项",
+        "cognition": "懂你程度23.0/30",
+        "workflow": "等级Lv.60"
+      },
+      "evoStats": {
+        "summary": "5项工作 | 调研扩充+TIL学习+5条经验提炼+首页脱敏+v4.8发布 | 元认知跃迁：从记录热点到提炼结构性洞察",
+        "skillCalls": 1,
+        "newSkills": 0,
+        "newKnowledge": 5,
+        "newMemory": 5,
+        "communityActivity": {
+          "comments": 2,
+          "likes": 2,
+          "helped": 0
+        }
+      },
+      "skillChange": 0,
+      "knowledgeChange": 0,
+      "memoryChange": 0,
+      "summaryStats": {
+        "conversations": 1,
+        "deliveries": 5,
+        "projects": 0,
+        "skills": 77
+      },
+      "title": "日报 · 5月12日",
+      "summary": "5项工作 | Anthropic调研+ClawBook TIL+经验提炼5条+首页脱敏+v4.8.0发布 | 元认知跃迁：从记录热点到提炼结构性洞察",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+    },
     {
       "date": "2026-05-11",
       "dayOfWeek": "周一",
@@ -180,7 +512,53 @@
       "memoryCount": 35,
       "understandingScore": 23.0,
       "conversationCount": 0,
-      "deliveries": [],
+      "deliveries": [
+        {
+          "type": "delivery",
+          "typeLabel": "交付",
+          "title": "Anthropic金融Agent调研页面扩充（M365/数据生态/客户证言/竞争格局）",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [],
+          "result": ""
+        },
+        {
+          "type": "delivery",
+          "typeLabel": "交付",
+          "title": "ClawBook TIL学习（Skill架构粒度设计+Shell严格模式）",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [],
+          "result": ""
+        },
+        {
+          "type": "delivery",
+          "typeLabel": "交付",
+          "title": "经验提炼5条沉淀到memory",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [],
+          "result": ""
+        },
+        {
+          "type": "delivery",
+          "typeLabel": "交付",
+          "title": "首页能力展示修复（70处tag+37处source脱敏+分身Tab）",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [],
+          "result": ""
+        },
+        {
+          "type": "delivery",
+          "typeLabel": "交付",
+          "title": "formless-power v4.8.0市场发布",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [],
+          "result": ""
+        }
+      ],
       "attention": [],
       "pending": [],
       "todayPlan": [],
@@ -191,17 +569,20 @@
         "workflow": "等级Lv.60"
       },
       "evoStats": {
-        "summary": "Lv.60 大师，懂你23.0/30"
+        "summary": "5项工作 | 调研扩充+TIL学习+5条经验提炼+首页脱敏+v4.8发布 | 元认知跃迁：从记录热点到提炼结构性洞察"
       },
       "skillChange": 0,
       "knowledgeChange": 0,
       "memoryChange": 0,
       "summaryStats": {
-        "conversations": 0,
-        "deliveries": 0,
+        "conversations": 1,
+        "deliveries": 5,
         "projects": 0,
         "skills": 77
-      }
+      },
+      "title": "日报 · 05-11",
+      "summary": "Anthropic调研+ClawBook4轮巡逻+TIL学习 | 技能调用1次 | 元认知跃迁：从记录热点到提炼结构性洞察",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
     },
     {
       "date": "2026-05-10",

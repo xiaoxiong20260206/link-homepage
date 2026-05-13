@@ -67,48 +67,43 @@
         flex-direction: column;
     }
 
-    /* ---- 侧边栏 → 可折叠区域 ---- */
+    /* ---- 侧边栏 → 默认隐藏，展开时侧滑 ---- */
     .sidebar {
-        position: relative;
-        width: 100%;
-        height: auto;
-        left: 0;
+        display: none;
+    }
+    .sidebar.open {
+        display: flex;
+        position: fixed;
         top: 0;
-        overflow-y: visible;
-        z-index: 50;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-        padding: 0;
+        left: 0;
+        width: 80%;
+        max-width: 300px;
+        height: 100vh;
+        z-index: 100;
+        overflow-y: auto;
+        padding: 16px 14px;
         background: linear-gradient(180deg,
             rgba(18, 22, 28, 0.92) 0%,
             rgba(24, 28, 33, 0.88) 100%
         );
         backdrop-filter: blur(24px) saturate(1.2);
         -webkit-backdrop-filter: blur(24px) saturate(1.2);
-        border-bottom: none;
-    }
-
-    .sidebar.open {
-        max-height: 3000px;
-        padding: 16px 14px;
-        overflow-y: auto;
-        border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+        border-right: 1px solid rgba(0, 212, 255, 0.1);
     }
 
     /* ---- 侧边栏内视觉优化 ---- */
-    .sidebar .avatar-section {
+    .sidebar.open .avatar-section {
         padding: 8px 0 4px;
     }
-    .sidebar .stats-panel {
+    .sidebar.open .stats-panel {
         grid-template-columns: repeat(4, 1fr);
         gap: 6px;
     }
-    .sidebar .radar-wrap,
-    .sidebar .trend-mini-wrap {
+    .sidebar.open .radar-wrap,
+    .sidebar.open .trend-mini-wrap {
         height: 140px;
     }
-    .sidebar .sheikah-divider {
+    .sidebar.open .sheikah-divider {
         margin: 12px 0;
     }
 
@@ -934,6 +929,12 @@
     .works-category-btn .tab-icon {
         font-size: 14px;
     }
+    /* 小屏隐藏二级导航文字，只显示图标 */
+    .sub-nav-btn span:not(.sub-nav-icon),
+    .ability-tab-btn span:not(.tab-icon),
+    .works-category-btn span:not(.tab-icon) {
+        display: none;
+    }
 
     /* ---- Section 标题 ---- */
     .section-title {
@@ -1122,5 +1123,13 @@
     }
     .persona-card-desc {
         font-size: 12px;
+    }
+
+    /* ---- 顶部信息条小屏优化：隐藏名字 ---- */
+    .mobile-info-name {
+        display: none;
+    }
+    .mobile-info-bar {
+        justify-content: space-between;
     }
 }

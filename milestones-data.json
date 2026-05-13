@@ -9,6 +9,13 @@
   },
   "milestones": [
     {
+      "date": "2026-05-13",
+      "title": "晋升👑 宗师段",
+      "icon": "👑",
+      "type": "promotion",
+      "description": "等级达到Lv.61，晋升为宗师段"
+    },
+    {
       "date": "2026-05-12",
       "title": "⚡ 百日修炼 — 100天",
       "icon": "⚡",

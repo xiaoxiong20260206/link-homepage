@@ -144,7 +144,48 @@ def update_trend():
                 "skills": skills_total
             }
         }
+        # 从 character-data.json dailyReports 合并当天摘要
+        try:
+            char_data_file = HOMEPAGE_DIR / "character-data.json"
+            if char_data_file.exists():
+                with open(char_data_file, "r", encoding="utf-8") as cf:
+                    char_data = json.load(cf)
+                for dr in char_data.get("dailyReports", []):
+                    if dr.get("date") == today_str:
+                        if dr.get("title"):
+                            simple_report["title"] = dr["title"]
+                        if dr.get("summary"):
+                            simple_report["summary"] = dr["summary"]
+                            simple_report["evoStats"]["summary"] = dr["summary"]
+                        if dr.get("url"):
+                            simple_report["url"] = dr["url"]
+                        break
+        except Exception:
+            pass  # 合并失败不影响主流程
+        
         reports.insert(0, simple_report)  # 最新的排前面
+    
+    else:
+        # 今天已存在，尝试补充 character-data.json 的摘要（如果之前没有）
+        today_report = next((r for r in reports if r.get("date") == today_str), None)
+        if today_report and not today_report.get("summary"):
+            try:
+                char_data_file = HOMEPAGE_DIR / "character-data.json"
+                if char_data_file.exists():
+                    with open(char_data_file, "r", encoding="utf-8") as cf:
+                        char_data = json.load(cf)
+                    for dr in char_data.get("dailyReports", []):
+                        if dr.get("date") == today_str:
+                            if dr.get("title"):
+                                today_report["title"] = dr["title"]
+                            if dr.get("summary"):
+                                today_report["summary"] = dr["summary"]
+                                today_report["evoStats"]["summary"] = dr["summary"]
+                            if dr.get("url"):
+                                today_report["url"] = dr["url"]
+                            break
+            except Exception:
+                pass
     
     # 保留最近14天的report条目
     if len(reports) > 14:
