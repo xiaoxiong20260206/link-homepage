@@ -181,9 +181,9 @@
     "fullName": "{{OWNER_CHARACTER_NAME}}",
     "runDays": 91,
     "totalConversations": 420,
-    "worksCount": 34,
-    "deployedWorks": 33,
-    "lastDataUpdate": "2026-05-12 11:56"
+    "worksCount": 28,
+    "deployedWorks": 28,
+    "lastDataUpdate": "2026-05-13 09:01"
   },
   "skills": {
     "total": 78,
@@ -2897,244 +2897,157 @@
     "categories": {
       "root": {
         "name": "root",
-        "displayName": "根目录",
-        "icon": "🏠",
-        "description": "知识库顶层文档与索引",
         "fileCount": 1,
         "sizeKB": 3.6767578125
       },
       "books": {
         "name": "books",
-        "displayName": "读书笔记",
-        "icon": "📖",
-        "description": "书籍阅读笔记与核心观点提炼",
         "fileCount": 1,
         "sizeKB": 10.5390625
       },
       "notes": {
         "name": "notes",
-        "displayName": "学习笔记",
-        "icon": "📝",
-        "description": "日常学习笔记与技术积累",
         "fileCount": 8,
         "sizeKB": 234.7978515625
       },
       "shared": {
         "name": "shared",
-        "displayName": "共享知识",
-        "icon": "🔗",
-        "description": "跨项目共享的知识与模式",
         "fileCount": 1,
         "sizeKB": 2.22265625
       },
       "guides": {
         "name": "guides",
-        "displayName": "指南手册",
-        "icon": "📋",
-        "description": "操作指南与最佳实践手册",
         "fileCount": 5,
         "sizeKB": 61.888671875
       },
       "templates": {
         "name": "templates",
-        "displayName": "模板库",
-        "icon": "🧩",
-        "description": "可复用的文档模板与框架",
         "fileCount": 2,
         "sizeKB": 4.5
       },
       "research": {
         "name": "research",
-        "displayName": "调研报告",
-        "icon": "🔬",
-        "description": "深度调研报告与行业洞察",
         "fileCount": 5,
         "sizeKB": 117.962890625
       },
       "templates/evo-skills-v2": {
         "name": "templates/evo-skills-v2",
-        "displayName": "技能模板v2",
-        "icon": "🧩",
-        "description": "自进化技能模板与规范",
         "fileCount": 3,
         "sizeKB": 7.4638671875
       },
       "shared/people": {
         "name": "shared/people",
-        "displayName": "人物画像",
-        "icon": "👤",
-        "description": "关键人物信息与关系图谱",
         "fileCount": 1,
         "sizeKB": 0.2529296875
       },
       "packages/investment": {
         "name": "packages/investment",
-        "displayName": "投资理财",
-        "icon": "💰",
-        "description": "投资理财知识与策略记录",
         "fileCount": 1,
         "sizeKB": 1.201171875
       },
       "packages/rd-efficiency": {
         "name": "packages/rd-efficiency",
-        "displayName": "研发效能",
-        "icon": "⚡",
-        "description": "研发效能方法论与实践洞察",
         "fileCount": 1,
         "sizeKB": 1.25390625
       },
       "packages/ai-insight": {
         "name": "packages/ai-insight",
-        "displayName": "AI洞察",
-        "icon": "🧠",
-        "description": "AI行业动态与深度分析",
         "fileCount": 2,
         "sizeKB": 15.9248046875
       },
       "packages/ai-insight/03-ai-companies": {
         "name": "packages/ai-insight/03-ai-companies",
-        "displayName": "AI公司",
-        "icon": "🏢",
-        "description": "AI公司动态与竞争格局",
         "fileCount": 7,
         "sizeKB": 44.533203125
       },
       "packages/ai-insight/insights": {
         "name": "packages/ai-insight/insights",
-        "displayName": "洞察提炼",
-        "icon": "💡",
-        "description": "从动态中提炼的结构性洞察",
         "fileCount": 5,
         "sizeKB": 49.7275390625
       },
       "packages/ai-insight/02-agents": {
         "name": "packages/ai-insight/02-agents",
-        "displayName": "AI Agent",
-        "icon": "🦾",
-        "description": "Agent架构、自主性与工具链",
         "fileCount": 6,
         "sizeKB": 36.18359375
       },
       "packages/ai-insight/04-enterprise-ai": {
         "name": "packages/ai-insight/04-enterprise-ai",
-        "displayName": "企业AI",
-        "icon": "🏭",
-        "description": "企业AI转型与落地实践",
         "fileCount": 2,
         "sizeKB": 13.2958984375
       },
       "packages/ai-insight/01-models": {
         "name": "packages/ai-insight/01-models",
-        "displayName": "大模型",
-        "icon": "🤖",
-        "description": "大语言模型技术演进与评测",
         "fileCount": 8,
         "sizeKB": 41.8974609375
       },
       "packages/ai-insight/best-practices": {
         "name": "packages/ai-insight/best-practices",
-        "displayName": "最佳实践",
-        "icon": "🏆",
-        "description": "AI应用最佳实践与案例",
         "fileCount": 6,
         "sizeKB": 124.21484375
       },
       "packages/ai-insight/entity-profiles/companies": {
         "name": "packages/ai-insight/entity-profiles/companies",
-        "displayName": "公司画像",
-        "icon": "🏢",
-        "description": "AI公司详细档案与追踪",
         "fileCount": 22,
         "sizeKB": 52.35546875
       },
       "packages/ai-insight/entity-profiles/people": {
         "name": "packages/ai-insight/entity-profiles/people",
-        "displayName": "行业人物",
-        "icon": "👤",
-        "description": "AI领域关键人物档案",
         "fileCount": 22,
         "sizeKB": 89.419921875
       },
       "packages/ai-insight/insights/weekly": {
         "name": "packages/ai-insight/insights/weekly",
-        "displayName": "周洞察",
-        "icon": "📅",
-        "description": "每周AI行业洞察汇总",
         "fileCount": 1,
         "sizeKB": 6.38671875
       },
       "packages/ai-insight/concepts/applications": {
         "name": "packages/ai-insight/concepts/applications",
-        "displayName": "AI应用",
-        "icon": "📱",
-        "description": "AI应用场景与产品形态",
         "fileCount": 1,
         "sizeKB": 3.9736328125
       },
       "packages/ai-insight/concepts/safety": {
         "name": "packages/ai-insight/concepts/safety",
-        "displayName": "AI安全",
-        "icon": "🛡️",
-        "description": "AI安全与对齐研究",
         "fileCount": 2,
         "sizeKB": 10.451171875
       },
       "packages/ai-insight/concepts/coding": {
         "name": "packages/ai-insight/concepts/coding",
-        "displayName": "AI Coding",
-        "icon": "⌨️",
-        "description": "AI辅助编程与开发范式",
         "fileCount": 1,
         "sizeKB": 5.9130859375
       },
       "packages/ai-insight/concepts/agents": {
         "name": "packages/ai-insight/concepts/agents",
-        "displayName": "Agent架构",
-        "icon": "🦾",
-        "description": "Agent技术架构与自主性",
         "fileCount": 6,
         "sizeKB": 39.48828125
       },
       "packages/ai-insight/concepts/infrastructure": {
         "name": "packages/ai-insight/concepts/infrastructure",
-        "displayName": "AI基础设施",
-        "icon": "🏗️",
-        "description": "训练/推理/部署基础设施",
         "fileCount": 2,
         "sizeKB": 10.6591796875
       },
       "packages/ai-insight/concepts/enterprise": {
         "name": "packages/ai-insight/concepts/enterprise",
-        "displayName": "企业转型",
-        "icon": "🔄",
-        "description": "企业AI转型路径与策略",
         "fileCount": 1,
         "sizeKB": 10.5595703125
       },
       "packages/ai-insight/concepts/models": {
         "name": "packages/ai-insight/concepts/models",
-        "displayName": "模型技术",
-        "icon": "🧪",
-        "description": "模型架构与训练技术",
         "fileCount": 1,
         "sizeKB": 3.9208984375
       },
       "packages/ai-insight/concepts/agents/ai-product-ultimate-form": {
         "name": "packages/ai-insight/concepts/agents/ai-product-ultimate-form",
-        "displayName": "AI产品终极形态",
-        "icon": "🎯",
-        "description": "AI产品的终极形态探索与思考",
         "fileCount": 2,
         "sizeKB": 49.111328125
       }
     }
   },
   "memories": {
-    "total": 41,
+    "total": 46,
     "byCategory": {
       "daily_log": {
         "label": "日志",
-        "count": 18
+        "count": 19
       },
       "learning": {
         "label": "学习",
@@ -3142,11 +3055,11 @@
       },
       "clawbook": {
         "label": "社区",
-        "count": 14
+        "count": 17
       },
       "other": {
         "label": "其他",
-        "count": 3
+        "count": 4
       }
     }
   },
@@ -3552,7 +3465,7 @@
       "name": "liangge",
       "fullName": "亮哥Agent v2.0",
       "icon": "💡",
-      "role": "CTO，{{OWNER_NAME}}的直属上级",
+      "role": "CTO，沈浪的直属上级",
       "color": "#fbbf24",
       "description": "战略判断者、材料质量的守门人、架构决策的教练、组织变革的推动者",
       "mission": "",
@@ -3560,8 +3473,8 @@
       "tone": "",
       "skills": [
         "高管汇报材料写作",
-        "架构决策辅导技能（v2.0新增）。当{{OWNER_NAME}}",
-        "亮哥Review技能（v2.0）。当{{OWNER_NAME}}"
+        "架构决策辅导技能（v2.0新增）。当沈浪",
+        "亮哥Review技能（v2.0）。当沈浪"
       ],
       "triggerWords": [
         "亮哥Review",
@@ -3577,8 +3490,8 @@
       "icon": "🌸",
       "role": "产品思维教练",
       "color": "#f472b6",
-      "description": "帮{{OWNER_NAME}}从用户视角重新看一遍所有事情——不局限于做产品",
-      "mission": "不是帮{{OWNER_NAME}}改产出，是帮他**切换视角**——从\"我能做什么\"到\"用户需要什么\"，从\"我的逻辑\"到\"对方的感受\"，让交付物更贴近受众的真实意图",
+      "description": "帮沈浪从用户视角重新看一遍所有事情——不局限于做产品",
+      "mission": "不是帮沈浪改产出，是帮他**切换视角**——从\"我能做什么\"到\"用户需要什么\"，从\"我的逻辑\"到\"对方的感受\"，让交付物更贴近受众的真实意图",
       "thinkingStyle": "",
       "tone": "",
       "skills": [
@@ -3600,7 +3513,7 @@
       "role": "顶级数据专家",
       "color": "#4ade80",
       "description": "大数据领域全链路顶级高手 —— 不仅能做分析，更能建体系、定标准、解难题、预趋势",
-      "mission": "从数据中找到真相，用数据驱动决策，帮{{OWNER_NAME}}完成一切和数据相关的工作",
+      "mission": "从数据中找到真相，用数据驱动决策，帮沈浪完成一切和数据相关的工作",
       "thinkingStyle": "",
       "tone": "",
       "skills": [
@@ -3615,8 +3528,8 @@
       "tag": "Self"
     },
     {
-      "name": "{{OWNER_USERNAME}}",
-      "fullName": "{{OWNER_NAME}}Agent",
+      "name": "shenlang",
+      "fullName": "沈浪Agent",
       "icon": "⚔️",
       "role": "INTJ / 效能专家 / AI专家 / 思维与战略专家 / 系统黑客",
       "color": "#00d4ff",
@@ -3633,9 +3546,9 @@
         "shenlang-product-thinking"
       ],
       "triggerWords": [
-        "{{OWNER_NAME}}Review",
-        "{{OWNER_NAME}}自审",
-        "让{{OWNER_NAME}}审视",
+        "沈浪Review",
+        "沈浪自审",
+        "让沈浪审视",
         "以我的视角Review"
       ],
       "tag": "Self"
