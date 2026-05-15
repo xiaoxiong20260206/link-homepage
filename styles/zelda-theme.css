@@ -39,15 +39,16 @@
     --gold-glow: 0 0 20px rgba(212, 168, 42, 0.45);
     
     /* 天空蓝 - 旷野之息特色 */
-    --sky-blue: #87ceeb;
-    --sky-light: #b8e2f2;
-    --sky-sunset: #f5d7b5;
+    --sky-blue: #00d4ff;
+    --sky-light: rgba(0, 212, 255, 0.8);
+    --sky-sunset: rgba(0, 212, 255, 0.15);
     
-    /* 暖色调 */
-    --zelda-cream: #f5e6c8;
-    --zelda-parchment: #e8dcc4;
-    --zelda-brown: #6b5344;
+    /* 暖色调 — 统一暗色风格后，棕色→金色系 */
+    --zelda-cream: #0f1319;
+    --zelda-parchment: rgba(18, 22, 28, 0.88);
+    --zelda-brown: rgba(200, 220, 240, 0.85);
     --zelda-dark: #1e1a16;
+    --zelda-text-primary: rgba(200, 220, 240, 0.92);
     --zelda-dark-panel: rgba(24, 28, 33, 0.96);
     
     /* 功能色 */
@@ -57,7 +58,14 @@
     --zelda-blue: #5a9bc9;
     
     /* 文字色 */
-    --text-light: #f5e6c8;
+    --text-light: rgba(200, 220, 240, 0.9);
+
+    /* 字号阶梯 — 5级，不再散乱 */
+    --fs-xs: 11px;   /* 标签、徽章、小注 */
+    --fs-sm: 12px;   /* 描述、正文辅助 */
+    --fs-md: 14px;   /* 正文、卡片描述 */
+    --fs-lg: 18px;   /* 卡片标题、小标题 */
+    --fs-xl: 28px;   /* 区域标题、大标题 */
     --text-dark: #2a2520;
     --text-muted: rgba(245, 230, 200, 0.65);
     --text-bright: rgba(255, 255, 255, 0.92);
@@ -68,11 +76,11 @@
     --font-mono: 'Orbitron', monospace;
     
     /* 间距 */
-    --spacing-xs: 5px;
-    --spacing-sm: 10px;
-    --spacing-md: 20px;
-    --spacing-lg: 30px;
-    --spacing-xl: 50px;
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 12px;
+    --spacing-lg: 16px;
+    --spacing-xl: 24px;
     
     /* 圆角 - 更现代的圆角 */
     --radius-sm: 6px;
@@ -116,7 +124,7 @@
 body {
     font-family: var(--font-body);
     background: var(--zelda-cream);
-    color: var(--zelda-dark);
+    color: var(--zelda-text-primary);
     min-height: 100vh;
     overflow-x: hidden;
     line-height: 1.6;
@@ -124,21 +132,18 @@ body {
 
 /* ==================== 背景效果 ==================== */
 
-/* 旷野之息水彩天空背景 */
+/* 希卡之石深色背景 */
 .zelda-bg {
     position: fixed;
     inset: 0;
     background: 
-        /* 云海效果 */
-        radial-gradient(ellipse 120% 60% at 50% 120%, rgba(255,255,255,0.8) 0%, transparent 50%),
-        /* 日落渐变 - 柔和自然的吉卜力风格 */
+        radial-gradient(ellipse 80% 50% at 50% 0%, rgba(0, 212, 255, 0.08) 0%, transparent 50%),
+        radial-gradient(ellipse 60% 40% at 30% 80%, rgba(0, 212, 255, 0.05) 0%, transparent 40%),
         linear-gradient(180deg, 
-            #87ceeb 0%,      /* 清澈天空蓝 */
-            #b8d4e3 20%,
-            #f5e6c8 40%,     /* 羊皮纸暖色 */
-            #e8c9a0 60%,
-            #d4a574 80%,     /* 柔和日落橙 */
-            #c9927a 100%
+            #0c1015 0%,
+            #131820 30%,
+            #1a2230 60%,
+            #1e2535 100%
         );
     z-index: -3;
 }
@@ -302,8 +307,8 @@ body {
     box-shadow: 
         var(--shadow-md),
         inset 0 1px 0 rgba(255, 255, 255, 0.5),
-        inset 0 0 30px rgba(107, 83, 68, 0.04);
-    color: var(--zelda-dark);
+        inset 0 0 30px rgba(0, 212, 255, 0.04);
+    color: var(--zelda-text-primary);
 }
 
 /* ==================== 页面标题 ==================== */

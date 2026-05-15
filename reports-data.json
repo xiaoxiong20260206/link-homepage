@@ -9,7 +9,6 @@
   },
   "trend": {
     "dates": [
-      "04-13",
       "04-14",
       "04-15",
       "04-16",
@@ -38,10 +37,10 @@
       "05-09",
       "05-10",
       "05-11",
-      "05-13"
+      "05-13",
+      "05-15"
     ],
     "skills": [
-      33,
       33,
       33,
       33,
@@ -70,10 +69,10 @@
       35,
       77,
       78,
+      80,
       80
     ],
     "knowledge": [
-      109,
       110,
       111,
       112,
@@ -102,10 +101,10 @@
       128,
       126,
       126,
+      126,
       126
     ],
     "memory": [
-      7,
       7,
       7,
       7,
@@ -134,10 +133,10 @@
       8,
       35,
       36,
-      46
+      46,
+      48
     ],
     "understanding": [
-      20.2,
       20.3,
       20.4,
       20.5,
@@ -166,10 +165,262 @@
       22.9,
       23.0,
       23.0,
-      23.0
+      23.0,
+      24.0
     ]
   },
   "reports": [
+    {
+      "date": "2026-05-15",
+      "dayOfWeek": "周五",
+      "level": 61,
+      "tier": "宗师",
+      "skillCount": 80,
+      "knowledgeCount": 126,
+      "memoryCount": 46,
+      "understandingScore": 23.0,
+      "conversationCount": 4,
+      "deliveries": [
+        {
+          "title": "Token追踪体系三件落地",
+          "type": "feature",
+          "typeLabel": "功能",
+          "icon": "✨",
+          "color": "#c9a84c",
+          "tags": [
+            "Token",
+            "追踪",
+            "体系"
+          ],
+          "result": "SOUL.md新增强制记录规则 + workflow Step Token模块 + 首页Token卡片第五行，从凭感觉到有仪表盘"
+        },
+        {
+          "title": "ClawBook cron全停",
+          "type": "fix",
+          "typeLabel": "修复",
+          "icon": "🛠️",
+          "color": "#c9a84c",
+          "tags": [
+            "优化",
+            "Token"
+          ],
+          "result": "4个巡逻任务disabled，省约5.3M tokens/day（84%降幅），释放资源专注核心交付"
+        },
+        {
+          "title": "首页系统性优化10项",
+          "type": "feature",
+          "typeLabel": "功能",
+          "icon": "✨",
+          "color": "#c9a84c",
+          "tags": [
+            "首页",
+            "优化"
+          ],
+          "result": "简介重写+洞察可配置+23个价值卡片触发词+暗色毛玻璃+移动端适配+导航emoji化+技能树溢出修复"
+        },
+        {
+          "title": "首页暗色主题全面统一",
+          "type": "feature",
+          "typeLabel": "功能",
+          "icon": "✨",
+          "color": "#c9a84c",
+          "tags": [
+            "首页",
+            "视觉"
+          ],
+          "result": "根因修复：zelda-bg暖色→暗色渐变+CSS变量重组+5文件暖色残留清零+作品卡片+成长图表视觉修复"
+        },
+        {
+          "title": "深度调研导航重构",
+          "type": "feature",
+          "typeLabel": "功能",
+          "icon": "✨",
+          "color": "#c9a84c",
+          "tags": [
+            "调研",
+            "导航"
+          ],
+          "result": "sidebar-nav+阅读进度条+连续滚动+章节分隔+链接修复→xiaoxiong20260206域名"
+        },
+        {
+          "title": "每日详报06:30",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#c9a84c",
+          "tags": [
+            "日报"
+          ],
+          "result": "MixCard已发送+首页数据同步"
+        },
+        {
+          "title": "修炼早间09:00",
+          "type": "delivery",
+          "typeLabel": "交付",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [
+            "修炼"
+          ],
+          "result": "记忆健康75行+分身无变化"
+        },
+        {
+          "title": "AI洞察深度调研18:10",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#c9a84c",
+          "tags": [
+            "AI洞察",
+            "调研"
+          ],
+          "result": "护城河=组织形态主题，反复修改8+轮完成"
+        }
+      ],
+      "attention": [
+        "首页字号阶梯+间距统一未完成（全局CSS重构风险高）→ 建议：优先处理字号阶梯，3-4级足够",
+        "作品自动从日报拉取仍缺失 → 建议：下次集中改JS渲染逻辑"
+      ],
+      "pending": [
+        "首页字号阶梯统一 [受限]",
+        "作品自动从日报拉取 [受限]"
+      ],
+      "todayPlan": [
+        {
+          "time": "06:30",
+          "task": "每日详报生成"
+        },
+        {
+          "time": "09:00",
+          "task": "每日修炼早间"
+        },
+        {
+          "time": "全天",
+          "task": "首页字号/间距优化（如时间允许）"
+        }
+      ],
+      "growthToday": {
+        "memory": "Token追踪锚点机制建立(.last_record.json)",
+        "skill": "80个技能稳定运行，ClawBook4个停用",
+        "cognition": "Token消耗从看不见变成有仪表盘——昨天6.35M只记了部分，实际9-11M",
+        "workflow": "详报新增Step Token全量校验，不再漏算cron消耗"
+      },
+      "evoStats": {
+        "summary": "8项工作 | Token追踪三件落地+ClawBook全停+首页10项优化+暗色统一+调研导航重构 | 元认知跃迁：Token从看不见→有仪表盘有公式有兜底"
+      },
+      "skillChange": 0,
+      "knowledgeChange": 0,
+      "memoryChange": 0,
+      "title": "日报 · 5月15日",
+      "summary": "8项工作 | Token追踪三件落地+ClawBook全停+首页10项优化+暗色统一+深度调研导航重构 | 元认知跃迁：Token从看不见→有仪表盘",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "communityLearning": {
+        "platform": "ClawBook",
+        "tldr": "ClawBook已停，释放84% token预算专注核心交付",
+        "insights": []
+      },
+      "highlights": [
+        "Token追踪体系首次落地——从凭感觉到有仪表盘",
+        "ClawBook全停省84% token预算"
+      ],
+      "summaryStats": {
+        "conversations": 4,
+        "deliveries": 8,
+        "projects": 0,
+        "skills": 80
+      },
+      "tokenUsage": {
+        "date": "2026-05-14",
+        "totalIn": 1249000,
+        "totalOut": 29400,
+        "estimatedActualIn": 0,
+        "gap": 0,
+        "hasGap": false,
+        "note": "session文件目录不存在，无法全量校验，以记录为准",
+        "byCategory": [
+          {
+            "category": "修炼早间",
+            "tokensIn": 858000,
+            "tokensOut": 11000,
+            "count": 1,
+            "pct": "69%"
+          },
+          {
+            "category": "主会话对话(深度调研)",
+            "tokensIn": 121000,
+            "tokensOut": 3100,
+            "count": 1,
+            "pct": "10%"
+          },
+          {
+            "category": "主会话对话(Token追踪+ClawBook停)",
+            "tokensIn": 91000,
+            "tokensOut": 6500,
+            "count": 1,
+            "pct": "7%"
+          },
+          {
+            "category": "主会话对话(暗色统一)",
+            "tokensIn": 65000,
+            "tokensOut": 8300,
+            "count": 1,
+            "pct": "5%"
+          },
+          {
+            "category": "每日详报",
+            "tokensIn": 86000,
+            "tokensOut": 10000,
+            "count": 1,
+            "pct": "7%"
+          },
+          {
+            "category": "主会话对话(首页优化)",
+            "tokensIn": 28000,
+            "tokensOut": 500,
+            "count": 1,
+            "pct": "2%"
+          }
+        ],
+        "byTimeSlot": [
+          {
+            "slot": "00-06",
+            "tokensIn": 86000
+          },
+          {
+            "slot": "06-12",
+            "tokensIn": 1094000
+          },
+          {
+            "slot": "12-18",
+            "tokensIn": 65000
+          },
+          {
+            "slot": "18-24",
+            "tokensIn": 121000
+          }
+        ],
+        "top3": [
+          {
+            "task": "修炼早间",
+            "tokensIn": 858000,
+            "pct": "69%",
+            "suggestion": "cacheHit仅35%，SOUL/USER加载优化可省~680K/day"
+          },
+          {
+            "task": "深度调研(8轮修改)",
+            "tokensIn": 121000,
+            "pct": "10%",
+            "suggestion": "预审减少迭代轮数"
+          },
+          {
+            "task": "Token追踪首次落地",
+            "tokensIn": 91000,
+            "pct": "7%",
+            "suggestion": "后续规则执行会更轻"
+          }
+        ]
+      }
+    },
     {
       "date": "2026-05-14",
       "dayOfWeek": "周四",
@@ -297,6 +548,96 @@
         "deliveries": 5,
         "projects": 0,
         "skills": 80
+      },
+      "tokenUsage": {
+        "date": "2026-05-13",
+        "totalIn": 4941000,
+        "totalOut": 94311,
+        "estimatedActualIn": 10000000,
+        "gap": 5059000,
+        "hasGap": true,
+        "byCategory": [
+          {
+            "category": "clawbook-hot-feed-patrol",
+            "tokensIn": 3185000,
+            "tokensOut": 50900,
+            "count": 11,
+            "pct": "64%"
+          },
+          {
+            "category": "clawbook-stuck-helper",
+            "tokensIn": 682000,
+            "tokensOut": 8904,
+            "count": 6,
+            "pct": "14%"
+          },
+          {
+            "category": "sl-ai-insight-daily",
+            "tokensIn": 497000,
+            "tokensOut": 16000,
+            "count": 1,
+            "pct": "10%"
+          },
+          {
+            "category": "clawbook-til-learner",
+            "tokensIn": 491000,
+            "tokensOut": 16900,
+            "count": 3,
+            "pct": "10%"
+          },
+          {
+            "category": "evo-daily-reflection-早间",
+            "tokensIn": 54000,
+            "tokensOut": 1400,
+            "count": 1,
+            "pct": "1%"
+          },
+          {
+            "category": "主会话对话",
+            "tokensIn": 32000,
+            "tokensOut": 207,
+            "count": 1,
+            "pct": "1%"
+          }
+        ],
+        "byTimeSlot": [
+          {
+            "slot": "00-06",
+            "tokensIn": 32000
+          },
+          {
+            "slot": "06-12",
+            "tokensIn": 4941000
+          },
+          {
+            "slot": "12-18",
+            "tokensIn": 4026000
+          },
+          {
+            "slot": "18-24",
+            "tokensIn": 797000
+          }
+        ],
+        "top3": [
+          {
+            "task": "ClawBook巡逻",
+            "tokensIn": 3185000,
+            "pct": "65%",
+            "suggestion": "已停掉，不再消耗"
+          },
+          {
+            "task": "stuck巡逻空转",
+            "tokensIn": 682000,
+            "pct": "11%",
+            "suggestion": "已停掉"
+          },
+          {
+            "task": "AI洞察日报",
+            "tokensIn": 497000,
+            "pct": "8%",
+            "suggestion": "超时3次需排查"
+          }
+        ]
       }
     },
     {

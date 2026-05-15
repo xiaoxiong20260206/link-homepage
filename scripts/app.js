@@ -811,13 +811,47 @@ function renderSelectedReport(index) {
 
     // ===== 今日洞察 =====
     const cl = r.communityLearning || {};
-    if (el('insights-platform')) el('insights-platform').textContent = cl.platform || 'ClawBook';
+    if (el('insights-platform')) el('insights-platform').textContent = cl.platform || '内部洞察';
     if (el('insight-tldr'))      el('insight-tldr').textContent = cl.tldr || ((r.highlights||[])[0]) || '-';
     const insights = cl.insights || r.highlights || [];
     if (el('insight-tags')) {
         el('insight-tags').innerHTML = insights.slice(0,4).map(i =>
             `<span class="insight-tag">💡 ${escapeHtml(typeof i==='string'?i:(i.text||i))}</span>`
         ).join('');
+    }
+
+    // ===== Token 消耗分析 =====
+    const tu = r.tokenUsage || {};
+    const totalInK = tu.totalIn ? (tu.totalIn / 1000).toFixed(1) : '-';
+    const totalOutK = tu.totalOut ? (tu.totalOut / 1000).toFixed(1) : '-';
+    const gapK = tu.gap ? (tu.gap / 1000).toFixed(1) : '0';
+    const hasGap = tu.hasGap || false;
+
+    if (el('token-total-badge')) {
+        el('token-total-badge').textContent = totalInK !== '-' ? totalInK + 'K' : '';
+    }
+    if (el('token-total-in'))  el('token-total-in').textContent = totalInK;
+    if (el('token-total-out')) el('token-total-out').textContent = totalOutK;
+    if (el('token-gap')) {
+        el('token-gap').textContent = gapK;
+        el('token-gap').className = 'token-num ' + (hasGap ? 'token-gap-flag' : 'token-ok-flag');
+    }
+
+    const top3 = tu.top3 || [];
+    if (el('token-top3')) {
+        el('token-top3').innerHTML = top3.length === 0
+            ? '<span style="opacity:0.4;font-size:12px">暂无数据</span>'
+            : top3.map(t =>
+                `<div class="token-top3-item"><span class="tk-task">${escapeHtml(t.task||'')}</span><span class="tk-pct">${t.pct||''}</span></div>`
+            ).join('');
+    }
+
+    if (el('token-suggestion')) {
+        const gapNote = hasGap
+            ? `<span class="token-gap-flag">⚠️ 记录遗漏 ${gapK}K tokens</span> — 主会话长对话中间未记录`
+            : `<span class="token-ok-flag">✅ 记录完整</span>`;
+        const suggestions = top3.filter(t => t.suggestion).map(t => `${t.task}: ${t.suggestion}`).join('；');
+        el('token-suggestion').innerHTML = gapNote + (suggestions ? `<br>💡 ${suggestions}` : '');
     }
 }
 
@@ -1117,7 +1151,7 @@ function renderCapabilityGrowth(capData) {
 
     // B5: 社区学习
     const cl = r.communityLearning || {};
-    if (el('community-platform')) el('community-platform').textContent = cl.platform || 'ClawBook';
+    if (el('community-platform')) el('community-platform').textContent = cl.platform || '内部洞察';
     const insights = cl.insights || r.highlights || [];
     if (el('community-insights')) {
         el('community-insights').innerHTML = insights.length > 0
@@ -1441,6 +1475,13 @@ function renderWorksSection() {
         if (countEl) countEl.textContent = catInfo.count || 0;
     }
     
+    // 近期交付计数
+    const reports = AppState.reportsData?.reports || [];
+    let recentCount = 0;
+    reports.slice(0, 7).forEach(r => { recentCount += (r.deliveries || []).length; });
+    const recentCountEl = document.getElementById('works-count-recent');
+    if (recentCountEl) recentCountEl.textContent = recentCount;
+    
     // 渲染当前选中的Tab内容
     renderWorksByCategory(projects, currentWorksTab);
 }
@@ -1449,6 +1490,96 @@ function renderWorksSection() {
 function renderWorksByCategory(projects, category) {
     const container = document.getElementById('works-list');
     if (!container) return;
+    
+    // "近期交付"分类：从日报的 deliveries 中提取
+    if (category === 'recent') {
+        const reports = AppState.reportsData?.reports || [];
+        const recentDeliveries = [];
+        reports.slice(0, 7).forEach(r => {
+            (r.deliveries || []).forEach(d => {
+                const desc = d.result || d.typeLabel || '';
+                if (desc && desc !== '-') {
+                    recentDeliveries.push({
+                        name: d.title || '交付',
+                        icon: d.icon || '✨',
+                        category: 'recent',
+                        status: 'deployed',
+                        completedAt: r.date,
+                        url: r.url || '',
+                        quality: { level: d.type === 'delivery' ? 'featured' : 'basic' },
+                        description: desc,
+                        tags: d.tags || [],
+                        dateLabel: r.date
+                    });
+                }
+            });
+        });
+        
+        if (recentDeliveries.length === 0) {
+            container.innerHTML = '<div class="no-data">暂无近期交付记录</div>';
+            const countEl = document.getElementById('works-count-recent');
+            if (countEl) countEl.textContent = 0;
+            return;
+        }
+        
+        // 按日期分组
+        const byDate = {};
+        recentDeliveries.forEach(d => {
+            const dateKey = d.dateLabel || d.completedAt || '未知日期';
+            if (!byDate[dateKey]) byDate[dateKey] = [];
+            byDate[dateKey].push(d);
+        });
+        
+        const dateKeys = Object.keys(byDate).sort().reverse();
+        
+        let html = '<div class="recent-deliveries-list">';
+        dateKeys.forEach(dateKey => {
+            const items = byDate[dateKey];
+            const dateDisplay = getRelativeTime(dateKey) || dateKey;
+            html += `<div class="recent-date-group">
+                <div class="recent-date-header">
+                    <span class="recent-date-label">${escapeHtml(dateDisplay)}</span>
+                    <span class="recent-date-count">${items.length} 项交付</span>
+                </div>
+                <div class="recent-date-items">`;
+            
+            items.forEach((p, idx) => {
+                const projectId = 'recent-' + dateKey + '-' + idx;
+                AppState.dataMap[projectId] = { ...p, type: 'project' };
+                const tagsHtml = (p.tags || []).slice(0,3).map(t => `<span class="recent-tag">${escapeHtml(t)}</span>`).join('');
+                const isFeatured = p.quality?.level === 'featured';
+                const featuredClass = isFeatured ? 'featured' : '';
+                const featuredIcon = isFeatured ? '<span class="recent-featured-badge">⭐</span>' : '';
+                
+                html += `<div class="recent-delivery-card ${featuredClass}" 
+                     onmouseenter="showProjectTooltip(event, '${projectId}')" 
+                     onmouseleave="hideTooltip()">
+                    <div class="recent-card-left">
+                        <span class="recent-card-icon">${p.icon}</span>
+                        ${featuredIcon}
+                    </div>
+                    <div class="recent-card-right">
+                        <div class="recent-card-title">${escapeHtml(p.name)}</div>
+                        <div class="recent-card-desc">${escapeHtml(p.description)}</div>
+                        <div class="recent-card-footer">
+                            <span class="recent-card-status">✅ 已交付</span>
+                            ${tagsHtml}
+                        </div>
+                    </div>
+                </div>`;
+            });
+            
+            html += `</div></div>`;
+        });
+        html += '</div>';
+        
+        container.innerHTML = html;
+        
+        // 更新计数
+        const countEl = document.getElementById('works-count-recent');
+        if (countEl) countEl.textContent = recentDeliveries.length;
+        return;
+    }
     
     if (!projects?.projects || projects.projects.length === 0) {
         container.innerHTML = '<div class="no-data">暂无作品数据</div>';
@@ -3067,9 +3198,9 @@ function getGrowthData(period) {
 function renderGrowthCards(data) {
     const dims = [
         { key: 'understanding', icon: '🤝', name: '懂你', color: '#00d4ff' },
-        { key: 'skills', icon: '⚡', name: '技能', color: '#0891b2' },
-        { key: 'knowledge', icon: '📚', name: '知识', color: '#b8860b' },
-        { key: 'memory', icon: '🧠', name: '记忆', color: '#8b5cf6' }
+        { key: 'skills', icon: '⚡', name: '技能', color: '#00d4ff' },
+        { key: 'knowledge', icon: '📚', name: '知识', color: '#fbbf24' },
+        { key: 'memory', icon: '🧠', name: '记忆', color: '#a78bfa' }
     ];
     
     dims.forEach(dim => {
@@ -3147,16 +3278,21 @@ function renderSparkline(canvasId, data, color) {
     ctx.beginPath();
     points.forEach((p, i) => i === 0 ? ctx.moveTo(p.x, p.y) : ctx.lineTo(p.x, p.y));
     ctx.strokeStyle = color;
-    ctx.lineWidth = 1.5;
+    ctx.lineWidth = 2.5;
     ctx.lineJoin = 'round';
     ctx.stroke();
     
     // End dot
     const last = points[points.length - 1];
     ctx.beginPath();
-    ctx.arc(last.x, last.y, 2.5, 0, Math.PI * 2);
+    ctx.arc(last.x, last.y, 3.5, 0, Math.PI * 2);
     ctx.fillStyle = color;
     ctx.fill();
+    ctx.beginPath();
+    ctx.arc(last.x, last.y, 6, 0, Math.PI * 2);
+    ctx.strokeStyle = color + '60';
+    ctx.lineWidth = 1;
+    ctx.stroke();
 }
 
 function renderGrowthInsight(data) {
@@ -3243,37 +3379,37 @@ function renderTrendChart() {
                 {
                     label: `技能 (+${getChartChange(data.skills)})`,
                     data: skillsNorm,
-                    borderColor: '#0891b2',
-                    backgroundColor: 'rgba(8, 145, 178, 0.08)',
+                    borderColor: '#00d4ff',
+                    backgroundColor: 'rgba(0, 212, 255, 0.12)',
                     fill: true, tension: 0.4,
                     pointRadius: 4, pointHoverRadius: 8,
-                    pointBackgroundColor: '#0891b2',
+                    pointBackgroundColor: '#00d4ff',
                     pointBorderColor: 'rgba(255,255,255,0.9)', pointBorderWidth: 2,
-                    borderWidth: 2.5,
+                    borderWidth: 3,
                     originalData: data.skills
                 },
                 {
                     label: `知识 (+${getChartChange(data.knowledge)})`,
                     data: knowledgeNorm,
-                    borderColor: '#b8860b',
-                    backgroundColor: 'rgba(184, 134, 11, 0.08)',
+                    borderColor: '#fbbf24',
+                    backgroundColor: 'rgba(251, 191, 36, 0.12)',
                     fill: true, tension: 0.4,
                     pointRadius: 4, pointHoverRadius: 8,
-                    pointBackgroundColor: '#b8860b',
+                    pointBackgroundColor: '#fbbf24',
                     pointBorderColor: 'rgba(255,255,255,0.9)', pointBorderWidth: 2,
-                    borderWidth: 2.5,
+                    borderWidth: 3,
                     originalData: data.knowledge
                 },
                 {
                     label: `记忆 (+${getChartChange(data.memory)})`,
                     data: memoryNorm,
-                    borderColor: '#8b5cf6',
-                    backgroundColor: 'rgba(139, 92, 246, 0.08)',
+                    borderColor: '#a78bfa',
+                    backgroundColor: 'rgba(167, 139, 250, 0.12)',
                     fill: true, tension: 0.4,
                     pointRadius: 4, pointHoverRadius: 8,
-                    pointBackgroundColor: '#8b5cf6',
+                    pointBackgroundColor: '#a78bfa',
                     pointBorderColor: 'rgba(255,255,255,0.9)', pointBorderWidth: 2,
-                    borderWidth: 2.5,
+                    borderWidth: 3,
                     originalData: data.memory
                 },
                 {
@@ -3296,13 +3432,13 @@ function renderTrendChart() {
             interaction: { mode: 'index', intersect: false },
             scales: {
                 x: {
-                    grid: { color: 'rgba(107, 83, 68, 0.06)' },
-                    ticks: { color: 'rgba(107, 83, 68, 0.55)', font: { size: 11, family: "'Noto Serif SC', serif" } }
+                    grid: { color: 'rgba(0, 212, 255, 0.08)' },
+                    ticks: { color: 'rgba(200, 220, 240, 0.6)', font: { size: 11, family: "'Noto Serif SC', serif" } }
                 },
                 y: {
-                    grid: { color: 'rgba(107, 83, 68, 0.06)' },
+                    grid: { color: 'rgba(0, 212, 255, 0.08)' },
                     ticks: {
-                        color: 'rgba(107, 83, 68, 0.55)',
+                        color: 'rgba(200, 220, 240, 0.6)',
                         font: { size: 10 },
                         callback: function(v) {
                             if (v === 100) return '基准';
@@ -3317,7 +3453,7 @@ function renderTrendChart() {
                 legend: {
                     position: 'top',
                     labels: {
-                        color: 'rgba(107, 83, 68, 0.8)',
+                        color: 'rgba(200, 220, 240, 0.85)',
                         usePointStyle: true,
                         font: { size: 12, family: "'Noto Serif SC', serif" },
                         padding: 18
@@ -3325,12 +3461,12 @@ function renderTrendChart() {
                 },
                 tooltip: {
                     mode: 'index', intersect: false,
-                    backgroundColor: 'rgba(42, 37, 32, 0.92)',
-                    titleColor: '#f5e6c8',
+                    backgroundColor: 'rgba(18, 22, 28, 0.95)',
+                    titleColor: '#00d4ff',
                     titleFont: { size: 13, weight: 'bold' },
-                    bodyColor: '#f5e6c8',
+                    bodyColor: 'rgba(200, 220, 240, 0.9)',
                     bodyFont: { size: 12 },
-                    borderColor: 'rgba(107, 83, 68, 0.3)',
+                    borderColor: 'rgba(0, 212, 255, 0.3)',
                     borderWidth: 1,
                     padding: 12,
                     cornerRadius: 8,

@@ -11,7 +11,7 @@
 body {
     font-family: var(--font-body);
     background: var(--zelda-cream);
-    color: var(--zelda-dark);
+    color: var(--zelda-text-primary);
     min-height: 100vh;
     overflow-x: hidden;
     line-height: 1.6;
@@ -733,7 +733,7 @@ body {
     justify-content: space-between;
     margin-bottom: 24px;
     padding-bottom: 16px;
-    border-bottom: 1.5px solid rgba(107, 83, 68, 0.2);
+    border-bottom: 1.5px solid rgba(0, 212, 255, 0.2);
 }
 
 .section-header.mini {
@@ -763,7 +763,7 @@ body {
     font-family: var(--font-title);
     font-size: 21px;
     font-weight: 600;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     letter-spacing: 2px;
 }
 
@@ -775,7 +775,7 @@ body {
 
 .section-stats {
     font-size: 12px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     opacity: 0.7;
 }
 
@@ -794,10 +794,10 @@ body {
 
 .overview-card {
     background: linear-gradient(160deg, 
-        rgba(238, 228, 208, 0.97) 0%,
-        rgba(248, 238, 218, 0.94) 100%
+        rgba(18, 22, 28, 0.88) 0%,
+        rgba(28, 34, 42, 0.85) 100%
     );
-    border: 1px solid rgba(107, 83, 68, 0.15);
+    border: 1px solid rgba(0, 212, 255, 0.15);
     border-radius: var(--radius-lg);
     padding: 20px;
     text-align: center;
@@ -831,12 +831,12 @@ body {
     font-family: var(--font-mono);
     font-size: 28px;
     font-weight: 700;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
 }
 
 .ov-label {
     font-size: 11px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     opacity: 0.7;
     margin-top: 5px;
 }
@@ -918,10 +918,10 @@ body {
 
 .cap-card {
     background: linear-gradient(160deg, 
-        rgba(238, 228, 208, 0.97) 0%,
-        rgba(248, 238, 218, 0.94) 100%
+        rgba(18, 22, 28, 0.88) 0%,
+        rgba(28, 34, 42, 0.85) 100%
     );
-    border: 1px solid rgba(107, 83, 68, 0.15);
+    border: 1px solid rgba(0, 212, 255, 0.15);
     border-radius: var(--radius-lg);
     padding: 16px;
     transition: all var(--transition-normal);
@@ -951,7 +951,7 @@ body {
 
 .cap-name {
     font-size: 12px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     opacity: 0.8;
 }
 
@@ -965,7 +965,7 @@ body {
     font-family: var(--font-mono);
     font-size: 26px;
     font-weight: 700;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
 }
 
 .cap-card.skill .cap-current { color: var(--sheikah-blue); }
@@ -985,8 +985,8 @@ body {
 }
 
 .cap-change.neutral {
-    background: rgba(107, 83, 68, 0.1);
-    color: var(--zelda-brown);
+    background: rgba(0, 212, 255, 0.1);
+    color: rgba(200, 220, 240, 0.85);
     opacity: 0.6;
 }
 
@@ -1042,10 +1042,10 @@ body {
 /* 报告卡片 - v4.0 精致羊皮纸风格 */
 .report-card {
     background: linear-gradient(160deg, 
-        rgba(238, 228, 208, 0.97) 0%,
-        rgba(248, 238, 218, 0.94) 100%
+        rgba(18, 22, 28, 0.88) 0%,
+        rgba(28, 34, 42, 0.85) 100%
     );
-    border: 1px solid rgba(107, 83, 68, 0.15);
+    border: 1px solid rgba(0, 212, 255, 0.15);
     border-radius: var(--radius-lg);
     overflow: hidden;
     transition: all var(--transition-normal);
@@ -1060,8 +1060,8 @@ body {
 
 .report-header {
     padding: 14px 20px;
-    border-bottom: 1px solid rgba(107, 83, 68, 0.12);
-    background: rgba(107, 83, 68, 0.03);
+    border-bottom: 1px solid rgba(0, 212, 255, 0.12);
+    background: rgba(0, 212, 255, 0.03);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1071,15 +1071,15 @@ body {
     font-family: var(--font-title);
     font-size: 18px;
     font-weight: 600;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
 }
 
 .report-day {
     padding: 4px 10px;
-    background: rgba(107, 83, 68, 0.1);
+    background: rgba(0, 212, 255, 0.1);
     border-radius: 6px;
     font-size: 11px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     margin-left: 10px;
 }
 
@@ -1101,7 +1101,7 @@ body {
 
 .report-stat-lbl {
     font-size: 9px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     opacity: 0.7;
 }
 
@@ -1121,7 +1121,7 @@ body {
     border-radius: 6px;
     text-align: center;
     flex: 1;
-    border: 1px solid var(--zelda-brown);
+    border: 1px solid rgba(0, 212, 255, 0.25);
 }
 
 .report-cap-value {
@@ -1140,11 +1140,11 @@ body {
 
 .report-cap-change.up { color: var(--zelda-green); }
 .report-cap-change.down { color: var(--zelda-red); }
-.report-cap-change.none { color: var(--zelda-brown); opacity: 0.5; }
+.report-cap-change.none { color: rgba(200, 220, 240, 0.85); opacity: 0.5; }
 
 .report-cap-label {
     font-size: 9px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     opacity: 0.7;
 }
 
@@ -1165,7 +1165,7 @@ body {
 
 .report-footer {
     padding: 12px 20px;
-    background: rgba(107, 83, 68, 0.05);
+    background: rgba(0, 212, 255, 0.05);
     display: flex;
     justify-content: flex-end;
 }
@@ -1873,10 +1873,10 @@ body {
 
 .cat-tab {
     padding: 8px 16px;
-    background: rgba(238, 228, 208, 0.85);
-    border: 1px solid rgba(107, 83, 68, 0.2);
+    background: rgba(18, 22, 28, 0.85);
+    border: 1px solid rgba(0, 212, 255, 0.2);
     border-radius: var(--radius-xl);
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     font-size: 12px;
     cursor: pointer;
     transition: all var(--transition-normal);
@@ -1914,10 +1914,10 @@ body {
 
 .skill-card {
     background: linear-gradient(160deg, 
-        rgba(238, 228, 208, 0.97) 0%,
-        rgba(248, 238, 218, 0.94) 100%
+        rgba(18, 22, 28, 0.88) 0%,
+        rgba(28, 34, 42, 0.85) 100%
     );
-    border: 1.5px solid rgba(107, 83, 68, 0.18);
+    border: 1.5px solid rgba(0, 212, 255, 0.18);
     border-radius: var(--radius-lg);
     padding: 16px;
     transition: all var(--transition-normal);
@@ -1954,7 +1954,7 @@ body {
 .skill-name {
     font-size: 13px;
     font-weight: 600;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     flex: 1;
 }
 
@@ -1972,14 +1972,14 @@ body {
 
 .skill-desc {
     font-size: 11px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     opacity: 0.8;
     line-height: 1.5;
 }
 
 .skill-source {
     font-size: 10px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     opacity: 0.6;
     margin-top: 8px;
 }
@@ -1988,7 +1988,7 @@ body {
 .knowledge-section, .memory-section {
     margin-top: 30px;
     padding-top: 20px;
-    border-top: 2px solid var(--zelda-brown);
+    border-top: 1px solid rgba(0, 212, 255, 0.25);
 }
 
 .knowledge-grid {
@@ -1999,10 +1999,10 @@ body {
 
 .knowledge-card {
     background: linear-gradient(160deg, 
-        rgba(238, 228, 208, 0.97) 0%,
-        rgba(248, 238, 218, 0.94) 100%
+        rgba(18, 22, 28, 0.88) 0%,
+        rgba(28, 34, 42, 0.85) 100%
     );
-    border: 1.5px solid rgba(107, 83, 68, 0.18);
+    border: 1.5px solid rgba(0, 212, 255, 0.18);
     border-radius: var(--radius-lg);
     padding: 16px;
     transition: all var(--transition-normal);
@@ -2029,7 +2029,7 @@ body {
 .knowledge-name {
     font-size: 13px;
     font-weight: 600;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     flex: 1;
 }
 
@@ -2044,7 +2044,7 @@ body {
 
 .knowledge-desc {
     font-size: 10px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     opacity: 0.7;
 }
 
@@ -2057,10 +2057,10 @@ body {
 
 .memory-card {
     background: linear-gradient(160deg, 
-        rgba(238, 228, 208, 0.97) 0%,
-        rgba(248, 238, 218, 0.94) 100%
+        rgba(18, 22, 28, 0.88) 0%,
+        rgba(28, 34, 42, 0.85) 100%
     );
-    border: 1.5px solid rgba(107, 83, 68, 0.18);
+    border: 1.5px solid rgba(0, 212, 255, 0.18);
     border-left: 3px solid var(--sheikah-orange);
     border-radius: var(--radius-lg);
     padding: 16px;
@@ -2086,7 +2086,7 @@ body {
 .memory-title {
     font-size: 13px;
     font-weight: 600;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     margin-bottom: 6px;
 }
 
@@ -2111,10 +2111,10 @@ body {
     margin-bottom: 20px;
     padding: 20px;
     background: linear-gradient(135deg, 
-        rgba(232, 220, 196, 0.95) 0%,
-        rgba(245, 230, 200, 0.9) 100%
+        rgba(18, 22, 28, 0.92) 0%,
+        rgba(28, 34, 42, 0.88) 100%
     );
-    border: 2px solid var(--zelda-brown);
+    border: 1px solid rgba(0, 212, 255, 0.25);
     border-radius: var(--radius-md);
 }
 
@@ -2132,11 +2132,11 @@ body {
 
 .p-stat-value.green { color: var(--zelda-green); }
 .p-stat-value.orange { color: var(--sheikah-orange); }
-.p-stat-value.gray { color: var(--zelda-brown); opacity: 0.6; }
+.p-stat-value.gray { color: rgba(200, 220, 240, 0.85); opacity: 0.6; }
 
 .p-stat-label {
     font-size: 11px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     opacity: 0.7;
 }
 
@@ -2148,10 +2148,10 @@ body {
 
 .project-card {
     background: linear-gradient(135deg, 
-        rgba(232, 220, 196, 0.95) 0%,
-        rgba(245, 230, 200, 0.9) 100%
+        rgba(18, 22, 28, 0.92) 0%,
+        rgba(28, 34, 42, 0.88) 100%
     );
-    border: 2px solid var(--zelda-brown);
+    border: 1px solid rgba(0, 212, 255, 0.25);
     border-radius: var(--radius-md);
     overflow: hidden;
     transition: all 0.3s;
@@ -2165,8 +2165,8 @@ body {
 
 .project-header {
     padding: 20px;
-    border-bottom: 1px solid var(--zelda-brown);
-    background: rgba(107, 83, 68, 0.05);
+    border-bottom: 1px solid rgba(0, 212, 255, 0.25);
+    background: rgba(0, 212, 255, 0.05);
     display: flex;
     align-items: flex-start;
     gap: 15px;
@@ -2194,13 +2194,13 @@ body {
     font-family: var(--font-title);
     font-size: 15px;
     font-weight: 600;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     margin-bottom: 2px;
 }
 
 .project-subtitle {
     font-size: 11px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     opacity: 0.7;
 }
 
@@ -2224,9 +2224,9 @@ body {
 }
 
 .status-archived {
-    background: rgba(107, 83, 68, 0.15);
-    color: var(--zelda-brown);
-    border: 1px solid var(--zelda-brown);
+    background: rgba(0, 212, 255, 0.15);
+    color: rgba(200, 220, 240, 0.85);
+    border: 1px solid rgba(0, 212, 255, 0.25);
     opacity: 0.7;
 }
 
@@ -2244,7 +2244,7 @@ body {
 
 .project-section-label {
     font-size: 10px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     opacity: 0.7;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -2253,7 +2253,7 @@ body {
 
 .project-section-content {
     font-size: 12px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     line-height: 1.5;
 }
 
@@ -2289,7 +2289,7 @@ body {
 
 .project-footer {
     padding: 15px 20px;
-    background: rgba(107, 83, 68, 0.05);
+    background: rgba(0, 212, 255, 0.05);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -2297,7 +2297,7 @@ body {
 
 .project-date {
     font-size: 11px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     opacity: 0.7;
 }
 
@@ -2322,8 +2322,8 @@ body {
 }
 
 .project-link.disabled {
-    background: rgba(107, 83, 68, 0.2);
-    color: var(--zelda-brown);
+    background: rgba(0, 212, 255, 0.2);
+    color: rgba(200, 220, 240, 0.85);
     opacity: 0.5;
     cursor: not-allowed;
 }
@@ -2336,10 +2336,10 @@ body {
 
 .about-card {
     background: linear-gradient(135deg, 
-        rgba(232, 220, 196, 0.95) 0%,
-        rgba(245, 230, 200, 0.9) 100%
+        rgba(18, 22, 28, 0.92) 0%,
+        rgba(28, 34, 42, 0.88) 100%
     );
-    border: 2px solid var(--zelda-brown);
+    border: 1px solid rgba(0, 212, 255, 0.25);
     border-radius: var(--radius-md);
     overflow: hidden;
 }
@@ -2349,8 +2349,8 @@ body {
     align-items: center;
     gap: 10px;
     padding: 15px 20px;
-    background: rgba(107, 83, 68, 0.08);
-    border-bottom: 1px solid var(--zelda-brown);
+    background: rgba(0, 212, 255, 0.08);
+    border-bottom: 1px solid rgba(0, 212, 255, 0.25);
 }
 
 .card-icon {
@@ -2360,7 +2360,7 @@ body {
 .card-title {
     font-family: var(--font-title);
     font-size: 14px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     letter-spacing: 1px;
 }
 
@@ -2370,7 +2370,7 @@ body {
 
 .intro-text {
     font-size: 14px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     line-height: 1.8;
     margin-bottom: 15px;
 }
@@ -2387,7 +2387,7 @@ body {
     padding: 8px 0;
     padding-left: 24px;
     position: relative;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     font-size: 13px;
 }
 
@@ -2400,7 +2400,7 @@ body {
 }
 
 .intro-list li strong {
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     font-weight: 700;
 }
 
@@ -2413,7 +2413,7 @@ body {
     background: rgba(255, 255, 255, 0.5);
     border-radius: var(--radius-md);
     margin-bottom: 10px;
-    border: 1px solid var(--zelda-brown);
+    border: 1px solid rgba(0, 212, 255, 0.25);
 }
 
 .task-time {
@@ -2432,14 +2432,14 @@ body {
 
 .task-name {
     font-weight: 600;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     margin-bottom: 4px;
     font-size: 13px;
 }
 
 .task-desc {
     font-size: 12px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     opacity: 0.8;
     line-height: 1.5;
 }
@@ -2497,12 +2497,12 @@ body {
 .ach-name {
     font-size: 12px;
     font-weight: 600;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
 }
 
 .ach-desc {
     font-size: 10px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     opacity: 0.7;
 }
 
@@ -2522,19 +2522,19 @@ body {
 .config-table td {
     padding: 12px 16px;
     text-align: left;
-    border-bottom: 1px solid var(--zelda-brown);
+    border-bottom: 1px solid rgba(0, 212, 255, 0.25);
 }
 
 .config-table th {
     width: 150px;
     font-weight: 600;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     font-size: 12px;
-    background: rgba(107, 83, 68, 0.05);
+    background: rgba(0, 212, 255, 0.05);
 }
 
 .config-table td {
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     font-size: 13px;
 }
 
@@ -2778,7 +2778,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 40px;
-    color: var(--zelda-brown);
+    color: rgba(200, 220, 240, 0.85);
     gap: 15px;
 }
 
