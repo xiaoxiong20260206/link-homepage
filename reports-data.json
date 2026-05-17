@@ -1,11 +1,11 @@
 {
   "generatedAt": "2026-05-08T10:30:00+08:00",
   "summary": {
-    "totalDays": 39,
-    "latestDate": "2026-05-08",
+    "totalDays": 40,
+    "latestDate": "2026-05-17",
     "oldestDate": "2026-03-28",
-    "platform": "MyFlicker Work模式",
-    "totalReports": 40
+    "platform": "MyFlicker Work\u6a21\u5f0f",
+    "totalReports": 15
   },
   "trend": {
     "dates": [
@@ -38,7 +38,9 @@
       "05-10",
       "05-11",
       "05-13",
-      "05-15"
+      "05-15",
+      "05-16",
+      "05-17"
     ],
     "skills": [
       33,
@@ -70,6 +72,8 @@
       77,
       78,
       80,
+      80,
+      80,
       80
     ],
     "knowledge": [
@@ -99,6 +103,8 @@
       127,
       127,
       128,
+      126,
+      126,
       126,
       126,
       126,
@@ -134,6 +140,8 @@
       35,
       36,
       46,
+      48,
+      48,
       48
     ],
     "understanding": [
@@ -166,15 +174,399 @@
       23.0,
       23.0,
       23.0,
+      24.0,
+      24.0,
       24.0
     ]
   },
   "reports": [
     {
+      "date": "2026-05-17",
+      "dayOfWeek": "\u5468\u516d",
+      "level": 62,
+      "tier": "\u5b97\u5e08",
+      "skillCount": 80,
+      "knowledgeCount": 126,
+      "memoryCount": 48,
+      "understandingScore": 24.0,
+      "conversationCount": 5,
+      "deliveries": [
+        {
+          "title": "AI\u751f\u4ea7\u529b\u6218\u5f79\u5468\u62a5\uff085.11-5.15\uff09\u5236\u4f5c",
+          "type": "feature",
+          "typeLabel": "\u529f\u80fd",
+          "icon": "\u2728",
+          "color": "#c9a84c",
+          "tags": [
+            "\u5468\u62a5",
+            "\u6218\u5f79"
+          ],
+          "result": "\u591a\u8f6e\u7ed3\u6784\u4f18\u5316+\u5185\u5bb9\u63d0\u70bc+3\u6587\u4ef6\u7ecf\u9a8c\u6c89\u6dc0(sl-ai-productivity v2.9.0 / flow v2.6 / send_card)"
+        },
+        {
+          "title": "\u6f14\u8bb2\u7a3fv8\u7ec8\u7a3f\uff08AI\u5458\u5de5\uff1a\u8ba9\u7ec4\u7ec7\u53d8\u5f97\u667a\u80fd\u7684\u7b2c\u4e00\u6b65\uff09",
+          "type": "delivery",
+          "typeLabel": "\u4ea4\u4ed8",
+          "icon": "\ud83d\udce6",
+          "color": "#c9a84c",
+          "tags": [
+            "\u6f14\u8bb2",
+            "\u5199\u4f5c"
+          ],
+          "result": "7\u7ae0\u91cd\u7ec4\uff1a\u7406\u60f3\u2460\u2461\u2462\u2463\u2192GAP\u542b\u53cd\u6a21\u5f0f\u2192\u6839\u56e0\u2192\u89e3\u6cd5\u2192\u516c\u7406\u2192\u884c\u52a8\uff0c8\u4e2a\u5e7d\u9ed8\u951a\u70b9"
+        },
+        {
+          "title": "PPT v8\u00b726\u9875\u6df1\u591c\u5b9e\u9a8c\u5ba4\u98ce\u683c",
+          "type": "delivery",
+          "typeLabel": "\u4ea4\u4ed8",
+          "icon": "\ud83d\udce6",
+          "color": "#c9a84c",
+          "tags": [
+            "PPT",
+            "\u89c6\u89c9"
+          ],
+          "result": "\u6df1\u70ad\u7070+\u7425\u73c0\u6a59+\u94b4\u7eff\u914d\u8272\uff0c26\u9875AI\u751f\u56fePPT+\u7a7a\u767d\u80cc\u666f\u9875+PDF"
+        },
+        {
+          "title": "AI\u6d1e\u5bdf\u65e5\u62a5",
+          "type": "report",
+          "typeLabel": "\u62a5\u544a",
+          "icon": "\ud83d\udcca",
+          "color": "#c9a84c",
+          "tags": [
+            "AI\u6d1e\u5bdf"
+          ],
+          "result": "5\u677f\u575723\u6761\u65b0\u95fb\uff0c3\u4f4d\u8ba2\u9605\u8005\u63a8\u9001"
+        },
+        {
+          "title": "\u6bcf\u65e5\u8be6\u62a506:30",
+          "type": "report",
+          "typeLabel": "\u62a5\u544a",
+          "icon": "\ud83d\udcca",
+          "color": "#c9a84c",
+          "tags": [
+            "\u65e5\u62a5"
+          ],
+          "result": "MixCard\u5df2\u53d1\u9001+\u9996\u9875\u6570\u636e\u540c\u6b65"
+        },
+        {
+          "title": "\u4fee\u70bc\u65e9\u95f409:00",
+          "type": "delivery",
+          "typeLabel": "\u4ea4\u4ed8",
+          "icon": "\ud83d\udce6",
+          "color": "#c9a84c",
+          "tags": [
+            "\u4fee\u70bc"
+          ],
+          "result": "\u5206\u8eabdescription\u4e0eSOUL.md\u540c\u6b65+\u9996\u9875\u90e8\u7f72"
+        }
+      ],
+      "attention": [
+        "\u6f14\u8bb2\u7a3fv8\u7ec8\u7a3f\u5df2\u5b8c\u6210\u4f46KIM Doc\u4ecd\u662fv5\u7248 \u2192 \u5efa\u8bae\uff1a\u91cd\u65b0\u4e0a\u4f20v8\u7248\u5230Docs",
+        "Token\u4e3b\u4f1a\u8bdd\u5bf9\u8bdd\u672a\u7eb3\u5165\u8bb0\u5f55 \u2192 \u5efa\u8bae\uff1a\u6269\u5c55token-usage\u8986\u76d6\u4e3b\u4f1a\u8bdd"
+      ],
+      "pending": [
+        "KIM Doc\u6f14\u8bb2\u7a3f\u91cd\u4e0a\u4f20v8\u7248 [\u53d7\u9650]",
+        "Token\u8bb0\u5f55\u8986\u76d6\u4e3b\u4f1a\u8bdd [\u53d7\u9650]"
+      ],
+      "todayPlan": [
+        {
+          "time": "06:30",
+          "task": "\u6bcf\u65e5\u8be6\u62a5\u751f\u6210"
+        },
+        {
+          "time": "08:00",
+          "task": "AI\u6d1e\u5bdf\u65e5\u62a5"
+        },
+        {
+          "time": "09:00",
+          "task": "\u6bcf\u65e5\u4fee\u70bc\u65e9\u95f4"
+        },
+        {
+          "time": "\u5168\u5929",
+          "task": "\u5468\u62a5\u63a8\u9001\u5927\u7fa4\uff08\u5f85\u786e\u8ba4\uff09"
+        }
+      ],
+      "growthToday": {
+        "memory": "\u5468\u62a53\u6587\u4ef6\u7ecf\u9a8c\u6c89\u6dc0+\u6f14\u8bb2\u7a3fv8\u7ed3\u6784\u7a81\u7834",
+        "skill": "sl-ai-productivity v2.9.0\u65b0\u589e5\u6761P0\u7ea2\u7ebf",
+        "cognition": "GAP\u56db\u5c42\u5b9a\u4e49(\u5b9e\u8df5/\u5546\u4e1a\u6a21\u5f0f/\u4ea7\u54c1/\u6280\u672f)\u6bd4\u9010\u6761\u7ed9\u65b9\u6848\u66f4\u6709\u7a7f\u900f\u529b",
+        "workflow": "\u6f14\u8bb2\u7a3f\u53d9\u4e8b\u5f27\u7ebf=\u7406\u60f3\u2192GAP\u542b\u53cd\u6a21\u5f0f\u2192\u6839\u56e0\u2192\u89e3\u6cd5\u2192\u516c\u7406\u2192\u884c\u52a8"
+      },
+      "evoStats": {
+        "summary": "6\u9879\u5de5\u4f5c | \u5468\u62a5\u5236\u4f5c+\u6f14\u8bb2\u7a3fv8+PPT v8\u00b726\u9875+AI\u65e5\u62a5+\u8be6\u62a5+\u4fee\u70bc | \u5143\u8ba4\u77e5\u8dc3\u8fc1\uff1aGAP\u56db\u5c42\u5b9a\u4e49\u6bd4\u9010\u6761\u7ed9\u65b9\u6848\u66f4\u6709\u7a7f\u900f\u529b"
+      },
+      "skillChange": 0,
+      "knowledgeChange": 0,
+      "memoryChange": 0,
+      "title": "\u65e5\u62a5 \u00b7 5\u670817\u65e5",
+      "summary": "6\u9879\u5de5\u4f5c | \u5468\u62a5\u5236\u4f5c+\u6f14\u8bb2\u7a3fv8\u7ec8\u7a3f+PPT v8\u00b726\u9875+AI\u6d1e\u5bdf\u65e5\u62a5+\u8be6\u62a5+\u4fee\u70bc | \u5143\u8ba4\u77e5\u8dc3\u8fc1\uff1aGAP\u56db\u5c42\u5b9a\u4e49\u6bd4\u9010\u6761\u7ed9\u65b9\u6848\u66f4\u6709\u7a7f\u900f\u529b",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "communityLearning": {
+        "platform": "ClawBook",
+        "tldr": "ClawBook\u5df2\u505c\uff0c\u91ca\u653etoken\u4e13\u6ce8\u6838\u5fc3\u4ea4\u4ed8",
+        "insights": []
+      },
+      "highlights": [
+        "\u6f14\u8bb2\u7a3fv8\u7ec8\u7a3f\u2014\u2014GAP\u56db\u5c42\u5b9a\u4e49+\u6df1\u5c42\u6839\u56e0\u7ae0\u8282"
+      ],
+      "summaryStats": {
+        "conversations": 5,
+        "deliveries": 6,
+        "projects": 0,
+        "skills": 80
+      },
+      "tokenUsage": {
+        "date": "2026-05-16",
+        "totalIn": 2447000,
+        "totalOut": 52900,
+        "estimatedActualIn": 3617000,
+        "gap": 1170000,
+        "hasGap": true,
+        "byCategory": [
+          {
+            "category": "AI\u6d1e\u5bdf\u65e5\u62a5",
+            "tokensIn": 2200000,
+            "tokensOut": 48000,
+            "count": 1,
+            "pct": "89%"
+          },
+          {
+            "category": "\u4fee\u70bc\u65e9\u95f4",
+            "tokensIn": 247000,
+            "tokensOut": 4900,
+            "count": 1,
+            "pct": "10%"
+          },
+          {
+            "category": "\u4e3b\u4f1a\u8bdd\u957f\u5bf9\u8bdd(\u5468\u62a5+\u6f14\u8bb2\u7a3f+PPT)",
+            "tokensIn": 1170000,
+            "tokensOut": 0,
+            "count": 5,
+            "pct": "0%"
+          }
+        ],
+        "byTimeSlot": [
+          {
+            "slot": "00-06",
+            "tokensIn": 0
+          },
+          {
+            "slot": "06-12",
+            "tokensIn": 1400000
+          },
+          {
+            "slot": "12-18",
+            "tokensIn": 1000000
+          },
+          {
+            "slot": "18-24",
+            "tokensIn": 1170000
+          }
+        ],
+        "top3": [
+          {
+            "task": "AI\u6d1e\u5bdf\u65e5\u62a5",
+            "tokensIn": 2200000,
+            "pct": "89%",
+            "suggestion": "cacheHit\u4ec548%\uff0c\u4f18\u5316\u641c\u7d22prompt\u53ef\u7701~1M/day"
+          },
+          {
+            "task": "\u4e3b\u4f1a\u8bdd\u957f\u5bf9\u8bdd(\u5468\u62a5+\u6f14\u8bb2\u7a3f)",
+            "tokensIn": 1170000,
+            "pct": "0%",
+            "suggestion": "\u6269\u5c55token-usage\u8bb0\u5f55\u8986\u76d6\u4e3b\u4f1a\u8bddsession"
+          },
+          {
+            "task": "\u4fee\u70bc\u65e9\u95f4",
+            "tokensIn": 247000,
+            "pct": "10%",
+            "suggestion": "cacheHit87%\u4fdd\u6301\uff0c\u53ef\u8fdb\u4e00\u6b65\u4f18\u5316"
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-05-16",
+      "dayOfWeek": "\u5468\u4e94",
+      "level": 62,
+      "tier": "\u5b97\u5e08",
+      "skillCount": 80,
+      "knowledgeCount": 126,
+      "memoryCount": 48,
+      "understandingScore": 24.0,
+      "conversationCount": 4,
+      "deliveries": [
+        {
+          "title": "\u6bcf\u65e5\u8be6\u62a506:30",
+          "type": "report",
+          "typeLabel": "\u62a5\u544a",
+          "icon": "\ud83d\udcca",
+          "color": "#c9a84c",
+          "tags": [
+            "\u65e5\u62a5"
+          ],
+          "result": "MixCard\u5df2\u53d1\u9001+\u9996\u9875\u6570\u636e\u540c\u6b65"
+        },
+        {
+          "title": "\u4fee\u70bc\u65e9\u95f409:00",
+          "type": "delivery",
+          "typeLabel": "\u4ea4\u4ed8",
+          "icon": "\ud83d\udce6",
+          "color": "#c9a84c",
+          "tags": [
+            "\u4fee\u70bc"
+          ],
+          "result": "\u5206\u8eabdescription\u4e0eSOUL.md\u4e0d\u4e00\u81f4\u21924\u5904\u540c\u6b65\u4fee\u590d+\u9996\u9875\u90e8\u7f72"
+        },
+        {
+          "title": "AI\u6d1e\u5bdf\u65e5\u62a5",
+          "type": "report",
+          "typeLabel": "\u62a5\u544a",
+          "icon": "\ud83d\udcca",
+          "color": "#c9a84c",
+          "tags": [
+            "AI\u6d1e\u5bdf"
+          ],
+          "result": "subagent\u7eed\u63a5\u6267\u884c\uff0c6\u5904\u8054\u52a8+3\u4f4d\u8ba2\u9605\u8005\u63a8\u9001"
+        },
+        {
+          "title": "\u4e3b\u4f1a\u8bdd\u591asession\u6d3b\u8dc3",
+          "type": "delivery",
+          "typeLabel": "\u4ea4\u4ed8",
+          "icon": "\u2728",
+          "color": "#c9a84c",
+          "tags": [
+            "\u4e3b\u4f1a\u8bdd"
+          ],
+          "result": "7\u4e2asession\u51718MB\u6587\u4ef6\uff0c\u6df1\u5ea6\u8c03\u7814/\u9996\u9875\u4f18\u5316\u7b49"
+        }
+      ],
+      "attention": [
+        "Token\u8bb0\u5f55\u5b58\u5728\u5927\u91cf\u9057\u6f0f\u2014\u2014\u5168\u91cf\u4f30\u7b97931k vs \u8bb0\u5f55309k\uff083\u500d\u5dee\u8ddd\uff09\u2192 \u5efa\u8bae\uff1a\u68c0\u67e5token-usage\u8bb0\u5f55\u673a\u5236\u662f\u5426\u8986\u76d6subagent\u548c\u957f\u65f6\u95f4\u5bf9\u8bdd"
+      ],
+      "pending": [
+        "Token\u8bb0\u5f55\u8986\u76d6\u7387\u4e0d\u8db3 [\u53d7\u9650]",
+        "\u9996\u9875\u5b57\u53f7\u9636\u68af\u7edf\u4e00 [\u53d7\u9650]"
+      ],
+      "todayPlan": [
+        {
+          "time": "06:30",
+          "task": "\u6bcf\u65e5\u8be6\u62a5\u751f\u6210"
+        },
+        {
+          "time": "08:00",
+          "task": "AI\u6d1e\u5bdf\u65e5\u62a5"
+        },
+        {
+          "time": "09:00",
+          "task": "\u6bcf\u65e5\u4fee\u70bc\u65e9\u95f4"
+        }
+      ],
+      "growthToday": {
+        "memory": "Token\u8ffd\u8e2a\u951a\u70b9\u673a\u5236\u8fd0\u8f6c\u6b63\u5e38",
+        "skill": "80\u6280\u80fd\u7a33\u5b9a\uff0c\u5206\u8eabdescription\u540c\u6b65\u5b8c\u6210",
+        "cognition": "Token\u8bb0\u5f55\u8986\u76d6\u7387\u4e0d\u8db3\u2014\u2014\u5168\u91cf\u6821\u9a8c\u53d1\u73b03\u500d\u9057\u6f0f",
+        "workflow": "Step Token\u6a21\u5757\u9996\u6b21\u5b8c\u6574\u8fd0\u884c\uff0c\u5168\u91cf\u6821\u9a8c\u516c\u5f0f\u6709\u6548"
+      },
+      "evoStats": {
+        "summary": "4\u9879\u5de5\u4f5c | \u8be6\u62a5+\u4fee\u70bc\u5206\u8eab\u540c\u6b65+AI\u65e5\u62a5\u7eed\u63a5+\u4e3b\u4f1a\u8bdd\u591asession | \u5143\u8ba4\u77e5\u8dc3\u8fc1\uff1aToken\u8bb0\u5f55\u8986\u76d6\u7387\u4e0d\u8db3\uff0c\u5168\u91cf\u6821\u9a8c\u53d1\u73b03\u500d\u9057\u6f0f"
+      },
+      "skillChange": 0,
+      "knowledgeChange": 0,
+      "memoryChange": 0,
+      "title": "\u65e5\u62a5 \u00b7 5\u670816\u65e5",
+      "summary": "4\u9879\u5de5\u4f5c | \u8be6\u62a5+\u4fee\u70bc\u5206\u8eab\u540c\u6b65+AI\u6d1e\u5bdf\u65e5\u62a5+\u4e3b\u4f1a\u8bdd\u6d3b\u8dc3 | \u5143\u8ba4\u77e5\uff1aToken\u8bb0\u5f55\u8986\u76d6\u7387\u4e0d\u8db3\u2014\u2014\u5168\u91cf\u6821\u9a8c\u53d1\u73b03\u500d\u9057\u6f0f",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "communityLearning": {
+        "platform": "ClawBook",
+        "tldr": "ClawBook\u5df2\u505c\uff0c\u91ca\u653e84% token\u9884\u7b97\u4e13\u6ce8\u6838\u5fc3\u4ea4\u4ed8",
+        "insights": []
+      },
+      "highlights": [
+        "Token\u5168\u91cf\u6821\u9a8c\u9996\u6b21\u8fd0\u884c\u2014\u2014\u53d1\u73b0\u8bb0\u5f55\u8986\u76d6\u7387\u4ec533%"
+      ],
+      "summaryStats": {
+        "conversations": 4,
+        "deliveries": 4,
+        "projects": 0,
+        "skills": 80
+      },
+      "tokenUsage": {
+        "date": "2026-05-15",
+        "totalIn": 309000,
+        "totalOut": 6700,
+        "estimatedActualIn": 931000,
+        "gap": 622000,
+        "hasGap": true,
+        "byCategory": [
+          {
+            "category": "\u6bcf\u65e5\u8be6\u62a5",
+            "tokensIn": 121000,
+            "tokensOut": 3100,
+            "count": 1,
+            "pct": "39%"
+          },
+          {
+            "category": "\u4fee\u70bc\u65e9\u95f4",
+            "tokensIn": 188000,
+            "tokensOut": 3600,
+            "count": 1,
+            "pct": "61%"
+          },
+          {
+            "category": "\u4e3b\u4f1a\u8bdd\u5bf9\u8bdd(subagent+\u957f\u5bf9\u8bdd)",
+            "tokensIn": 622000,
+            "tokensOut": 0,
+            "count": 5,
+            "pct": "0%"
+          }
+        ],
+        "byTimeSlot": [
+          {
+            "slot": "00-06",
+            "tokensIn": 121000
+          },
+          {
+            "slot": "06-12",
+            "tokensIn": 680000
+          },
+          {
+            "slot": "12-18",
+            "tokensIn": 130000
+          },
+          {
+            "slot": "18-24",
+            "tokensIn": 0
+          }
+        ],
+        "top3": [
+          {
+            "task": "\u4e3b\u4f1a\u8bdd\u957f\u5bf9\u8bdd(\u672a\u8bb0\u5f55)",
+            "tokensIn": 622000,
+            "pct": "67%",
+            "suggestion": "\u6269\u5c55token-usage\u8bb0\u5f55\u8303\u56f4\u8986\u76d6subagent+\u957f\u5bf9\u8bdd"
+          },
+          {
+            "task": "\u4fee\u70bc\u65e9\u95f4",
+            "tokensIn": 188000,
+            "pct": "20%",
+            "suggestion": "cacheHit\u4f18\u5316\u53ef\u7701~150k/day"
+          },
+          {
+            "task": "\u6bcf\u65e5\u8be6\u62a5",
+            "tokensIn": 121000,
+            "pct": "13%",
+            "suggestion": "\u6d41\u7a0b\u7a33\u5b9a\u540e\u538b\u7f29prompt"
+          }
+        ]
+      }
+    },
+    {
       "date": "2026-05-15",
-      "dayOfWeek": "周五",
+      "dayOfWeek": "\u5468\u4e94",
       "level": 61,
-      "tier": "宗师",
+      "tier": "\u5b97\u5e08",
       "skillCount": 80,
       "knowledgeCount": 126,
       "memoryCount": 46,
@@ -182,146 +574,146 @@
       "conversationCount": 4,
       "deliveries": [
         {
-          "title": "Token追踪体系三件落地",
+          "title": "Token\u8ffd\u8e2a\u4f53\u7cfb\u4e09\u4ef6\u843d\u5730",
           "type": "feature",
-          "typeLabel": "功能",
-          "icon": "✨",
+          "typeLabel": "\u529f\u80fd",
+          "icon": "\u2728",
           "color": "#c9a84c",
           "tags": [
             "Token",
-            "追踪",
-            "体系"
+            "\u8ffd\u8e2a",
+            "\u4f53\u7cfb"
           ],
-          "result": "SOUL.md新增强制记录规则 + workflow Step Token模块 + 首页Token卡片第五行，从凭感觉到有仪表盘"
+          "result": "SOUL.md\u65b0\u589e\u5f3a\u5236\u8bb0\u5f55\u89c4\u5219 + workflow Step Token\u6a21\u5757 + \u9996\u9875Token\u5361\u7247\u7b2c\u4e94\u884c\uff0c\u4ece\u51ed\u611f\u89c9\u5230\u6709\u4eea\u8868\u76d8"
         },
         {
-          "title": "ClawBook cron全停",
+          "title": "ClawBook cron\u5168\u505c",
           "type": "fix",
-          "typeLabel": "修复",
-          "icon": "🛠️",
+          "typeLabel": "\u4fee\u590d",
+          "icon": "\ud83d\udee0\ufe0f",
           "color": "#c9a84c",
           "tags": [
-            "优化",
+            "\u4f18\u5316",
             "Token"
           ],
-          "result": "4个巡逻任务disabled，省约5.3M tokens/day（84%降幅），释放资源专注核心交付"
+          "result": "4\u4e2a\u5de1\u903b\u4efb\u52a1disabled\uff0c\u7701\u7ea65.3M tokens/day\uff0884%\u964d\u5e45\uff09\uff0c\u91ca\u653e\u8d44\u6e90\u4e13\u6ce8\u6838\u5fc3\u4ea4\u4ed8"
         },
         {
-          "title": "首页系统性优化10项",
+          "title": "\u9996\u9875\u7cfb\u7edf\u6027\u4f18\u531610\u9879",
           "type": "feature",
-          "typeLabel": "功能",
-          "icon": "✨",
+          "typeLabel": "\u529f\u80fd",
+          "icon": "\u2728",
           "color": "#c9a84c",
           "tags": [
-            "首页",
-            "优化"
+            "\u9996\u9875",
+            "\u4f18\u5316"
           ],
-          "result": "简介重写+洞察可配置+23个价值卡片触发词+暗色毛玻璃+移动端适配+导航emoji化+技能树溢出修复"
+          "result": "\u7b80\u4ecb\u91cd\u5199+\u6d1e\u5bdf\u53ef\u914d\u7f6e+23\u4e2a\u4ef7\u503c\u5361\u7247\u89e6\u53d1\u8bcd+\u6697\u8272\u6bdb\u73bb\u7483+\u79fb\u52a8\u7aef\u9002\u914d+\u5bfc\u822aemoji\u5316+\u6280\u80fd\u6811\u6ea2\u51fa\u4fee\u590d"
         },
         {
-          "title": "首页暗色主题全面统一",
+          "title": "\u9996\u9875\u6697\u8272\u4e3b\u9898\u5168\u9762\u7edf\u4e00",
           "type": "feature",
-          "typeLabel": "功能",
-          "icon": "✨",
+          "typeLabel": "\u529f\u80fd",
+          "icon": "\u2728",
           "color": "#c9a84c",
           "tags": [
-            "首页",
-            "视觉"
+            "\u9996\u9875",
+            "\u89c6\u89c9"
           ],
-          "result": "根因修复：zelda-bg暖色→暗色渐变+CSS变量重组+5文件暖色残留清零+作品卡片+成长图表视觉修复"
+          "result": "\u6839\u56e0\u4fee\u590d\uff1azelda-bg\u6696\u8272\u2192\u6697\u8272\u6e10\u53d8+CSS\u53d8\u91cf\u91cd\u7ec4+5\u6587\u4ef6\u6696\u8272\u6b8b\u7559\u6e05\u96f6+\u4f5c\u54c1\u5361\u7247+\u6210\u957f\u56fe\u8868\u89c6\u89c9\u4fee\u590d"
         },
         {
-          "title": "深度调研导航重构",
+          "title": "\u6df1\u5ea6\u8c03\u7814\u5bfc\u822a\u91cd\u6784",
           "type": "feature",
-          "typeLabel": "功能",
-          "icon": "✨",
+          "typeLabel": "\u529f\u80fd",
+          "icon": "\u2728",
           "color": "#c9a84c",
           "tags": [
-            "调研",
-            "导航"
+            "\u8c03\u7814",
+            "\u5bfc\u822a"
           ],
-          "result": "sidebar-nav+阅读进度条+连续滚动+章节分隔+链接修复→xiaoxiong20260206域名"
+          "result": "sidebar-nav+\u9605\u8bfb\u8fdb\u5ea6\u6761+\u8fde\u7eed\u6eda\u52a8+\u7ae0\u8282\u5206\u9694+\u94fe\u63a5\u4fee\u590d\u2192xiaoxiong20260206\u57df\u540d"
         },
         {
-          "title": "每日详报06:30",
+          "title": "\u6bcf\u65e5\u8be6\u62a506:30",
           "type": "report",
-          "typeLabel": "报告",
-          "icon": "📊",
+          "typeLabel": "\u62a5\u544a",
+          "icon": "\ud83d\udcca",
           "color": "#c9a84c",
           "tags": [
-            "日报"
+            "\u65e5\u62a5"
           ],
-          "result": "MixCard已发送+首页数据同步"
+          "result": "MixCard\u5df2\u53d1\u9001+\u9996\u9875\u6570\u636e\u540c\u6b65"
         },
         {
-          "title": "修炼早间09:00",
+          "title": "\u4fee\u70bc\u65e9\u95f409:00",
           "type": "delivery",
-          "typeLabel": "交付",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [
-            "修炼"
+            "\u4fee\u70bc"
           ],
-          "result": "记忆健康75行+分身无变化"
+          "result": "\u8bb0\u5fc6\u5065\u5eb775\u884c+\u5206\u8eab\u65e0\u53d8\u5316"
         },
         {
-          "title": "AI洞察深度调研18:10",
+          "title": "AI\u6d1e\u5bdf\u6df1\u5ea6\u8c03\u781418:10",
           "type": "report",
-          "typeLabel": "报告",
-          "icon": "📊",
+          "typeLabel": "\u62a5\u544a",
+          "icon": "\ud83d\udcca",
           "color": "#c9a84c",
           "tags": [
-            "AI洞察",
-            "调研"
+            "AI\u6d1e\u5bdf",
+            "\u8c03\u7814"
           ],
-          "result": "护城河=组织形态主题，反复修改8+轮完成"
+          "result": "\u62a4\u57ce\u6cb3=\u7ec4\u7ec7\u5f62\u6001\u4e3b\u9898\uff0c\u53cd\u590d\u4fee\u65398+\u8f6e\u5b8c\u6210"
         }
       ],
       "attention": [
-        "首页字号阶梯+间距统一未完成（全局CSS重构风险高）→ 建议：优先处理字号阶梯，3-4级足够",
-        "作品自动从日报拉取仍缺失 → 建议：下次集中改JS渲染逻辑"
+        "\u9996\u9875\u5b57\u53f7\u9636\u68af+\u95f4\u8ddd\u7edf\u4e00\u672a\u5b8c\u6210\uff08\u5168\u5c40CSS\u91cd\u6784\u98ce\u9669\u9ad8\uff09\u2192 \u5efa\u8bae\uff1a\u4f18\u5148\u5904\u7406\u5b57\u53f7\u9636\u68af\uff0c3-4\u7ea7\u8db3\u591f",
+        "\u4f5c\u54c1\u81ea\u52a8\u4ece\u65e5\u62a5\u62c9\u53d6\u4ecd\u7f3a\u5931 \u2192 \u5efa\u8bae\uff1a\u4e0b\u6b21\u96c6\u4e2d\u6539JS\u6e32\u67d3\u903b\u8f91"
       ],
       "pending": [
-        "首页字号阶梯统一 [受限]",
-        "作品自动从日报拉取 [受限]"
+        "\u9996\u9875\u5b57\u53f7\u9636\u68af\u7edf\u4e00 [\u53d7\u9650]",
+        "\u4f5c\u54c1\u81ea\u52a8\u4ece\u65e5\u62a5\u62c9\u53d6 [\u53d7\u9650]"
       ],
       "todayPlan": [
         {
           "time": "06:30",
-          "task": "每日详报生成"
+          "task": "\u6bcf\u65e5\u8be6\u62a5\u751f\u6210"
         },
         {
           "time": "09:00",
-          "task": "每日修炼早间"
+          "task": "\u6bcf\u65e5\u4fee\u70bc\u65e9\u95f4"
         },
         {
-          "time": "全天",
-          "task": "首页字号/间距优化（如时间允许）"
+          "time": "\u5168\u5929",
+          "task": "\u9996\u9875\u5b57\u53f7/\u95f4\u8ddd\u4f18\u5316\uff08\u5982\u65f6\u95f4\u5141\u8bb8\uff09"
         }
       ],
       "growthToday": {
-        "memory": "Token追踪锚点机制建立(.last_record.json)",
-        "skill": "80个技能稳定运行，ClawBook4个停用",
-        "cognition": "Token消耗从看不见变成有仪表盘——昨天6.35M只记了部分，实际9-11M",
-        "workflow": "详报新增Step Token全量校验，不再漏算cron消耗"
+        "memory": "Token\u8ffd\u8e2a\u951a\u70b9\u673a\u5236\u5efa\u7acb(.last_record.json)",
+        "skill": "80\u4e2a\u6280\u80fd\u7a33\u5b9a\u8fd0\u884c\uff0cClawBook4\u4e2a\u505c\u7528",
+        "cognition": "Token\u6d88\u8017\u4ece\u770b\u4e0d\u89c1\u53d8\u6210\u6709\u4eea\u8868\u76d8\u2014\u2014\u6628\u59296.35M\u53ea\u8bb0\u4e86\u90e8\u5206\uff0c\u5b9e\u96459-11M",
+        "workflow": "\u8be6\u62a5\u65b0\u589eStep Token\u5168\u91cf\u6821\u9a8c\uff0c\u4e0d\u518d\u6f0f\u7b97cron\u6d88\u8017"
       },
       "evoStats": {
-        "summary": "8项工作 | Token追踪三件落地+ClawBook全停+首页10项优化+暗色统一+调研导航重构 | 元认知跃迁：Token从看不见→有仪表盘有公式有兜底"
+        "summary": "8\u9879\u5de5\u4f5c | Token\u8ffd\u8e2a\u4e09\u4ef6\u843d\u5730+ClawBook\u5168\u505c+\u9996\u987510\u9879\u4f18\u5316+\u6697\u8272\u7edf\u4e00+\u8c03\u7814\u5bfc\u822a\u91cd\u6784 | \u5143\u8ba4\u77e5\u8dc3\u8fc1\uff1aToken\u4ece\u770b\u4e0d\u89c1\u2192\u6709\u4eea\u8868\u76d8\u6709\u516c\u5f0f\u6709\u515c\u5e95"
       },
       "skillChange": 0,
       "knowledgeChange": 0,
       "memoryChange": 0,
-      "title": "日报 · 5月15日",
-      "summary": "8项工作 | Token追踪三件落地+ClawBook全停+首页10项优化+暗色统一+深度调研导航重构 | 元认知跃迁：Token从看不见→有仪表盘",
+      "title": "\u65e5\u62a5 \u00b7 5\u670815\u65e5",
+      "summary": "8\u9879\u5de5\u4f5c | Token\u8ffd\u8e2a\u4e09\u4ef6\u843d\u5730+ClawBook\u5168\u505c+\u9996\u987510\u9879\u4f18\u5316+\u6697\u8272\u7edf\u4e00+\u6df1\u5ea6\u8c03\u7814\u5bfc\u822a\u91cd\u6784 | \u5143\u8ba4\u77e5\u8dc3\u8fc1\uff1aToken\u4ece\u770b\u4e0d\u89c1\u2192\u6709\u4eea\u8868\u76d8",
       "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
       "communityLearning": {
         "platform": "ClawBook",
-        "tldr": "ClawBook已停，释放84% token预算专注核心交付",
+        "tldr": "ClawBook\u5df2\u505c\uff0c\u91ca\u653e84% token\u9884\u7b97\u4e13\u6ce8\u6838\u5fc3\u4ea4\u4ed8",
         "insights": []
       },
       "highlights": [
-        "Token追踪体系首次落地——从凭感觉到有仪表盘",
-        "ClawBook全停省84% token预算"
+        "Token\u8ffd\u8e2a\u4f53\u7cfb\u9996\u6b21\u843d\u5730\u2014\u2014\u4ece\u51ed\u611f\u89c9\u5230\u6709\u4eea\u8868\u76d8",
+        "ClawBook\u5168\u505c\u770184% token\u9884\u7b97"
       ],
       "summaryStats": {
         "conversations": 4,
@@ -336,45 +728,45 @@
         "estimatedActualIn": 0,
         "gap": 0,
         "hasGap": false,
-        "note": "session文件目录不存在，无法全量校验，以记录为准",
+        "note": "session\u6587\u4ef6\u76ee\u5f55\u4e0d\u5b58\u5728\uff0c\u65e0\u6cd5\u5168\u91cf\u6821\u9a8c\uff0c\u4ee5\u8bb0\u5f55\u4e3a\u51c6",
         "byCategory": [
           {
-            "category": "修炼早间",
+            "category": "\u4fee\u70bc\u65e9\u95f4",
             "tokensIn": 858000,
             "tokensOut": 11000,
             "count": 1,
             "pct": "69%"
           },
           {
-            "category": "主会话对话(深度调研)",
+            "category": "\u4e3b\u4f1a\u8bdd\u5bf9\u8bdd(\u6df1\u5ea6\u8c03\u7814)",
             "tokensIn": 121000,
             "tokensOut": 3100,
             "count": 1,
             "pct": "10%"
           },
           {
-            "category": "主会话对话(Token追踪+ClawBook停)",
+            "category": "\u4e3b\u4f1a\u8bdd\u5bf9\u8bdd(Token\u8ffd\u8e2a+ClawBook\u505c)",
             "tokensIn": 91000,
             "tokensOut": 6500,
             "count": 1,
             "pct": "7%"
           },
           {
-            "category": "主会话对话(暗色统一)",
+            "category": "\u4e3b\u4f1a\u8bdd\u5bf9\u8bdd(\u6697\u8272\u7edf\u4e00)",
             "tokensIn": 65000,
             "tokensOut": 8300,
             "count": 1,
             "pct": "5%"
           },
           {
-            "category": "每日详报",
+            "category": "\u6bcf\u65e5\u8be6\u62a5",
             "tokensIn": 86000,
             "tokensOut": 10000,
             "count": 1,
             "pct": "7%"
           },
           {
-            "category": "主会话对话(首页优化)",
+            "category": "\u4e3b\u4f1a\u8bdd\u5bf9\u8bdd(\u9996\u9875\u4f18\u5316)",
             "tokensIn": 28000,
             "tokensOut": 500,
             "count": 1,
@@ -401,31 +793,31 @@
         ],
         "top3": [
           {
-            "task": "修炼早间",
+            "task": "\u4fee\u70bc\u65e9\u95f4",
             "tokensIn": 858000,
             "pct": "69%",
-            "suggestion": "cacheHit仅35%，SOUL/USER加载优化可省~680K/day"
+            "suggestion": "cacheHit\u4ec535%\uff0cSOUL/USER\u52a0\u8f7d\u4f18\u5316\u53ef\u7701~680K/day"
           },
           {
-            "task": "深度调研(8轮修改)",
+            "task": "\u6df1\u5ea6\u8c03\u7814(8\u8f6e\u4fee\u6539)",
             "tokensIn": 121000,
             "pct": "10%",
-            "suggestion": "预审减少迭代轮数"
+            "suggestion": "\u9884\u5ba1\u51cf\u5c11\u8fed\u4ee3\u8f6e\u6570"
           },
           {
-            "task": "Token追踪首次落地",
+            "task": "Token\u8ffd\u8e2a\u9996\u6b21\u843d\u5730",
             "tokensIn": 91000,
             "pct": "7%",
-            "suggestion": "后续规则执行会更轻"
+            "suggestion": "\u540e\u7eed\u89c4\u5219\u6267\u884c\u4f1a\u66f4\u8f7b"
           }
         ]
       }
     },
     {
       "date": "2026-05-14",
-      "dayOfWeek": "周四",
+      "dayOfWeek": "\u5468\u56db",
       "level": 61,
-      "tier": "宗师",
+      "tier": "\u5b97\u5e08",
       "skillCount": 80,
       "knowledgeCount": 126,
       "memoryCount": 46,
@@ -433,115 +825,115 @@
       "conversationCount": 3,
       "deliveries": [
         {
-          "title": "信息图风格选型（橙黑路线A胜出）",
+          "title": "\u4fe1\u606f\u56fe\u98ce\u683c\u9009\u578b\uff08\u6a59\u9ed1\u8def\u7ebfA\u80dc\u51fa\uff09",
           "type": "delivery",
-          "typeLabel": "交付",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [
-            "信息图",
-            "选型"
+            "\u4fe1\u606f\u56fe",
+            "\u9009\u578b"
           ],
-          "result": "双路线并行后选定橙黑配色——信息架构可读性和品牌一致性优于主题情绪匹配"
+          "result": "\u53cc\u8def\u7ebf\u5e76\u884c\u540e\u9009\u5b9a\u6a59\u9ed1\u914d\u8272\u2014\u2014\u4fe1\u606f\u67b6\u6784\u53ef\u8bfb\u6027\u548c\u54c1\u724c\u4e00\u81f4\u6027\u4f18\u4e8e\u4e3b\u9898\u60c5\u7eea\u5339\u914d"
         },
         {
-          "title": "ClawBook TIL三层防御结构学习",
+          "title": "ClawBook TIL\u4e09\u5c42\u9632\u5fa1\u7ed3\u6784\u5b66\u4e60",
           "type": "delivery",
-          "typeLabel": "交付",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [
-            "社区",
+            "\u793e\u533a",
             "TIL"
           ],
-          "result": "提炼出「拦截-校验-兜底」递进防御结构，三层思维反复出现于验证、错误防御、质量守门"
+          "result": "\u63d0\u70bc\u51fa\u300c\u62e6\u622a-\u6821\u9a8c-\u515c\u5e95\u300d\u9012\u8fdb\u9632\u5fa1\u7ed3\u6784\uff0c\u4e09\u5c42\u601d\u7ef4\u53cd\u590d\u51fa\u73b0\u4e8e\u9a8c\u8bc1\u3001\u9519\u8bef\u9632\u5fa1\u3001\u8d28\u91cf\u5b88\u95e8"
         },
         {
-          "title": "北冥导出v4.9.0",
+          "title": "\u5317\u51a5\u5bfc\u51fav4.9.0",
           "type": "delivery",
-          "typeLabel": "交付",
-          "icon": "✨",
+          "typeLabel": "\u4ea4\u4ed8",
+          "icon": "\u2728",
           "color": "#c9a84c",
           "tags": [
-            "导出",
-            "脱敏"
+            "\u5bfc\u51fa",
+            "\u8131\u654f"
           ],
-          "result": "7轮递进扫描修复~50处硬编码→占位符，0身份泄露，新增6占位符+2技能到导出包"
+          "result": "7\u8f6e\u9012\u8fdb\u626b\u63cf\u4fee\u590d~50\u5904\u786c\u7f16\u7801\u2192\u5360\u4f4d\u7b26\uff0c0\u8eab\u4efd\u6cc4\u9732\uff0c\u65b0\u589e6\u5360\u4f4d\u7b26+2\u6280\u80fd\u5230\u5bfc\u51fa\u5305"
         },
         {
-          "title": "模拟安装验证3轮全通过",
+          "title": "\u6a21\u62df\u5b89\u88c5\u9a8c\u8bc13\u8f6e\u5168\u901a\u8fc7",
           "type": "delivery",
-          "typeLabel": "交付",
-          "icon": "✨",
+          "typeLabel": "\u4ea4\u4ed8",
+          "icon": "\u2728",
           "color": "#c9a84c",
           "tags": [
-            "验证",
-            "安装"
+            "\u9a8c\u8bc1",
+            "\u5b89\u88c5"
           ],
-          "result": "张三13残留→修复→李四/王五0残留+0身份泄露，bootstrap4Bug全修复"
+          "result": "\u5f20\u4e0913\u6b8b\u7559\u2192\u4fee\u590d\u2192\u674e\u56db/\u738b\u4e940\u6b8b\u7559+0\u8eab\u4efd\u6cc4\u9732\uff0cbootstrap4Bug\u5168\u4fee\u590d"
         },
         {
-          "title": "SkillHub发布草稿提交",
+          "title": "SkillHub\u53d1\u5e03\u8349\u7a3f\u63d0\u4ea4",
           "type": "delivery",
-          "typeLabel": "交付",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [
-            "发布"
+            "\u53d1\u5e03"
           ],
-          "result": "安全扫描通过，草稿已提交待正式发布"
+          "result": "\u5b89\u5168\u626b\u63cf\u901a\u8fc7\uff0c\u8349\u7a3f\u5df2\u63d0\u4ea4\u5f85\u6b63\u5f0f\u53d1\u5e03"
         }
       ],
       "attention": [
-        "SkillHub草稿已提交但尚未正式发布，需确认后点击发布"
+        "SkillHub\u8349\u7a3f\u5df2\u63d0\u4ea4\u4f46\u5c1a\u672a\u6b63\u5f0f\u53d1\u5e03\uff0c\u9700\u786e\u8ba4\u540e\u70b9\u51fb\u53d1\u5e03"
       ],
       "pending": [
-        "SkillHub草稿正式发布 [待定]"
+        "SkillHub\u8349\u7a3f\u6b63\u5f0f\u53d1\u5e03 [\u5f85\u5b9a]"
       ],
       "todayPlan": [
         {
           "time": "06:30",
-          "task": "每日详报生成"
+          "task": "\u6bcf\u65e5\u8be6\u62a5\u751f\u6210"
         },
         {
           "time": "07:00",
-          "task": "ClawBook巡逻"
+          "task": "ClawBook\u5de1\u903b"
         },
         {
           "time": "08:00",
-          "task": "AI洞察日报"
+          "task": "AI\u6d1e\u5bdf\u65e5\u62a5"
         },
         {
           "time": "09:00",
-          "task": "每日修炼早间"
+          "task": "\u6bcf\u65e5\u4fee\u70bc\u65e9\u95f4"
         }
       ],
       "growthToday": {
-        "memory": "记忆46条",
-        "skill": "技能80项",
-        "cognition": "懂你程度23.0/30",
-        "workflow": "等级Lv.61宗师"
+        "memory": "\u8bb0\u5fc646\u6761",
+        "skill": "\u6280\u80fd80\u9879",
+        "cognition": "\u61c2\u4f60\u7a0b\u5ea623.0/30",
+        "workflow": "\u7b49\u7ea7Lv.61\u5b97\u5e08"
       },
       "evoStats": {
-        "summary": "5项工作 | 信息图选型+TIL三层防御+北冥v4.9.0+3轮模拟验证+SkillHub发布 | 元认知跃迁：信息架构>品牌一致>主题情绪"
+        "summary": "5\u9879\u5de5\u4f5c | \u4fe1\u606f\u56fe\u9009\u578b+TIL\u4e09\u5c42\u9632\u5fa1+\u5317\u51a5v4.9.0+3\u8f6e\u6a21\u62df\u9a8c\u8bc1+SkillHub\u53d1\u5e03 | \u5143\u8ba4\u77e5\u8dc3\u8fc1\uff1a\u4fe1\u606f\u67b6\u6784>\u54c1\u724c\u4e00\u81f4>\u4e3b\u9898\u60c5\u7eea"
       },
       "skillChange": 0,
       "knowledgeChange": 0,
       "memoryChange": 0,
-      "title": "日报 · 5月14日",
-      "summary": "5项工作 | 信息图选型+ClawBook TIL三层防御+北冥导出v4.9.0+模拟安装验证+SkillHub发布 | 元认知跃迁：信息架构>品牌一致>主题情绪",
+      "title": "\u65e5\u62a5 \u00b7 5\u670814\u65e5",
+      "summary": "5\u9879\u5de5\u4f5c | \u4fe1\u606f\u56fe\u9009\u578b+ClawBook TIL\u4e09\u5c42\u9632\u5fa1+\u5317\u51a5\u5bfc\u51fav4.9.0+\u6a21\u62df\u5b89\u88c5\u9a8c\u8bc1+SkillHub\u53d1\u5e03 | \u5143\u8ba4\u77e5\u8dc3\u8fc1\uff1a\u4fe1\u606f\u67b6\u6784>\u54c1\u724c\u4e00\u81f4>\u4e3b\u9898\u60c5\u7eea",
       "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
       "communityLearning": {
         "platform": "ClawBook",
-        "tldr": "三层防御结构反复出现——拦截→校验→兜底是递进防御的通用模式",
+        "tldr": "\u4e09\u5c42\u9632\u5fa1\u7ed3\u6784\u53cd\u590d\u51fa\u73b0\u2014\u2014\u62e6\u622a\u2192\u6821\u9a8c\u2192\u515c\u5e95\u662f\u9012\u8fdb\u9632\u5fa1\u7684\u901a\u7528\u6a21\u5f0f",
         "insights": [
-          "定时任务三层验证：执行→产出→送达",
-          "前端错误防御：Boundary→Schema→降级",
-          "自动化质量守门：拦截→校验→去重"
+          "\u5b9a\u65f6\u4efb\u52a1\u4e09\u5c42\u9a8c\u8bc1\uff1a\u6267\u884c\u2192\u4ea7\u51fa\u2192\u9001\u8fbe",
+          "\u524d\u7aef\u9519\u8bef\u9632\u5fa1\uff1aBoundary\u2192Schema\u2192\u964d\u7ea7",
+          "\u81ea\u52a8\u5316\u8d28\u91cf\u5b88\u95e8\uff1a\u62e6\u622a\u2192\u6821\u9a8c\u2192\u53bb\u91cd"
         ]
       },
       "highlights": [
-        "信息图选型三维度：信息架构>品牌一致>主题情绪"
+        "\u4fe1\u606f\u56fe\u9009\u578b\u4e09\u7ef4\u5ea6\uff1a\u4fe1\u606f\u67b6\u6784>\u54c1\u724c\u4e00\u81f4>\u4e3b\u9898\u60c5\u7eea"
       ],
       "summaryStats": {
         "conversations": 3,
@@ -586,14 +978,14 @@
             "pct": "10%"
           },
           {
-            "category": "evo-daily-reflection-早间",
+            "category": "evo-daily-reflection-\u65e9\u95f4",
             "tokensIn": 54000,
             "tokensOut": 1400,
             "count": 1,
             "pct": "1%"
           },
           {
-            "category": "主会话对话",
+            "category": "\u4e3b\u4f1a\u8bdd\u5bf9\u8bdd",
             "tokensIn": 32000,
             "tokensOut": 207,
             "count": 1,
@@ -620,31 +1012,31 @@
         ],
         "top3": [
           {
-            "task": "ClawBook巡逻",
+            "task": "ClawBook\u5de1\u903b",
             "tokensIn": 3185000,
             "pct": "65%",
-            "suggestion": "已停掉，不再消耗"
+            "suggestion": "\u5df2\u505c\u6389\uff0c\u4e0d\u518d\u6d88\u8017"
           },
           {
-            "task": "stuck巡逻空转",
+            "task": "stuck\u5de1\u903b\u7a7a\u8f6c",
             "tokensIn": 682000,
             "pct": "11%",
-            "suggestion": "已停掉"
+            "suggestion": "\u5df2\u505c\u6389"
           },
           {
-            "task": "AI洞察日报",
+            "task": "AI\u6d1e\u5bdf\u65e5\u62a5",
             "tokensIn": 497000,
             "pct": "8%",
-            "suggestion": "超时3次需排查"
+            "suggestion": "\u8d85\u65f63\u6b21\u9700\u6392\u67e5"
           }
         ]
       }
     },
     {
       "date": "2026-05-13",
-      "dayOfWeek": "周三",
+      "dayOfWeek": "\u5468\u4e09",
       "level": 60,
-      "tier": "大师",
+      "tier": "\u5927\u5e08",
       "skillCount": 78,
       "knowledgeCount": 126,
       "memoryCount": 41,
@@ -653,67 +1045,67 @@
       "deliveries": [
         {
           "type": "delivery",
-          "typeLabel": "交付",
-          "title": "ClawBook巡逻×3（早晚+夜间，6赞6评）",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "title": "ClawBook\u5de1\u903b\u00d73\uff08\u65e9\u665a+\u591c\u95f4\uff0c6\u8d5e6\u8bc4\uff09",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [],
           "result": ""
         },
         {
           "type": "delivery",
-          "typeLabel": "交付",
-          "title": "微信网关v2容器版改造成功（注入链路已通）",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "title": "\u5fae\u4fe1\u7f51\u5173v2\u5bb9\u5668\u7248\u6539\u9020\u6210\u529f\uff08\u6ce8\u5165\u94fe\u8def\u5df2\u901a\uff09",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [],
           "result": ""
         },
         {
           "type": "delivery",
-          "typeLabel": "交付",
-          "title": "首页内容基地按钮+hub页面部署",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "title": "\u9996\u9875\u5185\u5bb9\u57fa\u5730\u6309\u94ae+hub\u9875\u9762\u90e8\u7f72",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [],
           "result": ""
         },
         {
           "type": "delivery",
-          "typeLabel": "交付",
-          "title": "AI洞察日报6处联动+3位订阅者推送",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "title": "AI\u6d1e\u5bdf\u65e5\u62a56\u5904\u8054\u52a8+3\u4f4d\u8ba2\u9605\u8005\u63a8\u9001",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [],
           "result": ""
         },
         {
           "type": "delivery",
-          "typeLabel": "交付",
-          "title": "晚间修炼·4个分身全部修复",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "title": "\u665a\u95f4\u4fee\u70bc\u00b74\u4e2a\u5206\u8eab\u5168\u90e8\u4fee\u590d",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [],
           "result": ""
         }
       ],
       "attention": [
-        "微信网关仍缺iLink发送实现（只能收不能回）",
-        "#stuck板块连续多日0条真实求助帖"
+        "\u5fae\u4fe1\u7f51\u5173\u4ecd\u7f3aiLink\u53d1\u9001\u5b9e\u73b0\uff08\u53ea\u80fd\u6536\u4e0d\u80fd\u56de\uff09",
+        "#stuck\u677f\u5757\u8fde\u7eed\u591a\u65e50\u6761\u771f\u5b9e\u6c42\u52a9\u5e16"
       ],
       "pending": [
-        "实现iLink发消息接口",
-        "社区引导提问策略"
+        "\u5b9e\u73b0iLink\u53d1\u6d88\u606f\u63a5\u53e3",
+        "\u793e\u533a\u5f15\u5bfc\u63d0\u95ee\u7b56\u7565"
       ],
       "todayPlan": [],
       "growthToday": {
-        "memory": "记忆41条",
-        "skill": "技能78项",
-        "cognition": "懂你程度23.0/30",
-        "workflow": "等级Lv.60"
+        "memory": "\u8bb0\u5fc641\u6761",
+        "skill": "\u6280\u80fd78\u9879",
+        "cognition": "\u61c2\u4f60\u7a0b\u5ea623.0/30",
+        "workflow": "\u7b49\u7ea7Lv.60"
       },
       "evoStats": {
-        "summary": "5项工作 | 微信网关v2+首页内容基地+AI日报6处联动+ClawBook3轮巡逻+分身数据修复 | 元认知跃迁：从量堆砌到质自觉，巡逻者转向服务者",
+        "summary": "5\u9879\u5de5\u4f5c | \u5fae\u4fe1\u7f51\u5173v2+\u9996\u9875\u5185\u5bb9\u57fa\u5730+AI\u65e5\u62a56\u5904\u8054\u52a8+ClawBook3\u8f6e\u5de1\u903b+\u5206\u8eab\u6570\u636e\u4fee\u590d | \u5143\u8ba4\u77e5\u8dc3\u8fc1\uff1a\u4ece\u91cf\u5806\u780c\u5230\u8d28\u81ea\u89c9\uff0c\u5de1\u903b\u8005\u8f6c\u5411\u670d\u52a1\u8005",
         "skillCalls": 8,
         "newSkills": 0,
         "newKnowledge": 0,
@@ -733,15 +1125,15 @@
         "projects": 0,
         "skills": 78
       },
-      "title": "日报 · 5月13日",
-      "summary": "5项工作 | 微信网关v2+首页内容基地+AI日报6处联动+ClawBook3轮巡逻+分身数据修复 | 元认知跃迁：从量堆砌到质自觉，巡逻者转向服务者",
+      "title": "\u65e5\u62a5 \u00b7 5\u670813\u65e5",
+      "summary": "5\u9879\u5de5\u4f5c | \u5fae\u4fe1\u7f51\u5173v2+\u9996\u9875\u5185\u5bb9\u57fa\u5730+AI\u65e5\u62a56\u5904\u8054\u52a8+ClawBook3\u8f6e\u5de1\u903b+\u5206\u8eab\u6570\u636e\u4fee\u590d | \u5143\u8ba4\u77e5\u8dc3\u8fc1\uff1a\u4ece\u91cf\u5806\u780c\u5230\u8d28\u81ea\u89c9\uff0c\u5de1\u903b\u8005\u8f6c\u5411\u670d\u52a1\u8005",
       "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
     },
     {
       "date": "2026-05-12",
-      "dayOfWeek": "周二",
+      "dayOfWeek": "\u5468\u4e8c",
       "level": 60,
-      "tier": "大师",
+      "tier": "\u5927\u5e08",
       "skillCount": 78,
       "knowledgeCount": 126,
       "memoryCount": 41,
@@ -750,76 +1142,76 @@
       "deliveries": [
         {
           "type": "delivery",
-          "typeLabel": "交付",
-          "title": "Anthropic金融Agent调研页面内容扩充至约75KB",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "title": "Anthropic\u91d1\u878dAgent\u8c03\u7814\u9875\u9762\u5185\u5bb9\u6269\u5145\u81f3\u7ea675KB",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [],
           "result": ""
         },
         {
           "type": "delivery",
-          "typeLabel": "交付",
-          "title": "ClawBook TIL学习：Skill架构设计原则+Shell严格模式",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "title": "ClawBook TIL\u5b66\u4e60\uff1aSkill\u67b6\u6784\u8bbe\u8ba1\u539f\u5219+Shell\u4e25\u683c\u6a21\u5f0f",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [],
           "result": ""
         },
         {
           "type": "delivery",
-          "typeLabel": "交付",
-          "title": "经验提炼5条（HTML结构/写入验证/读规范优先/sync单向流/子Agent产出验证）",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "title": "\u7ecf\u9a8c\u63d0\u70bc5\u6761\uff08HTML\u7ed3\u6784/\u5199\u5165\u9a8c\u8bc1/\u8bfb\u89c4\u8303\u4f18\u5148/sync\u5355\u5411\u6d41/\u5b50Agent\u4ea7\u51fa\u9a8c\u8bc1\uff09",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [],
           "result": ""
         },
         {
           "type": "delivery",
-          "typeLabel": "交付",
-          "title": "首页能力展示修复（70处tag+37处source脱敏+分身Tab）",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "title": "\u9996\u9875\u80fd\u529b\u5c55\u793a\u4fee\u590d\uff0870\u5904tag+37\u5904source\u8131\u654f+\u5206\u8eabTab\uff09",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [],
           "result": ""
         },
         {
           "type": "delivery",
-          "typeLabel": "交付",
-          "title": "formless-power v4.8.0 市场发布",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "title": "formless-power v4.8.0 \u5e02\u573a\u53d1\u5e03",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [],
           "result": ""
         }
       ],
       "attention": [
-        "Anthropic调研页面仍未完成清爽风格重写",
-        "skill_calls.md缺少5月11日记录"
+        "Anthropic\u8c03\u7814\u9875\u9762\u4ecd\u672a\u5b8c\u6210\u6e05\u723d\u98ce\u683c\u91cd\u5199",
+        "skill_calls.md\u7f3a\u5c115\u670811\u65e5\u8bb0\u5f55"
       ],
       "pending": [
-        "Anthropic调研页面清爽风格重写",
-        "skill_calls.md补录"
+        "Anthropic\u8c03\u7814\u9875\u9762\u6e05\u723d\u98ce\u683c\u91cd\u5199",
+        "skill_calls.md\u8865\u5f55"
       ],
       "todayPlan": [
         {
           "time": "06:30",
-          "task": "每日详报生成"
+          "task": "\u6bcf\u65e5\u8be6\u62a5\u751f\u6210"
         },
         {
-          "time": "待安排",
-          "task": "Anthropic调研页面清爽风格重写"
+          "time": "\u5f85\u5b89\u6392",
+          "task": "Anthropic\u8c03\u7814\u9875\u9762\u6e05\u723d\u98ce\u683c\u91cd\u5199"
         }
       ],
       "growthToday": {
-        "memory": "记忆41条",
-        "skill": "技能78项",
-        "cognition": "懂你程度23.0/30",
-        "workflow": "等级Lv.60"
+        "memory": "\u8bb0\u5fc641\u6761",
+        "skill": "\u6280\u80fd78\u9879",
+        "cognition": "\u61c2\u4f60\u7a0b\u5ea623.0/30",
+        "workflow": "\u7b49\u7ea7Lv.60"
       },
       "evoStats": {
-        "summary": "5项工作 | 调研扩充+TIL学习+5条经验提炼+首页脱敏+v4.8发布 | 元认知跃迁：从记录热点到提炼结构性洞察",
+        "summary": "5\u9879\u5de5\u4f5c | \u8c03\u7814\u6269\u5145+TIL\u5b66\u4e60+5\u6761\u7ecf\u9a8c\u63d0\u70bc+\u9996\u9875\u8131\u654f+v4.8\u53d1\u5e03 | \u5143\u8ba4\u77e5\u8dc3\u8fc1\uff1a\u4ece\u8bb0\u5f55\u70ed\u70b9\u5230\u63d0\u70bc\u7ed3\u6784\u6027\u6d1e\u5bdf",
         "skillCalls": 1,
         "newSkills": 0,
         "newKnowledge": 5,
@@ -839,15 +1231,15 @@
         "projects": 0,
         "skills": 77
       },
-      "title": "日报 · 5月12日",
-      "summary": "5项工作 | Anthropic调研+ClawBook TIL+经验提炼5条+首页脱敏+v4.8.0发布 | 元认知跃迁：从记录热点到提炼结构性洞察",
+      "title": "\u65e5\u62a5 \u00b7 5\u670812\u65e5",
+      "summary": "5\u9879\u5de5\u4f5c | Anthropic\u8c03\u7814+ClawBook TIL+\u7ecf\u9a8c\u63d0\u70bc5\u6761+\u9996\u9875\u8131\u654f+v4.8.0\u53d1\u5e03 | \u5143\u8ba4\u77e5\u8dc3\u8fc1\uff1a\u4ece\u8bb0\u5f55\u70ed\u70b9\u5230\u63d0\u70bc\u7ed3\u6784\u6027\u6d1e\u5bdf",
       "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
     },
     {
       "date": "2026-05-11",
-      "dayOfWeek": "周一",
+      "dayOfWeek": "\u5468\u4e00",
       "level": 60,
-      "tier": "大师",
+      "tier": "\u5927\u5e08",
       "skillCount": 77,
       "knowledgeCount": 126,
       "memoryCount": 35,
@@ -856,45 +1248,45 @@
       "deliveries": [
         {
           "type": "delivery",
-          "typeLabel": "交付",
-          "title": "Anthropic金融Agent调研页面扩充（M365/数据生态/客户证言/竞争格局）",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "title": "Anthropic\u91d1\u878dAgent\u8c03\u7814\u9875\u9762\u6269\u5145\uff08M365/\u6570\u636e\u751f\u6001/\u5ba2\u6237\u8bc1\u8a00/\u7ade\u4e89\u683c\u5c40\uff09",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [],
           "result": ""
         },
         {
           "type": "delivery",
-          "typeLabel": "交付",
-          "title": "ClawBook TIL学习（Skill架构粒度设计+Shell严格模式）",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "title": "ClawBook TIL\u5b66\u4e60\uff08Skill\u67b6\u6784\u7c92\u5ea6\u8bbe\u8ba1+Shell\u4e25\u683c\u6a21\u5f0f\uff09",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [],
           "result": ""
         },
         {
           "type": "delivery",
-          "typeLabel": "交付",
-          "title": "经验提炼5条沉淀到memory",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "title": "\u7ecf\u9a8c\u63d0\u70bc5\u6761\u6c89\u6dc0\u5230memory",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [],
           "result": ""
         },
         {
           "type": "delivery",
-          "typeLabel": "交付",
-          "title": "首页能力展示修复（70处tag+37处source脱敏+分身Tab）",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "title": "\u9996\u9875\u80fd\u529b\u5c55\u793a\u4fee\u590d\uff0870\u5904tag+37\u5904source\u8131\u654f+\u5206\u8eabTab\uff09",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [],
           "result": ""
         },
         {
           "type": "delivery",
-          "typeLabel": "交付",
-          "title": "formless-power v4.8.0市场发布",
-          "icon": "📦",
+          "typeLabel": "\u4ea4\u4ed8",
+          "title": "formless-power v4.8.0\u5e02\u573a\u53d1\u5e03",
+          "icon": "\ud83d\udce6",
           "color": "#c9a84c",
           "tags": [],
           "result": ""
@@ -904,13 +1296,13 @@
       "pending": [],
       "todayPlan": [],
       "growthToday": {
-        "memory": "记忆35条",
-        "skill": "技能77项",
-        "cognition": "懂你程度23.0/30",
-        "workflow": "等级Lv.60"
+        "memory": "\u8bb0\u5fc635\u6761",
+        "skill": "\u6280\u80fd77\u9879",
+        "cognition": "\u61c2\u4f60\u7a0b\u5ea623.0/30",
+        "workflow": "\u7b49\u7ea7Lv.60"
       },
       "evoStats": {
-        "summary": "5项工作 | 调研扩充+TIL学习+5条经验提炼+首页脱敏+v4.8发布 | 元认知跃迁：从记录热点到提炼结构性洞察"
+        "summary": "5\u9879\u5de5\u4f5c | \u8c03\u7814\u6269\u5145+TIL\u5b66\u4e60+5\u6761\u7ecf\u9a8c\u63d0\u70bc+\u9996\u9875\u8131\u654f+v4.8\u53d1\u5e03 | \u5143\u8ba4\u77e5\u8dc3\u8fc1\uff1a\u4ece\u8bb0\u5f55\u70ed\u70b9\u5230\u63d0\u70bc\u7ed3\u6784\u6027\u6d1e\u5bdf"
       },
       "skillChange": 0,
       "knowledgeChange": 0,
@@ -921,15 +1313,15 @@
         "projects": 0,
         "skills": 77
       },
-      "title": "日报 · 05-11",
-      "summary": "Anthropic调研+ClawBook4轮巡逻+TIL学习 | 技能调用1次 | 元认知跃迁：从记录热点到提炼结构性洞察",
+      "title": "\u65e5\u62a5 \u00b7 05-11",
+      "summary": "Anthropic\u8c03\u7814+ClawBook4\u8f6e\u5de1\u903b+TIL\u5b66\u4e60 | \u6280\u80fd\u8c03\u75281\u6b21 | \u5143\u8ba4\u77e5\u8dc3\u8fc1\uff1a\u4ece\u8bb0\u5f55\u70ed\u70b9\u5230\u63d0\u70bc\u7ed3\u6784\u6027\u6d1e\u5bdf",
       "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
     },
     {
       "date": "2026-05-10",
-      "dayOfWeek": "周日",
+      "dayOfWeek": "\u5468\u65e5",
       "level": 58,
-      "tier": "大师",
+      "tier": "\u5927\u5e08",
       "skillCount": 36,
       "knowledgeCount": 129,
       "memoryCount": 9,
@@ -940,13 +1332,13 @@
       "pending": [],
       "todayPlan": [],
       "growthToday": {
-        "memory": "记忆9条",
-        "skill": "技能36项",
-        "cognition": "懂你程度23.0/30",
-        "workflow": "等级Lv.58"
+        "memory": "\u8bb0\u5fc69\u6761",
+        "skill": "\u6280\u80fd36\u9879",
+        "cognition": "\u61c2\u4f60\u7a0b\u5ea623.0/30",
+        "workflow": "\u7b49\u7ea7Lv.58"
       },
       "evoStats": {
-        "summary": "Lv.58 大师，懂你23.0/30"
+        "summary": "Lv.58 \u5927\u5e08\uff0c\u61c2\u4f6023.0/30"
       },
       "skillChange": 0,
       "knowledgeChange": 0,
@@ -960,79 +1352,79 @@
     },
     {
       "date": "2026-05-09",
-      "dayOfWeek": "周五",
-      "title": "日报 · 05-09",
+      "dayOfWeek": "\u5468\u4e94",
+      "title": "\u65e5\u62a5 \u00b7 05-09",
       "status": "completed",
       "attention": [
         {
-          "issue": "日报cron payload已精确化（9步明确流程+禁止跑偏），明天06:30验证效果 → 建议：收到后确认8块结构是否完整"
+          "issue": "\u65e5\u62a5cron payload\u5df2\u7cbe\u786e\u5316\uff089\u6b65\u660e\u786e\u6d41\u7a0b+\u7981\u6b62\u8dd1\u504f\uff09\uff0c\u660e\u592906:30\u9a8c\u8bc1\u6548\u679c \u2192 \u5efa\u8bae\uff1a\u6536\u5230\u540e\u786e\u8ba48\u5757\u7ed3\u6784\u662f\u5426\u5b8c\u6574"
         },
         {
-          "issue": "首页记忆库空白已修复（categories→children），请刷新首页确认 → 建议：打开首页看记忆板块是否有内容"
+          "issue": "\u9996\u9875\u8bb0\u5fc6\u5e93\u7a7a\u767d\u5df2\u4fee\u590d\uff08categories\u2192children\uff09\uff0c\u8bf7\u5237\u65b0\u9996\u9875\u786e\u8ba4 \u2192 \u5efa\u8bae\uff1a\u6253\u5f00\u9996\u9875\u770b\u8bb0\u5fc6\u677f\u5757\u662f\u5426\u6709\u5185\u5bb9"
         }
       ],
       "conversationCount": 9,
       "deliveries": [
         {
-          "icon": "📦",
-          "typeLabel": "小无相功体系完整性大修",
-          "title": "小无相功体系完整性大修",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "\u5c0f\u65e0\u76f8\u529f\u4f53\u7cfb\u5b8c\u6574\u6027\u5927\u4fee",
+          "title": "\u5c0f\u65e0\u76f8\u529f\u4f53\u7cfb\u5b8c\u6574\u6027\u5927\u4fee",
           "type": "work",
-          "result": "修复5类\"有名无实\"问题——日报路径错误、L1标注缺失、evolution-log缺失、吸星/北冥/周检月检无流程文档、身份泄露 ",
+          "result": "\u4fee\u590d5\u7c7b\"\u6709\u540d\u65e0\u5b9e\"\u95ee\u9898\u2014\u2014\u65e5\u62a5\u8def\u5f84\u9519\u8bef\u3001L1\u6807\u6ce8\u7f3a\u5931\u3001evolution-log\u7f3a\u5931\u3001\u5438\u661f/\u5317\u51a5/\u5468\u68c0\u6708\u68c0\u65e0\u6d41\u7a0b\u6587\u6863\u3001\u8eab\u4efd\u6cc4\u9732 ",
           "tags": [],
           "color": "#c9a84c"
         },
         {
-          "icon": "📦",
-          "typeLabel": "北冥神功运行",
-          "title": "北冥神功运行",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "\u5317\u51a5\u795e\u529f\u8fd0\u884c",
+          "title": "\u5317\u51a5\u795e\u529f\u8fd0\u884c",
           "type": "work",
-          "result": "扫描24个技能，按export policy分类，13个sanitize技能脱敏导出到reference/skills/，新增3个L3技能(executive-",
+          "result": "\u626b\u63cf24\u4e2a\u6280\u80fd\uff0c\u6309export policy\u5206\u7c7b\uff0c13\u4e2asanitize\u6280\u80fd\u8131\u654f\u5bfc\u51fa\u5230reference/skills/\uff0c\u65b0\u589e3\u4e2aL3\u6280\u80fd(executive-",
           "tags": [],
           "color": "#c9a84c"
         },
         {
-          "icon": "📦",
-          "typeLabel": "通用版标注+发布说明",
-          "title": "通用版标注+发布说明",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "\u901a\u7528\u7248\u6807\u6ce8+\u53d1\u5e03\u8bf4\u660e",
+          "title": "\u901a\u7528\u7248\u6807\u6ce8+\u53d1\u5e03\u8bf4\u660e",
           "type": "work",
-          "result": "SKILL.md加badge/version/通用版提示，创建reference/PUBLISH.md完整发布说明 ",
+          "result": "SKILL.md\u52a0badge/version/\u901a\u7528\u7248\u63d0\u793a\uff0c\u521b\u5efareference/PUBLISH.md\u5b8c\u6574\u53d1\u5e03\u8bf4\u660e ",
           "tags": [],
           "color": "#c9a84c"
         },
         {
-          "icon": "📦",
-          "typeLabel": "自动安装程序",
-          "title": "自动安装程序",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "\u81ea\u52a8\u5b89\u88c5\u7a0b\u5e8f",
+          "title": "\u81ea\u52a8\u5b89\u88c5\u7a0b\u5e8f",
           "type": "work",
-          "result": "创建install.py，6步自动安装（解压→身份收集→占位符替换→技能安装→首页部署→验证报告），用户一句话\"安装小无相功\"即完成 ",
+          "result": "\u521b\u5efainstall.py\uff0c6\u6b65\u81ea\u52a8\u5b89\u88c5\uff08\u89e3\u538b\u2192\u8eab\u4efd\u6536\u96c6\u2192\u5360\u4f4d\u7b26\u66ff\u6362\u2192\u6280\u80fd\u5b89\u88c5\u2192\u9996\u9875\u90e8\u7f72\u2192\u9a8c\u8bc1\u62a5\u544a\uff09\uff0c\u7528\u6237\u4e00\u53e5\u8bdd\"\u5b89\u88c5\u5c0f\u65e0\u76f8\u529f\"\u5373\u5b8c\u6210 ",
           "tags": [],
           "color": "#c9a84c"
         },
         {
-          "icon": "📦",
-          "typeLabel": "首页项目完整打包",
-          "title": "首页项目完整打包",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "\u9996\u9875\u9879\u76ee\u5b8c\u6574\u6253\u5305",
+          "title": "\u9996\u9875\u9879\u76ee\u5b8c\u6574\u6253\u5305",
           "type": "work",
-          "result": "从2个文件扩展为17个完整首页项目（index.html+JS+CSS+数据文件），上传CDN ",
+          "result": "\u4ece2\u4e2a\u6587\u4ef6\u6269\u5c55\u4e3a17\u4e2a\u5b8c\u6574\u9996\u9875\u9879\u76ee\uff08index.html+JS+CSS+\u6570\u636e\u6587\u4ef6\uff09\uff0c\u4e0a\u4f20CDN ",
           "tags": [],
           "color": "#c9a84c"
         },
         {
-          "icon": "📦",
-          "typeLabel": "product-thinking瘦身",
-          "title": "product-thinking瘦身",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "product-thinking\u7626\u8eab",
+          "title": "product-thinking\u7626\u8eab",
           "type": "work",
-          "result": "26KB→14.8KB(43%压缩)，保留6原则+3反模式+4工具+AI专场，删除低频内容 ",
+          "result": "26KB\u219214.8KB(43%\u538b\u7f29)\uff0c\u4fdd\u75596\u539f\u5219+3\u53cd\u6a21\u5f0f+4\u5de5\u5177+AI\u4e13\u573a\uff0c\u5220\u9664\u4f4e\u9891\u5185\u5bb9 ",
           "tags": [],
           "color": "#c9a84c"
         },
         {
-          "icon": "📦",
-          "typeLabel": "首页记忆库+日报修复",
-          "title": "首页记忆库+日报修复",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "\u9996\u9875\u8bb0\u5fc6\u5e93+\u65e5\u62a5\u4fee\u590d",
+          "title": "\u9996\u9875\u8bb0\u5fc6\u5e93+\u65e5\u62a5\u4fee\u590d",
           "type": "work",
-          "result": "记忆库categories→children匹配JS渲染；日报cron payload从模糊改为精确9步流程+禁止跑偏 ",
+          "result": "\u8bb0\u5fc6\u5e93categories\u2192children\u5339\u914dJS\u6e32\u67d3\uff1b\u65e5\u62a5cron payload\u4ece\u6a21\u7cca\u6539\u4e3a\u7cbe\u786e9\u6b65\u6d41\u7a0b+\u7981\u6b62\u8dd1\u504f ",
           "tags": [],
           "color": "#c9a84c"
         }
@@ -1052,95 +1444,95 @@
       "todayPlan": [
         {
           "time": "06:30",
-          "task": "日报自动生成（已触发，待验证）"
+          "task": "\u65e5\u62a5\u81ea\u52a8\u751f\u6210\uff08\u5df2\u89e6\u53d1\uff0c\u5f85\u9a8c\u8bc1\uff09"
         },
         {
           "time": "09:00",
-          "task": "每日修炼早间"
+          "task": "\u6bcf\u65e5\u4fee\u70bc\u65e9\u95f4"
         },
         {
           "time": "21:00",
-          "task": "每日修炼晚间深度"
+          "task": "\u6bcf\u65e5\u4fee\u70bc\u665a\u95f4\u6df1\u5ea6"
         }
       ],
       "growthToday": {},
       "communityLearning": {
         "platform": "ClawBook",
-        "tldr": "TIL学习+社区巡逻",
+        "tldr": "TIL\u5b66\u4e60+\u793e\u533a\u5de1\u903b",
         "insights": [
-          "Shell防御性编程",
-          "Agent工程化",
-          "记忆系统"
+          "Shell\u9632\u5fa1\u6027\u7f16\u7a0b",
+          "Agent\u5de5\u7a0b\u5316",
+          "\u8bb0\u5fc6\u7cfb\u7edf"
         ]
       },
       "evoStats": {
-        "summary": "7项工作完成"
+        "summary": "7\u9879\u5de5\u4f5c\u5b8c\u6210"
       },
       "highlights": [
-        "Shell防御性编程",
-        "Agent工程化",
-        "记忆系统"
+        "Shell\u9632\u5fa1\u6027\u7f16\u7a0b",
+        "Agent\u5de5\u7a0b\u5316",
+        "\u8bb0\u5fc6\u7cfb\u7edf"
       ],
       "wordCount": 800,
-      "summary": "7项工作 | 小无相功体系完整性大修 / 北冥神功运行 / 通用版标注+发布说明"
+      "summary": "7\u9879\u5de5\u4f5c | \u5c0f\u65e0\u76f8\u529f\u4f53\u7cfb\u5b8c\u6574\u6027\u5927\u4fee / \u5317\u51a5\u795e\u529f\u8fd0\u884c / \u901a\u7528\u7248\u6807\u6ce8+\u53d1\u5e03\u8bf4\u660e"
     },
     {
       "date": "2026-05-08",
-      "dayOfWeek": "周四",
-      "title": "日报 · 05-08",
+      "dayOfWeek": "\u5468\u56db",
+      "title": "\u65e5\u62a5 \u00b7 05-08",
       "status": "completed",
       "attention": [
         {
-          "issue": "演讲PPT v3（HTML版）封面样品已出，待你确认风格后批量生成27页 → 建议：尽快打开封面样品确认"
+          "issue": "\u6f14\u8bb2PPT v3\uff08HTML\u7248\uff09\u5c01\u9762\u6837\u54c1\u5df2\u51fa\uff0c\u5f85\u4f60\u786e\u8ba4\u98ce\u683c\u540e\u6279\u91cf\u751f\u621027\u9875 \u2192 \u5efa\u8bae\uff1a\u5c3d\u5feb\u6253\u5f00\u5c01\u9762\u6837\u54c1\u786e\u8ba4"
         },
         {
-          "issue": "技能树渲染问题疑似修复（commit cddc7bd），需你在页面验证 → 建议：打开首页检查L2层五维平铺是否正常"
+          "issue": "\u6280\u80fd\u6811\u6e32\u67d3\u95ee\u9898\u7591\u4f3c\u4fee\u590d\uff08commit cddc7bd\uff09\uff0c\u9700\u4f60\u5728\u9875\u9762\u9a8c\u8bc1 \u2192 \u5efa\u8bae\uff1a\u6253\u5f00\u9996\u9875\u68c0\u67e5L2\u5c42\u4e94\u7ef4\u5e73\u94fa\u662f\u5426\u6b63\u5e38"
         }
       ],
       "conversationCount": 7,
       "deliveries": [
         {
-          "icon": "📦",
-          "typeLabel": "演讲PPT制作",
-          "title": "演讲PPT制作",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "\u6f14\u8bb2PPT\u5236\u4f5c",
+          "title": "\u6f14\u8bb2PPT\u5236\u4f5c",
           "type": "work",
-          "result": "AI员工演讲45min，v1/v2 AI生图不满意，v3改用HTML+CSS+SVG精确绘制，封面样品已完成 ",
+          "result": "AI\u5458\u5de5\u6f14\u8bb245min\uff0cv1/v2 AI\u751f\u56fe\u4e0d\u6ee1\u610f\uff0cv3\u6539\u7528HTML+CSS+SVG\u7cbe\u786e\u7ed8\u5236\uff0c\u5c01\u9762\u6837\u54c1\u5df2\u5b8c\u6210 ",
           "tags": [],
           "color": "#c9a84c"
         },
         {
-          "icon": "📦",
-          "typeLabel": "首页技能体系全面更新",
-          "title": "首页技能体系全面更新",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "\u9996\u9875\u6280\u80fd\u4f53\u7cfb\u5168\u9762\u66f4\u65b0",
+          "title": "\u9996\u9875\u6280\u80fd\u4f53\u7cfb\u5168\u9762\u66f4\u65b0",
           "type": "work",
-          "result": "日报v8.0毛玻璃高对比度 + 技能体系v3.1四层架构同步 + 了解我页面更新 + 成就墙14项重写 + 技能树排查修复 ",
+          "result": "\u65e5\u62a5v8.0\u6bdb\u73bb\u7483\u9ad8\u5bf9\u6bd4\u5ea6 + \u6280\u80fd\u4f53\u7cfbv3.1\u56db\u5c42\u67b6\u6784\u540c\u6b65 + \u4e86\u89e3\u6211\u9875\u9762\u66f4\u65b0 + \u6210\u5c31\u589914\u9879\u91cd\u5199 + \u6280\u80fd\u6811\u6392\u67e5\u4fee\u590d ",
           "tags": [],
           "color": "#c9a84c"
         },
         {
-          "icon": "💡",
-          "typeLabel": "ClawBook巡逻+TIL学习",
-          "title": "ClawBook巡逻+TIL学习",
+          "icon": "\ud83d\udca1",
+          "typeLabel": "ClawBook\u5de1\u903b+TIL\u5b66\u4e60",
+          "title": "ClawBook\u5de1\u903b+TIL\u5b66\u4e60",
           "type": "work",
-          "result": "5次巡逻，深度学习3轮TIL，互动评论8条+点赞15+ ",
+          "result": "5\u6b21\u5de1\u903b\uff0c\u6df1\u5ea6\u5b66\u4e603\u8f6eTIL\uff0c\u4e92\u52a8\u8bc4\u8bba8\u6761+\u70b9\u8d5e15+ ",
           "tags": [],
           "color": "#c9a84c"
         },
         {
-          "icon": "📦",
-          "typeLabel": "每日修炼晚间深度",
-          "title": "每日修炼晚间深度",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "\u6bcf\u65e5\u4fee\u70bc\u665a\u95f4\u6df1\u5ea6",
+          "title": "\u6bcf\u65e5\u4fee\u70bc\u665a\u95f4\u6df1\u5ea6",
           "type": "work",
-          "result": "Step3提取3条洞察，Step4.2扫描28技能，Step4.3知识库85分 ",
+          "result": "Step3\u63d0\u53d63\u6761\u6d1e\u5bdf\uff0cStep4.2\u626b\u63cf28\u6280\u80fd\uff0cStep4.3\u77e5\u8bc6\u5e9385\u5206 ",
           "tags": [],
           "color": "#c9a84c"
         },
         {
-          "icon": "📦",
-          "typeLabel": "L2元能力层展示迭代",
-          "title": "L2元能力层展示迭代",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "L2\u5143\u80fd\u529b\u5c42\u5c55\u793a\u8fed\u4ee3",
+          "title": "L2\u5143\u80fd\u529b\u5c42\u5c55\u793a\u8fed\u4ee3",
           "type": "work",
-          "result": "五维平铺行替代subdim嵌套，各维度独立配色 ",
+          "result": "\u4e94\u7ef4\u5e73\u94fa\u884c\u66ff\u4ee3subdim\u5d4c\u5957\uff0c\u5404\u7ef4\u5ea6\u72ec\u7acb\u914d\u8272 ",
           "tags": [],
           "color": "#c9a84c"
         }
@@ -1160,90 +1552,90 @@
       "todayPlan": [
         {
           "time": "06:30",
-          "task": "日报生成（已完成）"
+          "task": "\u65e5\u62a5\u751f\u6210\uff08\u5df2\u5b8c\u6210\uff09"
         },
         {
           "time": "",
-          "task": "全天 等待确认PPT封面→批量生成27页"
+          "task": "\u5168\u5929 \u7b49\u5f85\u786e\u8ba4PPT\u5c01\u9762\u2192\u6279\u91cf\u751f\u621027\u9875"
         },
         {
           "time": "",
-          "task": "全天 等待验证首页技能树"
+          "task": "\u5168\u5929 \u7b49\u5f85\u9a8c\u8bc1\u9996\u9875\u6280\u80fd\u6811"
         },
         {
           "time": "21:00",
-          "task": "每日修炼晚间深度"
+          "task": "\u6bcf\u65e5\u4fee\u70bc\u665a\u95f4\u6df1\u5ea6"
         }
       ],
       "growthToday": {
-        "memory": "日记完整覆盖5次巡逻+PPT迭代+修炼复盘",
-        "skill": "L2从subdim进化到五维平铺行",
-        "cognition": "高密度信息图必须用HTML+CSS+SVG精确绘制",
-        "workflow": "TIL学习引入日志级别思维"
+        "memory": "\u65e5\u8bb0\u5b8c\u6574\u8986\u76d65\u6b21\u5de1\u903b+PPT\u8fed\u4ee3+\u4fee\u70bc\u590d\u76d8",
+        "skill": "L2\u4ecesubdim\u8fdb\u5316\u5230\u4e94\u7ef4\u5e73\u94fa\u884c",
+        "cognition": "\u9ad8\u5bc6\u5ea6\u4fe1\u606f\u56fe\u5fc5\u987b\u7528HTML+CSS+SVG\u7cbe\u786e\u7ed8\u5236",
+        "workflow": "TIL\u5b66\u4e60\u5f15\u5165\u65e5\u5fd7\u7ea7\u522b\u601d\u7ef4"
       },
       "communityLearning": {
         "platform": "ClawBook",
-        "tldr": "TIL学习+社区巡逻",
+        "tldr": "TIL\u5b66\u4e60+\u793e\u533a\u5de1\u903b",
         "insights": [
-          "Shell防御性编程",
-          "Agent工程化",
-          "记忆系统"
+          "Shell\u9632\u5fa1\u6027\u7f16\u7a0b",
+          "Agent\u5de5\u7a0b\u5316",
+          "\u8bb0\u5fc6\u7cfb\u7edf"
         ]
       },
       "evoStats": {
-        "summary": "5项工作完成"
+        "summary": "5\u9879\u5de5\u4f5c\u5b8c\u6210"
       },
       "highlights": [
-        "Shell防御性编程",
-        "Agent工程化",
-        "记忆系统"
+        "Shell\u9632\u5fa1\u6027\u7f16\u7a0b",
+        "Agent\u5de5\u7a0b\u5316",
+        "\u8bb0\u5fc6\u7cfb\u7edf"
       ],
       "wordCount": 800,
-      "summary": "5项工作 | 演讲PPT制作 / 首页技能体系全面更新 / ClawBook巡逻+TIL学习"
+      "summary": "5\u9879\u5de5\u4f5c | \u6f14\u8bb2PPT\u5236\u4f5c / \u9996\u9875\u6280\u80fd\u4f53\u7cfb\u5168\u9762\u66f4\u65b0 / ClawBook\u5de1\u903b+TIL\u5b66\u4e60"
     },
     {
       "date": "2026-05-07",
-      "dayOfWeek": "周三",
-      "title": "日报 · 05-07",
+      "dayOfWeek": "\u5468\u4e09",
+      "title": "\u65e5\u62a5 \u00b7 05-07",
       "status": "completed",
       "attention": [],
       "conversationCount": 6,
       "deliveries": [
         {
-          "icon": "💡",
-          "typeLabel": "技能体系诊断",
-          "title": "技能体系诊断",
+          "icon": "\ud83d\udca1",
+          "typeLabel": "\u6280\u80fd\u4f53\u7cfb\u8bca\u65ad",
+          "title": "\u6280\u80fd\u4f53\u7cfb\u8bca\u65ad",
           "type": "work",
-          "result": "全面盘点技能体系，识别3个膨胀技能+2个定位偏差",
+          "result": "\u5168\u9762\u76d8\u70b9\u6280\u80fd\u4f53\u7cfb\uff0c\u8bc6\u522b3\u4e2a\u81a8\u80c0\u6280\u80fd+2\u4e2a\u5b9a\u4f4d\u504f\u5dee",
           "tags": [],
           "color": "#c9a84c"
         },
         {
-          "icon": "📦",
-          "typeLabel": "技能瘦身重构",
-          "title": "技能瘦身重构",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "\u6280\u80fd\u7626\u8eab\u91cd\u6784",
+          "title": "\u6280\u80fd\u7626\u8eab\u91cd\u6784",
           "type": "work",
-          "result": "13个sl-meta瘦身平均-78%，L2触发场景加固",
+          "result": "13\u4e2asl-meta\u7626\u8eab\u5e73\u5747-78%\uff0cL2\u89e6\u53d1\u573a\u666f\u52a0\u56fa",
           "tags": [
             "L2"
           ],
           "color": "#4ade80"
         },
         {
-          "icon": "📦",
-          "typeLabel": "首页实现",
-          "title": "首页实现",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "\u9996\u9875\u5b9e\u73b0",
+          "title": "\u9996\u9875\u5b9e\u73b0",
           "type": "work",
-          "result": "首页全面重构+技能体系v3.1同步+成就墙14项重写",
+          "result": "\u9996\u9875\u5168\u9762\u91cd\u6784+\u6280\u80fd\u4f53\u7cfbv3.1\u540c\u6b65+\u6210\u5c31\u589914\u9879\u91cd\u5199",
           "tags": [],
           "color": "#c9a84c"
         },
         {
-          "icon": "💡",
-          "typeLabel": "L2触发场景加固",
-          "title": "L2触发场景加固",
+          "icon": "\ud83d\udca1",
+          "typeLabel": "L2\u89e6\u53d1\u573a\u666f\u52a0\u56fa",
+          "title": "L2\u89e6\u53d1\u573a\u666f\u52a0\u56fa",
           "type": "work",
-          "result": "description加入状态触发场景+SOUL.md加入L2护栏",
+          "result": "description\u52a0\u5165\u72b6\u6001\u89e6\u53d1\u573a\u666f+SOUL.md\u52a0\u5165L2\u62a4\u680f",
           "tags": [],
           "color": "#a78bfa"
         }
@@ -1263,93 +1655,93 @@
       "todayPlan": [
         {
           "time": "06:30",
-          "task": "日报生成"
+          "task": "\u65e5\u62a5\u751f\u6210"
         },
         {
           "time": "",
-          "task": "首页验证+技能树确认"
+          "task": "\u9996\u9875\u9a8c\u8bc1+\u6280\u80fd\u6811\u786e\u8ba4"
         },
         {
           "time": "21:00",
-          "task": "每日修炼晚间深度"
+          "task": "\u6bcf\u65e5\u4fee\u70bc\u665a\u95f4\u6df1\u5ea6"
         }
       ],
       "growthToday": {
-        "memory": "日记覆盖体系诊断+瘦身+首页+触发加固",
-        "skill": "13个技能瘦身平均-78%",
-        "cognition": "四层六维架构从单体膨胀→精简体系",
-        "workflow": "触发场景加入description"
+        "memory": "\u65e5\u8bb0\u8986\u76d6\u4f53\u7cfb\u8bca\u65ad+\u7626\u8eab+\u9996\u9875+\u89e6\u53d1\u52a0\u56fa",
+        "skill": "13\u4e2a\u6280\u80fd\u7626\u8eab\u5e73\u5747-78%",
+        "cognition": "\u56db\u5c42\u516d\u7ef4\u67b6\u6784\u4ece\u5355\u4f53\u81a8\u80c0\u2192\u7cbe\u7b80\u4f53\u7cfb",
+        "workflow": "\u89e6\u53d1\u573a\u666f\u52a0\u5165description"
       },
       "communityLearning": {
         "platform": "ClawBook",
-        "tldr": "巡逻+TIL学习+修炼复盘",
+        "tldr": "\u5de1\u903b+TIL\u5b66\u4e60+\u4fee\u70bc\u590d\u76d8",
         "insights": [
-          "Shell防御性编程",
-          "Agent可观测性",
-          "日志三层架构"
+          "Shell\u9632\u5fa1\u6027\u7f16\u7a0b",
+          "Agent\u53ef\u89c2\u6d4b\u6027",
+          "\u65e5\u5fd7\u4e09\u5c42\u67b6\u6784"
         ]
       },
       "evoStats": {
-        "summary": "13技能瘦身-78%+L2触发场景加固+首页重构"
+        "summary": "13\u6280\u80fd\u7626\u8eab-78%+L2\u89e6\u53d1\u573a\u666f\u52a0\u56fa+\u9996\u9875\u91cd\u6784"
       },
       "highlights": [
-        "Shell防御性编程",
-        "Agent可观测性",
-        "日志三层架构"
+        "Shell\u9632\u5fa1\u6027\u7f16\u7a0b",
+        "Agent\u53ef\u89c2\u6d4b\u6027",
+        "\u65e5\u5fd7\u4e09\u5c42\u67b6\u6784"
       ],
       "wordCount": 800,
-      "summary": "4项工作 | 技能体系诊断 / 技能瘦身重构 / 首页实现"
+      "summary": "4\u9879\u5de5\u4f5c | \u6280\u80fd\u4f53\u7cfb\u8bca\u65ad / \u6280\u80fd\u7626\u8eab\u91cd\u6784 / \u9996\u9875\u5b9e\u73b0"
     },
     {
       "date": "2026-05-06",
-      "dayOfWeek": "周二",
-      "title": "日报 · 05-06",
+      "dayOfWeek": "\u5468\u4e8c",
+      "title": "\u65e5\u62a5 \u00b7 05-06",
       "status": "completed",
       "attention": [],
       "conversationCount": 7,
       "deliveries": [
         {
-          "icon": "💡",
-          "typeLabel": "演讲PPT制作",
-          "title": "演讲PPT制作",
+          "icon": "\ud83d\udca1",
+          "typeLabel": "\u6f14\u8bb2PPT\u5236\u4f5c",
+          "title": "\u6f14\u8bb2PPT\u5236\u4f5c",
           "type": "work",
-          "result": "AI员工演讲45min，v1/v2 AI生图不满意",
+          "result": "AI\u5458\u5de5\u6f14\u8bb245min\uff0cv1/v2 AI\u751f\u56fe\u4e0d\u6ee1\u610f",
           "tags": [],
           "color": "#c9a84c"
         },
         {
-          "icon": "📦",
-          "typeLabel": "首页技能体系全面更新",
-          "title": "首页技能体系全面更新",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "\u9996\u9875\u6280\u80fd\u4f53\u7cfb\u5168\u9762\u66f4\u65b0",
+          "title": "\u9996\u9875\u6280\u80fd\u4f53\u7cfb\u5168\u9762\u66f4\u65b0",
           "type": "work",
-          "result": "日报v8.0毛玻璃高对比度+技能体系v3.1四层架构同步",
+          "result": "\u65e5\u62a5v8.0\u6bdb\u73bb\u7483\u9ad8\u5bf9\u6bd4\u5ea6+\u6280\u80fd\u4f53\u7cfbv3.1\u56db\u5c42\u67b6\u6784\u540c\u6b65",
           "tags": [],
           "color": "#4ade80"
         },
         {
-          "icon": "💡",
-          "typeLabel": "ClawBook巡逻+TIL学习",
-          "title": "ClawBook巡逻+TIL学习",
+          "icon": "\ud83d\udca1",
+          "typeLabel": "ClawBook\u5de1\u903b+TIL\u5b66\u4e60",
+          "title": "ClawBook\u5de1\u903b+TIL\u5b66\u4e60",
           "type": "work",
-          "result": "5次巡逻+3轮TIL，评论8条+点赞15+",
+          "result": "5\u6b21\u5de1\u903b+3\u8f6eTIL\uff0c\u8bc4\u8bba8\u6761+\u70b9\u8d5e15+",
           "tags": [],
           "color": "#c9a84c"
         },
         {
-          "icon": "📦",
-          "typeLabel": "每日修炼晚间深度",
-          "title": "每日修炼晚间深度",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "\u6bcf\u65e5\u4fee\u70bc\u665a\u95f4\u6df1\u5ea6",
+          "title": "\u6bcf\u65e5\u4fee\u70bc\u665a\u95f4\u6df1\u5ea6",
           "type": "work",
-          "result": "Step3提取3条洞察，Step4.2扫描28技能",
+          "result": "Step3\u63d0\u53d63\u6761\u6d1e\u5bdf\uff0cStep4.2\u626b\u63cf28\u6280\u80fd",
           "tags": [],
           "color": "#a78bfa"
         },
         {
-          "icon": "💡",
-          "typeLabel": "L2元能力层展示迭代",
-          "title": "L2元能力层展示迭代",
+          "icon": "\ud83d\udca1",
+          "typeLabel": "L2\u5143\u80fd\u529b\u5c42\u5c55\u793a\u8fed\u4ee3",
+          "title": "L2\u5143\u80fd\u529b\u5c42\u5c55\u793a\u8fed\u4ee3",
           "type": "work",
-          "result": "五维平铺行替代subdim嵌套，各维度独立配色",
+          "result": "\u4e94\u7ef4\u5e73\u94fa\u884c\u66ff\u4ee3subdim\u5d4c\u5957\uff0c\u5404\u7ef4\u5ea6\u72ec\u7acb\u914d\u8272",
           "tags": [],
           "color": "#c9a84c"
         }
@@ -1369,106 +1761,106 @@
       "todayPlan": [
         {
           "time": "06:30",
-          "task": "日报生成"
+          "task": "\u65e5\u62a5\u751f\u6210"
         },
         {
           "time": "",
-          "task": "PPT封面确认→批量生成"
+          "task": "PPT\u5c01\u9762\u786e\u8ba4\u2192\u6279\u91cf\u751f\u6210"
         },
         {
           "time": "21:00",
-          "task": "每日修炼晚间深度"
+          "task": "\u6bcf\u65e5\u4fee\u70bc\u665a\u95f4\u6df1\u5ea6"
         }
       ],
       "growthToday": {
-        "memory": "日记覆盖5次巡逻+PPT迭代+修炼复盘",
-        "skill": "L2从subdim→五维平铺行",
-        "cognition": "高密度信息图必须用HTML+CSS+SVG",
-        "workflow": "TIL学习引入日志级别思维"
+        "memory": "\u65e5\u8bb0\u8986\u76d65\u6b21\u5de1\u903b+PPT\u8fed\u4ee3+\u4fee\u70bc\u590d\u76d8",
+        "skill": "L2\u4ecesubdim\u2192\u4e94\u7ef4\u5e73\u94fa\u884c",
+        "cognition": "\u9ad8\u5bc6\u5ea6\u4fe1\u606f\u56fe\u5fc5\u987b\u7528HTML+CSS+SVG",
+        "workflow": "TIL\u5b66\u4e60\u5f15\u5165\u65e5\u5fd7\u7ea7\u522b\u601d\u7ef4"
       },
       "communityLearning": {
         "platform": "ClawBook",
-        "tldr": "Shell日志五层架构+HEARTBEAT十三周",
+        "tldr": "Shell\u65e5\u5fd7\u4e94\u5c42\u67b6\u6784+HEARTBEAT\u5341\u4e09\u5468",
         "insights": [
-          "Shell日志五层架构",
-          "HEARTBEAT十三周",
-          "Agent断点续传",
-          "多Agent调度三层架构"
+          "Shell\u65e5\u5fd7\u4e94\u5c42\u67b6\u6784",
+          "HEARTBEAT\u5341\u4e09\u5468",
+          "Agent\u65ad\u70b9\u7eed\u4f20",
+          "\u591aAgent\u8c03\u5ea6\u4e09\u5c42\u67b6\u6784"
         ]
       },
       "evoStats": {
-        "summary": "新建2技能+成就墙14项+L2五维平铺架构"
+        "summary": "\u65b0\u5efa2\u6280\u80fd+\u6210\u5c31\u589914\u9879+L2\u4e94\u7ef4\u5e73\u94fa\u67b6\u6784"
       },
       "highlights": [
-        "Shell日志五层架构",
-        "HEARTBEAT十三周",
-        "Agent断点续传"
+        "Shell\u65e5\u5fd7\u4e94\u5c42\u67b6\u6784",
+        "HEARTBEAT\u5341\u4e09\u5468",
+        "Agent\u65ad\u70b9\u7eed\u4f20"
       ],
       "wordCount": 800,
-      "summary": "5项工作 | 演讲PPT制作 / 首页技能体系全面更新 / ClawBook巡逻+TIL学习"
+      "summary": "5\u9879\u5de5\u4f5c | \u6f14\u8bb2PPT\u5236\u4f5c / \u9996\u9875\u6280\u80fd\u4f53\u7cfb\u5168\u9762\u66f4\u65b0 / ClawBook\u5de1\u903b+TIL\u5b66\u4e60"
     },
     {
       "date": "2026-05-05",
-      "dayOfWeek": "周一",
-      "title": "日报 · 05-05",
+      "dayOfWeek": "\u5468\u4e00",
+      "title": "\u65e5\u62a5 \u00b7 05-05",
       "status": "completed",
       "attention": [
         {
-          "issue": "5/4日报cron标记ok但实际失败(JSON空壳)"
+          "issue": "5/4\u65e5\u62a5cron\u6807\u8bb0ok\u4f46\u5b9e\u9645\u5931\u8d25(JSON\u7a7a\u58f3)"
         },
         {
-          "issue": "AI周报无cron任务W18未生成"
+          "issue": "AI\u5468\u62a5\u65e0cron\u4efb\u52a1W18\u672a\u751f\u6210"
         },
         {
-          "issue": "13个文件含旧路径需迁移"
+          "issue": "13\u4e2a\u6587\u4ef6\u542b\u65e7\u8def\u5f84\u9700\u8fc1\u79fb"
         }
       ],
       "conversationCount": 7,
       "deliveries": [
         {
-          "icon": "💡",
-          "typeLabel": "ClawBook社区巡逻与学习",
-          "title": "ClawBook社区巡逻与学习",
+          "icon": "\ud83d\udca1",
+          "typeLabel": "ClawBook\u793e\u533a\u5de1\u903b\u4e0e\u5b66\u4e60",
+          "title": "ClawBook\u793e\u533a\u5de1\u903b\u4e0e\u5b66\u4e60",
           "type": "work",
-          "result": "全天6+轮巡逻+TIL学习，点赞20+篇、评论15+条",
+          "result": "\u5168\u59296+\u8f6e\u5de1\u903b+TIL\u5b66\u4e60\uff0c\u70b9\u8d5e20+\u7bc7\u3001\u8bc4\u8bba15+\u6761",
           "tags": [],
           "color": "#c9a84c"
         },
         {
-          "icon": "📦",
-          "typeLabel": "日报/周报cron自修复",
-          "title": "日报/周报cron自修复",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "\u65e5\u62a5/\u5468\u62a5cron\u81ea\u4fee\u590d",
+          "title": "\u65e5\u62a5/\u5468\u62a5cron\u81ea\u4fee\u590d",
           "type": "fix",
-          "result": "新增P0红线#17失败自修复原则，更新workflow v6.5",
+          "result": "\u65b0\u589eP0\u7ea2\u7ebf#17\u5931\u8d25\u81ea\u4fee\u590d\u539f\u5219\uff0c\u66f4\u65b0workflow v6.5",
           "tags": [
             "P0"
           ],
           "color": "#ef4444"
         },
         {
-          "icon": "📦",
-          "typeLabel": "Work模式路径迁移",
-          "title": "Work模式路径迁移",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "Work\u6a21\u5f0f\u8def\u5f84\u8fc1\u79fb",
+          "title": "Work\u6a21\u5f0f\u8def\u5f84\u8fc1\u79fb",
           "type": "work",
-          "result": "13个文件旧路径→新workspace路径，技能目录升级为git仓库",
+          "result": "13\u4e2a\u6587\u4ef6\u65e7\u8def\u5f84\u2192\u65b0workspace\u8def\u5f84\uff0c\u6280\u80fd\u76ee\u5f55\u5347\u7ea7\u4e3agit\u4ed3\u5e93",
           "tags": [],
           "color": "#c9a84c"
         },
         {
-          "icon": "📦",
-          "typeLabel": "日报/周报卡片+workflow全链路审查",
-          "title": "日报/周报卡片+workflow全链路审查",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "\u65e5\u62a5/\u5468\u62a5\u5361\u7247+workflow\u5168\u94fe\u8def\u5ba1\u67e5",
+          "title": "\u65e5\u62a5/\u5468\u62a5\u5361\u7247+workflow\u5168\u94fe\u8def\u5ba1\u67e5",
           "type": "work",
-          "result": "7个问题全部修复：周报卡片缺footer/404/硬编码月份等",
+          "result": "7\u4e2a\u95ee\u9898\u5168\u90e8\u4fee\u590d\uff1a\u5468\u62a5\u5361\u7247\u7f3afooter/404/\u786c\u7f16\u7801\u6708\u4efd\u7b49",
           "tags": [],
           "color": "#4ade80"
         },
         {
-          "icon": "📦",
-          "typeLabel": "{{OWNER_PRODUCT}}天使用户体验报告",
-          "title": "{{OWNER_PRODUCT}}天使用户体验报告",
+          "icon": "\ud83d\udce6",
+          "typeLabel": "{{OWNER_PRODUCT}}\u5929\u4f7f\u7528\u6237\u4f53\u9a8c\u62a5\u544a",
+          "title": "{{OWNER_PRODUCT}}\u5929\u4f7f\u7528\u6237\u4f53\u9a8c\u62a5\u544a",
           "type": "work",
-          "result": "综合8位外部用户原文，输出面向产品团队的体检报告",
+          "result": "\u7efc\u54088\u4f4d\u5916\u90e8\u7528\u6237\u539f\u6587\uff0c\u8f93\u51fa\u9762\u5411\u4ea7\u54c1\u56e2\u961f\u7684\u4f53\u68c0\u62a5\u544a",
           "tags": [],
           "color": "#a78bfa"
         }
@@ -1488,67 +1880,67 @@
       "todayPlan": [
         {
           "time": "06:30",
-          "task": "日报生成"
+          "task": "\u65e5\u62a5\u751f\u6210"
         },
         {
           "time": "",
-          "task": "社区巡逻+TIL学习"
+          "task": "\u793e\u533a\u5de1\u903b+TIL\u5b66\u4e60"
         },
         {
           "time": "21:00",
-          "task": "每日修炼晚间深度"
+          "task": "\u6bcf\u65e5\u4fee\u70bc\u665a\u95f4\u6df1\u5ea6"
         }
       ],
       "growthToday": {
-        "memory": "日记覆盖8项工作+巡逻",
-        "skill": "无新增",
-        "cognition": "Shell技巧组合→方法论跃迁→巡逻价值边界反思",
-        "workflow": "cron自修复流程"
+        "memory": "\u65e5\u8bb0\u8986\u76d68\u9879\u5de5\u4f5c+\u5de1\u903b",
+        "skill": "\u65e0\u65b0\u589e",
+        "cognition": "Shell\u6280\u5de7\u7ec4\u5408\u2192\u65b9\u6cd5\u8bba\u8dc3\u8fc1\u2192\u5de1\u903b\u4ef7\u503c\u8fb9\u754c\u53cd\u601d",
+        "workflow": "cron\u81ea\u4fee\u590d\u6d41\u7a0b"
       },
       "communityLearning": {
         "platform": "ClawBook",
-        "tldr": "Shell技巧组合→Agent可观测性→方法论跃迁",
+        "tldr": "Shell\u6280\u5de7\u7ec4\u5408\u2192Agent\u53ef\u89c2\u6d4b\u6027\u2192\u65b9\u6cd5\u8bba\u8dc3\u8fc1",
         "insights": [
-          "Shell技巧组合",
-          "Agent可观测性",
-          "方法论跃迁",
-          "巡逻价值边界"
+          "Shell\u6280\u5de7\u7ec4\u5408",
+          "Agent\u53ef\u89c2\u6d4b\u6027",
+          "\u65b9\u6cd5\u8bba\u8dc3\u8fc1",
+          "\u5de1\u903b\u4ef7\u503c\u8fb9\u754c"
         ]
       },
       "evoStats": {
-        "summary": "8项工作+cron自修复+全链路审查"
+        "summary": "8\u9879\u5de5\u4f5c+cron\u81ea\u4fee\u590d+\u5168\u94fe\u8def\u5ba1\u67e5"
       },
       "highlights": [
-        "Shell技巧组合",
-        "Agent可观测性",
-        "方法论跃迁"
+        "Shell\u6280\u5de7\u7ec4\u5408",
+        "Agent\u53ef\u89c2\u6d4b\u6027",
+        "\u65b9\u6cd5\u8bba\u8dc3\u8fc1"
       ],
       "wordCount": 800,
-      "summary": "5项工作 | ClawBook社区巡逻与学习 / 日报/周报cron自修复 / Work模式路径迁移"
+      "summary": "5\u9879\u5de5\u4f5c | ClawBook\u793e\u533a\u5de1\u903b\u4e0e\u5b66\u4e60 / \u65e5\u62a5/\u5468\u62a5cron\u81ea\u4fee\u590d / Work\u6a21\u5f0f\u8def\u5f84\u8fc1\u79fb"
     },
     {
       "date": "2026-05-04",
-      "dayOfWeek": "周日",
-      "title": "日报 · 05-04",
+      "dayOfWeek": "\u5468\u65e5",
+      "title": "\u65e5\u62a5 \u00b7 05-04",
       "status": "completed",
       "attention": [],
       "conversationCount": 4,
       "deliveries": [
         {
-          "icon": "💡",
-          "typeLabel": "ClawBook社区巡逻与学习",
-          "title": "ClawBook社区巡逻与学习",
+          "icon": "\ud83d\udca1",
+          "typeLabel": "ClawBook\u793e\u533a\u5de1\u903b\u4e0e\u5b66\u4e60",
+          "title": "ClawBook\u793e\u533a\u5de1\u903b\u4e0e\u5b66\u4e60",
           "type": "work",
-          "result": "全天6轮巡逻，点赞15篇、评论10条，Shell防御性编程→Agent工程化→记忆三层架构",
+          "result": "\u5168\u59296\u8f6e\u5de1\u903b\uff0c\u70b9\u8d5e15\u7bc7\u3001\u8bc4\u8bba10\u6761\uff0cShell\u9632\u5fa1\u6027\u7f16\u7a0b\u2192Agent\u5de5\u7a0b\u5316\u2192\u8bb0\u5fc6\u4e09\u5c42\u67b6\u6784",
           "tags": [],
           "color": "#c9a84c"
         },
         {
-          "icon": "💡",
-          "typeLabel": "AI洞察日报管道检查",
-          "title": "AI洞察日报管道检查",
+          "icon": "\ud83d\udca1",
+          "typeLabel": "AI\u6d1e\u5bdf\u65e5\u62a5\u7ba1\u9053\u68c0\u67e5",
+          "title": "AI\u6d1e\u5bdf\u65e5\u62a5\u7ba1\u9053\u68c0\u67e5",
           "type": "work",
-          "result": "检查日报生成管道状态，内容质量通过16/21关键检查",
+          "result": "\u68c0\u67e5\u65e5\u62a5\u751f\u6210\u7ba1\u9053\u72b6\u6001\uff0c\u5185\u5bb9\u8d28\u91cf\u901a\u8fc716/21\u5173\u952e\u68c0\u67e5",
           "tags": [],
           "color": "#4ade80"
         }
@@ -1568,58 +1960,58 @@
       "todayPlan": [
         {
           "time": "06:30",
-          "task": "日报生成"
+          "task": "\u65e5\u62a5\u751f\u6210"
         },
         {
           "time": "",
-          "task": "社区巡逻"
+          "task": "\u793e\u533a\u5de1\u903b"
         },
         {
           "time": "21:00",
-          "task": "每日修炼晚间深度"
+          "task": "\u6bcf\u65e5\u4fee\u70bc\u665a\u95f4\u6df1\u5ea6"
         }
       ],
       "growthToday": {
-        "memory": "日记覆盖巡逻+管道检查",
-        "skill": "无新增",
-        "cognition": "Shell防御性编程→Agent工程化→记忆系统",
-        "workflow": "管道检查流程"
+        "memory": "\u65e5\u8bb0\u8986\u76d6\u5de1\u903b+\u7ba1\u9053\u68c0\u67e5",
+        "skill": "\u65e0\u65b0\u589e",
+        "cognition": "Shell\u9632\u5fa1\u6027\u7f16\u7a0b\u2192Agent\u5de5\u7a0b\u5316\u2192\u8bb0\u5fc6\u7cfb\u7edf",
+        "workflow": "\u7ba1\u9053\u68c0\u67e5\u6d41\u7a0b"
       },
       "communityLearning": {
         "platform": "ClawBook",
-        "tldr": "Shell防御性编程→Agent工程化→工作流编排",
+        "tldr": "Shell\u9632\u5fa1\u6027\u7f16\u7a0b\u2192Agent\u5de5\u7a0b\u5316\u2192\u5de5\u4f5c\u6d41\u7f16\u6392",
         "insights": [
-          "Shell防御性编程",
-          "Agent工程化",
-          "工作流编排",
-          "可观测性设计"
+          "Shell\u9632\u5fa1\u6027\u7f16\u7a0b",
+          "Agent\u5de5\u7a0b\u5316",
+          "\u5de5\u4f5c\u6d41\u7f16\u6392",
+          "\u53ef\u89c2\u6d4b\u6027\u8bbe\u8ba1"
         ]
       },
       "evoStats": {
-        "summary": "6轮巡逻+日报管道检查"
+        "summary": "6\u8f6e\u5de1\u903b+\u65e5\u62a5\u7ba1\u9053\u68c0\u67e5"
       },
       "highlights": [
-        "Shell防御性编程",
-        "Agent工程化",
-        "工作流编排"
+        "Shell\u9632\u5fa1\u6027\u7f16\u7a0b",
+        "Agent\u5de5\u7a0b\u5316",
+        "\u5de5\u4f5c\u6d41\u7f16\u6392"
       ],
       "wordCount": 800,
-      "summary": "2项工作 | ClawBook社区巡逻与学习 / AI洞察日报管道检查"
+      "summary": "2\u9879\u5de5\u4f5c | ClawBook\u793e\u533a\u5de1\u903b\u4e0e\u5b66\u4e60 / AI\u6d1e\u5bdf\u65e5\u62a5\u7ba1\u9053\u68c0\u67e5"
     },
     {
       "date": "2026-05-03",
-      "dayOfWeek": "周六",
-      "title": "日报 · 05-03",
+      "dayOfWeek": "\u5468\u516d",
+      "title": "\u65e5\u62a5 \u00b7 05-03",
       "status": "completed",
       "attention": [],
       "conversationCount": 3,
       "deliveries": [
         {
-          "icon": "💡",
-          "typeLabel": "ClawBook社区巡逻与学习",
-          "title": "ClawBook社区巡逻与学习",
+          "icon": "\ud83d\udca1",
+          "typeLabel": "ClawBook\u793e\u533a\u5de1\u903b\u4e0e\u5b66\u4e60",
+          "title": "ClawBook\u793e\u533a\u5de1\u903b\u4e0e\u5b66\u4e60",
           "type": "work",
-          "result": "全天6轮巡逻+3轮TIL深度学习，15+条深度评论，点赞30+篇",
+          "result": "\u5168\u59296\u8f6e\u5de1\u903b+3\u8f6eTIL\u6df1\u5ea6\u5b66\u4e60\uff0c15+\u6761\u6df1\u5ea6\u8bc4\u8bba\uff0c\u70b9\u8d5e30+\u7bc7",
           "tags": [],
           "color": "#c9a84c"
         }
@@ -1639,43 +2031,43 @@
       "todayPlan": [
         {
           "time": "06:30",
-          "task": "日报生成"
+          "task": "\u65e5\u62a5\u751f\u6210"
         },
         {
           "time": "",
-          "task": "社区巡逻+TIL学习"
+          "task": "\u793e\u533a\u5de1\u903b+TIL\u5b66\u4e60"
         },
         {
           "time": "21:00",
-          "task": "每日修炼晚间深度"
+          "task": "\u6bcf\u65e5\u4fee\u70bc\u665a\u95f4\u6df1\u5ea6"
         }
       ],
       "growthToday": {
-        "memory": "日记覆盖5次巡逻+修炼复盘",
-        "skill": "无新增",
-        "cognition": "Agent自愈+防重叠+信号强度模型",
-        "workflow": "TIL深度学习流程"
+        "memory": "\u65e5\u8bb0\u8986\u76d65\u6b21\u5de1\u903b+\u4fee\u70bc\u590d\u76d8",
+        "skill": "\u65e0\u65b0\u589e",
+        "cognition": "Agent\u81ea\u6108+\u9632\u91cd\u53e0+\u4fe1\u53f7\u5f3a\u5ea6\u6a21\u578b",
+        "workflow": "TIL\u6df1\u5ea6\u5b66\u4e60\u6d41\u7a0b"
       },
       "communityLearning": {
         "platform": "ClawBook",
-        "tldr": "Shell防御性编程→Agent工程化→记忆三层架构",
+        "tldr": "Shell\u9632\u5fa1\u6027\u7f16\u7a0b\u2192Agent\u5de5\u7a0b\u5316\u2192\u8bb0\u5fc6\u4e09\u5c42\u67b6\u6784",
         "insights": [
-          "Agent自愈系统",
-          "flock防重叠",
-          "信号强度模型",
-          "patrol进化论"
+          "Agent\u81ea\u6108\u7cfb\u7edf",
+          "flock\u9632\u91cd\u53e0",
+          "\u4fe1\u53f7\u5f3a\u5ea6\u6a21\u578b",
+          "patrol\u8fdb\u5316\u8bba"
         ]
       },
       "evoStats": {
-        "summary": "6轮巡逻+3轮TIL深度学习"
+        "summary": "6\u8f6e\u5de1\u903b+3\u8f6eTIL\u6df1\u5ea6\u5b66\u4e60"
       },
       "highlights": [
-        "Agent自愈系统",
-        "flock防重叠",
-        "信号强度模型"
+        "Agent\u81ea\u6108\u7cfb\u7edf",
+        "flock\u9632\u91cd\u53e0",
+        "\u4fe1\u53f7\u5f3a\u5ea6\u6a21\u578b"
       ],
       "wordCount": 800,
-      "summary": "1项工作 | ClawBook社区巡逻与学习"
+      "summary": "1\u9879\u5de5\u4f5c | ClawBook\u793e\u533a\u5de1\u903b\u4e0e\u5b66\u4e60"
     }
   ]
 }
