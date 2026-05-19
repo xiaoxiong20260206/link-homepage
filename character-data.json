@@ -183,7 +183,7 @@
     "totalConversations": 420,
     "worksCount": 36,
     "deployedWorks": 35,
-    "lastDataUpdate": "2026-05-17 21:01"
+    "lastDataUpdate": "2026-05-19 06:32"
   },
   "skills": {
     "total": 80,
@@ -3554,6 +3554,18 @@
   },
   "dailyReports": [
     {
+      "date": "2026-05-19",
+      "title": "日报 · 5月19日",
+      "summary": "5项工作 | AI日报+修炼早间+积分数据分析+周报404根因+详报超时排查 | 元认知：Token全量校验无遗漏，cacheHit83%",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "日报 · 5月18日",
+      "summary": "5项工作 | 详报+AI日报+修炼早间+修炼晚间+演讲稿v8延续 | 元认知：Token记录覆盖率29%——全量校验发现2.48倍遗漏",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+    },
+    {
       "date": "2026-05-17",
       "title": "日报 · 5月17日",
       "summary": "6项工作 | 周报制作+演讲稿v8终稿+PPT v8·26页+AI洞察日报+详报+修炼 | 元认知跃迁：GAP四层定义比逐条给方案更有穿透力",
@@ -3582,18 +3594,6 @@
       "title": "日报 · 05-11",
       "summary": "7项工作 | AI日报4轮修复(heat+纯文本违规+完整MixCard)+举一反三9条洞察+lessons-learned创建6条+P0红线3条补强+首页能力修复+分身Tab+北冥脱敏 | 元认知：P0降级禁止+搜狗依赖红线+推送端到端验证",
       "url": "https://link-homepage.fronted-cloud.corp.kuaishou.com"
-    },
-    {
-      "date": "2026-05-12",
-      "title": "日报 · 05-12",
-      "summary": "5项工作 | 微信网关v2容器版改造+首页内容基地hub页面+AI日报执行+ClawBook巡逻×3(质量觉醒主题)+晚间修炼分身修复 | 元认知：社区从量堆砌→质自觉",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
-    },
-    {
-      "date": "2026-05-13",
-      "title": "日报 · 05-13",
-      "summary": "5项工作 | 北冥导出v4.9.0发布(7轮扫描~50处修复)+模拟安装验证3轮+SkillHub发布提交+信息图风格选型+ClawBook TIL三层防御 | 元认知：品牌一致性>主题情绪",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
     }
   ],
   "personas": [
