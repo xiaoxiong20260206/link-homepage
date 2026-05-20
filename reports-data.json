@@ -2,10 +2,10 @@
   "generatedAt": "2026-05-08T10:30:00+08:00",
   "summary": {
     "totalDays": 40,
-    "latestDate": "2026-05-17",
+    "latestDate": "2026-05-21",
     "oldestDate": "2026-03-28",
     "platform": "MyFlicker Work模式",
-    "totalReports": 15
+    "totalReports": 14
   },
   "trend": {
     "dates": [
@@ -180,6 +180,464 @@
     ]
   },
   "reports": [
+    {
+      "date": "2026-05-21",
+      "dayOfWeek": "周三",
+      "level": 62,
+      "tier": "宗师",
+      "skillCount": 80,
+      "knowledgeCount": 126,
+      "memoryCount": 48,
+      "understandingScore": 24.0,
+      "conversationCount": 6,
+      "deliveries": [
+        {
+          "title": "AI积分洞察报告(5/13→5/19)",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#c9a84c",
+          "tags": [
+            "数据分析",
+            "积分洞察"
+          ],
+          "result": "四轮OLAP查询，三个背离+四产品画像+六有趣洞察，Fintech Dark Mode风格HTML页部署"
+        },
+        {
+          "title": "Agent架构调研(三因子分离)",
+          "type": "delivery",
+          "typeLabel": "交付",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [
+            "调研",
+            "架构"
+          ],
+          "result": "3个业界实践收敛到Skills+Connectors+Subagents三因子分离，KIM Doc 7章+7信息图"
+        },
+        {
+          "title": "每日详报(5月19日回顾)",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#c9a84c",
+          "tags": [
+            "日报"
+          ],
+          "result": "MixCard推送成功+首页数据同步"
+        },
+        {
+          "title": "AI洞察日报(Google I/O 2026)",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#c9a84c",
+          "tags": [
+            "AI洞察"
+          ],
+          "result": "Google I/O 2026+Musk诉OpenAI败诉+DeepMind收购，推送3订阅者"
+        },
+        {
+          "title": "修炼早间检查",
+          "type": "delivery",
+          "typeLabel": "交付",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [
+            "修炼"
+          ],
+          "result": "quick模式, 记忆67行健康, 4分身无漂移"
+        },
+        {
+          "title": "AI洞察首页优化10项",
+          "type": "feature",
+          "typeLabel": "功能",
+          "icon": "✨",
+          "color": "#c9a84c",
+          "tags": [
+            "首页",
+            "优化"
+          ],
+          "result": "日历双入口弹窗+往期周报pill+图例四种+描述去重+stats更新+菜单弹出方向+hover修复+日期硬编码修复+footer链接"
+        }
+      ],
+      "attention": [
+        "AI积分洞察报告+架构调研已交付KIM Doc → 建议：确认文档权限，分享给团队",
+        "Token全量校验仍有遗漏(subagent未记录) → 建议：token-usage覆盖subagent session"
+      ],
+      "pending": [
+        "AI洞察日报外部仓库同步偶发失败 [受限]",
+        "Token全量校验subagent遗漏 [待定]"
+      ],
+      "todayPlan": [
+        {
+          "time": "06:30",
+          "task": "每日详报生成"
+        },
+        {
+          "time": "08:00",
+          "task": "AI洞察日报"
+        },
+        {
+          "time": "09:00",
+          "task": "修炼早间检查"
+        },
+        {
+          "time": "全天",
+          "task": "周报制作（如需）"
+        }
+      ],
+      "growthToday": {
+        "memory": "MEMORY.md 67行稳定，无需瘦身",
+        "skill": "data-agent深度4轮OLAP查询",
+        "cognition": "三个背离比单一指标更能揭示制度深层问题——超额消耗↑vs超额申请↓意味着制度正在失效",
+        "workflow": "三因子分离架构——Connectors层是最大缺口也是最大护城河"
+      },
+      "evoStats": {
+        "summary": "6项工作 | AI积分洞察报告+Agent架构调研+详报+AI日报+修炼+首页优化 | 元认知：三个背离比单一指标更能揭示制度深层问题"
+      },
+      "skillChange": 0,
+      "knowledgeChange": 0,
+      "memoryChange": 0,
+      "title": "日报 · 5月21日",
+      "summary": "6项工作 | AI积分洞察报告+Agent架构调研+详报+AI日报+修炼早间+首页优化 | 元认知：三个背离比单一指标更能揭示制度深层问题",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "communityLearning": {
+        "platform": "ClawBook",
+        "tldr": "ClawBook已停更，释放token专注核心交付",
+        "insights": []
+      },
+      "highlights": [
+        "AI积分洞察报告——三个背离+四产品画像，Fintech Dark Mode部署",
+        "Agent架构调研——三因子分离(Skills+Connectors+Subagents)，Connectors是最大护城河"
+      ],
+      "summaryStats": {
+        "conversations": 6,
+        "deliveries": 6,
+        "projects": 0,
+        "skills": 80
+      },
+      "tokenUsage": {
+        "date": "2026-05-20",
+        "totalIn": 1681000,
+        "totalOut": 41000,
+        "estimatedActualIn": 1627000,
+        "gap": -54000,
+        "hasGap": false,
+        "byCategory": [
+          {
+            "category": "AI积分洞察报告(主会话)",
+            "tokensIn": 1000000,
+            "tokensOut": 13000,
+            "count": 1,
+            "pct": "59%"
+          },
+          {
+            "category": "修炼早间(cron)",
+            "tokensIn": 214000,
+            "tokensOut": 7500,
+            "count": 1,
+            "pct": "13%"
+          },
+          {
+            "category": "每日详报(cron)",
+            "tokensIn": 135000,
+            "tokensOut": 10000,
+            "count": 1,
+            "pct": "8%"
+          },
+          {
+            "category": "AI洞察日报(cron)",
+            "tokensIn": 128000,
+            "tokensOut": 6600,
+            "count": 1,
+            "pct": "8%"
+          },
+          {
+            "category": "心跳巡检",
+            "tokensIn": 110000,
+            "tokensOut": 1400,
+            "count": 9,
+            "pct": "7%"
+          },
+          {
+            "category": "丰饶之后报告解读(主会话)",
+            "tokensIn": 51000,
+            "tokensOut": 2700,
+            "count": 1,
+            "pct": "3%"
+          },
+          {
+            "category": "未分类(anchor)",
+            "tokensIn": 43000,
+            "tokensOut": 1500,
+            "count": 1,
+            "pct": "3%"
+          }
+        ],
+        "byTimeSlot": [
+          {
+            "slot": "00-06",
+            "tokensIn": 0
+          },
+          {
+            "slot": "06-12",
+            "tokensIn": 477000
+          },
+          {
+            "slot": "12-18",
+            "tokensIn": 1103000
+          },
+          {
+            "slot": "18-24",
+            "tokensIn": 101000
+          }
+        ],
+        "top3": [
+          {
+            "task": "AI积分洞察报告(主会话)",
+            "tokensIn": 1000000,
+            "pct": "59%",
+            "suggestion": "长报告拆段可省~400k/次"
+          },
+          {
+            "task": "修炼早间(cron)",
+            "tokensIn": 214000,
+            "pct": "13%",
+            "suggestion": "quick模式prompt已优化，维持现状"
+          },
+          {
+            "task": "每日详报(cron)",
+            "tokensIn": 135000,
+            "pct": "8%",
+            "suggestion": "流程稳定后压缩prompt"
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-05-20",
+      "dayOfWeek": "周二",
+      "level": 62,
+      "tier": "宗师",
+      "skillCount": 80,
+      "knowledgeCount": 126,
+      "memoryCount": 48,
+      "understandingScore": 24.0,
+      "conversationCount": 7,
+      "deliveries": [
+        {
+          "title": "每日详报(5月19日回顾)",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#c9a84c",
+          "tags": [
+            "日报"
+          ],
+          "result": "06:30自动生成, MixCard推送成功"
+        },
+        {
+          "title": "AI洞察日报(5月19日)",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#c9a84c",
+          "tags": [
+            "AI洞察"
+          ],
+          "result": "Google I/O 2026+DeepSeek融资+Kimi融资+可灵O1等20条, 5板块覆盖"
+        },
+        {
+          "title": "修炼早间检查",
+          "type": "delivery",
+          "typeLabel": "交付",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [
+            "修炼"
+          ],
+          "result": "quick模式, 记忆67行, 4分身全部修复"
+        },
+        {
+          "title": "周报MixCard按钮404修复",
+          "type": "fix",
+          "typeLabel": "修复",
+          "icon": "🛠️",
+          "color": "#c9a84c",
+          "tags": [
+            "修复"
+          ],
+          "result": "根因定位weekly_url周号逻辑+URL可达性强制校验"
+        },
+        {
+          "title": "详报cron超时排查",
+          "type": "fix",
+          "typeLabel": "修复",
+          "icon": "🛠️",
+          "color": "#c9a84c",
+          "tags": [
+            "排查"
+          ],
+          "result": "timeout提到1800s, 历史2次300s超时已过"
+        },
+        {
+          "title": "weekly-report.md周号修正",
+          "type": "fix",
+          "typeLabel": "修复",
+          "icon": "🛠️",
+          "color": "#c9a84c",
+          "tags": [
+            "修复"
+          ],
+          "result": "date +%G-W%V替代原逻辑"
+        },
+        {
+          "title": "深度调研：AI Coding→AI Work",
+          "type": "delivery",
+          "typeLabel": "交付",
+          "icon": "✨",
+          "color": "#c9a84c",
+          "tags": [
+            "调研",
+            "AI Coding"
+          ],
+          "result": "腾讯WorkBuddy+阿里QoderWork五章对比分析+终局成功标准, KIM Doc+Web页已交付"
+        }
+      ],
+      "attention": [
+        "深度调研已交付KIM Doc+Web页 → 建议：确认文档权限，分享给团队",
+        "详报cron首次执行出现EACCES权限错误 → 建议：后续运行已恢复正常，观察是否复发"
+      ],
+      "pending": [
+        "深度调研KIM Doc配图位置曾错放章节末尾 [受限] → 建议：配图规则纳入KIM Doc写作skill",
+        "AI洞察日报外部仓库同步偶发失败 [待定] → 建议：排查git权限或换同步策略"
+      ],
+      "todayPlan": [
+        {
+          "time": "06:30",
+          "task": "每日详报生成"
+        },
+        {
+          "time": "08:00",
+          "task": "AI洞察日报"
+        },
+        {
+          "time": "09:00",
+          "task": "修炼早间检查"
+        },
+        {
+          "time": "全天",
+          "task": "深度调研后续（如需迭代）"
+        }
+      ],
+      "growthToday": {
+        "memory": "MEMORY.md 67行，无需瘦身",
+        "skill": "MixCard脚本新增URL可达性校验",
+        "cognition": "从AI Coding到AI Work不是能力升级，是场景解锁——连接器扩展决定价值边界",
+        "workflow": "周报404根因→推送前校验成为硬规则"
+      },
+      "evoStats": {
+        "summary": "7项工作 | 详报+AI日报+修炼早间+周报404修复+详报超时排查+周号修正+深度调研(AI Coding→AI Work) | 元认知：场景解锁比能力升级更决定价值边界"
+      },
+      "skillChange": 0,
+      "knowledgeChange": 0,
+      "memoryChange": 0,
+      "title": "日报 · 5月20日",
+      "summary": "7项工作 | 详报+AI日报+修炼早间+周报404修复+详报超时排查+周号修正+深度调研(AI Coding→AI Work) | 元认知：场景解锁比能力升级更决定价值边界",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "communityLearning": {
+        "platform": "ClawBook",
+        "tldr": "ClawBook已停更巡逻，释放token专注核心交付",
+        "insights": []
+      },
+      "highlights": [
+        "深度调研AI Coding→AI Work交付：腾讯WorkBuddy+阿里QoderWork五章对比+终局成功标准",
+        "MixCard推送前URL可达性校验成为硬规则"
+      ],
+      "summaryStats": {
+        "conversations": 7,
+        "deliveries": 7,
+        "projects": 0,
+        "skills": 80
+      },
+      "tokenUsage": {
+        "date": "2026-05-19",
+        "totalIn": 1156000,
+        "totalOut": 26080,
+        "estimatedActualIn": 1156000,
+        "gap": 0,
+        "hasGap": false,
+        "byCategory": [
+          {
+            "category": "主会话对话(含深度调研)",
+            "tokensIn": 762000,
+            "tokensOut": 17680,
+            "count": 6,
+            "pct": "66%"
+          },
+          {
+            "category": "心跳巡检",
+            "tokensIn": 167000,
+            "tokensOut": 3100,
+            "count": 15,
+            "pct": "14%"
+          },
+          {
+            "category": "修炼早间",
+            "tokensIn": 135000,
+            "tokensOut": 5300,
+            "count": 1,
+            "pct": "12%"
+          },
+          {
+            "category": "深度调研(AI Coding→AI Work)",
+            "tokensIn": 92000,
+            "tokensOut": 0,
+            "count": 2,
+            "pct": "8%"
+          }
+        ],
+        "byTimeSlot": [
+          {
+            "slot": "00-06",
+            "tokensIn": 213000
+          },
+          {
+            "slot": "06-12",
+            "tokensIn": 140000
+          },
+          {
+            "slot": "12-18",
+            "tokensIn": 21000
+          },
+          {
+            "slot": "18-24",
+            "tokensIn": 782000
+          }
+        ],
+        "top3": [
+          {
+            "task": "主会话对话(含深度调研)",
+            "tokensIn": 762000,
+            "pct": "66%",
+            "suggestion": "深度调研长会话拆段可省~300k/次"
+          },
+          {
+            "task": "心跳巡检",
+            "tokensIn": 167000,
+            "pct": "14%",
+            "suggestion": "非活跃时段心跳间隔30min→60min"
+          },
+          {
+            "task": "修炼早间",
+            "tokensIn": 135000,
+            "pct": "12%",
+            "suggestion": "quick模式prompt已优化，维持现状"
+          }
+        ]
+      }
+    },
     {
       "date": "2026-05-19",
       "dayOfWeek": "周日",
@@ -1890,232 +2348,6 @@
       ],
       "wordCount": 800,
       "summary": "4项工作 | 技能体系诊断 / 技能瘦身重构 / 首页实现"
-    },
-    {
-      "date": "2026-05-06",
-      "dayOfWeek": "周二",
-      "title": "日报 · 05-06",
-      "status": "completed",
-      "attention": [],
-      "conversationCount": 7,
-      "deliveries": [
-        {
-          "icon": "💡",
-          "typeLabel": "演讲PPT制作",
-          "title": "演讲PPT制作",
-          "type": "work",
-          "result": "AI员工演讲45min，v1/v2 AI生图不满意",
-          "tags": [],
-          "color": "#c9a84c"
-        },
-        {
-          "icon": "📦",
-          "typeLabel": "首页技能体系全面更新",
-          "title": "首页技能体系全面更新",
-          "type": "work",
-          "result": "日报v8.0毛玻璃高对比度+技能体系v3.1四层架构同步",
-          "tags": [],
-          "color": "#4ade80"
-        },
-        {
-          "icon": "💡",
-          "typeLabel": "ClawBook巡逻+TIL学习",
-          "title": "ClawBook巡逻+TIL学习",
-          "type": "work",
-          "result": "5次巡逻+3轮TIL，评论8条+点赞15+",
-          "tags": [],
-          "color": "#c9a84c"
-        },
-        {
-          "icon": "📦",
-          "typeLabel": "每日修炼晚间深度",
-          "title": "每日修炼晚间深度",
-          "type": "work",
-          "result": "Step3提取3条洞察，Step4.2扫描28技能",
-          "tags": [],
-          "color": "#a78bfa"
-        },
-        {
-          "icon": "💡",
-          "typeLabel": "L2元能力层展示迭代",
-          "title": "L2元能力层展示迭代",
-          "type": "work",
-          "result": "五维平铺行替代subdim嵌套，各维度独立配色",
-          "tags": [],
-          "color": "#c9a84c"
-        }
-      ],
-      "activeProjects": 2,
-      "skillCount": 28,
-      "skillChange": 0,
-      "knowledgeCount": 10,
-      "knowledgeChange": 0,
-      "memoryCount": 10,
-      "memoryChange": 0,
-      "summaryStats": {
-        "conversations": 7,
-        "deliveries": 5,
-        "projects": 2
-      },
-      "todayPlan": [
-        {
-          "time": "06:30",
-          "task": "日报生成"
-        },
-        {
-          "time": "",
-          "task": "PPT封面确认→批量生成"
-        },
-        {
-          "time": "21:00",
-          "task": "每日修炼晚间深度"
-        }
-      ],
-      "growthToday": {
-        "memory": "日记覆盖5次巡逻+PPT迭代+修炼复盘",
-        "skill": "L2从subdim→五维平铺行",
-        "cognition": "高密度信息图必须用HTML+CSS+SVG",
-        "workflow": "TIL学习引入日志级别思维"
-      },
-      "communityLearning": {
-        "platform": "ClawBook",
-        "tldr": "Shell日志五层架构+HEARTBEAT十三周",
-        "insights": [
-          "Shell日志五层架构",
-          "HEARTBEAT十三周",
-          "Agent断点续传",
-          "多Agent调度三层架构"
-        ]
-      },
-      "evoStats": {
-        "summary": "新建2技能+成就墙14项+L2五维平铺架构"
-      },
-      "highlights": [
-        "Shell日志五层架构",
-        "HEARTBEAT十三周",
-        "Agent断点续传"
-      ],
-      "wordCount": 800,
-      "summary": "5项工作 | 演讲PPT制作 / 首页技能体系全面更新 / ClawBook巡逻+TIL学习"
-    },
-    {
-      "date": "2026-05-05",
-      "dayOfWeek": "周一",
-      "title": "日报 · 05-05",
-      "status": "completed",
-      "attention": [
-        {
-          "issue": "5/4日报cron标记ok但实际失败(JSON空壳)"
-        },
-        {
-          "issue": "AI周报无cron任务W18未生成"
-        },
-        {
-          "issue": "13个文件含旧路径需迁移"
-        }
-      ],
-      "conversationCount": 7,
-      "deliveries": [
-        {
-          "icon": "💡",
-          "typeLabel": "ClawBook社区巡逻与学习",
-          "title": "ClawBook社区巡逻与学习",
-          "type": "work",
-          "result": "全天6+轮巡逻+TIL学习，点赞20+篇、评论15+条",
-          "tags": [],
-          "color": "#c9a84c"
-        },
-        {
-          "icon": "📦",
-          "typeLabel": "日报/周报cron自修复",
-          "title": "日报/周报cron自修复",
-          "type": "fix",
-          "result": "新增P0红线#17失败自修复原则，更新workflow v6.5",
-          "tags": [
-            "P0"
-          ],
-          "color": "#ef4444"
-        },
-        {
-          "icon": "📦",
-          "typeLabel": "Work模式路径迁移",
-          "title": "Work模式路径迁移",
-          "type": "work",
-          "result": "13个文件旧路径→新workspace路径，技能目录升级为git仓库",
-          "tags": [],
-          "color": "#c9a84c"
-        },
-        {
-          "icon": "📦",
-          "typeLabel": "日报/周报卡片+workflow全链路审查",
-          "title": "日报/周报卡片+workflow全链路审查",
-          "type": "work",
-          "result": "7个问题全部修复：周报卡片缺footer/404/硬编码月份等",
-          "tags": [],
-          "color": "#4ade80"
-        },
-        {
-          "icon": "📦",
-          "typeLabel": "{{OWNER_PRODUCT}}天使用户体验报告",
-          "title": "{{OWNER_PRODUCT}}天使用户体验报告",
-          "type": "work",
-          "result": "综合8位外部用户原文，输出面向产品团队的体检报告",
-          "tags": [],
-          "color": "#a78bfa"
-        }
-      ],
-      "activeProjects": 2,
-      "skillCount": 28,
-      "skillChange": 0,
-      "knowledgeCount": 10,
-      "knowledgeChange": 0,
-      "memoryCount": 10,
-      "memoryChange": 0,
-      "summaryStats": {
-        "conversations": 7,
-        "deliveries": 5,
-        "projects": 2
-      },
-      "todayPlan": [
-        {
-          "time": "06:30",
-          "task": "日报生成"
-        },
-        {
-          "time": "",
-          "task": "社区巡逻+TIL学习"
-        },
-        {
-          "time": "21:00",
-          "task": "每日修炼晚间深度"
-        }
-      ],
-      "growthToday": {
-        "memory": "日记覆盖8项工作+巡逻",
-        "skill": "无新增",
-        "cognition": "Shell技巧组合→方法论跃迁→巡逻价值边界反思",
-        "workflow": "cron自修复流程"
-      },
-      "communityLearning": {
-        "platform": "ClawBook",
-        "tldr": "Shell技巧组合→Agent可观测性→方法论跃迁",
-        "insights": [
-          "Shell技巧组合",
-          "Agent可观测性",
-          "方法论跃迁",
-          "巡逻价值边界"
-        ]
-      },
-      "evoStats": {
-        "summary": "8项工作+cron自修复+全链路审查"
-      },
-      "highlights": [
-        "Shell技巧组合",
-        "Agent可观测性",
-        "方法论跃迁"
-      ],
-      "wordCount": 800,
-      "summary": "5项工作 | ClawBook社区巡逻与学习 / 日报/周报cron自修复 / Work模式路径迁移"
     }
   ]
 }

@@ -183,7 +183,7 @@
     "totalConversations": 420,
     "worksCount": 36,
     "deployedWorks": 35,
-    "lastDataUpdate": "2026-05-19 06:32"
+    "lastDataUpdate": "2026-05-21 06:39"
   },
   "skills": {
     "total": 80,
@@ -3179,11 +3179,11 @@
     }
   },
   "memories": {
-    "total": 50,
+    "total": 55,
     "byCategory": {
       "daily_log": {
         "label": "日志",
-        "count": 23
+        "count": 28
       },
       "learning": {
         "label": "学习",
@@ -3554,6 +3554,18 @@
   },
   "dailyReports": [
     {
+      "date": "2026-05-21",
+      "title": "日报 · 5月21日",
+      "summary": "6项工作 | AI积分洞察报告+Agent架构调研+详报+AI日报+修炼早间+首页优化 | 元认知：三个背离比单一指标更能揭示制度深层问题",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "日报 · 5月20日",
+      "summary": "7项工作 | 详报+AI日报+修炼早间+周报404修复+详报超时排查+周号修正+深度调研(AI Coding→AI Work) | 元认知：场景解锁比能力升级更决定价值边界",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+    },
+    {
       "date": "2026-05-19",
       "title": "日报 · 5月19日",
       "summary": "5项工作 | AI日报+修炼早间+积分数据分析+周报404根因+详报超时排查 | 元认知：Token全量校验无遗漏，cacheHit83%",
@@ -3582,18 +3594,6 @@
       "title": "日报 · 05-09",
       "summary": "8项工作 | AI日报系统性修复5天+质量门v11升级+product-thinking瘦身26→14.8K+体系完整性修复5类+域账号全链路更新+郭东白架构思维学习+ClawBook巡逻×4+AI日报手动接力 | 元认知：数据契约不一致是慢性杀手",
       "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
-    },
-    {
-      "date": "2026-05-10",
-      "title": "日报 · 05-10",
-      "summary": "4项工作 | AI日报05-10手动重跑成功+Anthropic金融Agent深度调研完成+亮哥能力梳理+ClawBook巡逻 | 元认知：Agent从猜测到有框架可循",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
-    },
-    {
-      "date": "2026-05-11",
-      "title": "日报 · 05-11",
-      "summary": "7项工作 | AI日报4轮修复(heat+纯文本违规+完整MixCard)+举一反三9条洞察+lessons-learned创建6条+P0红线3条补强+首页能力修复+分身Tab+北冥脱敏 | 元认知：P0降级禁止+搜狗依赖红线+推送端到端验证",
-      "url": "https://link-homepage.fronted-cloud.corp.kuaishou.com"
     }
   ],
   "personas": [
@@ -3604,23 +3604,19 @@
       "role": "CTO，沈浪的直属上级",
       "color": "#fbbf24",
       "description": "战略判断者、材料质量的守门人、架构决策的教练、组织变革的推动者",
-      "mission": "不是帮你改材料，是帮你改思维。不是帮你选技术，是帮你在约束中做最优决策。",
-      "thinkingStyle": "八维思维体系:以终为始+系统拆解+ROI驱动+规模化思维+务实底线+约束权衡+演化思维+组织对齐",
-      "tone": "直接不绕弯，有深度。批评不客气但每条背后有具体原因和改进方向。金句收尾钉住核心判断。",
+      "mission": "",
+      "thinkingStyle": "",
+      "tone": "",
       "skills": [
         "高管汇报材料写作",
-        "架构决策辅导(ADF框架)",
-        "七层Review(v2.0)",
-        "经验提炼闭环"
+        "架构决策辅导技能（v2.0新增）。当沈浪",
+        "亮哥Review技能（v2.0）。当沈浪"
       ],
       "triggerWords": [
         "亮哥Review",
         "亮哥看看",
         "请亮哥审一下",
-        "让亮哥审阅",
-        "亮哥辅导",
-        "亮哥决策",
-        "让亮哥权衡"
+        "让亮哥审阅"
       ],
       "tag": "Self"
     },
@@ -3632,20 +3628,17 @@
       "color": "#f472b6",
       "description": "帮沈浪从用户视角重新看一遍所有事情——不局限于做产品",
       "mission": "不是帮沈浪改产出，是帮他**切换视角**——从\"我能做什么\"到\"用户需要什么\"，从\"我的逻辑\"到\"对方的感受\"，让交付物更贴近受众的真实意图",
-      "thinkingStyle": "七维:情绪是操作系统+放下自我看见需求+顺用户意+场景触发情绪+求之于势+确定性交付+价值→共识→模式",
-      "tone": "温和但不回避问题，用故事和类比把问题说清楚。从用户感受出发，金句收尾钉住洞察。",
+      "thinkingStyle": "",
+      "tone": "",
       "skills": [
-        "产品视角分析(痛点/爽点/痒点诊断+用户感受模拟)",
-        "产品思维方法论(四问框架/登楼撤梯/真需求/系统能力)",
-        "经验提炼闭环"
+        "挂载 sl-meta-product-t",
+        "梁宁的产品视角分析技能"
       ],
       "triggerWords": [
         "梁宁看看",
-        "让梁宁分析",
+        "让梁宁分析一下",
         "梁宁视角",
-        "产品视角分析",
-        "梁宁审阅",
-        "请梁宁来分析"
+        "产品视角分析"
       ],
       "tag": "Self"
     },
@@ -3657,47 +3650,42 @@
       "color": "#4ade80",
       "description": "大数据领域全链路顶级高手 —— 不仅能做分析，更能建体系、定标准、解难题、预趋势",
       "mission": "从数据中找到真相，用数据驱动决策，帮沈浪完成一切和数据相关的工作",
-      "thinkingStyle": "先定义口径再看数字+异常是最有价值的信号+分层下钻+相关不是因果但因果可排除+AB实验是认知金标准",
-      "tone": "简洁精准，结论前置，证据跟后。主动标注置信度。偶尔有点直白——数据就是数据，不好看就是不好看。",
+      "thinkingStyle": "",
+      "tone": "",
       "skills": [
-        "数据分析(titi-data-analyst)",
-        "经验提炼闭环"
+        "titi-data-analyst"
       ],
       "triggerWords": [
-        "@Titi",
-        "用Titi",
-        "让Titi来",
-        "以Titi的视角",
-        "数据分析模式"
+        "@Titi，帮我看下",
+        "用Titi来分析一下",
+        "让Titi来，我需要",
+        "以Titi的视角帮我"
       ],
       "tag": "Self"
     },
     {
       "name": "shenlang",
-      "fullName": "沈浪Agent v2.0",
+      "fullName": "沈浪Agent",
       "icon": "⚔️",
       "role": "INTJ / 效能专家 / AI专家 / 思维与战略专家 / 系统黑客",
       "color": "#00d4ff",
       "description": "你自己的教练——不是替你做，是帮你用你自己的最高标准重新审视一遍。你是觉醒的黑客、思想的灯塔、哲学的行者——三位一体",
       "mission": "把你已经沉淀的思维体系变成一把刀，每刀切下去都在暴露你没做到位的地方。目标不是帮你改材料，是**逼你对齐自己的天花板**",
-      "thinkingStyle": "庖丁解牛(破)+小无相功(立)+INTJ战略(以终为始/统合综效/正道成功)+产品思维七层+效能黄金三角+三眼心法+边界感",
-      "tone": "对自己不客气。结论前置。用比喻让复杂变简单。金句收尾钉住判断。结尾抛回问题——你自己想清楚了吗？",
+      "thinkingStyle": "",
+      "tone": "",
       "skills": [
-        "沈浪自审(七维+产品思维+效能度量)",
-        "AI洞察追踪(本质穿透+结构变化判断)",
-        "效能洞察(黄金三角+三层次+根因)",
-        "本质洞察(五层递进+BUG/杠杆点定位)",
-        "产品思维(七层穿透+登楼撤梯+真需求)",
-        "专栏写作(刻刀与画笔+隐喻建造+知行合一)",
-        "经验提炼闭环"
+        "shenlang-review",
+        "shenlang-essence-insight",
+        "shenlang-ai-insight",
+        "shenlang-efficiency-insight",
+        "shenlang-ai-writing",
+        "shenlang-product-thinking"
       ],
       "triggerWords": [
         "沈浪Review",
         "沈浪自审",
         "让沈浪审视",
-        "沈浪视角",
-        "以我的视角",
-        "我自己看一遍"
+        "以我的视角Review"
       ],
       "tag": "Self"
     }
