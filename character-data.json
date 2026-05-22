@@ -3554,6 +3554,12 @@
   },
   "dailyReports": [
     {
+      "date": "2026-05-23",
+      "title": "日报 · 5月23日",
+      "summary": "8项工作 | 团队版V1-V4迭代+梁宁洞察+AI日报+积分洞察+修炼+详报+信息图+KIM Doc | 元认知：团队版真需求=认知边界扩大，孤岛变节点",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+    },
+    {
       "date": "2026-05-22",
       "title": "日报 · 5月22日",
       "summary": "8项工作 | 姚顺宇调研+KIM Doc修复+详报+AI日报+修炼+团队版讨论+消耗追踪+Titi数据 | 元认知：push→pull→验证→修才是完整交付链",
@@ -3587,12 +3593,6 @@
       "date": "2026-05-17",
       "title": "日报 · 5月17日",
       "summary": "6项工作 | 周报制作+演讲稿v8终稿+PPT v8·26页+AI洞察日报+详报+修炼 | 元认知跃迁：GAP四层定义比逐条给方案更有穿透力",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
-    },
-    {
-      "date": "2026-05-08",
-      "title": "日报 · 05-08",
-      "summary": "7项工作 | 功法合一重构+日报合并+定时任务修复+技能体系化+三大神功重构+首页知识库修复+ClawBook巡逻×4 | 元认知：产品思维从金句到框架",
       "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
     }
   ],

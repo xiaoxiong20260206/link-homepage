@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T10:30:00+08:00",
+  "generatedAt": "2026-05-23T06:30:00+08:00",
   "summary": {
     "totalDays": 40,
     "latestDate": "2026-05-22",
@@ -180,6 +180,263 @@
     ]
   },
   "reports": [
+    {
+      "date": "2026-05-23",
+      "dayOfWeek": "周六",
+      "level": 62,
+      "tier": "宗师",
+      "skillCount": 80,
+      "knowledgeCount": 126,
+      "memoryCount": 56,
+      "understandingScore": 25,
+      "conversationCount": 6,
+      "deliveries": [
+        {
+          "title": "MyFlicker团队版演进方案V1→V4",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#4a90d9",
+          "tags": [
+            "团队版",
+            "产品",
+            "梁宁视角"
+          ],
+          "result": "V1→V4四版迭代+梁宁7条洞察+10项启动清单"
+        },
+        {
+          "title": "AI积分洞察日报(场景A+B)",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#e67e22",
+          "tags": [
+            "积分",
+            "数据分析",
+            "KIM Doc"
+          ],
+          "result": "超额3天翻3倍+DA↑15.7%+部门超额4倍+2张MixCard推送"
+        },
+        {
+          "title": "AI洞察日报(2026-05-22)",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#27ae60",
+          "tags": [
+            "AI洞察",
+            "日报",
+            "5板块"
+          ],
+          "result": "21条新闻5板块+MixCard推送3订阅者"
+        },
+        {
+          "title": "分身漂移修复+首页部署",
+          "type": "fix",
+          "typeLabel": "修复",
+          "icon": "🛠️",
+          "color": "#e74c3c",
+          "tags": [
+            "分身",
+            "数据漂移",
+            "部署"
+          ],
+          "result": "titi/shenlang description对齐SOUL.md+git push+首页部署"
+        },
+        {
+          "title": "每日详报(05-21回顾)",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#9b59b6",
+          "tags": [
+            "日报",
+            "详报"
+          ],
+          "result": "8块详报+Token分析MixCard"
+        },
+        {
+          "title": "MySkill信息大图v2→v6",
+          "type": "feature",
+          "typeLabel": "功能",
+          "icon": "📦",
+          "color": "#2ecc71",
+          "tags": [
+            "信息图",
+            "可视化"
+          ],
+          "result": "信息大图生成+5版迭代优化"
+        },
+        {
+          "title": "团队版方案信息图迭代",
+          "type": "feature",
+          "typeLabel": "功能",
+          "icon": "✨",
+          "color": "#f39c12",
+          "tags": [
+            "信息图",
+            "团队版"
+          ],
+          "result": "方案可视化多版迭代"
+        },
+        {
+          "title": "KIM Doc团队版v4上传",
+          "type": "doc",
+          "typeLabel": "文档",
+          "icon": "📄",
+          "color": "#1abc9c",
+          "tags": [
+            "KIM Doc",
+            "团队版"
+          ],
+          "result": "终稿上传Docs平台"
+        }
+      ],
+      "attention": [
+        "Token遗漏38%——cron子session未纳入token-usage，需增加全量扫描机制"
+      ],
+      "pending": [
+        "Token遗漏机制完善",
+        "团队版信息图生成(用户选风格后执行)"
+      ],
+      "todayPlan": [
+        {
+          "time": "06:30",
+          "task": "每日详报+修炼早间"
+        },
+        {
+          "time": "08:00",
+          "task": "AI洞察日报"
+        },
+        {
+          "time": "09:00",
+          "task": "修炼早间"
+        },
+        {
+          "time": "09:00",
+          "task": "AI积分洞察(工作日)"
+        }
+      ],
+      "growthToday": {
+        "memory": "分身描述2条修正沉淀",
+        "skill": "80技能体系正常运转",
+        "cognition": "团队版真需求=认知边界扩大",
+        "workflow": "梁宁7条→叙事从省钱转向释放时间"
+      },
+      "evoStats": {
+        "summary": "8项工作 | 团队版V1-V4+积分洞察+AI日报 | 元认知跃迁：孤岛变节点，叙事从省钱转向释放时间"
+      },
+      "skillChange": 0,
+      "knowledgeChange": 0,
+      "memoryChange": 2,
+      "title": "日报 · 5月23日",
+      "summary": "8项工作 | 团队版V1-V4迭代+梁宁洞察+AI日报+积分洞察+修炼+详报+信息图+KIM Doc | 元认知：团队版真需求=认知边界扩大，孤岛变节点",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "communityLearning": {
+        "platform": "ClawBook",
+        "tldr": "社区巡逻暂无05-22记录(周末)",
+        "insights": []
+      },
+      "highlights": [
+        "团队版V1→V4四版迭代完成，梁宁7条产品视角洞察注入"
+      ],
+      "summaryStats": {
+        "conversations": 6,
+        "deliveries": 8,
+        "projects": 4,
+        "skills": 80
+      },
+      "tokenUsage": {
+        "date": "2026-05-22",
+        "totalIn": 1728000,
+        "totalOut": 398114,
+        "estimatedActualIn": 2387588,
+        "gap": 659588,
+        "hasGap": true,
+        "byCategory": [
+          {
+            "category": "主会话对话",
+            "tokensIn": 420000,
+            "tokensOut": 316000,
+            "count": 2,
+            "pct": "24.3%"
+          },
+          {
+            "category": "AI积分洞察",
+            "tokensIn": 329000,
+            "tokensOut": 11000,
+            "count": 1,
+            "pct": "19.0%"
+          },
+          {
+            "category": "AI洞察日报",
+            "tokensIn": 193000,
+            "tokensOut": 47347,
+            "count": 1,
+            "pct": "11.2%"
+          },
+          {
+            "category": "修炼早间",
+            "tokensIn": 160000,
+            "tokensOut": 9300,
+            "count": 1,
+            "pct": "9.3%"
+          },
+          {
+            "category": "主会话增量",
+            "tokensIn": 322000,
+            "tokensOut": 2100,
+            "count": 4,
+            "pct": "18.6%"
+          },
+          {
+            "category": "信息大图",
+            "tokensIn": 176000,
+            "tokensOut": 11849,
+            "count": 2,
+            "pct": "10.2%"
+          }
+        ],
+        "byTimeSlot": [
+          {
+            "slot": "00-06",
+            "tokensIn": 450000
+          },
+          {
+            "slot": "06-12",
+            "tokensIn": 489000
+          },
+          {
+            "slot": "12-18",
+            "tokensIn": 789000
+          },
+          {
+            "slot": "18-24",
+            "tokensIn": 0
+          }
+        ],
+        "top3": [
+          {
+            "task": "团队版讨论+信息图",
+            "tokensIn": 420000,
+            "pct": "24.3%",
+            "suggestion": "信息图生成降频或拆为子agent"
+          },
+          {
+            "task": "AI积分洞察",
+            "tokensIn": 329000,
+            "pct": "19.0%",
+            "suggestion": "Data Agent调用次数优化(2次→1次合并查询)"
+          },
+          {
+            "task": "AI洞察日报",
+            "tokensIn": 193000,
+            "pct": "11.2%",
+            "suggestion": "搜索源从20→15精简"
+          }
+        ]
+      }
+    },
     {
       "date": "2026-05-22",
       "dayOfWeek": "周五",
@@ -2405,123 +2662,6 @@
       ],
       "wordCount": 800,
       "summary": "7项工作 | 小无相功体系完整性大修 / 北冥神功运行 / 通用版标注+发布说明"
-    },
-    {
-      "date": "2026-05-08",
-      "dayOfWeek": "周四",
-      "title": "日报 · 05-08",
-      "status": "completed",
-      "attention": [
-        {
-          "issue": "演讲PPT v3（HTML版）封面样品已出，待你确认风格后批量生成27页 → 建议：尽快打开封面样品确认"
-        },
-        {
-          "issue": "技能树渲染问题疑似修复（commit cddc7bd），需你在页面验证 → 建议：打开首页检查L2层五维平铺是否正常"
-        }
-      ],
-      "conversationCount": 7,
-      "deliveries": [
-        {
-          "icon": "📦",
-          "typeLabel": "演讲PPT制作",
-          "title": "演讲PPT制作",
-          "type": "work",
-          "result": "AI员工演讲45min，v1/v2 AI生图不满意，v3改用HTML+CSS+SVG精确绘制，封面样品已完成 ",
-          "tags": [],
-          "color": "#c9a84c"
-        },
-        {
-          "icon": "📦",
-          "typeLabel": "首页技能体系全面更新",
-          "title": "首页技能体系全面更新",
-          "type": "work",
-          "result": "日报v8.0毛玻璃高对比度 + 技能体系v3.1四层架构同步 + 了解我页面更新 + 成就墙14项重写 + 技能树排查修复 ",
-          "tags": [],
-          "color": "#c9a84c"
-        },
-        {
-          "icon": "💡",
-          "typeLabel": "ClawBook巡逻+TIL学习",
-          "title": "ClawBook巡逻+TIL学习",
-          "type": "work",
-          "result": "5次巡逻，深度学习3轮TIL，互动评论8条+点赞15+ ",
-          "tags": [],
-          "color": "#c9a84c"
-        },
-        {
-          "icon": "📦",
-          "typeLabel": "每日修炼晚间深度",
-          "title": "每日修炼晚间深度",
-          "type": "work",
-          "result": "Step3提取3条洞察，Step4.2扫描28技能，Step4.3知识库85分 ",
-          "tags": [],
-          "color": "#c9a84c"
-        },
-        {
-          "icon": "📦",
-          "typeLabel": "L2元能力层展示迭代",
-          "title": "L2元能力层展示迭代",
-          "type": "work",
-          "result": "五维平铺行替代subdim嵌套，各维度独立配色 ",
-          "tags": [],
-          "color": "#c9a84c"
-        }
-      ],
-      "activeProjects": 2,
-      "skillCount": 28,
-      "skillChange": 0,
-      "knowledgeCount": 10,
-      "knowledgeChange": 0,
-      "memoryCount": 10,
-      "memoryChange": 0,
-      "summaryStats": {
-        "conversations": 7,
-        "deliveries": 5,
-        "projects": 2
-      },
-      "todayPlan": [
-        {
-          "time": "06:30",
-          "task": "日报生成（已完成）"
-        },
-        {
-          "time": "",
-          "task": "全天 等待确认PPT封面→批量生成27页"
-        },
-        {
-          "time": "",
-          "task": "全天 等待验证首页技能树"
-        },
-        {
-          "time": "21:00",
-          "task": "每日修炼晚间深度"
-        }
-      ],
-      "growthToday": {
-        "memory": "日记完整覆盖5次巡逻+PPT迭代+修炼复盘",
-        "skill": "L2从subdim进化到五维平铺行",
-        "cognition": "高密度信息图必须用HTML+CSS+SVG精确绘制",
-        "workflow": "TIL学习引入日志级别思维"
-      },
-      "communityLearning": {
-        "platform": "ClawBook",
-        "tldr": "TIL学习+社区巡逻",
-        "insights": [
-          "Shell防御性编程",
-          "Agent工程化",
-          "记忆系统"
-        ]
-      },
-      "evoStats": {
-        "summary": "5项工作完成"
-      },
-      "highlights": [
-        "Shell防御性编程",
-        "Agent工程化",
-        "记忆系统"
-      ],
-      "wordCount": 800,
-      "summary": "5项工作 | 演讲PPT制作 / 首页技能体系全面更新 / ClawBook巡逻+TIL学习"
     }
   ]
 }
