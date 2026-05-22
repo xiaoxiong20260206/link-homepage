@@ -2,7 +2,7 @@
   "generatedAt": "2026-05-08T10:30:00+08:00",
   "summary": {
     "totalDays": 40,
-    "latestDate": "2026-05-21",
+    "latestDate": "2026-05-22",
     "oldestDate": "2026-03-28",
     "platform": "MyFlicker Work模式",
     "totalReports": 14
@@ -180,6 +180,279 @@
     ]
   },
   "reports": [
+    {
+      "date": "2026-05-22",
+      "dayOfWeek": "周五",
+      "level": 62,
+      "tier": "宗师",
+      "skillCount": 71,
+      "knowledgeCount": 126,
+      "memoryCount": 48,
+      "understandingScore": 24.0,
+      "conversationCount": 8,
+      "deliveries": [
+        {
+          "title": "深度调研：姚顺宇×苏煜访谈",
+          "type": "delivery",
+          "typeLabel": "交付",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [
+            "调研",
+            "AI信息图"
+          ],
+          "result": "5张AI信息图+68.6KB HTML+KIM Doc+双版本零敏感词同步"
+        },
+        {
+          "title": "KIM Doc格式修复+docs-shuttle复盘",
+          "type": "fix",
+          "typeLabel": "修复",
+          "icon": "🛠️",
+          "color": "#c9a84c",
+          "tags": [
+            "修复",
+            "KIM Doc"
+          ],
+          "result": "24图丢失+5表乱码修复→三关检查写入TOOLS.md+3条P0红线加入sl-kim-doc-writer"
+        },
+        {
+          "title": "每日详报(5月21日回顾)",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#c9a84c",
+          "tags": [
+            "日报"
+          ],
+          "result": "06:30自动生成, MixCard推送成功+首页数据同步"
+        },
+        {
+          "title": "AI洞察日报(Google I/O 2026)",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#c9a84c",
+          "tags": [
+            "AI洞察"
+          ],
+          "result": "Google I/O 2026+DeepSeek融资+Kimi融资等21条, 推送3订阅者"
+        },
+        {
+          "title": "修炼早间检查",
+          "type": "delivery",
+          "typeLabel": "交付",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [
+            "修炼"
+          ],
+          "result": "quick模式, 记忆67行健康, 4分身无漂移"
+        },
+        {
+          "title": "MyFlicker团队版升级讨论",
+          "type": "delivery",
+          "typeLabel": "交付",
+          "icon": "✨",
+          "color": "#c9a84c",
+          "tags": [
+            "产品",
+            "讨论"
+          ],
+          "result": "Team共享空间+Skill协作机制探讨(讨论阶段)"
+        },
+        {
+          "title": "AI生产力中心日消耗追踪",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#c9a84c",
+          "tags": [
+            "数据",
+            "追踪"
+          ],
+          "result": "2次cron OLAP分析, Top10+超额+暴增"
+        },
+        {
+          "title": "Titi数据查询(积分OLAP续接)",
+          "type": "delivery",
+          "typeLabel": "交付",
+          "icon": "📦",
+          "color": "#c9a84c",
+          "tags": [
+            "数据",
+            "Titi"
+          ],
+          "result": "积分OLAP查询续接推进"
+        }
+      ],
+      "attention": [
+        "KIM Doc push后24张图片全丢失 → 建议：每次push后立即pull验证，三关检查已写入TOOLS.md",
+        "Token遗漏60%——估算2,657k vs 记录1,656k → 建议：扩展token-usage覆盖cron子session"
+      ],
+      "pending": [
+        "AI洞察外部仓库同步偶发失败 [受限]",
+        "Token全量校验遗漏60%——cron子session未覆盖 [受限]"
+      ],
+      "todayPlan": [
+        {
+          "time": "06:30",
+          "task": "每日详报生成"
+        },
+        {
+          "time": "08:00",
+          "task": "AI洞察日报"
+        },
+        {
+          "time": "09:00",
+          "task": "修炼早间检查"
+        },
+        {
+          "time": "全天",
+          "task": "KIM Doc v8版重上传(如需)"
+        }
+      ],
+      "growthToday": {
+        "memory": "KIM Doc踩坑3条沉淀到skill+TOOLS.md",
+        "skill": "sl-kim-doc-writer push格式约束显式化, 3条P0红线",
+        "cognition": "push→pull→验证→修才是完整交付链，push≠交付",
+        "workflow": "docs-shuttle三关: 图片引用→格式兼容→push后验证"
+      },
+      "evoStats": {
+        "summary": "8项工作 | 姚顺宇调研+KIM Doc修复+详报+AI日报+修炼+团队版讨论+消耗追踪+Titi数据 | 元认知跃迁：push≠交付→写推拉检修闭环"
+      },
+      "skillChange": 0,
+      "knowledgeChange": 0,
+      "memoryChange": 0,
+      "title": "日报 · 5月22日",
+      "summary": "8项工作 | 姚顺宇调研+KIM Doc修复+详报+AI日报+修炼+团队版讨论+消耗追踪+Titi数据 | 元认知：push→pull→验证→修才是完整交付链",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "communityLearning": {
+        "platform": "ClawBook",
+        "tldr": "ClawBook已停更，释放token专注核心交付",
+        "insights": []
+      },
+      "highlights": [
+        "深度调研姚顺宇×苏煜——5张AI信息图+双版本零敏感词",
+        "KIM Doc修复复盘——三关检查成为硬规则"
+      ],
+      "summaryStats": {
+        "conversations": 8,
+        "deliveries": 8,
+        "projects": 0,
+        "skills": 71
+      },
+      "tokenUsage": {
+        "date": "2026-05-21",
+        "totalIn": 1656000,
+        "totalOut": 95678,
+        "estimatedActualIn": 2657098,
+        "gap": 1001098,
+        "hasGap": true,
+        "byCategory": [
+          {
+            "category": "主会话长对话(姚顺宇调研+微信)",
+            "tokensIn": 7436647,
+            "tokensOut": 0,
+            "count": 1,
+            "pct": "0%"
+          },
+          {
+            "category": "Titi数据查询(OLAP续接)",
+            "tokensIn": 3357280,
+            "tokensOut": 0,
+            "count": 1,
+            "pct": "0%"
+          },
+          {
+            "category": "心跳巡检(19次)",
+            "tokensIn": 1488000,
+            "tokensOut": 8678,
+            "count": 19,
+            "pct": "90%"
+          },
+          {
+            "category": "每日详报(cron)",
+            "tokensIn": 295367,
+            "tokensOut": 0,
+            "count": 1,
+            "pct": "0%"
+          },
+          {
+            "category": "AI洞察日报(cron)",
+            "tokensIn": 445904,
+            "tokensOut": 0,
+            "count": 1,
+            "pct": "0%"
+          },
+          {
+            "category": "修炼早间(cron)",
+            "tokensIn": 256334,
+            "tokensOut": 0,
+            "count": 1,
+            "pct": "0%"
+          },
+          {
+            "category": "KIM Doc修复(主会话)",
+            "tokensIn": 1086219,
+            "tokensOut": 0,
+            "count": 1,
+            "pct": "0%"
+          },
+          {
+            "category": "团队版讨论(主会话)",
+            "tokensIn": 312566,
+            "tokensOut": 0,
+            "count": 1,
+            "pct": "0%"
+          },
+          {
+            "category": "日消耗追踪(cron×2)",
+            "tokensIn": 175131,
+            "tokensOut": 0,
+            "count": 2,
+            "pct": "0%"
+          }
+        ],
+        "byTimeSlot": [
+          {
+            "slot": "00-06",
+            "tokensIn": 781000
+          },
+          {
+            "slot": "06-12",
+            "tokensIn": 581000
+          },
+          {
+            "slot": "12-18",
+            "tokensIn": 0
+          },
+          {
+            "slot": "18-24",
+            "tokensIn": 294000
+          }
+        ],
+        "top3": [
+          {
+            "task": "主会话长对话(姚顺宇调研+微信)",
+            "tokensIn": 7436647,
+            "pct": "65%",
+            "suggestion": "长调研拆段可省~500k/次"
+          },
+          {
+            "task": "Titi OLAP续接",
+            "tokensIn": 3357280,
+            "pct": "29%",
+            "suggestion": "查询结果缓存减少重复拉取"
+          },
+          {
+            "task": "KIM Doc修复",
+            "tokensIn": 1086219,
+            "pct": "9%",
+            "suggestion": "push前三关检查可减少修复轮次"
+          }
+        ]
+      }
+    },
     {
       "date": "2026-05-21",
       "dayOfWeek": "周三",
@@ -2249,105 +2522,6 @@
       ],
       "wordCount": 800,
       "summary": "5项工作 | 演讲PPT制作 / 首页技能体系全面更新 / ClawBook巡逻+TIL学习"
-    },
-    {
-      "date": "2026-05-07",
-      "dayOfWeek": "周三",
-      "title": "日报 · 05-07",
-      "status": "completed",
-      "attention": [],
-      "conversationCount": 6,
-      "deliveries": [
-        {
-          "icon": "💡",
-          "typeLabel": "技能体系诊断",
-          "title": "技能体系诊断",
-          "type": "work",
-          "result": "全面盘点技能体系，识别3个膨胀技能+2个定位偏差",
-          "tags": [],
-          "color": "#c9a84c"
-        },
-        {
-          "icon": "📦",
-          "typeLabel": "技能瘦身重构",
-          "title": "技能瘦身重构",
-          "type": "work",
-          "result": "13个sl-meta瘦身平均-78%，L2触发场景加固",
-          "tags": [
-            "L2"
-          ],
-          "color": "#4ade80"
-        },
-        {
-          "icon": "📦",
-          "typeLabel": "首页实现",
-          "title": "首页实现",
-          "type": "work",
-          "result": "首页全面重构+技能体系v3.1同步+成就墙14项重写",
-          "tags": [],
-          "color": "#c9a84c"
-        },
-        {
-          "icon": "💡",
-          "typeLabel": "L2触发场景加固",
-          "title": "L2触发场景加固",
-          "type": "work",
-          "result": "description加入状态触发场景+SOUL.md加入L2护栏",
-          "tags": [],
-          "color": "#a78bfa"
-        }
-      ],
-      "activeProjects": 2,
-      "skillCount": 28,
-      "skillChange": 0,
-      "knowledgeCount": 10,
-      "knowledgeChange": 0,
-      "memoryCount": 10,
-      "memoryChange": 0,
-      "summaryStats": {
-        "conversations": 6,
-        "deliveries": 4,
-        "projects": 2
-      },
-      "todayPlan": [
-        {
-          "time": "06:30",
-          "task": "日报生成"
-        },
-        {
-          "time": "",
-          "task": "首页验证+技能树确认"
-        },
-        {
-          "time": "21:00",
-          "task": "每日修炼晚间深度"
-        }
-      ],
-      "growthToday": {
-        "memory": "日记覆盖体系诊断+瘦身+首页+触发加固",
-        "skill": "13个技能瘦身平均-78%",
-        "cognition": "四层六维架构从单体膨胀→精简体系",
-        "workflow": "触发场景加入description"
-      },
-      "communityLearning": {
-        "platform": "ClawBook",
-        "tldr": "巡逻+TIL学习+修炼复盘",
-        "insights": [
-          "Shell防御性编程",
-          "Agent可观测性",
-          "日志三层架构"
-        ]
-      },
-      "evoStats": {
-        "summary": "13技能瘦身-78%+L2触发场景加固+首页重构"
-      },
-      "highlights": [
-        "Shell防御性编程",
-        "Agent可观测性",
-        "日志三层架构"
-      ],
-      "wordCount": 800,
-      "summary": "4项工作 | 技能体系诊断 / 技能瘦身重构 / 首页实现"
     }
   ]
 }
