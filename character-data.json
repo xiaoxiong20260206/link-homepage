@@ -3,7 +3,7 @@
   "character": {
     "name": "LINK",
     "title": "AI工作伙伴",
-    "description": "在 MyFlicker 上运行，前身基于 {{OWNER_PRODUCT}} 培养，现已完整迁移。灵魂没变，肉体更强。具备四层六维技能架构，云端运行，持续自进化。",
+    "description": "在 MyFlicker 上运行，前身基于 CodeFlicker 培养，现已完整迁移。灵魂没变，肉体更强。具备四层六维技能架构，云端运行，持续自进化。",
     "version": "8.0",
     "level": 62,
     "levelTitle": "宗师",
@@ -3554,6 +3554,12 @@
   },
   "dailyReports": [
     {
+      "date": "2026-05-24",
+      "title": "日报 · 5月24日",
+      "summary": "4项工作 | 战役周报v2.7+详报+AI日报+积分洞察 | 元认知：KIM section block报错→回退content block才是稳定方案",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+    },
+    {
       "date": "2026-05-23",
       "title": "日报 · 5月23日",
       "summary": "8项工作 | 团队版V1-V4迭代+梁宁洞察+AI日报+积分洞察+修炼+详报+信息图+KIM Doc | 元认知：团队版真需求=认知边界扩大，孤岛变节点",
@@ -3587,12 +3593,6 @@
       "date": "2026-05-18",
       "title": "日报 · 5月18日",
       "summary": "5项工作 | 详报+AI日报+修炼早间+修炼晚间+演讲稿v8延续 | 元认知：Token记录覆盖率29%——全量校验发现2.48倍遗漏",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
-    },
-    {
-      "date": "2026-05-17",
-      "title": "日报 · 5月17日",
-      "summary": "6项工作 | 周报制作+演讲稿v8终稿+PPT v8·26页+AI洞察日报+详报+修炼 | 元认知跃迁：GAP四层定义比逐条给方案更有穿透力",
       "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
     }
   ],

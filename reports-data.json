@@ -181,6 +181,192 @@
   },
   "reports": [
     {
+      "date": "2026-05-24",
+      "dayOfWeek": "周日",
+      "level": 62,
+      "tier": "宗师",
+      "skillCount": 73,
+      "knowledgeCount": 0,
+      "memoryCount": 1,
+      "understandingScore": 18,
+      "conversationCount": 13,
+      "deliveries": [
+        {
+          "title": "战役周报v2.7群发",
+          "type": "delivery",
+          "typeLabel": "交付",
+          "icon": "✨",
+          "color": "#c9a84c",
+          "tags": [
+            "战役",
+            "KIM"
+          ],
+          "result": "5章结构5轮迭代，SKILL.md升级v2.10.0"
+        },
+        {
+          "title": "每日详报+修炼早间",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#4a90d9",
+          "tags": [
+            "日报",
+            "修炼"
+          ],
+          "result": "8块详报+分身漂移修复"
+        },
+        {
+          "title": "AI洞察日报",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#4a90d9",
+          "tags": [
+            "AI",
+            "日报"
+          ],
+          "result": "24条新闻/5板块/3位订阅者推送"
+        },
+        {
+          "title": "AI积分洞察",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#4a90d9",
+          "tags": [
+            "积分",
+            "洞察"
+          ],
+          "result": "总消耗217.99万↓1.1%，超额5天连升417%"
+        }
+      ],
+      "attention": [
+        "character-data.json {{OWNER_PRODUCT}}占位符→已修复为CodeFlicker"
+      ],
+      "pending": [
+        "Token全量校验38%遗漏——cron子session未纳入"
+      ],
+      "todayPlan": [
+        {
+          "time": "06:30",
+          "task": "每日详报+修炼早间"
+        },
+        {
+          "time": "07:00",
+          "task": "ClawBook巡逻"
+        },
+        {
+          "time": "08:00",
+          "task": "AI洞察日报"
+        }
+      ],
+      "growthToday": {
+        "memory": "分身漂移修复1处",
+        "skill": "sl-ai-productivity升级v2.10.0",
+        "cognition": "懂你程度18/30",
+        "workflow": "等级Lv.62宗师"
+      },
+      "evoStats": {
+        "summary": "4项工作 | 报+周报+洞察 | 元认知：KIM section block回退content block才是稳定方案"
+      },
+      "skillChange": 0,
+      "knowledgeChange": 0,
+      "memoryChange": 1,
+      "title": "日报 · 5月24日",
+      "summary": "4项工作 | 战役周报v2.7+详报+AI日报+积分洞察 | 元认知：KIM section block报错→回退content block才是稳定方案",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "communityLearning": {
+        "platform": "ClawBook",
+        "tldr": "暂无社区互动（周末）",
+        "insights": []
+      },
+      "highlights": [
+        "战役周报v2.7群发成功，SKILL.md升级v2.10.0"
+      ],
+      "summaryStats": {
+        "conversations": 13,
+        "deliveries": 4,
+        "projects": 1,
+        "skills": 73
+      },
+      "tokenUsage": {
+        "date": "2026-05-23",
+        "totalIn": 1634,
+        "totalOut": 44,
+        "estimatedActualIn": null,
+        "gap": null,
+        "hasGap": false,
+        "byCategory": [
+          {
+            "category": "主会话对话",
+            "tokensIn": 938,
+            "tokensOut": 3,
+            "count": 10,
+            "pct": "57.4%"
+          },
+          {
+            "category": "AI洞察日报",
+            "tokensIn": 364,
+            "tokensOut": 27,
+            "count": 1,
+            "pct": "22.3%"
+          },
+          {
+            "category": "AI积分洞察",
+            "tokensIn": 192,
+            "tokensOut": 11,
+            "count": 1,
+            "pct": "11.8%"
+          },
+          {
+            "category": "每日详报+修炼",
+            "tokensIn": 140,
+            "tokensOut": 4,
+            "count": 1,
+            "pct": "8.6%"
+          }
+        ],
+        "byTimeSlot": [
+          {
+            "slot": "00-06",
+            "tokensIn": 160
+          },
+          {
+            "slot": "06-12",
+            "tokensIn": 884
+          },
+          {
+            "slot": "12-18",
+            "tokensIn": 481
+          },
+          {
+            "slot": "18-24",
+            "tokensIn": 109
+          }
+        ],
+        "top3": [
+          {
+            "task": "主会话对话(战役周报)",
+            "tokensIn": 938,
+            "pct": "57.4%",
+            "suggestion": "周报v1对齐结构减少迭代次数"
+          },
+          {
+            "task": "AI洞察日报",
+            "tokensIn": 364,
+            "pct": "22.3%",
+            "suggestion": "heat新闻数5→3降低冗余"
+          },
+          {
+            "task": "AI积分洞察",
+            "tokensIn": 192,
+            "pct": "11.8%",
+            "suggestion": "Data Agent双数据源查询合并为一次"
+          }
+        ]
+      }
+    },
+    {
       "date": "2026-05-23",
       "dayOfWeek": "周六",
       "level": 62,
@@ -2536,132 +2722,6 @@
         "projects": 0,
         "skills": 36
       }
-    },
-    {
-      "date": "2026-05-09",
-      "dayOfWeek": "周五",
-      "title": "日报 · 05-09",
-      "status": "completed",
-      "attention": [
-        {
-          "issue": "日报cron payload已精确化（9步明确流程+禁止跑偏），明天06:30验证效果 → 建议：收到后确认8块结构是否完整"
-        },
-        {
-          "issue": "首页记忆库空白已修复（categories→children），请刷新首页确认 → 建议：打开首页看记忆板块是否有内容"
-        }
-      ],
-      "conversationCount": 9,
-      "deliveries": [
-        {
-          "icon": "📦",
-          "typeLabel": "小无相功体系完整性大修",
-          "title": "小无相功体系完整性大修",
-          "type": "work",
-          "result": "修复5类\"有名无实\"问题——日报路径错误、L1标注缺失、evolution-log缺失、吸星/北冥/周检月检无流程文档、身份泄露 ",
-          "tags": [],
-          "color": "#c9a84c"
-        },
-        {
-          "icon": "📦",
-          "typeLabel": "北冥神功运行",
-          "title": "北冥神功运行",
-          "type": "work",
-          "result": "扫描24个技能，按export policy分类，13个sanitize技能脱敏导出到reference/skills/，新增3个L3技能(executive-",
-          "tags": [],
-          "color": "#c9a84c"
-        },
-        {
-          "icon": "📦",
-          "typeLabel": "通用版标注+发布说明",
-          "title": "通用版标注+发布说明",
-          "type": "work",
-          "result": "SKILL.md加badge/version/通用版提示，创建reference/PUBLISH.md完整发布说明 ",
-          "tags": [],
-          "color": "#c9a84c"
-        },
-        {
-          "icon": "📦",
-          "typeLabel": "自动安装程序",
-          "title": "自动安装程序",
-          "type": "work",
-          "result": "创建install.py，6步自动安装（解压→身份收集→占位符替换→技能安装→首页部署→验证报告），用户一句话\"安装小无相功\"即完成 ",
-          "tags": [],
-          "color": "#c9a84c"
-        },
-        {
-          "icon": "📦",
-          "typeLabel": "首页项目完整打包",
-          "title": "首页项目完整打包",
-          "type": "work",
-          "result": "从2个文件扩展为17个完整首页项目（index.html+JS+CSS+数据文件），上传CDN ",
-          "tags": [],
-          "color": "#c9a84c"
-        },
-        {
-          "icon": "📦",
-          "typeLabel": "product-thinking瘦身",
-          "title": "product-thinking瘦身",
-          "type": "work",
-          "result": "26KB→14.8KB(43%压缩)，保留6原则+3反模式+4工具+AI专场，删除低频内容 ",
-          "tags": [],
-          "color": "#c9a84c"
-        },
-        {
-          "icon": "📦",
-          "typeLabel": "首页记忆库+日报修复",
-          "title": "首页记忆库+日报修复",
-          "type": "work",
-          "result": "记忆库categories→children匹配JS渲染；日报cron payload从模糊改为精确9步流程+禁止跑偏 ",
-          "tags": [],
-          "color": "#c9a84c"
-        }
-      ],
-      "activeProjects": 2,
-      "skillCount": 28,
-      "skillChange": 0,
-      "knowledgeCount": 10,
-      "knowledgeChange": 0,
-      "memoryCount": 10,
-      "memoryChange": 0,
-      "summaryStats": {
-        "conversations": 9,
-        "deliveries": 7,
-        "projects": 2
-      },
-      "todayPlan": [
-        {
-          "time": "06:30",
-          "task": "日报自动生成（已触发，待验证）"
-        },
-        {
-          "time": "09:00",
-          "task": "每日修炼早间"
-        },
-        {
-          "time": "21:00",
-          "task": "每日修炼晚间深度"
-        }
-      ],
-      "growthToday": {},
-      "communityLearning": {
-        "platform": "ClawBook",
-        "tldr": "TIL学习+社区巡逻",
-        "insights": [
-          "Shell防御性编程",
-          "Agent工程化",
-          "记忆系统"
-        ]
-      },
-      "evoStats": {
-        "summary": "7项工作完成"
-      },
-      "highlights": [
-        "Shell防御性编程",
-        "Agent工程化",
-        "记忆系统"
-      ],
-      "wordCount": 800,
-      "summary": "7项工作 | 小无相功体系完整性大修 / 北冥神功运行 / 通用版标注+发布说明"
     }
   ]
 }
