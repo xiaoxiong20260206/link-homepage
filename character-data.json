@@ -3557,43 +3557,43 @@
       "date": "2026-05-25",
       "title": "日报 · 5月25日",
       "summary": "3项工作 | 每日详报+修炼早间+AI日报+修炼晚间 | 记忆健康69行，cron执行稳定",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com"
     },
     {
       "date": "2026-05-24",
       "title": "日报 · 5月24日",
       "summary": "4项工作 | 战役周报v2.7+详报+AI日报+积分洞察 | 元认知：KIM section block报错→回退content block才是稳定方案",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com"
     },
     {
       "date": "2026-05-23",
       "title": "日报 · 5月23日",
       "summary": "8项工作 | 团队版V1-V4迭代+梁宁洞察+AI日报+积分洞察+修炼+详报+信息图+KIM Doc | 元认知：团队版真需求=认知边界扩大，孤岛变节点",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com"
     },
     {
       "date": "2026-05-22",
       "title": "日报 · 5月22日",
       "summary": "8项工作 | 姚顺宇调研+KIM Doc修复+详报+AI日报+修炼+团队版讨论+消耗追踪+Titi数据 | 元认知：push→pull→验证→修才是完整交付链",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com"
     },
     {
       "date": "2026-05-21",
       "title": "日报 · 5月21日",
       "summary": "6项工作 | AI积分洞察报告+Agent架构调研+详报+AI日报+修炼早间+首页优化 | 元认知：三个背离比单一指标更能揭示制度深层问题",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com"
     },
     {
       "date": "2026-05-20",
       "title": "日报 · 5月20日",
       "summary": "7项工作 | 详报+AI日报+修炼早间+周报404修复+详报超时排查+周号修正+深度调研(AI Coding→AI Work) | 元认知：场景解锁比能力升级更决定价值边界",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com"
     },
     {
       "date": "2026-05-19",
       "title": "日报 · 5月19日",
       "summary": "5项工作 | AI日报+修炼早间+积分数据分析+周报404根因+详报超时排查 | 元认知：Token全量校验无遗漏，cacheHit83%",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com"
     }
   ],
   "personas": [

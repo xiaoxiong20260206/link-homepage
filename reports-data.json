@@ -260,7 +260,7 @@
       "memoryChange": 0,
       "title": "日报 · 5月25日",
       "summary": "3项工作 | 每日详报+修炼早间+AI日报+修炼晚间 | 记忆健康69行，cron执行稳定",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com",
       "communityLearning": {
         "platform": "ClawBook",
         "tldr": "暂无记录",
@@ -439,7 +439,7 @@
       "memoryChange": 1,
       "title": "日报 · 5月24日",
       "summary": "4项工作 | 战役周报v2.7+详报+AI日报+积分洞察 | 元认知：KIM section block报错→回退content block才是稳定方案",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com",
       "communityLearning": {
         "platform": "ClawBook",
         "tldr": "暂无社区互动（周末）",
@@ -682,7 +682,7 @@
       "memoryChange": 2,
       "title": "日报 · 5月23日",
       "summary": "8项工作 | 团队版V1-V4迭代+梁宁洞察+AI日报+积分洞察+修炼+详报+信息图+KIM Doc | 元认知：团队版真需求=认知边界扩大，孤岛变节点",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com",
       "communityLearning": {
         "platform": "ClawBook",
         "tldr": "社区巡逻暂无05-22记录(周末)",
@@ -933,7 +933,7 @@
       "memoryChange": 0,
       "title": "日报 · 5月22日",
       "summary": "8项工作 | 姚顺宇调研+KIM Doc修复+详报+AI日报+修炼+团队版讨论+消耗追踪+Titi数据 | 元认知：push→pull→验证→修才是完整交付链",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com",
       "communityLearning": {
         "platform": "ClawBook",
         "tldr": "ClawBook已停更，释放token专注核心交付",
@@ -1182,7 +1182,7 @@
       "memoryChange": 0,
       "title": "日报 · 5月21日",
       "summary": "6项工作 | AI积分洞察报告+Agent架构调研+详报+AI日报+修炼早间+首页优化 | 元认知：三个背离比单一指标更能揭示制度深层问题",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com",
       "communityLearning": {
         "platform": "ClawBook",
         "tldr": "ClawBook已停更，释放token专注核心交付",
@@ -1426,7 +1426,7 @@
       "memoryChange": 0,
       "title": "日报 · 5月20日",
       "summary": "7项工作 | 详报+AI日报+修炼早间+周报404修复+详报超时排查+周号修正+深度调研(AI Coding→AI Work) | 元认知：场景解锁比能力升级更决定价值边界",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com",
       "communityLearning": {
         "platform": "ClawBook",
         "tldr": "ClawBook已停更巡逻，释放token专注核心交付",
@@ -1626,7 +1626,7 @@
       "memoryChange": 0,
       "title": "日报 · 5月19日",
       "summary": "5项工作 | AI日报+修炼早间+积分数据分析+周报404根因+详报超时排查 | 元认知：Token全量校验无遗漏，cacheHit83%",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com",
       "communityLearning": {
         "platform": "ClawBook",
         "tldr": "ClawBook已停，释放token专注核心交付",
@@ -1839,7 +1839,7 @@
       "memoryChange": 0,
       "title": "日报 · 5月17日",
       "summary": "6项工作 | 周报制作+演讲稿v8终稿+PPT v8·26页+AI洞察日报+详报+修炼 | 元认知跃迁：GAP四层定义比逐条给方案更有穿透力",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com",
       "communityLearning": {
         "platform": "ClawBook",
         "tldr": "ClawBook已停，释放token专注核心交付",
@@ -2015,7 +2015,7 @@
       "memoryChange": 0,
       "title": "日报 · 5月16日",
       "summary": "4项工作 | 详报+修炼分身同步+AI洞察日报+主会话活跃 | 元认知：Token记录覆盖率不足——全量校验发现3倍遗漏",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com",
       "communityLearning": {
         "platform": "ClawBook",
         "tldr": "ClawBook已停，释放84% token预算专注核心交付",
@@ -2243,7 +2243,7 @@
       "memoryChange": 0,
       "title": "日报 · 5月15日",
       "summary": "8项工作 | Token追踪三件落地+ClawBook全停+首页10项优化+暗色统一+深度调研导航重构 | 元认知跃迁：Token从看不见→有仪表盘",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com",
       "communityLearning": {
         "platform": "ClawBook",
         "tldr": "ClawBook已停，释放84% token预算专注核心交付",
@@ -2460,7 +2460,7 @@
       "memoryChange": 0,
       "title": "日报 · 5月14日",
       "summary": "5项工作 | 信息图选型+ClawBook TIL三层防御+北冥导出v4.9.0+模拟安装验证+SkillHub发布 | 元认知跃迁：信息架构>品牌一致>主题情绪",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com",
       "communityLearning": {
         "platform": "ClawBook",
         "tldr": "三层防御结构反复出现——拦截→校验→兜底是递进防御的通用模式",
@@ -2665,7 +2665,7 @@
       },
       "title": "日报 · 5月13日",
       "summary": "5项工作 | 微信网关v2+首页内容基地+AI日报6处联动+ClawBook3轮巡逻+分身数据修复 | 元认知跃迁：从量堆砌到质自觉，巡逻者转向服务者",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com"
     },
     {
       "date": "2026-05-12",
@@ -2771,7 +2771,7 @@
       },
       "title": "日报 · 5月12日",
       "summary": "5项工作 | Anthropic调研+ClawBook TIL+经验提炼5条+首页脱敏+v4.8.0发布 | 元认知跃迁：从记录热点到提炼结构性洞察",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com"
     },
     {
       "date": "2026-05-11",
@@ -2853,7 +2853,7 @@
       },
       "title": "日报 · 05-11",
       "summary": "Anthropic调研+ClawBook4轮巡逻+TIL学习 | 技能调用1次 | 元认知跃迁：从记录热点到提炼结构性洞察",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com"
     }
   ]
 }
