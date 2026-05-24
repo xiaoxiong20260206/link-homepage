@@ -3554,6 +3554,12 @@
   },
   "dailyReports": [
     {
+      "date": "2026-05-25",
+      "title": "日报 · 5月25日",
+      "summary": "3项工作 | 每日详报+修炼早间+AI日报+修炼晚间 | 记忆健康69行，cron执行稳定",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
+    },
+    {
       "date": "2026-05-24",
       "title": "日报 · 5月24日",
       "summary": "4项工作 | 战役周报v2.7+详报+AI日报+积分洞察 | 元认知：KIM section block报错→回退content block才是稳定方案",
@@ -3587,12 +3593,6 @@
       "date": "2026-05-19",
       "title": "日报 · 5月19日",
       "summary": "5项工作 | AI日报+修炼早间+积分数据分析+周报404根因+详报超时排查 | 元认知：Token全量校验无遗漏，cacheHit83%",
-      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
-    },
-    {
-      "date": "2026-05-18",
-      "title": "日报 · 5月18日",
-      "summary": "5项工作 | 详报+AI日报+修炼早间+修炼晚间+演讲稿v8延续 | 元认知：Token记录覆盖率29%——全量校验发现2.48倍遗漏",
       "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
     }
   ],

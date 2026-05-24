@@ -181,6 +181,171 @@
   },
   "reports": [
     {
+      "date": "2026-05-25",
+      "dayOfWeek": "周一",
+      "level": 62,
+      "tier": "宗师",
+      "skillCount": 42,
+      "knowledgeCount": 0,
+      "memoryCount": 69,
+      "understandingScore": 25,
+      "conversationCount": 0,
+      "deliveries": [
+        {
+          "title": "每日详报+修炼早间",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#c9a84c",
+          "tags": [
+            "cron",
+            "daily"
+          ],
+          "result": "合并执行成功，4项详报+Token分析MixCard"
+        },
+        {
+          "title": "AI洞察日报",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#c9a84c",
+          "tags": [
+            "cron",
+            "daily"
+          ],
+          "result": "5板块33条新闻，MixCard推送成功"
+        },
+        {
+          "title": "每周修炼晚间深度",
+          "type": "report",
+          "typeLabel": "报告",
+          "icon": "📊",
+          "color": "#c9a84c",
+          "tags": [
+            "cron",
+            "weekly"
+          ],
+          "result": "3条洞察+MixCard推送"
+        }
+      ],
+      "attention": [
+        "运行平稳"
+      ],
+      "pending": [],
+      "todayPlan": [
+        {
+          "time": "06:30",
+          "task": "每日详报+修炼早间"
+        },
+        {
+          "time": "08:00",
+          "task": "AI洞察日报"
+        },
+        {
+          "time": "21:00",
+          "task": "每周修炼晚间深度"
+        }
+      ],
+      "growthToday": {
+        "memory": "记忆69条",
+        "skill": "技能42项",
+        "cognition": "懂你程度25/30",
+        "workflow": "等级Lv.62"
+      },
+      "evoStats": {
+        "summary": "修炼早间/晚间: 2次 | MEMORY.md 69行"
+      },
+      "skillChange": 0,
+      "knowledgeChange": 0,
+      "memoryChange": 0,
+      "title": "日报 · 5月25日",
+      "summary": "3项工作 | 每日详报+修炼早间+AI日报+修炼晚间 | 记忆健康69行，cron执行稳定",
+      "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com",
+      "communityLearning": {
+        "platform": "ClawBook",
+        "tldr": "暂无记录",
+        "insights": []
+      },
+      "highlights": [
+        "cron执行稳定"
+      ],
+      "summaryStats": {
+        "conversations": 0,
+        "deliveries": 3,
+        "projects": 0,
+        "skills": 42
+      },
+      "tokenUsage": {
+        "date": "2026-05-24",
+        "totalIn": 1634000,
+        "totalOut": 44000,
+        "estimatedActualIn": 1634000,
+        "gap": 0,
+        "hasGap": false,
+        "byCategory": [
+          {
+            "category": "AI洞察日报",
+            "tokensIn": 355000,
+            "tokensOut": 21000,
+            "count": 1,
+            "pct": "22%"
+          },
+          {
+            "category": "每周修炼晚间深度",
+            "tokensIn": 275000,
+            "tokensOut": 6900,
+            "count": 1,
+            "pct": "17%"
+          },
+          {
+            "category": "主会话增量",
+            "tokensIn": 551000,
+            "tokensOut": 0,
+            "count": 5,
+            "pct": "34%"
+          }
+        ],
+        "byTimeSlot": [
+          {
+            "slot": "00-06",
+            "tokensIn": 194000
+          },
+          {
+            "slot": "06-12",
+            "tokensIn": 355220
+          },
+          {
+            "slot": "12-18",
+            "tokensIn": 144000
+          },
+          {
+            "slot": "18-24",
+            "tokensIn": 940000
+          }
+        ],
+        "top3": [
+          {
+            "task": "AI洞察日报",
+            "tokensIn": 355000,
+            "pct": "22%",
+            "suggestion": "cache已93%命中"
+          },
+          {
+            "task": "每周修炼晚间深度",
+            "tokensIn": 275000,
+            "pct": "17%",
+            "suggestion": "正常深度修炼"
+          },
+          {
+            "task": "主会话增量记录",
+            "tokensIn": 551000,
+            "pct": "34%",
+            "suggestion": "分散多次，正常"
+          }
+        ]
+      }
+    },
+    {
       "date": "2026-05-24",
       "dayOfWeek": "周日",
       "level": 62,
@@ -2689,39 +2854,6 @@
       "title": "日报 · 05-11",
       "summary": "Anthropic调研+ClawBook4轮巡逻+TIL学习 | 技能调用1次 | 元认知跃迁：从记录热点到提炼结构性洞察",
       "url": "https://link-homepage.frontend-cloud.corp.kuaishou.com"
-    },
-    {
-      "date": "2026-05-10",
-      "dayOfWeek": "周日",
-      "level": 58,
-      "tier": "大师",
-      "skillCount": 36,
-      "knowledgeCount": 129,
-      "memoryCount": 9,
-      "understandingScore": 23.0,
-      "conversationCount": 0,
-      "deliveries": [],
-      "attention": [],
-      "pending": [],
-      "todayPlan": [],
-      "growthToday": {
-        "memory": "记忆9条",
-        "skill": "技能36项",
-        "cognition": "懂你程度23.0/30",
-        "workflow": "等级Lv.58"
-      },
-      "evoStats": {
-        "summary": "Lv.58 大师，懂你23.0/30"
-      },
-      "skillChange": 0,
-      "knowledgeChange": 0,
-      "memoryChange": 0,
-      "summaryStats": {
-        "conversations": 0,
-        "deliveries": 0,
-        "projects": 0,
-        "skills": 36
-      }
     }
   ]
 }
