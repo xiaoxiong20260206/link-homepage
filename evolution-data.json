@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T11:07:39.029220",
+  "generatedAt": "2026-05-25T06:50:00+08:00",
   "lastManualUpdate": "2026-03-04",
   "updateTrigger": "每日任务自动检查 / 能力解锁时手动更新",
   "evolution": {
@@ -1112,6 +1112,54 @@
         "type": "system_unlock",
         "name": "AI持续洞察",
         "description": "AI-Insight深度调研与追踪体系"
+      },
+      {
+        "date": "2026-05-06",
+        "type": "skill_unlock",
+        "name": "技能体系四层六维重构",
+        "description": "15个技能瘦身平均-78%，L1→L4架构落地"
+      },
+      {
+        "date": "2026-05-10",
+        "type": "skill_unlock",
+        "name": "等级体系v3.0",
+        "description": "四维公式(UNDERSTANDING+SKILL_DEPTH+QUALITY+EXPERIENCE)上线"
+      },
+      {
+        "date": "2026-05-11",
+        "type": "project_complete",
+        "name": "林克首页上线",
+        "description": "frontend-cloud部署，分身Tab+能力展示"
+      },
+      {
+        "date": "2026-05-13",
+        "type": "skill_unlock",
+        "name": "北冥导出v4.9",
+        "description": "15个技能脱敏导出，0身份泄露"
+      },
+      {
+        "date": "2026-05-16",
+        "type": "project_complete",
+        "name": "AI员工演讲",
+        "description": "v8终稿27章+PPT26页深夜实验室风格"
+      },
+      {
+        "date": "2026-05-19",
+        "type": "system_unlock",
+        "name": "周报MixCard URL校验",
+        "description": "weekly场景按钮URL不可达=hard fail"
+      },
+      {
+        "date": "2026-05-23",
+        "type": "project_complete",
+        "name": "战役周报v2.7",
+        "description": "5章结构+KIM MixCard群发"
+      },
+      {
+        "date": "2026-05-24",
+        "type": "skill_unlock",
+        "name": "Python执行规范强化",
+        "description": "P0红线新增#9 uv run强制，杜绝python command not found"
       }
     ]
   },

@@ -3689,5 +3689,37 @@
       ],
       "tag": "Self"
     }
+  ],
+  "cultivationReports": [
+    {
+      "date": "2026-05-24",
+      "title": "每周修炼晚间深度·W21",
+      "summary": "对话复盘5轮+技能扫描11个evolution-log+知识库404文件+MEMORY69行+3条洞察(KIM Doc三关/uv run根因/evo-log活跃度低)",
+      "type": "weekly_deep"
+    },
+    {
+      "date": "2026-05-17",
+      "title": "每周修炼晚间深度·W20",
+      "summary": "对话复盘演讲稿v8终稿+PPT+战役周报迭代+记忆64行健康+知识库126文档+8个L2 evolution-log扫描+4个分身SOUL.md全量更新",
+      "type": "weekly_deep"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "每日修炼晚间深度·05-12",
+      "summary": "3项工作(ClawBook巡逻+TIL+微信网关)+4处分身差异修复+首页重新部署",
+      "type": "daily_deep"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "每日修炼晚间深度·05-11",
+      "summary": "首页能力标签去林克+分身Tab新增+北冥脱敏+首页模板全链路脱敏",
+      "type": "daily_deep"
+    },
+    {
+      "date": "2026-05-10",
+      "title": "每日修炼晚间深度·05-10",
+      "summary": "2个P0语法错误修复+97个skill全量扫描+Lv.60大师里程碑+首页部署",
+      "type": "daily_deep"
+    }
   ]
 }
