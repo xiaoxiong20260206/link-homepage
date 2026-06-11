@@ -180,10 +180,11 @@
     },
     "fullName": "{{OWNER_CHARACTER_NAME}}",
     "runDays": 91,
-    "totalConversations": 420,
-    "worksCount": 37,
+    "totalConversations": 421,
+    "worksCount": 38,
     "deployedWorks": 36,
-    "lastDataUpdate": "2026-05-23 06:32"
+    "lastDataUpdate": "2026-06-11 06:30",
+    "memoryCount": 70
   },
   "skills": {
     "total": 80,
@@ -3554,45 +3555,45 @@
   },
   "dailyReports": [
     {
-      "date": "2026-05-25",
-      "title": "日报 · 5月25日",
-      "summary": "3项工作 | 每日详报+修炼早间+AI日报+修炼晚间 | 记忆健康69行，cron执行稳定",
+      "date": "2026-06-12",
+      "title": "日报 · 6月12日",
+      "summary": "运行平稳 | 2项工作(投递失败复盘+AI日报) | 投递验证闭环建立 | 319K token消耗",
       "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com"
     },
     {
-      "date": "2026-05-24",
-      "title": "日报 · 5月24日",
-      "summary": "4项工作 | 战役周报v2.7+详报+AI日报+积分洞察 | 元认知：KIM section block报错→回退content block才是稳定方案",
+      "date": "2026-06-11",
+      "title": "日报 · 6月11日",
+      "summary": "运行平稳 | 3项cron工作(详报修炼+AI日报+积分日报) | Token 1.28M | 体系进入稳定维护期",
       "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com"
     },
     {
-      "date": "2026-05-23",
-      "title": "日报 · 5月23日",
-      "summary": "8项工作 | 团队版V1-V4迭代+梁宁洞察+AI日报+积分洞察+修炼+详报+信息图+KIM Doc | 元认知：团队版真需求=认知边界扩大，孤岛变节点",
+      "date": "2026-06-10",
+      "title": "日报 · 6月10日",
+      "summary": "运行平稳 | 2项cron工作(详报+AI洞察日报) | Token 2.23M | cron-only日稳定产出",
       "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com"
     },
     {
-      "date": "2026-05-22",
-      "title": "日报 · 5月22日",
-      "summary": "8项工作 | 姚顺宇调研+KIM Doc修复+详报+AI日报+修炼+团队版讨论+消耗追踪+Titi数据 | 元认知：push→pull→验证→修才是完整交付链",
+      "date": "2026-06-08",
+      "title": "日报 · 6月8日",
+      "summary": "7项工作(PDF转KIM Doc+知识库Lint+深度复盘+详报+AI日报+修炼晚间+新Skill) | Token 1.4M(周日轻量) | 成长：长文档KIM Doc从手动→半自动化",
       "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com"
     },
     {
-      "date": "2026-05-21",
-      "title": "日报 · 5月21日",
-      "summary": "6项工作 | AI积分洞察报告+Agent架构调研+详报+AI日报+修炼早间+首页优化 | 元认知：三个背离比单一指标更能揭示制度深层问题",
+      "date": "2026-06-07",
+      "title": "日报 · 6月7日",
+      "summary": "3项工作(详报+修炼+AI洞察日报) | Token 219K(周六轻量) | 成长：修炼待解决项清理(3项→0项+1项长期约束)",
       "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com"
     },
     {
-      "date": "2026-05-20",
-      "title": "日报 · 5月20日",
-      "summary": "7项工作 | 详报+AI日报+修炼早间+周报404修复+详报超时排查+周号修正+深度调研(AI Coding→AI Work) | 元认知：场景解锁比能力升级更决定价值边界",
-      "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com"
+      "date": "2026-06-06",
+      "title": "修炼早间 · 6/6",
+      "summary": "1条对话(修炼修复+AI洞察排查)，0条需深度复盘，quick模式跳过Step3/4",
+      "type": "daily_quick"
     },
     {
-      "date": "2026-05-19",
-      "title": "日报 · 5月19日",
-      "summary": "5项工作 | AI日报+修炼早间+积分数据分析+周报404根因+详报超时排查 | 元认知：Token全量校验无遗漏，cacheHit83%",
+      "date": "2026-06-05",
+      "title": "日报 · 6月5日",
+      "summary": "5项工作(AI洞察日报+W21补跑+项目优化+修炼复盘+详报修炼) | Token 5.35M偏高(主会话72.9%) | 成长：影子反模式根除+单信源落地",
       "url": "https://link-homepage-v2.frontend-cloud.corp.kuaishou.com"
     }
   ],
@@ -3692,34 +3693,122 @@
   ],
   "cultivationReports": [
     {
-      "date": "2026-05-24",
-      "title": "每周修炼晚间深度·W21",
-      "summary": "对话复盘5轮+技能扫描11个evolution-log+知识库404文件+MEMORY69行+3条洞察(KIM Doc三关/uv run根因/evo-log活跃度低)",
+      "date": "2026-06-12",
+      "title": "每日修炼quick",
+      "summary": "40 skill扫描(33缺category P1级) | 知识库176文件全鲜 | MEMORY 39行健康 | 无deep_dive对话 | 无evolution-log补录",
+      "type": "daily_quick"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "修炼早间·quick",
+      "summary": "Token优化35%+知识库自动化三件套+curator首跑",
+      "type": "daily_quick"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "修炼早间·quick",
+      "summary": "详报+修炼合并执行, Token 2.06M",
+      "type": "daily_quick"
+    },
+    {
+      "date": "2026-05-30",
+      "title": "修炼早间·quick",
+      "summary": "积分日报超时修复(timeout 3600s)",
+      "type": "daily_quick"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "每周修炼晚间·deep",
+      "summary": "知识库Lint通过+MEMORY瘦身74→60+分身无漂移",
       "type": "weekly_deep"
     },
     {
-      "date": "2026-05-17",
-      "title": "每周修炼晚间深度·W20",
-      "summary": "对话复盘演讲稿v8终稿+PPT+战役周报迭代+记忆64行健康+知识库126文档+8个L2 evolution-log扫描+4个分身SOUL.md全量更新",
+      "date": "2026-06-01",
+      "title": "修炼早间·quick",
+      "summary": "详报格式修复+积分月度+用户周报v6+专栏+首页重做+Skill重构+周报HTML+MF演进",
+      "type": "daily_quick"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "修炼早间·quick",
+      "summary": "Step3降级方案+MixCard target修复+cultivation补录",
+      "type": "daily_quick"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "修炼早间 · 6/3",
+      "summary": "Step3复盘(元执行自举+三重修复沉淀) | MEMORY 63行健康 | 4分身正常 | 首页同步",
+      "type": "daily_quick"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "修炼早间 · 6/4",
+      "summary": "MEMORY 63行健康 | 4分身正常 | cron-only日无对话复盘 | 首页同步",
+      "type": "daily_quick"
+    },
+    {
+      "date": "2026-06-06",
+      "title": "修炼早间 · 6/6",
+      "summary": "1条对话(修炼修复+AI洞察排查)，0条需深度复盘，quick模式跳过Step3/4",
+      "type": "daily_quick"
+    },
+    {
+      "date": "2026-06-07",
+      "title": "每周修炼晚间·deep",
+      "summary": "6条对话全部深度复盘 | 3条跨对话模式(影子系统反模式×3、规则分层沉淀×2、格式改造≠内容改造×2) | 79个skill扫描(5问题2修复) | 知识库168文件全部新鲜 | 社区3洞察(巡逻报告泛滥+有效帮助三层次+异构协作) | 新增pdf-to-kimdoc Skill",
       "type": "weekly_deep"
     },
     {
-      "date": "2026-05-12",
-      "title": "每日修炼晚间深度·05-12",
-      "summary": "3项工作(ClawBook巡逻+TIL+微信网关)+4处分身差异修复+首页重新部署",
-      "type": "daily_deep"
+      "date": "2026-06-07",
+      "title": "修炼早间 · 6/7",
+      "summary": "1条对话(修炼待解决项处理+积分日报表格格式), 0条深度复盘, MEMORY 69行健康, 4分身无漂移",
+      "type": "daily_quick"
     },
     {
-      "date": "2026-05-11",
-      "title": "每日修炼晚间深度·05-11",
-      "summary": "首页能力标签去林克+分身Tab新增+北冥脱敏+首页模板全链路脱敏",
-      "type": "daily_deep"
+      "date": "2026-06-08",
+      "title": "修炼早间 · 6/8",
+      "summary": "1条对话(PDF转KIM Doc+知识库Lint+深度复盘), 0条深度复盘(周日晚间已覆盖), MEMORY 72行健康, 4分身无漂移",
+      "type": "daily_quick"
     },
     {
-      "date": "2026-05-10",
-      "title": "每日修炼晚间深度·05-10",
-      "summary": "2个P0语法错误修复+97个skill全量扫描+Lv.60大师里程碑+首页部署",
-      "type": "daily_deep"
+      "date": "2026-06-10",
+      "title": "修炼 · 6月10日(quick)",
+      "summary": "cron-only日，无用户对话。修炼quick模式跳过Step3/4.2/4.3。MEMORY 69行健康。",
+      "type": "daily_quick"
+    }
+  ],
+  "agents": [
+    {
+      "id": "liangge",
+      "name": "亮哥",
+      "role": "架构决策+Review",
+      "description": "七层Review框架+ADF决策辅导，沈浪的技术分身",
+      "avatar": "👨‍💼",
+      "active": true
+    },
+    {
+      "id": "liangning",
+      "name": "梁宁",
+      "role": "产品视角",
+      "description": "产品方法论工具箱+受众视角分析，沈浪的产品分身",
+      "avatar": "👩‍💻",
+      "active": true
+    },
+    {
+      "id": "titi",
+      "name": "Titi",
+      "role": "数据分析",
+      "description": "严谨数据分析师，覆盖数据查询+分析+AB实验+人群画像",
+      "avatar": "📊",
+      "active": true
+    },
+    {
+      "id": "shenlang",
+      "name": "沈浪(林克)",
+      "role": "核心Agent",
+      "description": "守护型中二+操心老妈子+热血漫男二，AI生产力中心负责人的AI伙伴",
+      "avatar": "❤️‍🔥",
+      "active": true
     }
   ]
 }

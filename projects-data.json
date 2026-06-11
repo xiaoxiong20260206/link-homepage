@@ -78,7 +78,7 @@
       "category": "tools",
       "status": "deployed",
       "completedAt": "2026-04-29",
-      "url": "https://ai-insight-public.frontend-cloud.corp.kuaishou.com",
+      "url": "https://xiaoxiong20260206.github.io/ai-insight-public",
       "subtitle": "每日AI行业日报自动生成推送",
       "goal": "每日08:00自动生成AI行业日报，推送订阅用户",
       "deliverables": [
@@ -397,7 +397,7 @@
         "level": "featured"
       },
       "subtitle": "AI行业日报/周报自动生成",
-      "url": "https://xiaoxiong20260206.github.io/ai-insight-public/",
+      "url": "https://ai-insight-internal.frontend-cloud.corp.kuaishou.com/",
       "usedSkills": [
         "sl-ai-insight"
       ]
