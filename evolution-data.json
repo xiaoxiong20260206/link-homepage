@@ -154,6 +154,12 @@
     ],
     "capabilities_timeline": [
       {
+        "date": "2026-06-13",
+        "type": "integration",
+        "name": "GitHub凭据恢复闭环",
+        "description": "SSH key备份机制+HEARTBEAT检查链路建立，6天backlog全部推送完成"
+      },
+      {
         "date": "2026-02-01",
         "type": "skill_unlock",
         "name": "基础对话能力",
